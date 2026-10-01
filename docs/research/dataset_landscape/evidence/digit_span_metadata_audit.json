@@ -1,0 +1,34 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds003838/master/participants.tsv",
+  "source_ref": "mutable master; not yet tied to version 1.0.6 commit",
+  "sha256": "19c1fa326a313a6c972c6df7adf70852b8abbc36cf1412fcaefa6c435ef3f5d1",
+  "n": 86,
+  "sex_counts": {
+    "m": 12,
+    "f": 74
+  },
+  "age_min": 18,
+  "age_max": 44,
+  "age_mean": 20.53488372093023,
+  "age_sample_sd": 3.9038372507620958,
+  "availability": {
+    "EEG_excluded": {
+      "yes": 21,
+      "no": 65
+    },
+    "ECG_excluded": {
+      "no": 83,
+      "yes": 3
+    },
+    "pupil_excluded": {
+      "no": 84,
+      "yes": 2
+    },
+    "behavior_excluded": {
+      "no": 86
+    }
+  },
+  "all_four_flags_no": 64,
+  "interpretation": "Availability flags, not valid signal-quality certification. No raw biosignals were downloaded."
+}

@@ -1,0 +1,7 @@
+# CognitiveLab
+
+**Disposition: promising but not acquisition-ready on evidence obtained.** Source: [Silveira, Varandas & Gamboa, Computer Methods and Programs in Biomedicine, 2025](https://doi.org/10.1016/j.cmpb.2025.108863).
+
+The paper describes multimodal attention, fatigue and learning experiments involving EEG/fNIRS, autonomic measurements and computer behavior, with separate small cohorts rather than one common fully multimodal population. Exact final participant counts per protocol, demographics, total recording duration, rates, raw/processed release, subject linkage, synchronization precision, missingness, license, file size, standardization and executable code were not verified from a stable public repository during this review. Do not sum separate cohorts or assume every subject has every sensor.
+
+The distinctive feature is the connection between physiological state and actual human–computer behavior. Supports the reported protocol-specific cognitive-state analyses; cannot yet support a reproducible independent study until the source files and labels can be obtained and inspected. The original work already studies state discrimination using interaction/physiological information. One publication verified; external reuse unknown. Could be revisited if an official repository and full methods establish a larger usable cohort or stronger independent outcomes than current alternatives. This is an **access/evidence exclusion**, not a judgment that the underlying experiments are invalid.

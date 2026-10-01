@@ -1,0 +1,14 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://zenodo.org/api/records/20328099",
+  "title": "SENSE-42: A multimodal human-computer interaction dataset for neurocognitive user state evaluation",
+  "version": "1.0.0",
+  "publication_date": "2025-07-18",
+  "access": "restricted",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "metadata_sha256": "e1743e5e57f6f2e118ba4fcda2b97723c562edb2d565c2ed3a5f70625eb4cc23",
+  "files": [],
+  "note": "Metadata/file list only; content checksums have not been verified against downloaded signal archives. Empty file list may mean restricted access, not an empty dataset."
+}

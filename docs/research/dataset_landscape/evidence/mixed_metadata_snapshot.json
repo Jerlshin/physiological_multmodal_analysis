@@ -1,0 +1,12 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://zenodo.org/api/records/11194571",
+  "title": "A Multimodal Dataset for Mixed Emotion Recognition",
+  "version": null,
+  "publication_date": "2023",
+  "access": "restricted",
+  "license": null,
+  "metadata_sha256": "bfd155e38db349af1e682f49653ce362590133ed1d8ec3a338bf5d6e2be4940d",
+  "files": [],
+  "note": "Metadata/file list only; content checksums have not been verified against downloaded signal archives. Empty file list may mean restricted access, not an empty dataset."
+}

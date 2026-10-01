@@ -1,0 +1,40 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://zenodo.org/api/records/22968459",
+  "title": "The Brain, Body, and Behavior Dataset (BBBD): Multimodal Recordings during Educational Videos",
+  "version": "1.1",
+  "publication_date": "2026-09-25",
+  "access": "open",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "metadata_sha256": "d0bfa9208e4ab87a6a720be0fa27bd6244e673ce2a4be8144c862f8c99f62eee",
+  "files": [
+    {
+      "name": "experiment5.zip",
+      "bytes": 7044836344,
+      "checksum": "md5:cc9bf98d80ad8399cff409e13fb448c0"
+    },
+    {
+      "name": "experiment1.zip",
+      "bytes": 893268919,
+      "checksum": "md5:419a7468c4e60f052ab7820f3c9ffd4b"
+    },
+    {
+      "name": "experiment2.zip",
+      "bytes": 5601886507,
+      "checksum": "md5:e9671316f97e1c3ec1d86a03e0a1ab28"
+    },
+    {
+      "name": "experiment3.zip",
+      "bytes": 7966970285,
+      "checksum": "md5:adbe5c4766253d6be7aba530ac820ac9"
+    },
+    {
+      "name": "experiment4.zip",
+      "bytes": 5466148546,
+      "checksum": "md5:0842a88740769449ce92b5e5269f6b70"
+    }
+  ],
+  "note": "Metadata/file list only; content checksums have not been verified against downloaded signal archives. Empty file list may mean restricted access, not an empty dataset."
+}

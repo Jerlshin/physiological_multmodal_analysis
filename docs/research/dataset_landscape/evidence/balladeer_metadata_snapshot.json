@@ -1,0 +1,22 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://api.figshare.com/v2/articles/28676042",
+  "title": "A Multimodal Dataset for Neurophysiological and AI Applications",
+  "version": 2,
+  "publication_date": "2026-04-17T09:13:11Z",
+  "access": null,
+  "license": {
+    "value": 52,
+    "name": "CC BY",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "metadata_sha256": "01c3f0c9884271139e5be43eceeffa7056b35b690fab84de3f3c09d3801277c9",
+  "files": [
+    {
+      "name": "BALLADEER ADHD DATASET.zip",
+      "bytes": 13633870282,
+      "checksum": "c7e7b5d57855ada4a380f667d1a5cf85"
+    }
+  ],
+  "note": "Metadata/file list only; content checksums have not been verified against downloaded signal archives. Empty file list may mean restricted access, not an empty dataset."
+}

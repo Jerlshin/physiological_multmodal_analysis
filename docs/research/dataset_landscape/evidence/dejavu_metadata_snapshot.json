@@ -1,0 +1,25 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://zenodo.org/api/records/17773125",
+  "title": "DEJA-VU: A multimodal dataset for emotional transition analysis in virtual reality",
+  "version": "1.0.0",
+  "publication_date": "2025-12-01",
+  "access": "open",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "metadata_sha256": "8c7ce4c7409df7ca23d408c4df4351a77db2621506e5719758bf7621c62f0748",
+  "files": [
+    {
+      "name": "DEJA-VU.rar",
+      "bytes": 3996522166,
+      "checksum": "md5:0815b7d78915d132084f4ef497cef6d0"
+    },
+    {
+      "name": "DEJA_VU_code.rar",
+      "bytes": 57777,
+      "checksum": "md5:0747b65d5bbe215c621e435d546fe1c0"
+    }
+  ],
+  "note": "Metadata/file list only; content checksums have not been verified against downloaded signal archives. Empty file list may mean restricted access, not an empty dataset."
+}

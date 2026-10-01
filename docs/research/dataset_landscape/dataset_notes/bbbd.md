@@ -1,0 +1,38 @@
+# BBBD — Brain, Body, and Behavior Dataset
+
+**Disposition: primary recommendation, using corrected release 1.1; file-level audit required before modelling.**
+
+Sources: [Madsen, Kuppa & Parra, Scientific Data, 2026](https://doi.org/10.1038/s41597-026-07215-1); [official project](https://bbbd.pythonanywhere.com/); [Zenodo 1.1, 2026-09-25](https://zenodo.org/records/22968459); [changelog](https://bbbd.pythonanywhere.com/changelog); [code](https://github.com/madjens/bbbd-dataset). Paper published 2026-04-21; preprint 2025. Older recordings and scientific analyses underpin this release.
+
+| Item | Evidence and qualification |
+|---|---|
+| Participants/demographics | 186 recruited, 8 excluded, 178 released across five experiments: 27/31/29/43/48 in paper Table 1. Ages 18–57, overall mean 25.79 ± 7.93. Table parentheses sum to 109 but their sex interpretation is not defined in the inspected table; do not infer it. Project Exp. 2 count differs (32); reconcile with archive. |
+| Protocol/repeats/controls | Educational videos; 11 unique stimuli. Attend/distract repeats in Exp. 1–3, attentive-only viewing in Exp. 4, reward/question-preview intervention in Exp. 5. Exp. 4 procedure describes six viewed videos and tests on the last three, while Table 1 lists three stimuli/A–A; do not infer six identical repeat trials. Within-experiment subject/session identifiers; cross-experiment uniqueness must be checked. Random video/question orders do not randomize attention-condition order. |
+| Duration | About 110 hours at the broadest gaze/pupil coverage. Official mirror reports EEG 65 h, ECG 93.5 h, EOG 94.35 h, head 92.46 h, gaze/pupil each 110.56 h, respiration 44.2 h across the full collection. These are overlapping, modality-specific totals, not complete-case hours. |
+| Modalities/rates | BioSemi 64-channel EEG, ECG, 6-channel EOG; respiration in Exp. 4–5. EyeLink gaze, pupil and head position plus derived blinks/saccades. Acquisition: BioSemi 2048 Hz, eye system 500 Hz. Paper says released signals aligned/resampled to 128 Hz. Exp. 1 has eye data only. No EDA or PPG. |
+| Raw/processed | BDF EEG, compressed TSV/JSON physiology, derivatives and MATLAB alternatives. “Raw” in the release must not be assumed to mean untouched native-rate acquisition; check actual headers and original-rate availability. |
+| Synchronization | Common stimulus triggers, flash/beep detection and correction of offset/drift between devices, followed by common stimulus-relative sampling. Strong documented method; residual timing error not quantified. Coarse state modelling is more defensible than millisecond causal coupling without validation. |
+| Outcomes | Video quizzes (roughly 10–12 four-choice items), engagement reports, ASRS and digit span; prior-knowledge measures in Exp. 2. Quiz timing and intentional/incidental learning vary by experiment. ASRS is a self-report screen, not a clinical diagnosis. |
+| Missingness/artifacts | Eight participant exclusions; many modality/recording gaps. Gaze interpolation averages 22% ± 19%; pupil 32% ± 25% over 1,455 files, including blink padding. Exp. 4–5 electrical 16 Hz artifact; inconsistent EOG electrode mapping; ECG/eye movement artifacts. Released clean data are not artifact-free. |
+| Access/license/size | Open Zenodo download, CC BY 4.0 in archive metadata. Five ZIPs total 26,973,110,601 bytes (26.97 GB decimal; 25.12 GiB). Pin checksums in the local evidence manifest. Project commercial-use wording and any third-party stimulus rights should be resolved before redistribution/commercial reuse. |
+| Documentation/standardization/code | Unusually strong: descriptor, modality processing details, BIDS organization by experiment, project browser, Python conversion/download/figures and MATLAB processing. No local BIDS validator or signal audit yet. Mirror completeness/version must be checked independently. |
+
+## Release correction that changes this decision
+
+The **25 September 2026** changelog corrects participant-to-answer mappings and `is_correct` quiz fields in Experiments 4–5, adds long-format answers/partial credit and aggregate score tables, and removes Exp. 5 sub09 quiz data. The website separately reports subject-index fixes (Exp. 4, 42→43; Exp. 5, 49→48) still pending in individually served matrices. Use corrected **Zenodo 1.1**, not a mixture of website matrices, old ZIPs and NEMAR 1.0. The correction is evidence of active maintenance, but also a material warning about label joins.
+
+## Scientific support and limits
+
+Supports associations between individual physiology, attention conditions and immediate video-specific performance; brain–body/eye relationships under a shared stimulus; multimodal measurement robustness; subject-, stimulus- and experiment-level transfer assessments where coverage permits. Its unusual value is the combination of many people, research-grade brain/eye/body recordings, shared naturalistic stimuli, behavioral outcomes, and reproducible public packaging.
+
+Cannot establish general intelligence, long-term learning gains, ADHD diagnosis, classroom intervention efficacy, or directed neural/autonomic causation. In Exp. 1–3, distraction follows attention: arithmetic, repetition and order cannot be separated cleanly. Exp. 5 caption/body descriptions of intervention/control allocation require reconciliation before causal claims. Only 11 unique videos limit content generalization. Most labels are participant/video-level, not second-by-second attention truth. An EEG–ECG association can also reflect cardiac contamination of EEG; an EEG–gaze association can reflect ocular artifacts or common visual input.
+
+## Literature occupancy
+
+At least **three antecedent empirical papers plus the descriptor** are directly linked to these experiments; this is not a complete independent-reuse count. [PNAS 2021](https://doi.org/10.1073/pnas.2016980118) already relates eye-movement synchrony to attention and quiz scores, with additional cohorts outside BBBD. [Cell Reports 2021](https://doi.org/10.1016/j.celrep.2021.109692) studies heart-rate synchrony, attention and narrative recall; its patient cohorts must not be imported into BBBD. [PNAS Nexus 2022](https://doi.org/10.1093/pnasnexus/pgac020) already analyzes EEG/heart/eye synchrony, covariation, attention and memory. These are not three independent new datasets. The descriptor says approximately 97% of signal duration is newly released at participant level, which does **not** mean 97% scientifically unexplored.
+
+Simple “multimodal synchrony predicts attention/learning” is occupied. No additional independent BBBD-labelled empirical reuse was verified in this search; earlier lineage makes acronym-only searching misleading. Plausibly less explored: whether individual outcome information survives strict unseen-person and unseen-video evaluation; robustness to genuine missing modalities; separation of shared-stimulus information, individual differences and artifacts; cross-modal learning with stimulus-matched null comparisons. These are opportunity classes, not novelty certifications or a selected paper problem.
+
+## Required verification
+
+Reconcile participants, modalities, quiz IDs and stimuli against release 1.1; quantify complete-case and partial-case cohorts, valid durations, exclusions and demographic composition; resolve Exp. 5 allocation; inspect sampling and interpolation masks; quantify alignment residuals and the 16 Hz artifact. Synchrony templates, normalization, feature selection and any cross-modal pretraining must respect held-out people and stimuli. If these checks leave an inadequately sized trustworthy cohort, reopen selection in favor of ds003838 or the relevant domain alternative.

@@ -1,0 +1,577 @@
+{
+  "retrieved": "2026-10-01",
+  "source": "https://api.figshare.com/v2/articles/28748696",
+  "title": "LLaMAC: Low-cost Biosignal Sensor based Large Multimodal Dataset for Affective Computing",
+  "version": 6,
+  "publication_date": "2025-09-22T05:03:49Z",
+  "access": null,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "metadata_sha256": "553c8920c24e0d60b7833525f6a7538a86c6beb8c567e82936cfeee9364657f9",
+  "files": [
+    {
+      "name": "101.zip",
+      "bytes": 30034769,
+      "checksum": "c1f03eccebb5e65c759ac89461200b44"
+    },
+    {
+      "name": "93.zip",
+      "bytes": 30059417,
+      "checksum": "b9e9d57cbeb7e21667d016c9f33af6f0"
+    },
+    {
+      "name": "100.zip",
+      "bytes": 29560277,
+      "checksum": "a6ac842add7e1bfdd8f901da5d593679"
+    },
+    {
+      "name": "102.zip",
+      "bytes": 30366196,
+      "checksum": "4561ce599b39670910d0559d7fdc48bd"
+    },
+    {
+      "name": "48.zip",
+      "bytes": 29924886,
+      "checksum": "baaa08f28a1c8283cb2da84053c8414a"
+    },
+    {
+      "name": "51.zip",
+      "bytes": 28803952,
+      "checksum": "9a20bf157f60c28c8d3956b888a7954f"
+    },
+    {
+      "name": "39.zip",
+      "bytes": 30436174,
+      "checksum": "13b1b829ab5bef43a5eda06a9aa3681c"
+    },
+    {
+      "name": "23.zip",
+      "bytes": 30425305,
+      "checksum": "3f8016586789015be95f9b0005f6881e"
+    },
+    {
+      "name": "41.zip",
+      "bytes": 29101405,
+      "checksum": "74f5d1e9ca8471e98bdf278915f1b24b"
+    },
+    {
+      "name": "27.zip",
+      "bytes": 29951705,
+      "checksum": "358d0027fe5d50dd6e3441fd5311dd0a"
+    },
+    {
+      "name": "1.zip",
+      "bytes": 30429659,
+      "checksum": "ff0cbaa19c33df704c4f048f43e92042"
+    },
+    {
+      "name": "114.zip",
+      "bytes": 29309239,
+      "checksum": "6d81b7daf8ef5b9d514f6df387dc64c9"
+    },
+    {
+      "name": "104.zip",
+      "bytes": 29593000,
+      "checksum": "ce7a49a8df3683c050a9ec2f3519b276"
+    },
+    {
+      "name": "105.zip",
+      "bytes": 28442420,
+      "checksum": "130139fc4ca6c58a9811ec20cd7aa42a"
+    },
+    {
+      "name": "106.zip",
+      "bytes": 29235322,
+      "checksum": "448cb169ead5517827b1cddc4c936e8e"
+    },
+    {
+      "name": "107.zip",
+      "bytes": 29901090,
+      "checksum": "ec374b03c4ac412f87bec05c4f3f7c2d"
+    },
+    {
+      "name": "108.zip",
+      "bytes": 29899105,
+      "checksum": "247a4368ec6c824a5414f351feff7ddb"
+    },
+    {
+      "name": "109.zip",
+      "bytes": 30079233,
+      "checksum": "f7d50d2f5e81a4e2b65eb69008fb32d9"
+    },
+    {
+      "name": "110.zip",
+      "bytes": 28859678,
+      "checksum": "dbaea3233877a034b080a1b13c4d7b94"
+    },
+    {
+      "name": "compute_raw_statistics.py",
+      "bytes": 9362,
+      "checksum": "0eb214e73d9f2bf455821367b166424c"
+    },
+    {
+      "name": "111.zip",
+      "bytes": 29217402,
+      "checksum": "a00d0b361ef1cd2735f1125c793521a2"
+    },
+    {
+      "name": "112.zip",
+      "bytes": 29024188,
+      "checksum": "682631effc0bada890cae8ef0c95270b"
+    },
+    {
+      "name": "compute_snr.py",
+      "bytes": 6261,
+      "checksum": "05e505a7f712af79c5dedcfb1b7bad93"
+    },
+    {
+      "name": "compute_snr_statistics.py",
+      "bytes": 9362,
+      "checksum": "0eb214e73d9f2bf455821367b166424c"
+    },
+    {
+      "name": "113.zip",
+      "bytes": 29165040,
+      "checksum": "b4b80a942cab262f19ebbbbc1a279d3d"
+    },
+    {
+      "name": "2.zip",
+      "bytes": 29919515,
+      "checksum": "ebcf68de11f4712e0f3b24b7ff9cf59f"
+    },
+    {
+      "name": "4.zip",
+      "bytes": 30015458,
+      "checksum": "92d0823d6b6f596ede4e90ef3ca8f5df"
+    },
+    {
+      "name": "5.zip",
+      "bytes": 30665715,
+      "checksum": "9324d3b526343b0f82e4849d4a3374db"
+    },
+    {
+      "name": "6.zip",
+      "bytes": 29936267,
+      "checksum": "596e8a3bbafdde6ef789d1819c850901"
+    },
+    {
+      "name": "7.zip",
+      "bytes": 30294016,
+      "checksum": "d8eb69ca7c648b6d555497e27b2578d7"
+    },
+    {
+      "name": "8.zip",
+      "bytes": 29704235,
+      "checksum": "bd3a9259f1d680fe4fea055858a1dcfa"
+    },
+    {
+      "name": "10.zip",
+      "bytes": 29898567,
+      "checksum": "d43b8c712b66d791ed39fa4557c79c8f"
+    },
+    {
+      "name": "11.zip",
+      "bytes": 29958677,
+      "checksum": "3be1f32d3c2e45a352d9b771719bc504"
+    },
+    {
+      "name": "12.zip",
+      "bytes": 30535745,
+      "checksum": "ce743c04e4fe8182833fec448d4c861c"
+    },
+    {
+      "name": "13.zip",
+      "bytes": 30273497,
+      "checksum": "6d82581e8b362dbf765341c52abb0328"
+    },
+    {
+      "name": "14.zip",
+      "bytes": 30286916,
+      "checksum": "51d5d598415f67c04066f71d437d9af6"
+    },
+    {
+      "name": "15.zip",
+      "bytes": 29885308,
+      "checksum": "6679561cfe07bbf81b99badedd9780e6"
+    },
+    {
+      "name": "16.zip",
+      "bytes": 29928864,
+      "checksum": "91c6fdde78d9015813d3be44534460c6"
+    },
+    {
+      "name": "17.zip",
+      "bytes": 29880332,
+      "checksum": "10579e37a9229cd2b5afd7b70c699c9b"
+    },
+    {
+      "name": "18.zip",
+      "bytes": 30030867,
+      "checksum": "f2dfdc9dc1a25d7869f064eb539f8cf3"
+    },
+    {
+      "name": "19.zip",
+      "bytes": 30414400,
+      "checksum": "c1ab1f5433621d4129f9789da9e6145f"
+    },
+    {
+      "name": "20.zip",
+      "bytes": 31141169,
+      "checksum": "1f6c576c3dda92ef37807d29be372093"
+    },
+    {
+      "name": "22.zip",
+      "bytes": 29361902,
+      "checksum": "dd2011b2910e8df2cd48a9adcd8064c6"
+    },
+    {
+      "name": "24.zip",
+      "bytes": 30323725,
+      "checksum": "f114843c56de63b212bce1fa6dc58578"
+    },
+    {
+      "name": "25.zip",
+      "bytes": 29652725,
+      "checksum": "ee0cc352d2130a66e21f0b0bb8b2d9b6"
+    },
+    {
+      "name": "26.zip",
+      "bytes": 29272186,
+      "checksum": "d722985a4e8ad5c35f63388d979f5831"
+    },
+    {
+      "name": "29.zip",
+      "bytes": 30899021,
+      "checksum": "9a0067ec04b098bbaaeae6e09714f1d9"
+    },
+    {
+      "name": "30.zip",
+      "bytes": 29112637,
+      "checksum": "bb4ebefbfd5319bc5ab56d41432266b4"
+    },
+    {
+      "name": "31.zip",
+      "bytes": 29432140,
+      "checksum": "c056657462a3c264a55eeb4df7ecc299"
+    },
+    {
+      "name": "32.zip",
+      "bytes": 30399034,
+      "checksum": "b4d0d110c04ead41889ddc500cd65cbe"
+    },
+    {
+      "name": "33.zip",
+      "bytes": 31123322,
+      "checksum": "a0c69627b95d4ee3cbd602aaaaa75234"
+    },
+    {
+      "name": "34.zip",
+      "bytes": 30053125,
+      "checksum": "f4b06bf906f710f4aa3b82503fd152bb"
+    },
+    {
+      "name": "35.zip",
+      "bytes": 29308817,
+      "checksum": "59f89069f77c5e3a6711f27f536c2569"
+    },
+    {
+      "name": "36.zip",
+      "bytes": 29439271,
+      "checksum": "43ac306469d67832ce80d0cc2f690c34"
+    },
+    {
+      "name": "37.zip",
+      "bytes": 29641535,
+      "checksum": "2938e76576136689f6cb23054e369ed8"
+    },
+    {
+      "name": "38.zip",
+      "bytes": 16111618,
+      "checksum": "6972ae6c33838764020f8872e46faf32"
+    },
+    {
+      "name": "40.zip",
+      "bytes": 16230293,
+      "checksum": "13d0d5ef43b29139d563b4f239d96520"
+    },
+    {
+      "name": "42.zip",
+      "bytes": 30218434,
+      "checksum": "6cfe7d091819e29af6598ca5e7eea10a"
+    },
+    {
+      "name": "45.zip",
+      "bytes": 29713622,
+      "checksum": "c62170c5a9275fdd06545b22418693cc"
+    },
+    {
+      "name": "46.zip",
+      "bytes": 30257984,
+      "checksum": "7025c8a229389461518087b6242c5aaf"
+    },
+    {
+      "name": "47.zip",
+      "bytes": 16019436,
+      "checksum": "fdc12dbed955a21fee253f97d40e3882"
+    },
+    {
+      "name": "49.zip",
+      "bytes": 29501561,
+      "checksum": "1279f44c88b3e8c920c965620812f171"
+    },
+    {
+      "name": "50.zip",
+      "bytes": 29903890,
+      "checksum": "6f8e46a880062516017629e9a13762b5"
+    },
+    {
+      "name": "52.zip",
+      "bytes": 29690459,
+      "checksum": "0075b139b0c2422174ee5a6b0acc61c6"
+    },
+    {
+      "name": "53.zip",
+      "bytes": 29485477,
+      "checksum": "b0f27308d54b6f7cd5c4676ec40dff54"
+    },
+    {
+      "name": "54.zip",
+      "bytes": 16169766,
+      "checksum": "c65a3cf65d38af1ddfddd77df0d3fae0"
+    },
+    {
+      "name": "55.zip",
+      "bytes": 30378576,
+      "checksum": "995c81311276715dbe96c156a8bca179"
+    },
+    {
+      "name": "56.zip",
+      "bytes": 16003876,
+      "checksum": "faeafc6266d00059ea0749267d2d9656"
+    },
+    {
+      "name": "57.zip",
+      "bytes": 30317694,
+      "checksum": "3cadd0ca45042ec100043806d93efdeb"
+    },
+    {
+      "name": "58.zip",
+      "bytes": 29075781,
+      "checksum": "5d21a3b5f20ee0e5f157b4e8c5fbb35c"
+    },
+    {
+      "name": "59.zip",
+      "bytes": 30771368,
+      "checksum": "56c17651fe411be47e76988197e98d72"
+    },
+    {
+      "name": "60.zip",
+      "bytes": 30007198,
+      "checksum": "0fc6bbaad0dfc90d6cc6412ad0dfb022"
+    },
+    {
+      "name": "61.zip",
+      "bytes": 29630293,
+      "checksum": "fdaac78f9a4ed689c1615287ff6b3b1d"
+    },
+    {
+      "name": "62.zip",
+      "bytes": 15843557,
+      "checksum": "9654ad5dff5dc2ec820366420ea7b4a9"
+    },
+    {
+      "name": "63.zip",
+      "bytes": 29733975,
+      "checksum": "bd8784369b48ebbd9ea53085f8d44159"
+    },
+    {
+      "name": "64.zip",
+      "bytes": 30047931,
+      "checksum": "4664ab90fb63d79eed94022d3a9fdb8a"
+    },
+    {
+      "name": "65.zip",
+      "bytes": 15744501,
+      "checksum": "131e346a3144a4ae846c62b7327d1fa1"
+    },
+    {
+      "name": "66.zip",
+      "bytes": 29572921,
+      "checksum": "d22510a421cdab6fb0e2d1ea0197616f"
+    },
+    {
+      "name": "67.zip",
+      "bytes": 15862519,
+      "checksum": "74d0d07fd5938637d9ab8cf257d416cd"
+    },
+    {
+      "name": "68.zip",
+      "bytes": 29616853,
+      "checksum": "983d38dcd6d64ecbb0cd31073ac9bc03"
+    },
+    {
+      "name": "69.zip",
+      "bytes": 15934868,
+      "checksum": "4fb5e835f790bbf215c1fb4cbb5281ab"
+    },
+    {
+      "name": "70.zip",
+      "bytes": 29938656,
+      "checksum": "a3c2939a0c43a1af6fa4a5ae0d8f04b3"
+    },
+    {
+      "name": "71.zip",
+      "bytes": 29577457,
+      "checksum": "6cd1cc12a9fa9b3ba045563d6acdf863"
+    },
+    {
+      "name": "72.zip",
+      "bytes": 15701002,
+      "checksum": "76eb70d3d40f14e092a6898da64967a3"
+    },
+    {
+      "name": "73.zip",
+      "bytes": 29609432,
+      "checksum": "efb4498aa46aea58e44809791308e5cf"
+    },
+    {
+      "name": "75.zip",
+      "bytes": 29908981,
+      "checksum": "b86f226f3f129cd9fea810bbe44166b7"
+    },
+    {
+      "name": "76.zip",
+      "bytes": 30200122,
+      "checksum": "eff7953dd9aa2c0a84dbfe44a1ff3e47"
+    },
+    {
+      "name": "77.zip",
+      "bytes": 30946772,
+      "checksum": "f6102e4de31e2f924166e441d721b26f"
+    },
+    {
+      "name": "78.zip",
+      "bytes": 30441123,
+      "checksum": "386516aee411dbf747e099aa54466d40"
+    },
+    {
+      "name": "79.zip",
+      "bytes": 29396939,
+      "checksum": "a8e2f04061f235585f73c6e14b573106"
+    },
+    {
+      "name": "80.zip",
+      "bytes": 30431447,
+      "checksum": "d711aec9d68ec9b0854cc3fcec1fefdb"
+    },
+    {
+      "name": "81.zip",
+      "bytes": 29356196,
+      "checksum": "7015b3852ccb64c7ed1ec92247b88910"
+    },
+    {
+      "name": "82.zip",
+      "bytes": 30271948,
+      "checksum": "2251da4a52919961d489e03327fca1fd"
+    },
+    {
+      "name": "83.zip",
+      "bytes": 29356549,
+      "checksum": "a408efeb58e69073bd2941ab0bdd3a78"
+    },
+    {
+      "name": "84.zip",
+      "bytes": 28827678,
+      "checksum": "914b7e538cb2593c6168a5ed6fe3d317"
+    },
+    {
+      "name": "85.zip",
+      "bytes": 31931573,
+      "checksum": "8b403379cb2434ba1ecc407aec732e79"
+    },
+    {
+      "name": "86.zip",
+      "bytes": 29112500,
+      "checksum": "c576ba0c1b9a7fb5f078dd55a1471d77"
+    },
+    {
+      "name": "87.zip",
+      "bytes": 32100622,
+      "checksum": "c8205f5c18a6ff9ccb31de0c63356ccd"
+    },
+    {
+      "name": "88.zip",
+      "bytes": 29561644,
+      "checksum": "08a6806e64626c8efde94d55c6eee3d3"
+    },
+    {
+      "name": "89.zip",
+      "bytes": 30444568,
+      "checksum": "242404836ed0f0afeedd1659a492c5ae"
+    },
+    {
+      "name": "90.zip",
+      "bytes": 30363241,
+      "checksum": "24fe401ed0cec800444006dd10a7911d"
+    },
+    {
+      "name": "91.zip",
+      "bytes": 29651530,
+      "checksum": "d40a87bdd477ca3a0f431995261e58a5"
+    },
+    {
+      "name": "92.zip",
+      "bytes": 29379049,
+      "checksum": "a2d7bcd012903676b0fd1b9b366a1593"
+    },
+    {
+      "name": "94.zip",
+      "bytes": 29447008,
+      "checksum": "a34702c1200e63e0b3259ba15a40838a"
+    },
+    {
+      "name": "95.zip",
+      "bytes": 29648810,
+      "checksum": "c9b029531fc4e85e084829bd145f0be7"
+    },
+    {
+      "name": "96.zip",
+      "bytes": 29486918,
+      "checksum": "1d305bdea8bf09a8bd89cc06f30e5076"
+    },
+    {
+      "name": "97.zip",
+      "bytes": 29196536,
+      "checksum": "1112cc22dafbca3a3df69fd640d4b88f"
+    },
+    {
+      "name": "98.zip",
+      "bytes": 29228035,
+      "checksum": "d1f9df41362d6809e83f9ea2d1cc3fcf"
+    },
+    {
+      "name": "99.zip",
+      "bytes": 16083749,
+      "checksum": "9a1c7981efa5e455eb336521a051e30f"
+    },
+    {
+      "name": "103.zip",
+      "bytes": 29492526,
+      "checksum": "6606a3c54f242c50ff9b07d55355d587"
+    },
+    {
+      "name": "9.zip",
+      "bytes": 31624144,
+      "checksum": "5cf05ccdc439631706328d6dc29034db"
+    },
+    {
+      "name": "2025_Kitech_Emotion_Data_Code.ipynb",
+      "bytes": 636031,
+      "checksum": "b10e14be09ec17a35938b75795f9e8c7"
+    }
+  ],
+  "note": "Metadata/file list only; content checksums have not been verified against downloaded signal archives. Empty file list may mean restricted access, not an empty dataset."
+}
