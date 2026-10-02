@@ -1,0 +1,271 @@
+[
+  {
+    "experiment": 2,
+    "phenotype": "asrs_questionnaire",
+    "rows": 27,
+    "people": 27,
+    "matched_people": 27,
+    "surplus_ids": [],
+    "missing_metadata_ids": [
+      "sub-16",
+      "sub-27",
+      "sub-28",
+      "sub-29"
+    ],
+    "nonmissing": {
+      "q1": 27,
+      "q2": 27,
+      "q3": 27,
+      "q4": 27,
+      "q5": 27,
+      "q6": 27,
+      "q7": 27,
+      "q8": 27,
+      "q9": 27,
+      "q10": 27,
+      "q11": 27,
+      "q12": 27,
+      "q13": 27,
+      "q14": 27,
+      "q15": 27,
+      "q16": 27,
+      "q17": 27,
+      "q18": 27,
+      "dichotomous_screener_score": 27,
+      "dichotomous_full_score": 27,
+      "likert_screener_score": 27,
+      "likert_full_score": 27,
+      "hyperactivity_subscore": 27,
+      "inattention_subscore": 27
+    }
+  },
+  {
+    "experiment": 2,
+    "phenotype": "digit_span_scores",
+    "rows": 29,
+    "people": 29,
+    "matched_people": 29,
+    "surplus_ids": [],
+    "missing_metadata_ids": [
+      "sub-16",
+      "sub-28"
+    ],
+    "nonmissing": {
+      "score": 25,
+      "weighted_score": 25
+    }
+  },
+  {
+    "experiment": 2,
+    "phenotype": "stimuli_feedback_meta",
+    "rows": 145,
+    "people": 29,
+    "matched_people": 29,
+    "surplus_ids": [],
+    "missing_metadata_ids": [
+      "sub-16",
+      "sub-28"
+    ],
+    "nonmissing": {
+      "stimulus": 145,
+      "engaging": 145,
+      "enjoyable": 145,
+      "educational": 145
+    }
+  },
+  {
+    "experiment": 3,
+    "phenotype": "asrs_questionnaire",
+    "rows": 32,
+    "people": 32,
+    "matched_people": 29,
+    "surplus_ids": [
+      "sub-08",
+      "sub-14",
+      "sub-20"
+    ],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "q1": 32,
+      "q2": 32,
+      "q3": 32,
+      "q4": 32,
+      "q5": 32,
+      "q6": 32,
+      "q7": 32,
+      "q8": 32,
+      "q9": 32,
+      "q10": 32,
+      "q11": 32,
+      "q12": 32,
+      "q13": 32,
+      "q14": 32,
+      "q15": 32,
+      "q16": 32,
+      "q17": 32,
+      "q18": 32,
+      "dichotomous_screener_score": 32,
+      "dichotomous_full_score": 32,
+      "likert_screener_score": 32,
+      "likert_full_score": 32,
+      "hyperactivity_subscore": 32,
+      "inattention_subscore": 32
+    }
+  },
+  {
+    "experiment": 3,
+    "phenotype": "digit_span_scores",
+    "rows": 29,
+    "people": 29,
+    "matched_people": 29,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "score": 29,
+      "weighted_score": 29
+    }
+  },
+  {
+    "experiment": 3,
+    "phenotype": "stimuli_feedback_meta",
+    "rows": 174,
+    "people": 29,
+    "matched_people": 29,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "stimulus": 174,
+      "engaging": 174,
+      "enjoyable": 174,
+      "educational": 174
+    }
+  },
+  {
+    "experiment": 4,
+    "phenotype": "asrs_questionnaire",
+    "rows": 43,
+    "people": 43,
+    "matched_people": 43,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "q1": 43,
+      "q2": 43,
+      "q3": 43,
+      "q4": 43,
+      "q5": 43,
+      "q6": 43,
+      "q7": 43,
+      "q8": 43,
+      "q9": 43,
+      "q10": 43,
+      "q11": 43,
+      "q12": 43,
+      "q13": 43,
+      "q14": 43,
+      "q15": 43,
+      "q16": 43,
+      "q17": 43,
+      "q18": 43,
+      "dichotomous_screener_score": 43,
+      "dichotomous_full_score": 43,
+      "likert_screener_score": 43,
+      "likert_full_score": 43,
+      "hyperactivity_subscore": 43,
+      "inattention_subscore": 43
+    }
+  },
+  {
+    "experiment": 4,
+    "phenotype": "digit_span_scores",
+    "rows": 43,
+    "people": 43,
+    "matched_people": 43,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "score": 42,
+      "weighted_score": 42
+    }
+  },
+  {
+    "experiment": 4,
+    "phenotype": "stimuli_feedback_meta",
+    "rows": 129,
+    "people": 43,
+    "matched_people": 43,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "stim_id": 129,
+      "watched_before": 129,
+      "question_difficulty": 126,
+      "prior_knowledge": 129,
+      "educational": 129
+    }
+  },
+  {
+    "experiment": 5,
+    "phenotype": "asrs_questionnaire",
+    "rows": 48,
+    "people": 48,
+    "matched_people": 48,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "q1": 48,
+      "q2": 48,
+      "q3": 48,
+      "q4": 48,
+      "q5": 48,
+      "q6": 48,
+      "q7": 48,
+      "q8": 48,
+      "q9": 48,
+      "q10": 48,
+      "q11": 48,
+      "q12": 48,
+      "q13": 48,
+      "q14": 48,
+      "q15": 48,
+      "q16": 48,
+      "q17": 48,
+      "q18": 48,
+      "dichotomous_screener_score": 48,
+      "dichotomous_full_score": 48,
+      "likert_screener_score": 48,
+      "likert_full_score": 48,
+      "hyperactivity_subscore": 48,
+      "inattention_subscore": 48
+    }
+  },
+  {
+    "experiment": 5,
+    "phenotype": "digit_span_scores",
+    "rows": 48,
+    "people": 48,
+    "matched_people": 48,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "score": 44,
+      "weighted_score": 44
+    }
+  },
+  {
+    "experiment": 5,
+    "phenotype": "stimuli_feedback_meta",
+    "rows": 144,
+    "people": 48,
+    "matched_people": 48,
+    "surplus_ids": [],
+    "missing_metadata_ids": [],
+    "nonmissing": {
+      "stim_id": 144,
+      "watched_before": 144,
+      "question_difficulty": 144,
+      "prior_knowledge": 144,
+      "educational": 144
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "channel": "participant_overlap",
+    "observed_basis": "experiment-qualified ID; cross-experiment same-human identity unknown",
+    "future_control": "Group all exposures from a verified person together; obtain privacy-preserving cross-cohort identity statement",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "canonical_video_overlap",
+    "observed_basis": "11 canonical URLs; local stimulus IDs reused",
+    "future_control": "Hold out canonical identities across every experiment; acquired trims/hashes unavailable",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "repeated_exposure",
+    "observed_basis": "sessions 1/2 repeat in 1\u20133 and 5; 4 uses different videos",
+    "future_control": "Group both exposures for a person/video; name exposure-history estimand",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "experiment_overlap",
+    "observed_basis": "4/5 partition a shared upstream collection; protocol-specific outcomes",
+    "future_control": "Experiment holdout also needs person and shared-video audit",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "adjacent_windows",
+    "observed_basis": "within-video autocorrelation and noncausal processing",
+    "future_control": "Split independent groups before windowing; buffer filter/interpolation contexts",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "global_preprocessing",
+    "observed_basis": "author RPCA/interpolation fit scope and options not release-traced",
+    "future_control": "Do not assume train-only preprocessing; disclose acquisition preprocessing and fit future learned transforms on training groups only",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "isc_corrca_pca_reference",
+    "observed_basis": "cohort-derived references and components",
+    "future_control": "Declare inductive versus transductive reference availability; training-only references/components unless explicitly justified",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "imputation_scaling",
+    "observed_basis": "traits have missingness/offsets; future transforms could use all records",
+    "future_control": "Fit imputation/scaling and feature selection inside training folds; use item-derived ASRS coding",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "outcome_window_duplication",
+    "observed_basis": "one quiz outcome replicated across many possible windows",
+    "future_control": "Score uncertainty at person/video level; windows do not increase independent outcome N",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "quality_shortcuts",
+    "observed_basis": "eye masks, EEG 16 Hz, design missingness vary by experiment",
+    "future_control": "Use nuisance controls and selection analyses; separate natural failure from synthetic ablations",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "post_exposure_information",
+    "observed_basis": "5 final quiz follows preview/review/incentive",
+    "future_control": "Do not claim first-exposure learning forecast without specifying the intervening learning opportunity",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  },
+  {
+    "channel": "audit_adaptivity",
+    "observed_basis": "full-release descriptive outcomes examined for integrity and feasibility",
+    "future_control": "All outputs here exploratory; reserve a later locked protocol/untouched evaluation or external data for confirmatory claims",
+    "evidence_category": "OUR INFERENCE grounded in audited manifest / retained documentation"
+  }
+]

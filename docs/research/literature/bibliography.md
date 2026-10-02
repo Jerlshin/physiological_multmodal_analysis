@@ -8,7 +8,7 @@ The search used original papers, official repositories/project pages and author-
 
 | Resource | Verified work types / conservative lower bound | What is already occupied |
 |---|---|---|
-| BBBD | 3 antecedent empirical papers + 1 descriptor | Eye synchrony→quiz; heart synchrony/attention/recall; brain–heart–eye synchrony/covariation |
+| BBBD | 4 confirmed antecedent empirical papers + 1 descriptor; 1 unresolved classifier lead | Eye synchrony→quiz; cardiac attention effects; multimodal synchrony/PCA/cross-modal prediction; EEG+traits→quiz. Cardiac recall results outside the BBBD subset must be distinguished. |
 | ds003838 | Descriptor + ≥3 empirical journal analyses + 1 thesis + 1 software release | EEG/pupil overload; PPG amplitude and workload; cardiac aperiodic activity; pupil–ECG fusion; heartbeat-locked template construction |
 | DREAMT | ≥2 peer-reviewed methods works | Wearable sleep staging, temporal/mixed-effects modelling, ECG/PPG IBI transfer |
 | IMPROVE | Descriptor + ≥1 related conference analysis | Phone distraction from biometric/head/gaze measures; exact overlapping subset needs audit |
@@ -33,6 +33,20 @@ Local appraisal: [dataset note](../dataset_landscape/dataset_notes/bbbd.md).
 - [PNAS 2021](https://doi.org/10.1073/pnas.2016980118). Checked/referenced during the 2026-10-01 review; source access and verification limits are stated in the appraisal.
 - [Cell Reports 2021](https://doi.org/10.1016/j.celrep.2021.109692). Checked/referenced during the 2026-10-01 review; source access and verification limits are stated in the appraisal.
 - [PNAS Nexus 2022](https://doi.org/10.1093/pnasnexus/pgac020). Checked/referenced during the 2026-10-01 review; source access and verification limits are stated in the appraisal.
+
+### B01 selected-dataset review addendum — 2026-10-01
+
+The [original-paper dossiers](../selected_dataset/prior_work.md) supersede the initial three-paper lower bound. [Source registry](../selected_dataset/evidence/source_registry.md) supplies full author lists, exact titles, original links, code, source sections and access status; [matrix](../selected_dataset/prior_work_matrix.md) records methods/validation/results.
+
+- **P04:** Madsen J, Parra LC. *Attentional state, not trait, predicts test performance in video-based learning*. iScience28(10),113622 (2025). [DOI](https://doi.org/10.1016/j.isci.2025.113622); [original full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12538096/); [code](https://osf.io/u72k3/). Confirmed BBBD2–5 historical152-person analysis. CNS2026 presentation is duplicate dissemination.
+- **P05, methods pending:** Rathnayake T et al. *EEG Based Classification of Attentive and Distracted States During Video Based Learning*. IEEE SCSE (2026),1–6. [DOI](https://doi.org/10.1109/SCSE70081.2026.11499773). Publisher metadata verified; BBBD use and all scientific details remain unverified.
+- **S06, pinned implementation:** [madjens/bbbd-dataset commit5109afa](https://github.com/madjens/bbbd-dataset/tree/5109afa0fd70c407b869108106f5808c6b0cc33c),2026-09-23. [Code/schema audit](../selected_dataset/evidence/code_audit.md) distinguishes reference assets from actual release files.
+- **R01, related independent collection:** Madsen J, Parra LC. *Bidirectional brain-body interactions during natural story listening*. Cell Reports43(4),114081 (2024). [DOI](https://doi.org/10.1016/j.celrep.2024.114081). Auditory-story cohorts, not established BBBD reuse.
+- **R06, related independent collection:** Adler MV, Madsen J, Hedberg J, Steinberg R, Parra LC. *Effect of explanation videos on learning: The role of attention and academic performance*. Education and Information Technologies30,11797–11825 (2025). [DOI](https://doi.org/10.1007/s10639-024-13292-9). Classroom139/online215, different design.
+- **R07/R08, adjacent preprint leads:** [Brain-body dynamics,2025](https://doi.org/10.64898/2025.12.22.696055); [Auditory EEG ISC,2026](https://doi.org/10.64898/2026.02.19.706583). Full original preprints inaccessible in this review; no confirmed BBBD-reuse count assigned.
+- **R03, companion review lead:** [EEG Based Attention Assessment …,2026](https://doi.org/10.1109/SCSE70081.2026.11499902). Not counted as an empirical reanalysis.
+
+P01/P03/P04 separate supplementary downloads were inaccessible; P02 STAR Methods were read within the full PDF. Original-paper methods were not reconstructed from secondary snippets. No claim of an exhaustive publication census is made.
 
 ### B02 — Digit span / OpenNeuro ds003838
 

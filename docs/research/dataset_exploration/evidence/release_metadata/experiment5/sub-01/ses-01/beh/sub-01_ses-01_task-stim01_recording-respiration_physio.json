@@ -1,0 +1,17 @@
+{
+  "TaskName": "Stim 01, Attentive Condition - Test not given",
+  "TaskDescription": "Watch educational video [ Why are Stars Star-Shaped ] in Attentive Condition without being tested on the stimuli content",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawRespiration"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawRespiration": {
+    "Description": "raw respiration signal - tension on a belt worn around the chest of the subject",
+    "Units": "mV"
+  }
+}

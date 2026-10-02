@@ -1,0 +1,18 @@
+{
+  "audited_experiments": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "physical_continuous_files": 16038,
+  "channel_records": 180221,
+  "observed_exposures": 1457,
+  "design_expected_exposures": 1474,
+  "whole_exposure_missing": 17,
+  "people": 178,
+  "videos": 11,
+  "parse_errors": 0,
+  "classification": "EMPIRICALLY VERIFIED IN THIS AUDIT; quality thresholds and interpretation are OUR INFERENCE"
+}

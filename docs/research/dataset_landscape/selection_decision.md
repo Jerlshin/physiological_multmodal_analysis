@@ -58,3 +58,7 @@ Before combining, audit participants and source lineage for overlap, acquisition
 7. Complete task-specific reuse search, including papers not using the BBBD acronym; precise third-party stimulus/reuse rights where redistribution is contemplated.
 
 These are verification gates, not an instruction to begin modelling. The present decision is complete at landscape-review level. If label identity cannot be reconciled, meaningful modality intersections prove too small, or the viable question duplicates prior work, **reopen the choice rather than force BBBD to win**. Use ds003838 for a controlled general alternative, or the explicitly better-fitting domain resource once the scientific scope becomes clearer.
+
+## Later evidence-review addendum — 2026-10-01
+
+The selected-dataset review is now recorded in the [BBBD knowledge base](../selected_dataset/README.md) and [readiness report](../selected_dataset/research_readiness.md). It adds the2025 iScience antecedent, identifies task-specific person/video holdouts already used in prior work, and documents code/statistic/schema discrepancies requiring archive verification. The conditional dataset choice remains; generic novelty assumptions about ECG, fusion, physiology→quiz or temporal analysis do not survive the detailed review. Seven candidate directions remain for the next stage; none is selected as the final paper problem.

@@ -1,0 +1,121 @@
+{
+  "video_nodes": [
+    {
+      "canonical_video_id": "21eFwbb48sE",
+      "experiments": [
+        1,
+        2
+      ],
+      "qualified_participants": 58,
+      "exposures": 116,
+      "quiz_observations": 58
+    },
+    {
+      "canonical_video_id": "30o4omX5qfo",
+      "experiments": [
+        3
+      ],
+      "qualified_participants": 29,
+      "exposures": 58,
+      "quiz_observations": 28
+    },
+    {
+      "canonical_video_id": "3IaYhG11ckA",
+      "experiments": [
+        1,
+        2
+      ],
+      "qualified_participants": 58,
+      "exposures": 116,
+      "quiz_observations": 58
+    },
+    {
+      "canonical_video_id": "VVAKFJ8VVp4",
+      "experiments": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "qualified_participants": 149,
+      "exposures": 255,
+      "quiz_observations": 149
+    },
+    {
+      "canonical_video_id": "bYgV9nvgJ3E",
+      "experiments": [
+        3
+      ],
+      "qualified_participants": 29,
+      "exposures": 58,
+      "quiz_observations": 29
+    },
+    {
+      "canonical_video_id": "e0NT9i4Qnak",
+      "experiments": [
+        3,
+        4
+      ],
+      "qualified_participants": 72,
+      "exposures": 101,
+      "quiz_observations": 29
+    },
+    {
+      "canonical_video_id": "lkRZKqDdwzU",
+      "experiments": [
+        3,
+        4
+      ],
+      "qualified_participants": 72,
+      "exposures": 101,
+      "quiz_observations": 29
+    },
+    {
+      "canonical_video_id": "mnYSMhR3jCI",
+      "experiments": [
+        3,
+        4,
+        5
+      ],
+      "qualified_participants": 120,
+      "exposures": 197,
+      "quiz_observations": 120
+    },
+    {
+      "canonical_video_id": "oCEKMEeZXug",
+      "experiments": [
+        1,
+        2,
+        4
+      ],
+      "qualified_participants": 101,
+      "exposures": 159,
+      "quiz_observations": 58
+    },
+    {
+      "canonical_video_id": "rkntp3_cZl4",
+      "experiments": [
+        3
+      ],
+      "qualified_participants": 29,
+      "exposures": 58,
+      "quiz_observations": 29
+    },
+    {
+      "canonical_video_id": "zQGOcOUBi6s",
+      "experiments": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "qualified_participants": 149,
+      "exposures": 255,
+      "quiz_observations": 149
+    }
+  ],
+  "person_nodes": 178,
+  "person_identity_limit": "experiment-qualified cohort records; unique humans across experiments not independently certified",
+  "session_limit": "viewing blocks, not longitudinal days",
+  "no_split_frozen": true
+}

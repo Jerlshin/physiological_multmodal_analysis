@@ -1,0 +1,32 @@
+{
+  "TaskName": "Stim 01, Attentive Condition",
+  "TaskDescription": "Watch educational video [ Why are Stars Star-Shaped ] in Attentive Condition",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "x",
+    "y",
+    "vdx",
+    "vdy"
+  ],
+  "Manufacturer": "SR Research",
+  "ManufacturersModelName": "EyeLink 1000 Plus",
+  "SoftwareVersions": "EyeLink 1000 v4.594",
+  "DeviceSerialNumber": "CL1-84E15",
+  "x": {
+    "Description": "gaze positon in the horizontal direction (x-axis)",
+    "Units": "screen pixels"
+  },
+  "y": {
+    "Description": "gaze positon in the vertical direction (y-axis)",
+    "Units": "screen pixels"
+  },
+  "vdx": {
+    "Description": "visual angle in the horizontal direction (x-axis)",
+    "Units": "degree"
+  },
+  "vdy": {
+    "Description": "visual angle in the vertical direction (y-axis)",
+    "Units": "degree"
+  }
+}

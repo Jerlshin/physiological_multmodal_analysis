@@ -1,0 +1,235 @@
+{
+  "phase": "final",
+  "validated_utc": "2026-10-02T15:32:49.032648+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "all five canonical files pinned and immutable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment5.zip cached official checksum identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment5.zip read-only mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment1.zip cached official checksum identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment1.zip read-only mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment2.zip cached official checksum identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment2.zip read-only mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment3.zip cached official checksum identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment3.zip read-only mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment4.zip cached official checksum identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "experiment4.zip read-only mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique ZIP-member keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full inventory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique canonical record keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full signal audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no parse errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "verified released grid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all physical members and sizes match ZIP inventory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "valid duration never exceeds observation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all compact masks agree with exact valid duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EEG padding is within one calibration LSB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique experiment-qualified person keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "observed ASRS coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique outcome join keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "valid memory outcomes after quarantine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all supplied item scores reconstructed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "answer-option ranges and denominators",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "duplicate outcome quarantine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score ranges",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aggregates within declared rounding tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unambiguous local/video mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unambiguous exposure keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "missing signals do not erase available outcomes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "core independent-unit counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "core validity union duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "breath metrics use respiratory semantics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all discrete timestamps finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cardiac ordering and documented edge exceptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exact full-QC source snapshot matches execution markers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all experiment checkpoints completed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "execution configuration matches retained configuration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scientific unit tests passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all report links and figures resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "retention_manifest.json retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "storage_and_retention.md retained",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "canonical_hashes_reused": "Previously computed full MD5/SHA-256; readonly modes, exact official identity and byte sizes checked here. CLI verify independently rehashes.",
+  "full_QC_execution_code_sha256": "d70cbff43a6c7d301ea853f19062fb9ee051596a95b544cfc3de2595363b6952",
+  "postprocess": "Canonical questionnaire fields and separate respiratory peak metrics rebuilt by summary.py from original small keyed metadata/timestamp members; full channel/signal QC unchanged."
+}

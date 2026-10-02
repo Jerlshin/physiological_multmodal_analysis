@@ -1,5 +1,11 @@
 # Research project: dataset decision
 
+**Dated amendment — 2026-10-02:** the substantial [Dataset Exploration & Empirical Readiness Report](dataset_exploration/README.md) is now available. All five BBBD v1.1 archives have been acquired and verified, and dataset-wide signal/outcome auditing is complete at the documented lightweight-QC level. **OQ-06 derivative execution/scaling provenance remains blocking**; Exp.2 answer-order canonicalization also needs review before behavioral pooling. The earlier landscape-stage status below is retained as historical context and is superseded for acquisition/QC status by this dated amendment. No model or final paper question has been selected.
+
+- [Selected-dataset knowledge base and prior-art review](selected_dataset/README.md).
+- [Empirical audit reports, manifests and evidence](dataset_exploration/README.md).
+- [Current P0 disposition](dataset_exploration/open_questions_resolved.md) and [remaining scientific gates](dataset_exploration/open_questions_remaining.md).
+
 Current stage completed: **dataset landscape and selection, 2026-10-01**. No modelling code, final architecture or paper problem statement has been created.
 
 - [Dataset decision](dataset_landscape/selection_decision.md): BBBD release 1.1 primary, conditional on data integrity; ds003838 strongest general alternative; DREAMT strongest clinical/sleep alternative.

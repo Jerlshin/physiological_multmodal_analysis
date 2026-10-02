@@ -1,0 +1,20 @@
+[
+  {
+    "selection": "maximum full-QC channel excess at 16 Hz within representation; outcome-independent",
+    "experiment": 5,
+    "path": "experiment5.zip::sub-44/ses-01/eeg/sub-44_ses-01_task-stim03_eeg.bdf",
+    "channel": "PO4",
+    "excess_16hz_db": 33.62556332305877,
+    "targeted_peak_near_48hz": 48.0,
+    "note": "Deep PSD includes padded BDF tail; lightweight QC map uses exclusive event trim. The approximately 48 Hz peak is targeted evidence only; no dataset-wide harmonic magnitude claim."
+  },
+  {
+    "selection": "maximum full-QC channel excess at 16 Hz within representation; outcome-independent",
+    "experiment": 4,
+    "path": "experiment4.zip::derivatives/sub-42/ses-01/eeg/sub-42_ses-01_task-stim04_desc-eeg.bdf",
+    "channel": "PO3",
+    "excess_16hz_db": 20.97124469665829,
+    "targeted_peak_near_48hz": 48.0,
+    "note": "Deep PSD includes padded BDF tail; lightweight QC map uses exclusive event trim. The approximately 48 Hz peak is targeted evidence only; no dataset-wide harmonic magnitude claim."
+  }
+]

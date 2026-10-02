@@ -1,0 +1,28 @@
+participant_id	species	Sex	Age	Occupation	Tired	Study_time	GPA	Caffeine	Occupation_field
+sub-02	homosapiens	Female	30	phd	4	10	3.8	1	BME
+sub-03	homosapiens	Female	29	Master's student	4	9	3.76	24	BME
+sub-04	homosapiens	Male	23	Lab Admin	4	2	3.2	24	Higher Ed
+sub-05	homosapiens	Male	22	unemployed	4	0	3.65	48	unemployed
+sub-06	homosapiens	Female	18	student	4	6	3.96	12	psychology
+sub-07	homosapiens	Male	29	Student	4	3	4	2	Biomedical Engineering
+sub-08	homosapiens	Male	22	Student	4	0.5	3.98	30	BME
+sub-09	homosapiens	Female	30	student	5	8	4	1	EE
+sub-10	homosapiens	Female	27	Grad Student	4	1	3.9	24	BME
+sub-11	homosapiens	Female	22	Student	4	7	3	72	BME
+sub-12	homosapiens	Female	39	teacher	4	2	4	1	biamedical engineering
+sub-13	homosapiens	Male	18	Student	4	5	3.7	0	Medicine
+sub-14	homosapiens	Female	28	PhD student	4	4	0	1	Neuroscience
+sub-15	homosapiens	Female	23	Student	4	4	0	8	Engineering
+sub-16	homosapiens	Female	18	Student	3	3	3.75	24	Psychology
+sub-17	homosapiens	Female	19	Student	4	6	3.1	24	Biomedical Engineering
+sub-18	homosapiens	Male	19	Student	3	5	3.925	0	Biomedical Engineering
+sub-19	homosapiens	Female	21	Student	3	8	3.4	48	biomedical engineering
+sub-20	homosapiens	Female	24	student	4	4	4	48	biomedical engineering
+sub-21	homosapiens	Female	20	Student	3	NaN	2.8	4	Student
+sub-22	homosapiens	Female	20	student	4	5	3.2	0	student
+sub-23	homosapiens	Male	37	Research Associate	4	4	3.9	8	Chemical Engineering
+sub-25	homosapiens	Male	20	Student	3	3	2.9	10	n/a
+sub-26	homosapiens	Female	32	self employed	4	3	4	9	maintnance
+sub-27	homosapiens	Male	48	unemployed	4	10	3	8	paralegal
+sub-30	homosapiens	Female	53	Customer Service	4	0	4	1	Claims
+sub-31	homosapiens	Male	31	Property Manager	4	2	0.4	1	Real Estate

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbbd-audit"
+version = "0.1.0"
+description = "Reproducible, non-predictive BBBD 1.1 scientific data audit"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "pandas", "pyarrow", "matplotlib"]
+
+[project.scripts]
+bbbd-audit = "bbbd_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

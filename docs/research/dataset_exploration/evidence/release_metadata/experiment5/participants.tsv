@@ -1,0 +1,49 @@
+participant_id	species	Sex	Age	Occupation	Tired	Study_time	GPA	Caffeine	Occupation_field
+sub-01	homosapiens	Female	19	n/a	Awake	2	3.8	18	Biomedical Engineering
+sub-02	homosapiens	Female	28	student	Awake	2	3.7	22	Chemistry
+sub-03	homosapiens	Female	21	Student	Awake	5	3.62	6	Biomedical Engineering
+sub-04	homosapiens	Male	22	student	Awake	5	3.4	5 	chemical engineering
+sub-05	homosapiens	Female	19	student	Moderate	5 hours	3.6	30	biomedical engineering
+sub-06	homosapiens	Male	20	Student	Moderate	0	3.88	2.5	Bachelors of Engineering
+sub-07	homosapiens	Male	22	Researcher	Awake	4	3.11	4.5	Nanoparticles
+sub-08	homosapiens	Female	19	student	Awake	3	4	20	Biochemistry
+sub-10	homosapiens	Female	18	student	Moderate	1	4.0	9	finances
+sub-11	homosapiens	Male	18	student	Tired	2	3.4	N/A	physics
+sub-12	homosapiens	Male	20	Student	Awake	3	3.42	48	Geology
+sub-13	homosapiens	Female	19	Student	Awake	4	2.8	6	Biomedical engineering
+sub-14	homosapiens	Female	25	student	Tired	7	3.7	9	premed
+sub-15	homosapiens	Female	19	student	Moderate	1	3.82	24	Social Psychology & Asian Diaspora Studies 
+sub-16	homosapiens	Female	21	Student	Awake	4	3.3	48	BME
+sub-17	homosapiens	Male	22	Student	Awake	3	3.0	72	Psychology/EE
+sub-18	homosapiens	Male	29	Student	Very awake	6	3.1	8	Electrical Engineering
+sub-19	homosapiens	Male	20	n/a	Awake	5	3.7	24	Electrical Engineering
+sub-20	homosapiens	Female	32	n/a	Moderate	4	3.8	48	Biology
+sub-21	homosapiens	Female	19	student 	Very Tired	2.5	2.4	24	architechture 
+sub-22	homosapiens	Male	21	student	Awake	3	3.2	72	psychology
+sub-23	homosapiens	Female	18	student	Tired	3	3.4	6	Undeclared
+sub-24	homosapiens	Female	18	student	Moderate	5	n/a	8	biology
+sub-25	homosapiens	Female	19	student	Tired	2	3.87	10	electrical engineering
+sub-26	homosapiens	Female	22	student	Awake	2	2.7	5	chemical engineering
+sub-27	homosapiens	Male	19	Student	Awake	2	3.2	N/A	Biology
+sub-28	homosapiens	Male	23	Student	Moderate	4	3.33	60	Chemical Engineering
+sub-29	homosapiens	Male	19	Student	Moderate	3	3.1	8	Forensic Psychology
+sub-30	homosapiens	Male	21	Student	Moderate	6	3.956	3	Mechanical Engineering
+sub-31	homosapiens	Female	20	student	Tired	0	3.97	350	economics
+sub-32	homosapiens	Female	31	receptionist	Awake	0	0	0	n\a
+sub-33	homosapiens	Male	38	psychotherapist	Tired	n/a	n/a	two plus days ago	social work
+sub-34	homosapiens	Male	26	none	Awake	2	n/a	24	n/a
+sub-35	homosapiens	Male	27	Research Analyst	Awake	0	N/A	N/A	Real Estate
+sub-36	homosapiens	Female	32	Photographer	Awake	NA	NA	48	Freelance
+sub-37	homosapiens	Female	29	Operations Manager 	Very awake	NA	NA	5	Manufacturing 
+sub-38	homosapiens	Male	46	unemployee	Awake	2	n/a	0	Health Educator
+sub-39	homosapiens	Male	31	Student & Bike Messenger	Moderate	2	N/A	6	Undergrad/Busines Mgmt
+sub-40	homosapiens	Female	30	National Coordinator	Awake	N/A	n/A	72	Real Estate/Insurance
+sub-41	homosapiens	Female	32	social worker	Moderate	n/a	n/a	96	social services
+sub-42	homosapiens	Male	32	Vet Tech	Awake	N/A	N/A	9	n/a
+sub-43	homosapiens	Female	29	hairstylist	Awake	7	4	5	n/a
+sub-44	homosapiens	Male	39	Actor	Awake	NA	NA	16	n/a
+sub-45	homosapiens	Male	33	cook	Awake	na	na	na	n/a
+sub-46	homosapiens	Female	49	Personal Assistant	Moderate	na	na	4 hours	none
+sub-47	homosapiens	Female	47	Data Processor	Awake	0	n/a	24	n/a
+sub-48	homosapiens	Female	24	receptionist	Moderate	1	3.8	0	medical billing and coding
+sub-49	homosapiens	Male	27	Worker	Very awake	N/A	N/A	N/A	n/a

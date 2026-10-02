@@ -1,0 +1,6 @@
+experiment,people,female,male,ASRS_complete,digit_span_nonmissing,digit_span_outside_declared_3_7,GPA_numeric,GPA_zero,GPA_gt_4
+1,27,17,10,0,0,0,27,2,0
+2,31,21,10,27,25,0,29,4,0
+3,29,21,8,29,29,2,26,3,1
+4,43,24,19,43,42,0,32,2,1
+5,48,26,22,48,44,0,32,1,0

@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-01",
+  "note": "Fingerprints of reviewed temporary source copies; original full texts are not redistributed here. URLs in source_registry.md.",
+  "files": [
+    {
+      "local_review_name": "descriptor.html",
+      "bytes": 393145,
+      "sha256": "d01144f4bbbcfd0c25841698de223652cfd066ea145f7c3de3d75337aff0e572"
+    },
+    {
+      "local_review_name": "table1.html",
+      "bytes": 168666,
+      "sha256": "cece959351713d93c1d3845fea1be5c8de63c51fd4a572bc4e62dd436b75be36"
+    },
+    {
+      "local_review_name": "table2.html",
+      "bytes": 164527,
+      "sha256": "12b8830257d5be02018ac3e100342d422706a0cee1b013b44a286fc7d03e03c7"
+    },
+    {
+      "local_review_name": "table3.html",
+      "bytes": 162196,
+      "sha256": "477be03c0949cb3fcef73878c0d77fee1c326673ce666e23d00a6aeed000e683"
+    },
+    {
+      "local_review_name": "pnas.html",
+      "bytes": 222319,
+      "sha256": "f5247b9fa3ae2a9e139c5e100ff87ee0b2e546bf89eed8728379c1b4293b3cd7"
+    },
+    {
+      "local_review_name": "nexus.html",
+      "bytes": 254196,
+      "sha256": "8f3d48f7351bcd3a7b2f3ec0e4ba9189414fdfa8321eea5ef9f9d63a84ad1411"
+    },
+    {
+      "local_review_name": "iscience.html",
+      "bytes": 210945,
+      "sha256": "8c4f3109bf9712edaee74046f84fee37eb824f5ed160ac9e45ebb72672bdb28c"
+    },
+    {
+      "local_review_name": "cell2021.pdf",
+      "bytes": 2341612,
+      "sha256": "9f04042adca801146fc1b3885a1fa4f970962be20ade8bcf24cbfe25627f1052"
+    },
+    {
+      "local_review_name": "cell2024.pdf",
+      "bytes": 5636678,
+      "sha256": "c132fc87a853afcb444ae8d7f678700bbb886718a855134e1fc9a62dea03d3c4"
+    },
+    {
+      "local_review_name": "code.tar.gz",
+      "bytes": 1101357,
+      "sha256": "8886ce69ec2eea2c6ac27b04e76d0ba28b5a511283b9110ecb7952c02e964678"
+    },
+    {
+      "local_review_name": "commit.json",
+      "bytes": 5526,
+      "sha256": "db069695e857041de08e631ba470c12a43c719be0ce4634d36afb33a7f4962b5"
+    },
+    {
+      "local_review_name": "crossref_ieee.json",
+      "bytes": 5901,
+      "sha256": "1f1b393d321c647b4c61a63d674cae218cdf6dd05746f4c4653c2775632ce081"
+    },
+    {
+      "local_review_name": "home.html",
+      "bytes": 14357,
+      "sha256": "595d2c1c71dc3c04c3d6c176b66fb8f0bb320dc6f8e4f91b786b4fc76e6077a6"
+    },
+    {
+      "local_review_name": "changelog.html",
+      "bytes": 7960,
+      "sha256": "4b66899195309ba931a0279b0da8bdd59c52203efb2a3ab8cf2eaa3b9ebe669b"
+    },
+    {
+      "local_review_name": "website_experiments.html",
+      "bytes": 21244,
+      "sha256": "8694d9948952506381c3fd1deaa39d100b3e88b0e46a2f1b04faf6cc135b3478"
+    },
+    {
+      "local_review_name": "website_questionnaires.html",
+      "bytes": 17669,
+      "sha256": "6e80d0e8bd279a499bba726b349ba6256835588668008d89d2b172adac8cba85"
+    },
+    {
+      "local_review_name": "website_tutorials.html",
+      "bytes": 11510,
+      "sha256": "114abbed84c46f77d606034b30e48bbeaa60dacc8d4e0a4a2db5d15a4eab5627"
+    },
+    {
+      "local_review_name": "website_about.html",
+      "bytes": 14822,
+      "sha256": "0f9f61225de30339e099041f8d387e5abbd0ed7b4be4ceea4347be18738ef986"
+    }
+  ]
+}

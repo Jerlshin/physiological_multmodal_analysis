@@ -1,0 +1,47 @@
+[
+  {
+    "experiment": 1,
+    "code_commit": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+    "archive_member": "phenotype/stimuli_questionnaire.tsv",
+    "code_asset_sha256": "8a236585871683fccfd5981ae53f023ac4b7effadd81d4ba2f359f8f6dca291e",
+    "release_asset_sha256": "5d23b83958b4430145180ce7ee94ca0d92ec0d0d296cb8e3f1fe46bd1b602690",
+    "byte_equal": false,
+    "same_parsed_content_after_key_sort": true
+  },
+  {
+    "experiment": 2,
+    "code_commit": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+    "archive_member": "phenotype/stimuli_questionnaire.tsv",
+    "code_asset_sha256": "c63a3ee5ae2e0d308d845923f606dcead758f06c892eb84c029515a358ebce71",
+    "release_asset_sha256": "d2ed0d5008e79661d431d91b2ee1321606d9c8a73eabb04f2e1179bcbba9d0d5",
+    "byte_equal": false,
+    "same_parsed_content_after_key_sort": true
+  },
+  {
+    "experiment": 3,
+    "code_commit": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+    "archive_member": "phenotype/stimuli_questionnaire.tsv",
+    "code_asset_sha256": "0c427c8805bbeca7b5de7accb50c9bd2b368b61d2619d8fbe2a86ddc2b5bb2c4",
+    "release_asset_sha256": "f2485cf2113004ab3b0596e96d216d624153ec5b34f6b927cb2e5a0377941402",
+    "byte_equal": false,
+    "same_parsed_content_after_key_sort": true
+  },
+  {
+    "experiment": 4,
+    "code_commit": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+    "archive_member": "phenotype/stimuli_questionnaire.tsv",
+    "code_asset_sha256": "9e1da9a5210cf8d57298c2add0bd99d690d886e17f6311dec4b98890be86cc9e",
+    "release_asset_sha256": "9e1da9a5210cf8d57298c2add0bd99d690d886e17f6311dec4b98890be86cc9e",
+    "byte_equal": true,
+    "same_parsed_content_after_key_sort": true
+  },
+  {
+    "experiment": 5,
+    "code_commit": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+    "archive_member": "phenotype/stimuli_questionnaire.tsv",
+    "code_asset_sha256": "9465149831dd9786de3034866d3bea854d2a878d83800eda6aa8d01cebaefa01",
+    "release_asset_sha256": "9465149831dd9786de3034866d3bea854d2a878d83800eda6aa8d01cebaefa01",
+    "byte_equal": true,
+    "same_parsed_content_after_key_sort": true
+  }
+]

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain, Body and Behaviour Dataset</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="/static/download_script.js" defer></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <header style="
+    color: #f8f0f0;
+    background-color: black;
+    border-color: rgb(136, 136, 136);
+    border-bottom: 1px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;">
+        <div style="text-align: center; margin-top: 10px;">
+            <h1>
+                The Brain, Body, and Behaviour Dataset 
+                <img style="height:22px!important;margin-left:3px;vertical-align:text-top;" 
+                     src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                <img style="height:22px!important;margin-left:3px;vertical-align:text-top;" 
+                     src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+            </h1>
+            <p style="margin-top: 6px; font-weight: normal; font-size: 1em; color: #ccc;">
+                Jens Madsen, Nikhil Kuppa, Lucas C Parra 
+                <span style="color: #888;">|</span>
+                <a href="https://doi.org/10.1038/s41597-026-07215-1" target="_blank" rel="noopener" 
+                   style="color: #ddd; text-decoration: underline;">
+                    https://doi.org/10.1038/s41597-026-07215-1
+                </a>
+            </p>
+        </div>      
+    </header>
+
+    <header style="color: #f8f0f0; background-color: #1e2760; border-color: rgb(136, 136, 136); border-top: 2px solid rgb(136, 136, 136); border-bottom: 2px solid rgb(136, 136, 136); padding-top: 2px; width: 100vw;">
+        <nav>
+            <ul style="list-style: none; display: flex; padding: 0; margin: 0;">
+                <li style="margin-right: 10px;">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/experiments-page" class="nav-link">Experiments</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/questionnaires-page" class="nav-link">Questionnaires</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/tutorials-page" class="nav-link">Tutorials</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/research-page" class="nav-link">Research</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/about-page" class="nav-link">About</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/download_page" class="nav-link">Download</a>
+                </li>
+                <li>|</li>
+                <li style="margin-right: 10px;">
+                    <a href="/changelog" class="nav-link">Changelog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="superexp-heading">
+            <h2>Changelog: The Brain, Body, and Behaviour Dataset</h2>
+        </section>
+
+        <section id="exp-content" style="margin-left: 1vw;">
+            <h1>2026</h1>
+            <ul>
+                <!-- Add new versions in this space -->
+                <!-- <li><strong>v1.1.0</strong>
+                    <p>Release Date: 09/25/26</p>
+                    <ul>
+                        <li>Fixed stimuli_questionnaire.tsv in experiments 4 and 5: corrected participant-answer mapping error that caused incorrect is_correct values; replaced sparse wide-format schema with a long-format schema including selected answers, correct_answers, and partial-credit scores columns; removed sub-09 rows from experiment 5.</li>
+                        <li>Added stimuli_questionnaire_scores.tsv to experiments 4 and 5 with total_correct and total_score (partial-credit) aggregated per participant per stimulus.</li>
+                        <li>Fixed sub-09 subject index discrepancy in raw and processed individual modality matrix files for experiments 4 and 5 (experiment 4: 42→43 participants; experiment 5: 49→48 participants).</li>
+                    </ul>
+                </li> -->
+
+                <li><strong>v1.1.0</strong> 
+                    <p>Release Date: 09/25/26</p> 
+                    
+                    <p><em>Note: The first two fixes below are already included in the Zenodo release. They are also being applied to the corresponding files hosted through the BBBD website. The third fix applies only to the website-hosted individual modality matrix files and does not require an update to the Zenodo release; the update will be uploaded soon.</em></p>
+
+                    <ul>
+                        <li>Fixed <code>stimuli_questionnaire.tsv</code> in experiments 4 and 5: corrected participant-answer mapping errors that caused incorrect <code>is_correct</code> values; replaced the sparse wide-format schema with a long-format schema including selected answers, correct answers, and partial-credit scores; and removed <code>sub-09</code> rows from experiment 5.</li>
+                        <li>Added <code>stimuli_questionnaire_scores.tsv</code> to experiments 4 and 5 with <code>total_correct</code> and <code>total_score</code> (partial-credit) aggregated per participant per stimulus.</li>                    
+                        <br><li>Corrected the <code>sub-09</code> subject-index discrepancy in the raw and processed individual-modality matrix files for experiments 4 and 5 (experiment 4: 42→43 participants; experiment 5: 49→48 participants). This correction applies only to the files hosted through the BBBD website.</li>
+                    </ul>
+                    
+                    </li>
+
+            </ul>
+            <h1>2025</h1>
+            <ul>
+                <li><strong>v1.0.0</strong>
+                    <p>Release Date: 01/27/25</p>
+                    <ul>
+                        <li>Initial release of the dataset.</li>
+                        <li>Included signals from all subjects across five experiments.</li>
+                        <li>Standardized file formats (BIDS-compliant).</li>
+                        <li>Individual modalities released in .mat file formats.</li>
+                    </ul>
+                </li>
+
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center;">
+            All files available for download on this website are licensed under the Creative Commons Attribution 4.0 International 
+            License (CC BY 4.0). <img style="height:18px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:18px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+            <br>For details, visit <a href="https://creativecommons.org/licenses/by/4.0/" class="portfolio-link">
+                https://creativecommons.org/licenses/by/4.0/
+            </a>.
+        </p>
+    </footer>
+</body>
+</html>

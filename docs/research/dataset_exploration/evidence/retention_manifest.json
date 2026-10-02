@@ -1,0 +1,349 @@
+{
+  "accounted_utc": "2026-10-02T15:32:48.113340+00:00",
+  "initial": {
+    "label": "initial_before_acquisition",
+    "workspace_logical_bytes": 1468006,
+    "source_bytes": 0,
+    "free_bytes_approx": 37580963840,
+    "note": "Initial du 1.4 MiB and df 35 GiB; rounded shell readings, not exact byte precision"
+  },
+  "final_snapshot": {
+    "label": "final_retention_accounting",
+    "time_utc": "2026-10-02T15:32:48.113340+00:00",
+    "categories": {
+      "canonical_source": {
+        "logical_bytes": 26973110601,
+        "allocated_bytes": 26973122560,
+        "files": 5
+      },
+      "extracted_source": {
+        "logical_bytes": 0,
+        "allocated_bytes": 0,
+        "files": 0
+      },
+      "derived_reproducible": {
+        "logical_bytes": 0,
+        "allocated_bytes": 0,
+        "files": 0
+      },
+      "temporary_cache": {
+        "logical_bytes": 0,
+        "allocated_bytes": 0,
+        "files": 0
+      },
+      "final_evidence": {
+        "logical_bytes": 115555513,
+        "allocated_bytes": 116293632,
+        "files": 278
+      },
+      "environment_regenerable": {
+        "logical_bytes": 417046721,
+        "allocated_bytes": 440864768,
+        "files": 10480
+      }
+    },
+    "free_bytes": 48332800000,
+    "accounting_schema_version": 2,
+    "note": "final_evidence includes reports, figures and generating infrastructure; earlier schema counted evidence/ only"
+  },
+  "observed_peak_snapshot": {
+    "label": "qc_exp1_complete",
+    "time_utc": "2026-10-02T14:42:51.870643+00:00",
+    "categories": {
+      "canonical_source": {
+        "logical_bytes": 26973249300,
+        "allocated_bytes": 26973270016,
+        "files": 10
+      },
+      "extracted_source": {
+        "logical_bytes": 0,
+        "allocated_bytes": 0,
+        "files": 0
+      },
+      "derived_reproducible": {
+        "logical_bytes": 0,
+        "allocated_bytes": 0,
+        "files": 0
+      },
+      "temporary_cache": {
+        "logical_bytes": 500001,
+        "allocated_bytes": 524288,
+        "files": 8
+      },
+      "final_evidence": {
+        "logical_bytes": 113821092,
+        "allocated_bytes": 117989376,
+        "files": 201
+      },
+      "environment_regenerable": {
+        "logical_bytes": 417046721,
+        "allocated_bytes": 440864768,
+        "files": 10480
+      }
+    },
+    "free_bytes": 43417600000
+  },
+  "large_artifacts": [
+    {
+      "path": "data/bbbd/canonical_source/experiment1.zip",
+      "category": "canonical_source",
+      "retention": "KEEP \u2014 canonical",
+      "bytes": 893268919,
+      "allocated_bytes": 893272064,
+      "sha256": "0698ad5018eb88793ae80aacd7bb22f271c0ec8805e14cc7c9a969c7519079f7"
+    },
+    {
+      "path": "data/bbbd/canonical_source/experiment2.zip",
+      "category": "canonical_source",
+      "retention": "KEEP \u2014 canonical",
+      "bytes": 5601886507,
+      "allocated_bytes": 5601890304,
+      "sha256": "e810e7b7a144da0a27171efb78823b07c07502348284a0ba67638b0708bdf5af"
+    },
+    {
+      "path": "data/bbbd/canonical_source/experiment3.zip",
+      "category": "canonical_source",
+      "retention": "KEEP \u2014 canonical",
+      "bytes": 7966970285,
+      "allocated_bytes": 7966973952,
+      "sha256": "e804caa1c14de8b5502a60f66f925aadbf4b914ed447863d7aa72a2e0c473fef"
+    },
+    {
+      "path": "data/bbbd/canonical_source/experiment4.zip",
+      "category": "canonical_source",
+      "retention": "KEEP \u2014 canonical",
+      "bytes": 5466148546,
+      "allocated_bytes": 5466148864,
+      "sha256": "fe0eecb9f3f03c676aec3b1a2894ec0ca5fcde4263738f3637cc7d3144ca07f7"
+    },
+    {
+      "path": "data/bbbd/canonical_source/experiment5.zip",
+      "category": "canonical_source",
+      "retention": "KEEP \u2014 canonical",
+      "bytes": 7044836344,
+      "allocated_bytes": 7044837376,
+      "sha256": "ec108ca955de9ee2d05a3a55b1de79173fbef7220411485414e324b019231dfb"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/canonical_manifest.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 4269322,
+      "allocated_bytes": 4272128,
+      "sha256": "4c2254427336ca23cb4161de37f965bf8710194554ace5fca5196b0c37a9c8fc"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/channel_qc.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 24605469,
+      "allocated_bytes": 24608768,
+      "sha256": "f53ab52c0b944f30edb9bfb0a95aa2f09d57c6b5e3a3090c0494f96badd8d81b"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/channels_exp2.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 6340160,
+      "allocated_bytes": 6340608,
+      "sha256": "6cef1cf53563c06134c099d7c01ca6cb3e9b88e4be38cbbd338a75ba42892ad6"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/channels_exp3.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 7080294,
+      "allocated_bytes": 7081984,
+      "sha256": "b93a8f83a3f584b9c7d3892f9e50a8527030aabe4fe3c247d4f7295511ed011a"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/channels_exp4.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 5617062,
+      "allocated_bytes": 5619712,
+      "sha256": "d78a408b8d2a7feec289b0f0475bd6026e3afe09e0e8ed3c24134f9d53820965"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/channels_exp5.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 6185538,
+      "allocated_bytes": 6189056,
+      "sha256": "531a5a2acf34d7363c868045be14ed2159bc3f2304d2820647fd91792d9cb2f9"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/eeg_contamination_map.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 21924492,
+      "allocated_bytes": 21925888,
+      "sha256": "9381dd189aaabdd54443c0378968d985884618ea2a6c55e6c7ccd6e19450ce68"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/files_exp3.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 1193734,
+      "allocated_bytes": 1196032,
+      "sha256": "39a231ba9c89fb9716c4ddd4b7e8fd0c02482123e812a003e94dc46221f6605b"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/masks_exp1.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 2478650,
+      "allocated_bytes": 2482176,
+      "sha256": "8ddc07afb37a67b9a645465c4b27673f75e1a613d1ffb028cf68dbe14f30d17b"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/masks_exp2.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 4809286,
+      "allocated_bytes": 4812800,
+      "sha256": "0b0338910fab715ce98db32709fa4a3f937331498b962511841f4effe1bfdf31"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/masks_exp3.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 7820922,
+      "allocated_bytes": 7823360,
+      "sha256": "4b5d8f5fb9b289d9576c651f74baa22067be52b9de06ca368d82d46b43e4fb8b"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/masks_exp4.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 6078339,
+      "allocated_bytes": 6078464,
+      "sha256": "7a1ac2911e1ed009fd36148d248a50717e2d02f59b52edf3f53c11b0b8aefb61"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/masks_exp5.parquet",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 7652778,
+      "allocated_bytes": 7655424,
+      "sha256": "661240cfa84531ee85220ad696ce4aa18a7e8e28e9c45dd38c05c6c35e172508"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/upstream_code_5109afa.zip",
+      "category": "final_evidence",
+      "retention": "KEEP \u2014 scientific evidence",
+      "bytes": 1141468,
+      "allocated_bytes": 1142784,
+      "sha256": "a84bb6129f04d402fef11c3162ba9b60fe6f0b71810d2e8ca5d684e9d0290fb9"
+    }
+  ],
+  "moves": [
+    {
+      "from_path": "data/bbbd/canonical_source/experiment1.zip.part.chunks.json",
+      "to_path": "docs/research/dataset_exploration/evidence/download_chunks/experiment1.zip.part.chunks.json",
+      "bytes": 4713,
+      "reason": "retain local chunk verification ledger as scientific acquisition evidence"
+    },
+    {
+      "from_path": "data/bbbd/canonical_source/experiment2.zip.part.chunks.json",
+      "to_path": "docs/research/dataset_exploration/evidence/download_chunks/experiment2.zip.part.chunks.json",
+      "bytes": 28788,
+      "reason": "retain local chunk verification ledger as scientific acquisition evidence"
+    },
+    {
+      "from_path": "data/bbbd/canonical_source/experiment3.zip.part.chunks.json",
+      "to_path": "docs/research/dataset_exploration/evidence/download_chunks/experiment3.zip.part.chunks.json",
+      "bytes": 40914,
+      "reason": "retain local chunk verification ledger as scientific acquisition evidence"
+    },
+    {
+      "from_path": "data/bbbd/canonical_source/experiment4.zip.part.chunks.json",
+      "to_path": "docs/research/dataset_exploration/evidence/download_chunks/experiment4.zip.part.chunks.json",
+      "bytes": 28100,
+      "reason": "retain local chunk verification ledger as scientific acquisition evidence"
+    },
+    {
+      "from_path": "data/bbbd/canonical_source/experiment5.zip.part.chunks.json",
+      "to_path": "docs/research/dataset_exploration/evidence/download_chunks/experiment5.zip.part.chunks.json",
+      "bytes": 36184,
+      "reason": "retain local chunk verification ledger as scientific acquisition evidence"
+    },
+    {
+      "from_path": "data/bbbd/temporary_cache/audit_exp2_before_event_boundary_fix.json",
+      "to_path": "docs/research/dataset_exploration/evidence/superseded_checkpoints/audit_exp2_before_event_boundary_fix.json",
+      "bytes": 315,
+      "reason": "retain interim checkpoint history; current exact masks/boundaries supersede it"
+    },
+    {
+      "from_path": "data/bbbd/temporary_cache/audit_exp4_before_event_boundary_fix.json",
+      "to_path": "docs/research/dataset_exploration/evidence/superseded_checkpoints/audit_exp4_before_event_boundary_fix.json",
+      "bytes": 315,
+      "reason": "retain interim checkpoint history; current exact masks/boundaries supersede it"
+    },
+    {
+      "from_path": "data/bbbd/temporary_cache/audit_exp4_before_validity.json",
+      "to_path": "docs/research/dataset_exploration/evidence/superseded_checkpoints/audit_exp4_before_validity.json",
+      "bytes": 315,
+      "reason": "retain interim checkpoint history; current exact masks/boundaries supersede it"
+    },
+    {
+      "from_path": "data/bbbd/temporary_cache/audit_exp5_before_event_boundary_fix.json",
+      "to_path": "docs/research/dataset_exploration/evidence/superseded_checkpoints/audit_exp5_before_event_boundary_fix.json",
+      "bytes": 315,
+      "reason": "retain interim checkpoint history; current exact masks/boundaries supersede it"
+    }
+  ],
+  "deletions": [
+    {
+      "path": "data/bbbd/temporary_cache/exp4_phenotype_region.bin",
+      "bytes": 58188,
+      "allocated_bytes": 61440,
+      "sha256": "c196964a722e582b7de1fb45bf4bf39c771528c393951a64995740c33b9e055a",
+      "deleted_utc": "2026-10-02T15:02:42.904235+00:00",
+      "retention": "DELETE \u2014 temporary",
+      "recreate": "Read experiment4.zip at byte offset 2653875113 for 58188 bytes; original metadata members also retained."
+    },
+    {
+      "path": "data/bbbd/temporary_cache/experiment1_tail.bin",
+      "bytes": 65536,
+      "allocated_bytes": 65536,
+      "sha256": "6e312b8fb2d6fd39566c0bfcca998d5d29b003a3150c0df9327fc7956c51980f",
+      "deleted_utc": "2026-10-02T15:02:42.904874+00:00",
+      "retention": "DELETE \u2014 temporary",
+      "recreate": "Read experiment1.zip at byte offset 893203383 for 65536 bytes; no network needed."
+    },
+    {
+      "path": "data/bbbd/temporary_cache/matplotlib/fontlist-v3.11.0.json",
+      "bytes": 373878,
+      "allocated_bytes": 376832,
+      "sha256": "5b8a82a92358ae11f7bc6a195d7a637d7317ccf7290397f535a2e70081fed8c4",
+      "deleted_utc": "2026-10-02T15:02:42.905872+00:00",
+      "retention": "DELETE \u2014 temporary",
+      "recreate": "Re-run the figures module with MPLCONFIGDIR pointing to temporary_cache/matplotlib; font cache is environment-dependent and has no scientific result."
+    },
+    {
+      "path": "data/bbbd/temporary_cache/range_headers.txt",
+      "bytes": 1139,
+      "allocated_bytes": 4096,
+      "sha256": "c5f570ac90b878151275a9a396f2d087d3cf06494044e866db55d0cd5cc6a64c",
+      "deleted_utc": "2026-10-02T15:02:42.906162+00:00",
+      "retention": "DELETE \u2014 temporary",
+      "recreate": "Copy evidence/http_headers/experiment1_initial_range.txt; dated original HTTP response retained."
+    },
+    {
+      "path": "data/bbbd/temporary_cache/matplotlib/fontlist-v3.11.0.json",
+      "bytes": 373878,
+      "allocated_bytes": 376832,
+      "sha256": "c0ab338c5d52e67669b061ebf2035207d667ff48055eb7b18f3be45820581bd2",
+      "deleted_utc": "2026-10-02T15:21:50.533145+00:00",
+      "retention": "DELETE \u2014 temporary",
+      "recreate": "Re-run the figures module with MPLCONFIGDIR pointing to temporary_cache/matplotlib; font cache is environment-dependent and has no scientific result."
+    }
+  ],
+  "bytes_deleted": 872619,
+  "canonical_bytes": 26973110601,
+  "large_artifacts_deleted": false,
+  "environment": "REGENERABLE: recreate .venv with requirements-audit.lock; no waveform data in it.",
+  "footprint_definition": "Task categories include canonical data, all audit evidence/reports/figures/source/config and .venv. Pre-existing research files and unrelated filesystem use are excluded. Snapshot total is exact at its stated cutoff; later accounting/validation bookkeeping changes a few small files.",
+  "peak_limit": "Observed peak from repeated allocated-byte snapshots, not continuous filesystem monitoring; earlier final_evidence category counted only evidence/ and therefore slightly understates historical report/code overhead."
+}

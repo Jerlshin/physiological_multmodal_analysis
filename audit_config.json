@@ -1,0 +1,25 @@
+{
+  "release_record": 22968459,
+  "version": "1.1",
+  "sampling_rate": 128,
+  "tsv_chunk_rows": 8192,
+  "bdf_chunk_records": 32,
+  "welch_seconds": 8,
+  "basic_qc": {
+    "max_nonfinite_fraction": 0.01,
+    "max_exact_zero_fraction": 0.95,
+    "flat_std_epsilon": 1e-10,
+    "max_eeg_flat_channels": 8,
+    "max_eye_correction_fraction": 0.5,
+    "rr_plausible_seconds": [0.375, 1.5],
+    "rr_broad_seconds": [0.3, 2.0]
+  },
+  "contamination": {
+    "peak_hz": 16,
+    "peak_interval_hz": [15.75, 16.25],
+    "reference_intervals_hz": [[14.5, 15.5], [16.5, 17.5]],
+    "flag_excess_db": 10,
+    "policy": "flag only; no automatic rejection"
+  },
+  "analysis_status": "EXPLORATORY; gross QC screen is provisional, not scientific certification"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "experiment": 1,
+    "rows": 3286,
+    "quiz_people": 31,
+    "duplicate_item_rows": 0,
+    "score_mismatches": 0,
+    "correctness_mismatches": 0,
+    "score_one_with_wrong_selection": 0,
+    "scoring": "single-selection equality"
+  },
+  {
+    "experiment": 2,
+    "rows": 3604,
+    "quiz_people": 34,
+    "duplicate_item_rows": 0,
+    "score_mismatches": 0,
+    "correctness_mismatches": 0,
+    "score_one_with_wrong_selection": 0,
+    "scoring": "single-selection equality"
+  },
+  {
+    "experiment": 3,
+    "rows": 2304,
+    "quiz_people": 32,
+    "duplicate_item_rows": 2,
+    "score_mismatches": 0,
+    "correctness_mismatches": 0,
+    "score_one_with_wrong_selection": 63,
+    "scoring": "selected correct options / all correct options; no wrong-option penalty in supplied score"
+  },
+  {
+    "experiment": 4,
+    "rows": 1548,
+    "quiz_people": 43,
+    "duplicate_item_rows": 0,
+    "score_mismatches": 0,
+    "correctness_mismatches": 0,
+    "score_one_with_wrong_selection": 16,
+    "scoring": "selected correct options / all correct options; no wrong-option penalty in supplied score"
+  },
+  {
+    "experiment": 5,
+    "rows": 1728,
+    "quiz_people": 48,
+    "duplicate_item_rows": 0,
+    "score_mismatches": 0,
+    "correctness_mismatches": 0,
+    "score_one_with_wrong_selection": 19,
+    "scoring": "selected correct options / all correct options; no wrong-option penalty in supplied score"
+  }
+]

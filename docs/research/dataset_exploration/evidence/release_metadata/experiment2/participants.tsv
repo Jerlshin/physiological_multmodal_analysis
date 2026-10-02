@@ -1,0 +1,32 @@
+participant_id	species	Sex	Age	Occupation	Tired	Hearing	Study_time	GPA	Caffeine	Occupation_field
+sub-01	homo sapiens	Male	25	student	Awake	Yes	2	2.9	3	science
+sub-02	homo sapiens	Female	20	Student	Tired	Yes	3	3.3	99	Student
+sub-03	homo sapiens	Female	21	Student	Moderate	Yes	5	3.7	20	Psychology
+sub-05	homo sapiens	Male	29	Consultant	Awake	Yes	3	3.1	24	IT
+sub-06	homo sapiens	Male	29	Barista/Student	Awake	Yes	2	3.2	48	Psychology
+sub-07	homo sapiens	Female	19	student	Awake	Yes	4	3.5	7	psychology
+sub-08	homo sapiens	Male	30	Student	Awake	Yes	8	3.94	24	Engineering
+sub-09	homo sapiens	Female	20	n/a	Moderate	Yes	6	3	NaN	n/a
+sub-12	homo sapiens	Female	21	Mental Health Professional	Awake	Yes	9	NaN	NaN	Mental Health
+sub-13	homo sapiens	Male	21	Student	Awake	Yes	2	3.5	NaN	n/a
+sub-14	homo sapiens	Female	22	student	Moderate	Yes	2	1.8	24	psychology
+sub-15	homo sapiens	Female	21	Sales associate	Tired	Yes	5	3.3	6	Sales
+sub-16	homo sapiens	Female	19	student	Moderate	Yes	NaN	1.8	0	psychology
+sub-18	homo sapiens	Female	23	student	Awake	Yes	4	2.1	12	psychology
+sub-19	homo sapiens	Female	20	Student	Awake	Yes	3	3	48	University
+sub-20	homo sapiens	Female	20	Student	Moderate	Yes	NaN	3.9	72	Student
+sub-21	homo sapiens	Female	18	student	Moderate	Yes	4	0	24	student
+sub-22	homo sapiens	Female	19	Student	Moderate	Yes	3	3.55	6	Student
+sub-23	homo sapiens	Female	19	student	Tired	Yes	4	3.5	24	premed
+sub-24	homo sapiens	Female	25	student	Moderate	Yes	2	2.8	24	psychology
+sub-25	homo sapiens	Female	20	Nursery assistat teacher	Tired	Yes	6	3	24	psychology
+sub-27	homo sapiens	Male	30	photographer	Very awake	Yes	5	3	72	photography
+sub-28	homo sapiens	Female	38	administration	Very awake	Yes	0	3	0	healthcare
+sub-29	homo sapiens	Male	50	porter	Very Tired	Yes	0	0	2	porter
+sub-30	homo sapiens	Female	46	Data Processor	Moderate	Yes	0	0	24	n/a
+sub-31	homo sapiens	Male	33	Server	Awake	Yes	NaN	NaN	24	Food and Beverage
+sub-32	homo sapiens	Male	25	Student	Awake	Yes	1	3.5	NaN	Engineering
+sub-33	homo sapiens	Female	35	administration	Tired	Yes	2	3.29	24	Governement employee
+sub-34	homo sapiens	Male	25	Student	Awake	Yes	3	3.7	1	Engineering
+sub-35	homo sapiens	Female	39	Real Estate Agent	Moderate	Yes	0	0	6	Real estate
+sub-36	homo sapiens	Female	23	cashier	Moderate	Yes	0	3.5	10000	retail

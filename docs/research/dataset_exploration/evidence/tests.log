@@ -1,0 +1,22 @@
+test_all_missing_not_physiological_flat (test_audit.ScientificInvariants.test_all_missing_not_physiological_flat) ... ok
+test_bdf_signed24_extremes (test_audit.ScientificInvariants.test_bdf_signed24_extremes) ... ok
+test_breath_peak_semantics (test_audit.ScientificInvariants.test_breath_peak_semantics) ... ok
+test_cached_verification_requires_pinned_release (test_audit.ScientificInvariants.test_cached_verification_requires_pinned_release) ... ok
+test_canonical_manifest_invariants (test_audit.ScientificInvariants.test_canonical_manifest_invariants) ... ok
+test_checksum_failure (test_audit.ScientificInvariants.test_checksum_failure) ... ok
+test_chunk_statistics (test_audit.ScientificInvariants.test_chunk_statistics) ... ok
+test_exclusive_end_event (test_audit.ScientificInvariants.test_exclusive_end_event) ... ok
+test_intersection_units (test_audit.ScientificInvariants.test_intersection_units) ... ok
+test_mask_union_and_bounds (test_audit.ScientificInvariants.test_mask_union_and_bounds) ... ok
+test_missing_signals_preserve_outcome_linkage (test_audit.ScientificInvariants.test_missing_signals_preserve_outcome_linkage) ... ok
+test_partial_credit_and_exact_match_distinct (test_audit.ScientificInvariants.test_partial_credit_and_exact_match_distinct) ... ok
+test_questionnaire_coverage (test_audit.ScientificInvariants.test_questionnaire_coverage) ... ok
+test_quiz_quarantine (test_audit.ScientificInvariants.test_quiz_quarantine) ... ok
+test_rmssd_semantics (test_audit.ScientificInvariants.test_rmssd_semantics) ... ok
+test_stale_release_rejected (test_audit.ScientificInvariants.test_stale_release_rejected) ... ok
+test_video_identity_unique (test_audit.ScientificInvariants.test_video_identity_unique) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.221s
+
+OK

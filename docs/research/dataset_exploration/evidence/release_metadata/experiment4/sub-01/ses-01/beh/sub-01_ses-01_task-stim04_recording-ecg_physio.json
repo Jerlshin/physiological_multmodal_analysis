@@ -1,0 +1,17 @@
+{
+  "TaskName": "Stim 04, Attentive Condition - Not tested on this content",
+  "TaskDescription": "Watch educational video [ How Modern Light Bulbs Work ] in Attentive Condition without being tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawECG"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawECG": {
+    "Description": "raw ecg value",
+    "Units": "mV"
+  }
+}

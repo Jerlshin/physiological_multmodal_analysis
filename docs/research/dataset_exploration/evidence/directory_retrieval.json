@@ -1,0 +1,27 @@
+[
+  {
+    "archive": "experiment1.zip",
+    "time_utc": "2026-10-02T13:29:55.055366+00:00",
+    "remote_directory_bytes": 930743
+  },
+  {
+    "archive": "experiment2.zip",
+    "time_utc": "2026-10-02T13:29:55.810326+00:00",
+    "remote_directory_bytes": 1442091
+  },
+  {
+    "archive": "experiment3.zip",
+    "time_utc": "2026-10-02T13:29:56.753055+00:00",
+    "remote_directory_bytes": 1986989
+  },
+  {
+    "archive": "experiment4.zip",
+    "time_utc": "2026-10-02T13:29:57.843864+00:00",
+    "remote_directory_bytes": 2019010
+  },
+  {
+    "archive": "experiment5.zip",
+    "time_utc": "2026-10-02T13:29:58.741297+00:00",
+    "remote_directory_bytes": 1551352
+  }
+]

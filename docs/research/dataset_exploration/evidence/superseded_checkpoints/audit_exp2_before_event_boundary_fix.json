@@ -1,0 +1,10 @@
+{
+  "experiment": 2,
+  "completed_utc": "2026-10-02T13:59:34.644563+00:00",
+  "elapsed_seconds": 53.38093200000003,
+  "continuous_files": 3538,
+  "channel_records": 44614,
+  "errors": [],
+  "config_sha256": "97b72ab19bf80ea013ffa899a00f204f935f263f631f104dae8e9fbe70010299",
+  "status": "complete_lightweight_qc"
+}

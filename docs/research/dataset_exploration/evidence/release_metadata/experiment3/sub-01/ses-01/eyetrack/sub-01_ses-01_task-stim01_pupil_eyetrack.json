@@ -1,0 +1,17 @@
+{
+    "TaskName": "Stim 01, Attentive Condition",
+    "TaskDescription": "Watch educational video [ What Would Happen if Mosquitoes Went Extinct? ] in Attentive Condition",
+    "SamplingFrequency": 128,
+    "StartTime": 0,
+    "Columns": [
+        "pupil_size"
+    ],
+    "Manufacturer": "SR Research",
+    "ManufacturersModelName": "EyeLink 1000 Plus",
+    "SoftwareVersions": "EyeLink 1000 v4.594",
+    "DeviceSerialNumber": "CL1-84E15",
+    "pupil_size": {
+        "Description": "left pupil size in area",
+        "Units": "camera sensor pixels"
+    }
+}

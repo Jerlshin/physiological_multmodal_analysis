@@ -1,0 +1,368 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        7
+      ]
+    ],
+    "date-time": "2026-05-07T05:12:48Z",
+    "timestamp": 1778130768496,
+    "version": "3.51.4"
+  },
+  "reference-count": 23,
+  "publisher": "IEEE",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            26
+          ]
+        ],
+        "date-time": "2026-03-26T00:00:00Z",
+        "timestamp": 1774483200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            26
+          ]
+        ],
+        "date-time": "2026-03-26T00:00:00Z",
+        "timestamp": 1774483200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        26
+      ]
+    ]
+  },
+  "DOI": "10.1109/scse70081.2026.11499773",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        6
+      ]
+    ],
+    "date-time": "2026-05-06T19:38:06Z",
+    "timestamp": 1778096286000
+  },
+  "page": "1-6",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "EEG Based Classification of Attentive and Distracted States During Video Based Learning"
+  ],
+  "prefix": "10.1109",
+  "author": [
+    {
+      "given": "Tasikala",
+      "family": "Rathnayake",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Sri Lanka Institute of Information Technology,Department of Information Technology,Malabe,Sri Lanka"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Subodha",
+      "family": "Subasingha",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Sri Lanka Institute of Information Technology,Department of Information Technology,Malabe,Sri Lanka"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Malithi",
+      "family": "Nawarathne",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Sri Lanka Institute of Information Technology,Department of Information Technology,Malabe,Sri Lanka"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Prasanna",
+      "family": "Sumathipala",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Sri Lanka Institute of Information Technology,Department of Information Technology,Malabe,Sri Lanka"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Vidanaralage",
+      "family": "A. J.",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Sri Lanka Institute of Information Technology,Department of Information Technology,Malabe,Sri Lanka"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fnhum.2023.1182319"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/bioengineering12060597"
+    },
+    {
+      "key": "ref3",
+      "article-title": "Empowering Computer Science Students in Electroencephalography (EEG) Analysis:A Review of Machine Learning Algorithms for EEG Datasets",
+      "volume-title": "Proc. KDD Undergraduate Consortium (KDD-UC \u201923)",
+      "author": "Murungi",
+      "year": "2023"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41597-026-07215-1"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/psyp.14009"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fninf.2022.861967"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.biopsycho.2025.109084"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1155/2020/4837291"
+    },
+    {
+      "key": "ref9",
+      "article-title": "Use of XGBoost Algorithm in Classification of EEG Signals",
+      "volume-title": "Proc. 1st Int. Conf. on Engineering, Natural and Social Sciences (ICENSOS)",
+      "author": "Balli"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/s12888-025-07296-z"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fnhum.2017.00388"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/rev3.70020"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.isci.2025.112798"
+    },
+    {
+      "key": "ref14",
+      "first-page": "5966",
+      "article-title": "Using EEG to improve massive open online courses feedback interaction",
+      "volume-title": "Proc. Workshops at the 16th Int. Conf. on Artificial Intelligence in Education (AIED), CEUR Workshop Proceedings",
+      "volume": "1009",
+      "author": "Wang",
+      "year": "2013"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.54097/ijeh.v4i2.1509"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CNN56452.2022.9912564"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CISCE62493.2024.10653409"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s44436-025-00014-2"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/s21093225"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.neuroimage.2013.10.027"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0165-0173(98)00056-3"
+    },
+    {
+      "key": "ref22",
+      "article-title": "Learning representations from EEG with deep recurrent-convolutional neural networks",
+      "volume-title": "Proc. Int. Conf. on Learning Representations (ICLR) Workshop",
+      "author": "Bashivan",
+      "year": "2016"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAU.1967.1161901"
+    }
+  ],
+  "event": {
+    "name": "2026 IEEE International Research Conference on Smart Computing and Systems Engineering (SCSE)",
+    "location": "Kelaniya, Gampaha, Sri Lanka",
+    "start": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    },
+    "end": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    }
+  },
+  "container-title": [
+    "2026 IEEE International Research Conference on Smart Computing and Systems Engineering (SCSE)"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/11498670/11499747/11499773.pdf?arnumber=11499773",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        7
+      ]
+    ],
+    "date-time": "2026-05-07T04:41:04Z",
+    "timestamp": 1778128864000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11499773/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        26
+      ]
+    ]
+  },
+  "references-count": 23,
+  "URL": "https://doi.org/10.1109/scse70081.2026.11499773",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        26
+      ]
+    ]
+  }
+}

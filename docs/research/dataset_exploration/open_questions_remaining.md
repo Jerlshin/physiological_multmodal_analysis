@@ -1,0 +1,15 @@
+# Remaining issues before Research Gap & Problem Formulation
+
+1. **Blocking OQ-06:** obtain the exact v1.1 processing execution/configuration per representation (EEG high-pass 0.05/0.3/0.5, reference, RPCA/EOG/interpolation scope/options, ECG filter/peak correction choices, resampling kernels/clock transforms, physical ECG/respiration units). Raw sidecars and a pinned MATLAB function do not establish the executed derivative pipeline. Either obtain execution provenance or establish an explicitly authorized reproducible processing route from a sufficiently documented source; do not silently retrofit the release.
+2. **OQ-02/03 bounded integrity exceptions:** confirm surplus phenotype IDs and the Exp.3 sub-01/stim03 duplicated q11/missing q12; quarantine is usable now, original identity/response logs are not reconstructed. Clarify no-penalty release scoring versus historical penalty prose.
+   Verify Exp.2 original answer-order canonicalization or an authoritative mapping audit before treating its near-chance aggregate scores as established behavioral performance differences; this is a consequential outcome-encoding review, not proof that its labels are wrong.
+3. **OQ-07/08/15 reproduction limits:** original Figure 6 inputs/execution and original paper cohort/label maps are unavailable. Current RMS-RR and true RMSSD are computed, but historical numerical effects are not attributed without those inputs. Pupil caption/statistic distinctions remain.
+4. **OQ-10/14/16:** native timing residuals, allocation/exposure chronology and privacy-preserving cross-experiment person-overlap certification are absent. Aggregate video analysis is safer; timing/causal/person-independence claims need these checks.
+5. **OQ-19/24:** digit-span zero/weighted-score semantics, GPA zero/above 4 coding, item recognition/comprehension labels and item-content timestamps remain incomplete. ASRS subscale offsets are empirically resolved from items without clinical interpretation.
+6. **OQ-17/18/26/27:** P05/full supplements, code/video reuse licensing details and future pretrained-model manifests remain outside this waveform audit. Retain the prior bounded search; no invented novelty or licensing clearance.
+
+[Concrete author-query draft](evidence/author_query_draft.md) is prepared but not sent. No authors, collaborators or external recipients were contacted.
+
+## NEXT_STAGE_RECOMMENDATION
+
+**Resolve OQ-06's derivative execution/scaling provenance first, and review Exp.2 answer-order canonicalization before behavioral pooling.** The acquisition, release-key scoring, coverage and lightweight QC substrate now support focused scientific feasibility discussion, but the critical preprocessing gate is not sufficiently resolved for an unconditional transition. After recording a satisfactory provenance resolution and maintaining the stated outcome/quarantine/timing boundaries, proceed to **Research Gap & Problem Formulation**. Do not start model development or select the final problem in this pass.
