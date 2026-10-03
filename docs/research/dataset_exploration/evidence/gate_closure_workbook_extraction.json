@@ -1,0 +1,11 @@
+{
+  "source_sha256": "208ea52b397dd4f422d1239d0a0a5a4a08b67c5b6f0099c9e817445c41b20fcf",
+  "python": "3.12.14",
+  "openpyxl": "3.1.5",
+  "read_only": true,
+  "data_only": true,
+  "sheets": [
+    "Questions"
+  ],
+  "note": "Workbook values extracted without editing; number/date formats can expose original Excel serialization, including ratio options stored as durations."
+}

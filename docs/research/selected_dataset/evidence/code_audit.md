@@ -1,5 +1,7 @@
 # Pinned preprocessing, export and schema audit
 
+**Follow-up — 2026-10-02:** the fresh main commit check still resolves to 5109afa. [Release-level transfer tests](../../dataset_exploration/gate_closure.md) empirically narrow ECG filtering, but the exporter runner loads preprocessed arrays and supplies no native option record. The 1–3 continuous script enables only EOG in its input list; the optional EEG pre-channel-rejection branch has a four-argument call to a three-argument nested function. Column 1 pupil export differs from head-regressed/normalized columns 2/3. These details prevent treating this snapshot as a complete executed recipe for all released derivatives. Exp.2 schemas match Exp.1 content/order, but historical original aggregate scores differ and response permutations remain missing; its scientific behavioral use is quarantined.
+
 Snapshot: [madjens/bbbd-dataset, 5109afa0fd70c407b869108106f5808c6b0cc33c](https://github.com/madjens/bbbd-dataset/tree/5109afa0fd70c407b869108106f5808c6b0cc33c), committed 2026-09-23. Static inspection only. Findings below concern this snapshot, not a claim that all released derivatives were produced by these exact functions/options.
 
 | Finding | Reproducible locator in pinned tree | Implication / evidence type |

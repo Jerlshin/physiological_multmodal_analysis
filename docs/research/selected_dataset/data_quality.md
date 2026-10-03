@@ -1,5 +1,7 @@
 # Dataset quality and risk assessment
 
+**Current empirical status — 2026-10-02:** the historical documentation-only assessment below is superseded by [full release QC](../dataset_exploration/signal_quality.md) and [blocking-issue follow-up](../dataset_exploration/gate_closure.md). Exp.2 outcome safety is handled by behavioral exclusion, independently of numerical signal QC. ECG filtering is strongly narrowed across all testable pairs; the unknown EEG/eye execution and physical scaling still block full physiological certification. Source score reconstruction and provisional QC must not be treated as complete scientific target certification.
+
 This is a documentation/code assessment, not signal inspection. **No subject or file has yet been QC-approved by this review.** Sources resolve in the [registry](evidence/source_registry.md); stable judgments are tracked in the [inference register](../inference_register.md).
 
 | Risk | Evidence category and observed basis | Scientific consequence / next check |

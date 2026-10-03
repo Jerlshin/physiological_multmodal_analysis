@@ -1,0 +1,87 @@
+{
+  "validated_utc": "2026-10-02T16:45:18.781781+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "eight original files match retained official source hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "upstream main unchanged from pinned source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "106 one-to-one content/order mappings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Exp.2 keyed companion matches all IDs and core traits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "historical non-equivalence independently visible in both sums",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original outcome columns preserved exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "eligibility excludes only Exp.2 beyond previous quarantines",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "581 behavioral memory outcomes and 147 qualified people",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all 1150 available ECG pairs accounted for",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all 1140 testable ECG pairs favor native-rate causal fifth-order response",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ten untestable sources are all-NaN raw ECG, not hidden successes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "revised direct multimodal counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "revised direct cardiac/eye counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all candidate behavioral ceilings use the current view",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocking and quarantine statuses are explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "20 tests including transfer negative controls passed",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scope": "New gate findings and scientific eligibility; legacy full-release QC validation is separate."
+}

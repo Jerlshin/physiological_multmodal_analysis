@@ -1,5 +1,7 @@
 # BBBD scientific evidence review
 
+**Blocking-issue follow-up — 2026-10-02:** [executed checks and verdict](../dataset_exploration/gate_closure.md) supersede the earlier readiness note below. OQ-06 is empirically narrowed for ECG but remains blocking for EEG/eye execution and calibration. Exp.2 behavioral targets are quarantined after content mapping and historical score non-equivalence; direct multimodal behavioral ceilings are now **94 people / 324 observations / 8 videos**. The full formulation transition is not yet ready; no final question or model is selected.
+
 **Empirical-stage amendment — 2026-10-02:** the [verified-release audit](../dataset_exploration/README.md) now supersedes this review's historical “not downloaded/tested” acquisition status. The documentary claims below remain dated 2026-10-01. Actual-file findings use **EMPIRICALLY VERIFIED IN THIS AUDIT** and are recorded separately, including [current P0 gates](../dataset_exploration/open_questions_resolved.md), [preprocessing trace](../dataset_exploration/preprocessing_provenance.md) and [candidate feasibility](../dataset_exploration/research_feasibility.md). OQ-06 remains blocking; no final problem or model is selected.
 
 Review date: **2026-10-01**. Selected release: **Zenodo 1.1, 2026-09-25**. Stage: dataset reconstruction and prior-art review, before research-gap/problem formulation. No model was developed and no final problem was selected.

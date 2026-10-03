@@ -453,6 +453,9 @@ We have verified all five BBBD1.1 Zenodo22968459 archives against official MD5 a
 
 This is a local evidence request draft. No message or email has been sent; sending requires a separate explicit user instruction.
 ''')
+    if (EVIDENCE/'gate_closure_ecg_all_pairs.csv').exists() and (EVIDENCE/'gate_closure_historical_quiz_comparison.json').exists():
+        from .gate_closure import apply_document_status
+        apply_document_status()
     print('Research reports generated',flush=True)
 
 if __name__=='__main__':run()

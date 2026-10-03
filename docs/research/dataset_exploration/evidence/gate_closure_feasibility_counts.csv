@@ -1,0 +1,7 @@
+scope,modalities,people,videos,observations
+release_key_audit_all,eeg+ecg+eye,120,11,444
+release_key_audit_all,ecg+eye,120,11,447
+release_key_audit_all,eeg,149,11,578
+exclude_exp2_behavior,eeg+ecg+eye,94,8,324
+exclude_exp2_behavior,ecg+eye,94,8,327
+exclude_exp2_behavior,eeg,119,8,429

@@ -1,0 +1,72 @@
+{
+  "content_items": 106,
+  "identical_questions": 106,
+  "identical_option_orders": 106,
+  "response_distributions": [
+    {
+      "experiment": 1,
+      "question_type": "domain",
+      "rows": 1269,
+      "people": 27,
+      "key_values": [
+        1.0
+      ],
+      "score": 0.5350669818754925,
+      "answer_counts": {
+        "1": 679,
+        "2": 204,
+        "3": 150,
+        "4": 236
+      }
+    },
+    {
+      "experiment": 1,
+      "question_type": "memory",
+      "rows": 1593,
+      "people": 27,
+      "key_values": [
+        1.0
+      ],
+      "score": 0.6516007532956686,
+      "answer_counts": {
+        "1": 1038,
+        "2": 165,
+        "3": 180,
+        "4": 210
+      }
+    },
+    {
+      "experiment": 2,
+      "question_type": "domain",
+      "rows": 1457,
+      "people": 31,
+      "key_values": [
+        1.0
+      ],
+      "score": 0.2539464653397392,
+      "answer_counts": {
+        "1": 370,
+        "2": 346,
+        "3": 354,
+        "4": 387
+      }
+    },
+    {
+      "experiment": 2,
+      "question_type": "memory",
+      "rows": 1829,
+      "people": 31,
+      "key_values": [
+        1.0
+      ],
+      "score": 0.25751776927282666,
+      "answer_counts": {
+        "1": 471,
+        "2": 459,
+        "3": 463,
+        "4": 436
+      }
+    }
+  ],
+  "interpretation": "Content/order mapping is verified; the response code to presented-option permutation is not established by these content schemas. No majority-vote key or outcome-maximizing permutation is used."
+}

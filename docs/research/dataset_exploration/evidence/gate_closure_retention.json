@@ -1,0 +1,353 @@
+{
+  "recorded_utc": "2026-10-02T16:48:52.719929+00:00",
+  "added_artifact_bytes": 1098932,
+  "added_artifact_allocated_bytes": 1204224,
+  "artifacts": [
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_Education_questions.json",
+      "bytes": 70419,
+      "allocated_bytes": 73728,
+      "sha256": "74fc8c2f1aa084ab9cf7b767f2ed15e4dd064aa6adab559ff28cb6d679c31329",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_Education_questions.xlsx",
+      "bytes": 26562,
+      "allocated_bytes": 28672,
+      "sha256": "208ea52b397dd4f422d1239d0a0a5a4a08b67c5b6f0099c9e817445c41b20fcf",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_P01_Experiment_2_Points.mat",
+      "bytes": 2611,
+      "allocated_bytes": 4096,
+      "sha256": "edeeafec4165dab82fd36bee96b77cdfd3249729b6cbc47b204a4e1f9bff5971",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_P01_Experiment_2_demographics.mat",
+      "bytes": 3916,
+      "allocated_bytes": 4096,
+      "sha256": "4fb20fde2c9e436e31c0274107abd78e342d04269caf7c025a4f6b5bfd30b3a3",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_P01_Experiment_2_questionnaire.mat",
+      "bytes": 941,
+      "allocated_bytes": 4096,
+      "sha256": "9655bdb4027d2ef093f562b40d6b1591b1ecd6d647c4a8d334d1e62a11c96ff0",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_P01_Experiment_2_stimuli_order.mat",
+      "bytes": 268,
+      "allocated_bytes": 4096,
+      "sha256": "8898d8d375bc18234fb153342fa63f1bf611882d4d4ed98c22765f4a6b7078b5",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_P01_figure_1.m",
+      "bytes": 16307,
+      "allocated_bytes": 16384,
+      "sha256": "2b435541739301382aaa71191708fd448fc7cc3f3fadec454304eacf98fc19c6",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_P01_figure_2.m",
+      "bytes": 28159,
+      "allocated_bytes": 28672,
+      "sha256": "64fdcf042e10f7c09c9fcb9c5b61bd8c6a18d4fd126d880ae2a6295dfe5160cf",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet",
+      "bytes": 21053,
+      "allocated_bytes": 24576,
+      "sha256": "50617bbd0f18b3b5da556c5b4267ed516d99f5d884d34898a330fe0cd19d9158",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_ecg_all_pairs.csv",
+      "bytes": 424382,
+      "allocated_bytes": 425984,
+      "sha256": "b287f3ce88311fa8a02d2410e561ddef54038698c1df3ece1a4739ef7ff802a2",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_feasibility_counts.csv",
+      "bytes": 285,
+      "allocated_bytes": 4096,
+      "sha256": "ce6d9c1238a11efab78e87d885ec3e4a12c5665543eb32f1d08b9c309491d861",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_filter_candidates.csv",
+      "bytes": 71495,
+      "allocated_bytes": 73728,
+      "sha256": "34c48a62e0456dc4effb12f328753d248077596be7d329ddabb80105e9382b75",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_followup.log",
+      "bytes": 168,
+      "allocated_bytes": 4096,
+      "sha256": "c1f88a2487a772946fd6ed73ee5d9276bdd5e6d5471054cfa582e0f5fb61d6d8",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_historical_quiz_comparison.json",
+      "bytes": 1960,
+      "allocated_bytes": 4096,
+      "sha256": "63c6f14e47a9e6be1a3a92eaa7a204ccdbc95da10b9ce61ad3f9a631d8851a4e",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_official_experiments.html",
+      "bytes": 21244,
+      "allocated_bytes": 24576,
+      "sha256": "8694d9948952506381c3fd1deaa39d100b3e88b0e46a2f1b04faf6cc135b3478",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_official_experiments.js",
+      "bytes": 18425,
+      "allocated_bytes": 20480,
+      "sha256": "31d02e3f6311a784921bb1ca31bb956c44432901d9e1ebfca7bfd29f65a403f1",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_official_stars_quiz.tsv",
+      "bytes": 3881,
+      "allocated_bytes": 4096,
+      "sha256": "712c0839ed47eff86a1383dcc67f1505f0e86ab255826608c8abbf4c2f86f67c",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_original_workbook_mapping.csv",
+      "bytes": 2574,
+      "allocated_bytes": 4096,
+      "sha256": "cbb5b3241437085ecbdb1af5db5e3f4c1a161b5831ff91e4abf9642cda510e39",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_analysis_root.json",
+      "bytes": 5173,
+      "allocated_bytes": 8192,
+      "sha256": "464a3041f2a12c93031100509a9ec945d9d8bffd5ce96331f2dced8e53a77c1e",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_d4k3q_code.json",
+      "bytes": 18236,
+      "allocated_bytes": 20480,
+      "sha256": "6d84596e5112b083c82e677d5dd62899a68e388937a95fcc929e50a30be89ca3",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_d4k3q_data.json",
+      "bytes": 21456,
+      "allocated_bytes": 24576,
+      "sha256": "d341ee306712845167e9779a6ce1c7e17ec358f7f4e4c5ae5908dea645b43a7c",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_d4k3q_helpers.json",
+      "bytes": 37471,
+      "allocated_bytes": 40960,
+      "sha256": "e73af98ed9638eb2fa1e8ffbb36861bd3b078f46e99481c9e3da4799ac9d1754",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_d4k3q_routines.json",
+      "bytes": 18813,
+      "allocated_bytes": 20480,
+      "sha256": "5b378e98276fa8cb87cebb7b5a1d7798d678387b1cf54034183b299978fe776a",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_code.json",
+      "bytes": 18228,
+      "allocated_bytes": 20480,
+      "sha256": "9fa10691af272bdea6ae2916092ab445f14c6eb098d62089b93989e5e08ef658",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_data.json",
+      "bytes": 15041,
+      "allocated_bytes": 16384,
+      "sha256": "4ef270331abca93728439672891ff91a6af993b3b8916e379cb7c0b49839ee19",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_exp1.json",
+      "bytes": 21951,
+      "allocated_bytes": 24576,
+      "sha256": "f55bbf4e87c00d77b61a5398b33bb0a4b4d9a6a6f4e191e1f886c871dfbf67c2",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_exp2.json",
+      "bytes": 19074,
+      "allocated_bytes": 20480,
+      "sha256": "32b746fbccf65620533c6e2c3a8dec8d8385c55d744126643fd0a8d9ed8722de",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_files.json",
+      "bytes": 6860,
+      "allocated_bytes": 8192,
+      "sha256": "4f15227bf6b79770664d15b53f2219d5af7498798b80b374f959d9a78880d21c",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_helpers.json",
+      "bytes": 52202,
+      "allocated_bytes": 53248,
+      "sha256": "022cd6a3eb5ebaca024b807364ae21ed84f00225e495765f711315457fd245eb",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_osf_m7gj4_root.json",
+      "bytes": 947,
+      "allocated_bytes": 4096,
+      "sha256": "bec1916a98451cec4e5c6e0b9335dfe6bb5249c135c2fa83bb15d8b37f2b7278",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_p03_preprocessEEGdata.m",
+      "bytes": 2942,
+      "allocated_bytes": 4096,
+      "sha256": "0ea6566359ceffced41d0cb624da74aa525b492998d6f8820afe32cbdcd4aab8",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_probe_selection.json",
+      "bytes": 2517,
+      "allocated_bytes": 4096,
+      "sha256": "3d87ed76762ea9a14d2cd305f865343bbc32378155107789730d796769b7eb94",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_quiz_content_map.csv",
+      "bytes": 9551,
+      "allocated_bytes": 12288,
+      "sha256": "3c6f22f152477b1bb10217149d5e89dab0a66ea71e2662c4b0c166bc5bbcc722",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_quiz_content_summary.json",
+      "bytes": 1508,
+      "allocated_bytes": 4096,
+      "sha256": "b7a7d7d7ee599ce512a35ccad1c7744e81db1872e2aa594f63574a9fef5d3636",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_signal_pairs.csv",
+      "bytes": 43352,
+      "allocated_bytes": 45056,
+      "sha256": "c917e223390c2fb286facff472b3cefd1f652ac62046ede345b402410966122c",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_signal_probes.log",
+      "bytes": 175,
+      "allocated_bytes": 4096,
+      "sha256": "e273c4389886a64635c25c310065cafa871c37cc66089a25859e0bc54c336985",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_sources.json",
+      "bytes": 8116,
+      "allocated_bytes": 8192,
+      "sha256": "5b420c268e5ca8c5b5dc05da72f99cd7c592d88174f29d419c26708a62327a81",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_tests.log",
+      "bytes": 2194,
+      "allocated_bytes": 4096,
+      "sha256": "efe4a5600d88f5d32d5d552d9477136fe5d327aedbfff79507399f8728cc3b02",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_upstream_main.json",
+      "bytes": 5526,
+      "allocated_bytes": 8192,
+      "sha256": "db069695e857041de08e631ba470c12a43c719be0ce4634d36afb33a7f4962b5",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_validation.json",
+      "bytes": 2159,
+      "allocated_bytes": 4096,
+      "sha256": "40348c59974faf1266489bd818ffc688a1d7abe22332a4d3ad52eead26be8977",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_workbook_extraction.json",
+      "bytes": 375,
+      "allocated_bytes": 4096,
+      "sha256": "4613cadc4641e8bebbf3aaf5afd15dbcba9da59ec8502272b2aaf034cf94b29f",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/superseded_checkpoints/p0_gate_status_before_gate_closure.csv",
+      "bytes": 1342,
+      "allocated_bytes": 4096,
+      "sha256": "f84c1293f242db5fb11870c61f104af91ad014f9e2f0ca85149314c3b7fd802d",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/evidence/superseded_checkpoints/research_feasibility_before_gate_closure.csv",
+      "bytes": 5005,
+      "allocated_bytes": 8192,
+      "sha256": "18395096eaf346e035e1c13c0e819bec633459e53f9232a5ab56651742c42f39",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "docs/research/dataset_exploration/gate_closure.md",
+      "bytes": 15849,
+      "allocated_bytes": 16384,
+      "sha256": "0816c1153bfc6362ad1455e13f8c6689e1669027d48be2885628cb99896d1398",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "scripts/extract_gate_quiz_workbook.py",
+      "bytes": 1084,
+      "allocated_bytes": 4096,
+      "sha256": "23b8f6963d21c4b3e88582df9decd277eb4b87769f5e0f5403d3f63d71064e56",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "scripts/fetch_gate_closure_sources.sh",
+      "bytes": 2961,
+      "allocated_bytes": 4096,
+      "sha256": "0563b3dc5fa5ba2c9d01ebff58a1b9f1edc133f8ea4522db423d353b005089a9",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "src/bbbd_audit/gate_closure.py",
+      "bytes": 42853,
+      "allocated_bytes": 45056,
+      "sha256": "71d319213df574ac028244f98208f36ceb60800c6292ed60eeeb4c214f38ff7e",
+      "retention": "KEEP scientific evidence/source"
+    },
+    {
+      "path": "tests/test_gate_closure.py",
+      "bytes": 1321,
+      "allocated_bytes": 4096,
+      "sha256": "6471a4b343b62fc658e695eb85cf4d3b7dcf6d0c4e5e6a79d754fb8ab637f273",
+      "retention": "KEEP scientific evidence/source"
+    }
+  ],
+  "regenerable_source_inspection_cache": {
+    "path": "data/bbbd/provenance_source_5109afa",
+    "files": 54,
+    "bytes": 2542663,
+    "recreate": "Extract text/code members from evidence/upstream_code_5109afa.zip; no waveform content"
+  },
+  "canonical_source_bytes": 26973110601,
+  "canonical_deleted_bytes": 0,
+  "full_waveform_copies_created": 0,
+  "note": "Follow-up artifacts only, not a new whole-repository footprint cutoff. Existing amended reports and earlier audit snapshots remain retained."
+}

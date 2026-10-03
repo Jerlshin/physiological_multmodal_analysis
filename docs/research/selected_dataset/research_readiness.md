@@ -1,5 +1,7 @@
 # Research-readiness report and next-stage candidates
 
+**Current follow-up — 2026-10-02:** [gate findings](../dataset_exploration/gate_closure.md) supersede the historical assessments below. Exp.2's scientific behavioral outcomes are excluded; Exp.3 is the strongest remaining first-view multimodal quiz cohort. EEG+ECG+eye ceilings fall to **94 qualified people / 324 observations / 8 videos**; ECG+eye to **94 / 327 / 8**. C03 excludes incidental-versus-intentional behavior comparisons and is bounded to appropriate 3–5 protocols. OQ-06 remains blocking despite dataset-wide ECG filter narrowing, so the full formulation gate is **not yet closed**. [Revised candidate matrix](../dataset_exploration/research_feasibility.md).
+
 **Assessment on 2026-10-01:** BBBD remains scientifically promising, but it is **ready for a targeted archive/provenance audit, not yet for a final paper-problem commitment or model development**. Documentation and code establish useful designs and substantial prior occupancy; corrected labels, effective coverage and signal quality remain unverified at file level. [Profile](dataset_profile.md); [source registry](evidence/source_registry.md)
 
 ## What exactly is the dataset, and why is it valuable?

@@ -10,3 +10,13 @@ We have verified all five BBBD 1.1 Zenodo record 22968459 archives against offic
 6. Original answer-order canonicalization in Exp.2: supplied correct-option codes are uniformly 1 and its mean score is near the uniform four-option chance benchmark. We have reconstructed the supplied scores but cannot independently verify the original response transformation.
 
 This is a local evidence request draft. No message or email has been sent; sending requires a separate explicit user instruction.
+
+## Follow-up evidence for a focused query — 2026-10-02
+
+ECG: all 1,140 testable release pairs favor causal fifth-order 0.5–25 Hz designed at 2048 Hz, with median gain 0.999975. Please confirm historical invocation, unit calibration and manual peak provenance rather than only function defaults. Ten Exp.2 sub-29 raw files contain all NaNs.
+
+EEG/eye: the export runner loads preprocessed arrays and supplies no preprocessing option record. Please provide executed per-cohort EEG reference/high-pass/RPCA/EOG/artifact options and fit scope, plus eye buffers/transform variants and native resampling lineage. Exported pupil column 1 is not the separate postprocessing function's normalized column 3.
+
+Exp.2: all 106 content/option-order entries match Exp.1, but P01 OSF Experiment_2_Points.mat has memory mean 0.545308 versus 0.257087 in v1.1 and domain mean 0.501790 versus 0.255293. Both have 31 × 5 cells; cell permutation cannot reconcile the means. The demographic companion matches all 31 local IDs and core trait coding/missingness. Please supply response-position to canonical-option permutations, explicit score-matrix row binding and the source scoring/export step. The historical aggregate matrix is not used to replace release labels.
+
+This evidence is local and the draft remains unsent.

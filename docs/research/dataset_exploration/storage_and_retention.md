@@ -34,3 +34,7 @@ Five read-only canonical ZIPs are retained: **26,973,110,601 bytes** (25.121 GiB
 ## Reproduction and future cleanup
 
 Run the command sequence in the [main report](README.md). `bbbd-audit verify` rehashes canonical ZIPs if independent integrity checking is required. `bbbd-audit audit` reads bounded chunks directly from archives. `python -m bbbd_audit.retention` refreshes accounting without deleting data; `--cleanup` only deletes classified small task caches after strict pre-cleanup validation. Large derived cleanup must receive a separate provenance/downstream/source audit and be logged here. If disk pressure later warrants removing extracted copies, preserve all canonical archives/checksums and extraction instructions first.
+
+## Blocking-issue follow-up retention — 2026-10-02
+
+The [follow-up retention ledger](evidence/gate_closure_retention.json) records the added small primary-source, signal-transfer, eligibility and validation artifacts, plus their generating scripts/tests. The earlier footprint cutoff above stays historical. Eight primary OSF source files are SHA-256 verified and pinned in [source ledger](evidence/gate_closure_sources.json); original release scores and canonical ZIPs are preserved. A small extracted text/code inspection tree under `data/bbbd/provenance_source_5109afa/` is regenerable from the retained upstream ZIP; it contains no waveforms. No canonical bytes were deleted and no full waveform copy was created. The updated generator applies the current gate status whenever reports are rebuilt.

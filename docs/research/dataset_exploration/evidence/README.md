@@ -1,5 +1,7 @@
 # Machine-readable evidence
 
+**Gate follow-up — 2026-10-02:** New gate_closure_* artifacts retain paired/all-ECG transfer tests, OSF hash-verified inputs, content maps, historical aggregate comparisons and an explicit behavioral eligibility view. The original quiz tables are unchanged. The generating module is bbbd_audit.gate_closure; report generation automatically reapplies this status. [Evidence and verdict](../gate_closure.md).
+
 Evidence is generated from checksum-verified BBBD 1.1 ZIPs by `src/bbbd_audit/`, using `audit_config.json`. Raw source snapshots and author-code ZIP are attributed to the official dataset/code sources. No model or evaluation split exists.
 
 | Artifact | Scientific role |

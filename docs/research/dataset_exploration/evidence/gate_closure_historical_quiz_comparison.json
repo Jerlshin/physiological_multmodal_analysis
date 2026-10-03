@@ -1,0 +1,60 @@
+{
+  "workbook_mapped_items": 59,
+  "identical_questions": 58,
+  "identical_option_orders": 53,
+  "whitespace_normalized_questions": 59,
+  "whitespace_normalized_options": 58,
+  "cohort_companion": {
+    "historical_people": 31,
+    "released_people": 31,
+    "matched_ids": 31,
+    "identical_id_sets": true,
+    "matching_companion_trait_counts": {
+      "Age": 31,
+      "Sex": 31,
+      "Study_time": 31,
+      "GPA": 31
+    },
+    "shared_missing_companion_trait_counts": {
+      "Age": 0,
+      "Sex": 0,
+      "Study_time": 3,
+      "GPA": 2
+    },
+    "stimulus_order_shape": [
+      31,
+      5
+    ],
+    "order_rows_are_permutations_of_1_5": true,
+    "boundary": "The keyed companion strongly supports cohort correspondence; Points and order matrices themselves have no row IDs. No score-matrix row binding or response permutations are reconstructed."
+  },
+  "aggregate_comparison": [
+    {
+      "question_type": "domain",
+      "historical_shape": [
+        31,
+        5
+      ],
+      "historical_mean": 0.5017904855001629,
+      "released_pairs": 155,
+      "released_mean": 0.2552932551319649,
+      "historical_sum": 77.77752525252525,
+      "released_sum": 39.57045454545455,
+      "scope": "Unkeyed historical matrix; no participant-row reassignment. Mean/sum discrepancy cannot be explained by permuting these 31x5 cells."
+    },
+    {
+      "question_type": "memory",
+      "historical_shape": [
+        31,
+        5
+      ],
+      "historical_mean": 0.545307917888563,
+      "released_pairs": 155,
+      "released_mean": 0.2570869990224829,
+      "historical_sum": 84.52272727272727,
+      "released_sum": 39.848484848484844,
+      "scope": "Unkeyed historical matrix; no participant-row reassignment. Mean/sum discrepancy cannot be explained by permuting these 31x5 cells."
+    }
+  ],
+  "interpretation": "Historical aggregates are evidence of non-equivalence, not a replacement target or an independent response-to-option mapping."
+}

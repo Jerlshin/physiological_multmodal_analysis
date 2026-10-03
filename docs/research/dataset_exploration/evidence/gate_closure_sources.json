@@ -1,0 +1,198 @@
+{
+  "verified_utc": "2026-10-02T16:45:18.638123+00:00",
+  "release_record": 22968459,
+  "upstream_main": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+  "sources": [
+    {
+      "path": "gate_closure_Education_questions.xlsx",
+      "bytes": 26562,
+      "sha256": "208ea52b397dd4f422d1239d0a0a5a4a08b67c5b6f0099c9e817445c41b20fcf",
+      "source_url": "https://osf.io/download/fjxaq/",
+      "metadata_listing": "gate_closure_osf_m7gj4_data.json",
+      "osf_file_id": "6008c62b86541a0a0514b80f",
+      "source_version": 1,
+      "source_modified": "2021-01-21T00:09:15.218467",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_P01_Experiment_2_Points.mat",
+      "bytes": 2611,
+      "sha256": "edeeafec4165dab82fd36bee96b77cdfd3249729b6cbc47b204a4e1f9bff5971",
+      "source_url": "https://osf.io/download/6prma/",
+      "metadata_listing": "gate_closure_osf_m7gj4_exp2.json",
+      "osf_file_id": "5fda7edb149e75043c027d84",
+      "source_version": 1,
+      "source_modified": "2020-12-16T21:40:43.110127",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_P01_Experiment_2_questionnaire.mat",
+      "bytes": 941,
+      "sha256": "9655bdb4027d2ef093f562b40d6b1591b1ecd6d647c4a8d334d1e62a11c96ff0",
+      "source_url": "https://osf.io/download/5fda7edc0694b7048ef36b8a/",
+      "metadata_listing": "gate_closure_osf_m7gj4_exp2.json",
+      "osf_file_id": "5fda7edc0694b7048ef36b8a",
+      "source_version": 1,
+      "source_modified": "2020-12-16T21:40:44.600587",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_P01_figure_1.m",
+      "bytes": 16307,
+      "sha256": "2b435541739301382aaa71191708fd448fc7cc3f3fadec454304eacf98fc19c6",
+      "source_url": "https://osf.io/download/txcpd/",
+      "metadata_listing": "gate_closure_osf_m7gj4_code.json",
+      "osf_file_id": "601a92f8c5784b06ced03e20",
+      "source_version": 1,
+      "source_modified": "2021-02-03T12:11:36.945489",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_P01_figure_2.m",
+      "bytes": 28159,
+      "sha256": "64fdcf042e10f7c09c9fcb9c5b61bd8c6a18d4fd126d880ae2a6295dfe5160cf",
+      "source_url": "https://osf.io/download/njgvd/",
+      "metadata_listing": "gate_closure_osf_m7gj4_code.json",
+      "osf_file_id": "601a931575226b08a0514903",
+      "source_version": 1,
+      "source_modified": "2021-02-03T12:12:05.198359",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_P01_Experiment_2_demographics.mat",
+      "bytes": 3916,
+      "sha256": "4fb20fde2c9e436e31c0274107abd78e342d04269caf7c025a4f6b5bfd30b3a3",
+      "source_url": "https://osf.io/download/5fda7ed6149e75043b0279dc/",
+      "metadata_listing": "gate_closure_osf_m7gj4_exp2.json",
+      "osf_file_id": "5fda7ed6149e75043b0279dc",
+      "source_version": 1,
+      "source_modified": "2020-12-16T21:40:38.912747",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_P01_Experiment_2_stimuli_order.mat",
+      "bytes": 268,
+      "sha256": "8898d8d375bc18234fb153342fa63f1bf611882d4d4ed98c22765f4a6b7078b5",
+      "source_url": "https://osf.io/download/5fda7edd0694b70491f36170/",
+      "metadata_listing": "gate_closure_osf_m7gj4_exp2.json",
+      "osf_file_id": "5fda7edd0694b70491f36170",
+      "source_version": 1,
+      "source_modified": "2020-12-16T21:40:45.520915",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_p03_preprocessEEGdata.m",
+      "bytes": 2942,
+      "sha256": "0ea6566359ceffced41d0cb624da74aa525b492998d6f8820afe32cbdcd4aab8",
+      "source_url": "https://osf.io/download/h6a7w/",
+      "metadata_listing": "gate_closure_osf_d4k3q_routines.json",
+      "osf_file_id": "61e1f743466d150307d57c21",
+      "source_version": 1,
+      "source_modified": "2022-01-14T22:20:51.676469",
+      "official_sha256_match": true
+    },
+    {
+      "path": "gate_closure_official_experiments.html",
+      "bytes": 21244,
+      "sha256": "8694d9948952506381c3fd1deaa39d100b3e88b0e46a2f1b04faf6cc135b3478",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_official_experiments.js",
+      "bytes": 18425,
+      "sha256": "31d02e3f6311a784921bb1ca31bb956c44432901d9e1ebfca7bfd29f65a403f1",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_official_stars_quiz.tsv",
+      "bytes": 3881,
+      "sha256": "712c0839ed47eff86a1383dcc67f1505f0e86ab255826608c8abbf4c2f86f67c",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_analysis_root.json",
+      "bytes": 5173,
+      "sha256": "464a3041f2a12c93031100509a9ec945d9d8bffd5ce96331f2dced8e53a77c1e",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_d4k3q_code.json",
+      "bytes": 18236,
+      "sha256": "6d84596e5112b083c82e677d5dd62899a68e388937a95fcc929e50a30be89ca3",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_d4k3q_data.json",
+      "bytes": 21456,
+      "sha256": "d341ee306712845167e9779a6ce1c7e17ec358f7f4e4c5ae5908dea645b43a7c",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_d4k3q_helpers.json",
+      "bytes": 37471,
+      "sha256": "e73af98ed9638eb2fa1e8ffbb36861bd3b078f46e99481c9e3da4799ac9d1754",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_d4k3q_routines.json",
+      "bytes": 18813,
+      "sha256": "5b378e98276fa8cb87cebb7b5a1d7798d678387b1cf54034183b299978fe776a",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_code.json",
+      "bytes": 18228,
+      "sha256": "9fa10691af272bdea6ae2916092ab445f14c6eb098d62089b93989e5e08ef658",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_data.json",
+      "bytes": 15041,
+      "sha256": "4ef270331abca93728439672891ff91a6af993b3b8916e379cb7c0b49839ee19",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_exp1.json",
+      "bytes": 21951,
+      "sha256": "f55bbf4e87c00d77b61a5398b33bb0a4b4d9a6a6f4e191e1f886c871dfbf67c2",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_exp2.json",
+      "bytes": 19074,
+      "sha256": "32b746fbccf65620533c6e2c3a8dec8d8385c55d744126643fd0a8d9ed8722de",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_files.json",
+      "bytes": 6860,
+      "sha256": "4f15227bf6b79770664d15b53f2219d5af7498798b80b374f959d9a78880d21c",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_helpers.json",
+      "bytes": 52202,
+      "sha256": "022cd6a3eb5ebaca024b807364ae21ed84f00225e495765f711315457fd245eb",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_osf_m7gj4_root.json",
+      "bytes": 947,
+      "sha256": "bec1916a98451cec4e5c6e0b9335dfe6bb5249c135c2fa83bb15d8b37f2b7278",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    },
+    {
+      "path": "gate_closure_upstream_main.json",
+      "bytes": 5526,
+      "sha256": "db069695e857041de08e631ba470c12a43c719be0ce4634d36afb33a7f4962b5",
+      "kind": "primary retrieval snapshot; see retrieval script for URL"
+    }
+  ],
+  "access_limit": "fjxaq is a file-download GUID, not an accessible project node; its workbook is discoverable and verified via m7gj4. Historical response permutations and executed release option logs were not found.",
+  "libraries": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1"
+  }
+}

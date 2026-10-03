@@ -1,5 +1,7 @@
 # Quiz integrity
 
+**Gate follow-up — 2026-10-02:** All 12,470 rows still reconstruct against supplied keys. Exp.2 content mapping is verified, but response mapping is unverified and historical scores disagree. Its domain/memory targets are now quarantined from scientific behavioral use; this table remains an encoding audit. [Evidence and verdict](gate_closure.md).
+
 **EMPIRICALLY VERIFIED IN THIS AUDIT.** All 12,470 item-row scores reconstruct from the supplied answer selections and answer keys with absolute tolerance 1e-8. Experiments 1–2 use equality of single answer/key. Experiments 3–5 use `number of selected correct options / number of correct options`. Extra wrong selections do **not** lower that partial score. In 4–5, `is_correct` requires exact selected/key set equality. Partial and exact outcomes must remain separate; fractional credit is not automatically a binomial count.
 
 | experiment | rows | quiz_people | duplicate_item_rows | score_mismatches | correctness_mismatches | score_one_with_wrong_selection |
@@ -9,7 +11,6 @@
 | 3 | 2304 | 32 | 2 | 0 | 0 | 63 |
 | 4 | 1548 | 43 | 0 | 0 | 0 | 16 |
 | 5 | 1728 | 48 | 0 | 0 | 0 | 19 |
-
 
 There are 10 unmatched participant-level phenotype records: [complete ledger](evidence/participant_quiz_join_ledger.csv). They are surplus relative to the release participant/signal keys, not reassigned by row order. Signal-participant to metadata and participant to aggregate quiz are one-to-one at person/video scope; person/video to item responses is one-to-many. Repeated viewing creates one outcome potentially linked to two exposures, not two independent outcomes. Exact join validations reject ambiguous video mappings.
 

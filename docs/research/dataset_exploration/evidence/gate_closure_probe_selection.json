@@ -1,0 +1,125 @@
+{
+  "rule": "first and median released participant; both sessions; first task in each session; no outcome selection",
+  "probes": [
+    {
+      "experiment": 1,
+      "participant_id": "sub-02",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 1,
+      "participant_id": "sub-02",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 1,
+      "participant_id": "sub-15",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 1,
+      "participant_id": "sub-15",
+      "session": 2,
+      "local_stimulus_id": 4
+    },
+    {
+      "experiment": 2,
+      "participant_id": "sub-01",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 2,
+      "participant_id": "sub-01",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 2,
+      "participant_id": "sub-20",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 2,
+      "participant_id": "sub-20",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 3,
+      "participant_id": "sub-01",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 3,
+      "participant_id": "sub-01",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 3,
+      "participant_id": "sub-17",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 3,
+      "participant_id": "sub-17",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 4,
+      "participant_id": "sub-01",
+      "session": 1,
+      "local_stimulus_id": 4
+    },
+    {
+      "experiment": 4,
+      "participant_id": "sub-01",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 4,
+      "participant_id": "sub-22",
+      "session": 1,
+      "local_stimulus_id": 4
+    },
+    {
+      "experiment": 4,
+      "participant_id": "sub-22",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 5,
+      "participant_id": "sub-01",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 5,
+      "participant_id": "sub-01",
+      "session": 2,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 5,
+      "participant_id": "sub-26",
+      "session": 1,
+      "local_stimulus_id": 1
+    },
+    {
+      "experiment": 5,
+      "participant_id": "sub-26",
+      "session": 2,
+      "local_stimulus_id": 1
+    }
+  ]
+}

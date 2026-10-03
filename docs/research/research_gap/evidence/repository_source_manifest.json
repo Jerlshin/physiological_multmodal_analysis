@@ -1,0 +1,620 @@
+[
+  {
+    "path": "docs/research/README.md",
+    "bytes": 3387,
+    "sha256": "a4f84161e9a4c363c37356b9453cf507f463181ed270f303a2cd20ae0b132276",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/README.md",
+    "bytes": 11369,
+    "sha256": "8909f6706a79dad5f97fb640e995218ed270086ca886eeb67d9551b72b63acd4",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/archive_manifest.md",
+    "bytes": 1012,
+    "sha256": "ad2463fd8f193886f76fb04417f8b68e553ada3e4f2b3c38309991538ffad5f9",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/dataset_manifest.md",
+    "bytes": 3177,
+    "sha256": "46da549f8abd5f0ffac4e65d517b06a4eeb313a5c4e1f8287e7aaa150ec8c14e",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/download_and_version_audit.md",
+    "bytes": 2666,
+    "sha256": "aa9a9eebce0b3012f4e48bb96a3ff855ec31a077a016dd21c41c8c8ce670137b",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/ecg_quality.md",
+    "bytes": 3199,
+    "sha256": "f63bcb3cc5c6b5895500e58c6ae3604c6cc377ec8226c7e168fd7605c1c13d9e",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/eeg_quality.md",
+    "bytes": 3670,
+    "sha256": "e9ff827a45635ece5e7a0be9fea382fa1ee49e8c672e76ddd4bbcbc349562129",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/README.md",
+    "bytes": 3737,
+    "sha256": "11f5616fd122b1ca8b866033df18414fc9ad41ee01e8698665973766b57cb8b5",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/author_query_draft.md",
+    "bytes": 2918,
+    "sha256": "be76234eb12907dff6de95082ed48be55e4728c72ade13977c79271e293aadc7",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/release_metadata/experiment1/README.md",
+    "bytes": 9140,
+    "sha256": "e1952f1af1a355f6d45d196165238997f8cee6ebe982142bef270f3abac3849c",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/release_metadata/experiment2/README.md",
+    "bytes": 10582,
+    "sha256": "05a9eec67c0d369a9cdd8d68b4a350c24023ab89e333d7373c1143f3eda1271e",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/release_metadata/experiment3/README.md",
+    "bytes": 10938,
+    "sha256": "58a967ff0238feec5946494727f9f631c798b0549944c51cd71d5b211a7aaf7a",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/release_metadata/experiment4/README.md",
+    "bytes": 10791,
+    "sha256": "5c211dee5b5f7aff9e955fea0dc12dd4de787b94f1148d7b084ca594b42b084f",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/release_metadata/experiment5/README.md",
+    "bytes": 10674,
+    "sha256": "670d9a32e3cda0ec95114c23c32be6da4a74c266145e1a70555c901efb0f6695",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/exploratory_multimodal_structure.md",
+    "bytes": 1206,
+    "sha256": "15fc523e9764a87ebdeec9a1c8786b341a8730e4fdca88ebcb76ade8a79371eb",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/eye_quality.md",
+    "bytes": 2525,
+    "sha256": "c79015880b062ae6fe09479add5f8a73657895a4a7211e7bbfb9d32abe822660",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/gate_closure.md",
+    "bytes": 15849,
+    "sha256": "0816c1153bfc6362ad1455e13f8c6689e1669027d48be2885628cb99896d1398",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/leakage_and_independence.md",
+    "bytes": 2621,
+    "sha256": "ec3208d2793e90dfbd49f409626ef258bf73c87098c13b4a61099af334763eba",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/missingness.md",
+    "bytes": 2580,
+    "sha256": "ba23a9eb38ba254d324c8d793b9086c1c205304245eb83c253c31f501778e2af",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/modality_coverage.md",
+    "bytes": 3954,
+    "sha256": "737a297c805aa9d41410416a2cfca8588784f979b43b27650e754974038d1b61",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/open_questions_remaining.md",
+    "bytes": 2417,
+    "sha256": "64e36710daa6a594cb79f24ea68091789553cc3d4a7a1f8c75b73723a56ec704",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/open_questions_resolved.md",
+    "bytes": 2825,
+    "sha256": "94cf0da493d75a2dac0c29fbfdf1c293f56c8680d37568f6a014a2f74082a678",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/outcome_characterization.md",
+    "bytes": 4298,
+    "sha256": "8d55b4c515b0e63978c1180acafe49c0a5401ba24eb78ce6575f220c59cb3ecf",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/preprocessing_provenance.md",
+    "bytes": 4469,
+    "sha256": "73f9d7296db2da779a71bd92b5616e5c2bc1d295f1b85d46f178f2706d968984",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/quiz_integrity.md",
+    "bytes": 2980,
+    "sha256": "ffcd219321d76f3b17e92c7860159ed409d5ba07b1f17c10fcbb4f9270362651",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/research_feasibility.md",
+    "bytes": 4644,
+    "sha256": "0cae36d2b235da385c36e2dc64a2e6c249773217ab55d9c37d1a035ba4faa154",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/respiration_quality.md",
+    "bytes": 2068,
+    "sha256": "c1d9f3ce820eb196bc82619e1589eaccff7f89d29b6425942b8ae5cf9c67be16",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/signal_quality.md",
+    "bytes": 5537,
+    "sha256": "bcc13eadb06ff32a903818a9db0cbb6b4194f76211bd21c53172245b9f0e9eaa",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/storage_and_retention.md",
+    "bytes": 5553,
+    "sha256": "645959c6f55ef17b7bf584d4381cae84481d891fa65a90e3880ec7477b21015f",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/synchronization_audit.md",
+    "bytes": 1764,
+    "sha256": "8963cb9fe1a197d5fecfb3340aa18ef9079a4eff3ce3421b7773c6945c97f591",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/candidate_datasets.md",
+    "bytes": 5427,
+    "sha256": "8cd0832fd8852cd405d33d4e45568c60096609c23e2aaea2c468b961a124c1c7",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/comparison_matrix.md",
+    "bytes": 12816,
+    "sha256": "9cb61e51552fe0e3d4a2441a9e658444ee0bb4ce52061d3d55423bb6dfd97d7f",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/amigos.md",
+    "bytes": 2587,
+    "sha256": "b7f9c37839e2929dbdb6a5bf579712cf33e740b488cfeda18456f6f17b1994c7",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/balladeer.md",
+    "bytes": 3321,
+    "sha256": "1d2baf576495ae7280b41748fc3874b6488bea59810edeb25747780aaa4c7d1e",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/bbbd.md",
+    "bytes": 7726,
+    "sha256": "a53db6e7696e03e98f598fc4176851f507857e87d33badb263fec31c7a3f6e9e",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/case.md",
+    "bytes": 2389,
+    "sha256": "c627d246baa0d6286740f373499eb6ded7f942f5b06792ee3393ff4228550882",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/cog_bci.md",
+    "bytes": 2325,
+    "sha256": "25f149f0c731494f4c21405a023ad3f6fb9befc34b8adc6469847fd23e6a127b",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/cognitivelab.md",
+    "bytes": 1516,
+    "sha256": "4ff016fcb846792a8a9a34afd68af513bbbc6d3bc77b2e34b6188101d4ecc1de",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/deap.md",
+    "bytes": 2586,
+    "sha256": "e65befab6870e51d9b1292283a3812a94a81ac739ec0b65b144c0554b3de691d",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/dejavu.md",
+    "bytes": 2362,
+    "sha256": "851213a22c0fcb2bf6d762d682496dea17ec99bd3aa54d5323fcb04bc438321d",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/digit_span_ds003838.md",
+    "bytes": 4972,
+    "sha256": "e91f9482c575172978fec353c57131812c7cf62fca8b3afaf5f3e3e32af83a40",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/dreamt.md",
+    "bytes": 3823,
+    "sha256": "bac15a960387800e0045677b115b4678b741a7ff724e8f1eb0265ba26ee21b9d",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/embrace.md",
+    "bytes": 2379,
+    "sha256": "6d95a7e0c771ff5525734b401642b7853012f02c26abde39c6b7b351456ab5fa",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/empathicschool.md",
+    "bytes": 2236,
+    "sha256": "56e33329493ba37e7ad2ecdfc4827e17f583c1d10c77fa30b3463625f8553deb",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/enhanced_va.md",
+    "bytes": 2454,
+    "sha256": "8a49c2438241587bebd1bd0d266858e957133e02727ba47ab26723e505669292",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/idare.md",
+    "bytes": 2586,
+    "sha256": "f0ba195069357629cf81b2044a63c78c0a6a3be555fe9a14e28e65a63d9820dd",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/improve.md",
+    "bytes": 3171,
+    "sha256": "a496f14cbad452704142151672a969cc0f80167abdfd50520d4eeccb240a1565",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/k_emocon.md",
+    "bytes": 2640,
+    "sha256": "2c9e9d835239ab671d34eaf30ef12b013230fe83766f180305812e2039139959",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/llamac.md",
+    "bytes": 3058,
+    "sha256": "c297ca9897c899d681e4f525f721c5d7464ac743b707814f6112184adbda1ba5",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/mad.md",
+    "bytes": 1750,
+    "sha256": "0d5c1c234379c608bd0a5051a3f9ad0c566466fa6e7b5013c2c8cf9fe48ee486",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/mixed_emotion.md",
+    "bytes": 2657,
+    "sha256": "b6766b567f7284418e278aefecc51f9bdefed16f073d9851421a946ec83ac44b",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/mmv.md",
+    "bytes": 2862,
+    "sha256": "2829f227cb3673c0255493461c00abcf98aea72978fd0e9451903395dedbed93",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/mpd_df.md",
+    "bytes": 2841,
+    "sha256": "2a06b59ad77a6505a66e3110990d561aebb832d189a6ddd4eacbeae11fec443c",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/multiphysio_hrc.md",
+    "bytes": 2399,
+    "sha256": "ea1676a828c7e0bc755a88de8e8bb5fc7b319b83af4742e94667bca2abe9845e",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/nback_music.md",
+    "bytes": 1680,
+    "sha256": "07faf4e5229e68a94b48e37f2de064ff4ab434af0dbdd9855316f809676df2f5",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/public_exhibit.md",
+    "bytes": 2569,
+    "sha256": "1b0ab40ea307eef751176005792bf70bce9c50a51c50b0596ac6caf3e222ba2b",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/seed_vii.md",
+    "bytes": 2539,
+    "sha256": "9a3fd96479fc0837e26ce635ae3f583f072fe5c5699754f23151901a3fba12aa",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/sense42.md",
+    "bytes": 3210,
+    "sha256": "8a5e4d5f5195b658fc9c36f1817f18b72198c599aaf3dedaa5f2aac13ba5e379",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/stressid.md",
+    "bytes": 2229,
+    "sha256": "139db9498fc9a10eeed82b364f065d3b77e1facf1c1b4c1ac8044041821a4c35",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/tiles.md",
+    "bytes": 2174,
+    "sha256": "d6f6cf9b8a3f88e976c66976da0f36c7178ac69fee88ee04e2ff127e732d9ee9",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/wemac.md",
+    "bytes": 2776,
+    "sha256": "6c19c0b0c3dafa69e3fcd6305b2325a1b1dcaea0753c6e40799f7e7804754333",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/dataset_notes/wesad.md",
+    "bytes": 2411,
+    "sha256": "e4de060804245f3b11ae7fc6025c9d3acce8f9575342471293ea71a104db1e60",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/evidence/README.md",
+    "bytes": 3734,
+    "sha256": "1ef54e31f069919bc92653b24b798b66dbab94827b9a8a7409a3d9ac3be8c954",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/evidence/bbbd_cohort_table.md",
+    "bytes": 2004,
+    "sha256": "0df8e4ec24568a1eb2a7084ef0881e784c69135f60aba1e4b2437ff4412a6377",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/evidence/bbbd_release_manifest.md",
+    "bytes": 1500,
+    "sha256": "10872683940d2eacccc141251e4c0550b74632a4f48865d4a4c4f435e827c792",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/evidence/search_log.md",
+    "bytes": 135826,
+    "sha256": "d751accbf6181b1d2b185419b03d7ccc35a1d7f7b4459e02b3f442f03cd18777",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/exclusion_log.md",
+    "bytes": 7230,
+    "sha256": "57555d0a4113a4ea4974f006def4b83ea265e633e93768912e9b547145a08315",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/search_protocol.md",
+    "bytes": 8066,
+    "sha256": "52d0a23383fa1d695f291e89f7c304c5037247f424aafbbcc3eca296fbb66511",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_landscape/selection_decision.md",
+    "bytes": 10832,
+    "sha256": "112878a5c99e8deffe7c7e3bafaed1b92a2381f5b0700f3639cd0c7a8c73b51a",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/decision_log.md",
+    "bytes": 12538,
+    "sha256": "1401052477d181c49565354ced8f8d771e3a0dec4e003a42fd6ddc8e71d844b1",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/inference_register.md",
+    "bytes": 34126,
+    "sha256": "cf97f9c5f5eba2dbe22606d70afe070fcdd7d8caa90589d254846fac393f3084",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/literature/bibliography.md",
+    "bytes": 29143,
+    "sha256": "044fd7cbf389f095b6134c8397de11a6a5d7ae66bc770dc596a08b7bc38a4c99",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/README.md",
+    "bytes": 3973,
+    "sha256": "f3dfc75fbe3432880fab675e912bf7f8a4e10413374c4d5ca4561c5cdffc4690",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/acquisition_protocol.md",
+    "bytes": 6822,
+    "sha256": "fdcf9654b2f82b42e5aaf6166c77ce4a815481fcf7600fa221d21abc0878f490",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/data_quality.md",
+    "bytes": 8660,
+    "sha256": "4a1eb967af6e63b1843e2fe6cb64ae462535e13189bf2181d9cd82d4c93efcc2",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/dataset_profile.md",
+    "bytes": 5080,
+    "sha256": "efcf4f06ebeeab05c7739b91980e9e3a784b14fb423c6e9a4008b9393da3f9a5",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/evidence/code_audit.md",
+    "bytes": 7299,
+    "sha256": "4b5838ea5ec4af4cc5fefb5ee240cbb0d54722c9c411a53718450b1d0d321d61",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/evidence/search_log.md",
+    "bytes": 5308,
+    "sha256": "e26f4f5d5dd962ed69916c3d9d235f460208d0655db7ac69b88a861fc30caa73",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/evidence/source_registry.md",
+    "bytes": 10035,
+    "sha256": "9b0e2e671589ad6ff8c0e91f324369613c2d775b2596340da8c802bd2d110ef5",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/figures/README.md",
+    "bytes": 1416,
+    "sha256": "cc26d201c3244bc8efd35e3c71b7543beb86b0981ef75a95d808913d0c96b3f8",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/figures/dataset_organization.md",
+    "bytes": 1234,
+    "sha256": "6e835c1d4e129124ecdef14a6f3ee97c3e0a2db379c93092bcb99733cf9ab250",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/figures/protocol_and_signal_provenance.md",
+    "bytes": 1900,
+    "sha256": "115205fd4cb367a77334262d3e2cd129ba9116f1e5390ad9300a89fcd945fe38",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/known_limitations.md",
+    "bytes": 4574,
+    "sha256": "7dbbc6d1e9546c35215d206d98aeb892be62d6c4f57a949b7bd924e51117ec69",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/labels_and_tasks.md",
+    "bytes": 7829,
+    "sha256": "4b78e4100c9d6e54d8aa83cd727440f0c4919a0d150b535ddc61ecb01ca948ae",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/modalities.md",
+    "bytes": 10329,
+    "sha256": "0169305f042d52c3366016e6bad474a24d9c8d01b6f0e2399a869a0bce64ea14",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/open_questions.md",
+    "bytes": 8670,
+    "sha256": "e44f2fdcc2af30483e626cba3466aabd39a364be8ffb2367e86ff2bcc9e6c859",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/participants.md",
+    "bytes": 5862,
+    "sha256": "1ffaa0d00e3bb343fd46687b48bde082c5c35040355a51220374750c9ef11dcb",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/prior_work.md",
+    "bytes": 17865,
+    "sha256": "bbc1288323b5251356e9d9a5171d4f2754123eee2cfe6e35b97ba1944e591d16",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/prior_work_matrix.md",
+    "bytes": 6545,
+    "sha256": "04d07f4a8e372830c8b4c73e8dd7ee30e034b2d113753b666d59f698ca917885",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/selected_dataset/research_readiness.md",
+    "bytes": 12339,
+    "sha256": "e949cf51c685eac96830c5f67dca5c1a6dfdd2541d56c45c9d73b124d90960e1",
+    "role": "narrative research record"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet",
+    "bytes": 21053,
+    "sha256": "50617bbd0f18b3b5da556c5b4267ed516d99f5d884d34898a330fe0cd19d9158",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/exposure_tensor.parquet",
+    "bytes": 57150,
+    "sha256": "5bedc3d805f254cec6649ef5c1b60948a35639db1dd7a5f443c5c522f3e0c68d",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/quiz_items.parquet",
+    "bytes": 35415,
+    "sha256": "f844bf6667090480eda82f4ac4d65057b54e760897e1b36b2ce7b48bbac6b3b2",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/participant_traits.parquet",
+    "bytes": 37861,
+    "sha256": "853e72364d41f086b07eb32a4bf6ea883fd88ac28e8013f817e97f4b2c288c34",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/gate_closure_feasibility_counts.csv",
+    "bytes": 285,
+    "sha256": "ce6d9c1238a11efab78e87d885ec3e4a12c5665543eb32f1d08b9c309491d861",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/gate_closure_validation.json",
+    "bytes": 2159,
+    "sha256": "40348c59974faf1266489bd818ffc688a1d7abe22332a4d3ad52eead26be8977",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/gate_closure_historical_quiz_comparison.json",
+    "bytes": 1960,
+    "sha256": "63c6f14e47a9e6be1a3a92eaa7a204ccdbc95da10b9ce61ad3f9a631d8851a4e",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/gate_closure_sources.json",
+    "bytes": 8116,
+    "sha256": "5b420c268e5ca8c5b5dc05da72f99cd7c592d88174f29d419c26708a62327a81",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/research_feasibility.csv",
+    "bytes": 5864,
+    "sha256": "5ccf653a7d43ec386a8993ce9cb4ffd367f6cc14d66732ffb2ccd18af25461e6",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/exploratory_group_structure.csv",
+    "bytes": 25295,
+    "sha256": "30dcc7bc9dda5f34776edfe29d3fa277321e74317b6b6cc54b405c17b03a0acd",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/exploratory_quality_correlations.csv",
+    "bytes": 30093,
+    "sha256": "dc1132d771c5356ff8a13db9145ea93d21cd6edd2404f9fa2b1ec1b71e37f87c",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/independence_graph.json",
+    "bytes": 2490,
+    "sha256": "5e77f5b4935191f257ef43649dd0b0df6ae78851a425dafb5e4e288b5f11aef3",
+    "role": "decisive aggregate evidence"
+  },
+  {
+    "path": "docs/research/dataset_exploration/evidence/leakage_risk_register.json",
+    "bytes": 4215,
+    "sha256": "6a2ee095ec04377c1dbd7fa6e4c774419b3fa0ded93b844eb2b5981f16d92513",
+    "role": "decisive aggregate evidence"
+  }
+]

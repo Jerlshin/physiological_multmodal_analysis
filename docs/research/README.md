@@ -1,4 +1,12 @@
-# Research project: dataset decision
+# Research project: evidence and problem formulation
+
+**Current phase — 2026-10-03:** a substantial [Research Gap Discovery & Problem Formulation report](research_gap/README.md) is complete: 71 search queries, 43 scoped external references, 24 candidate directions, eight full dossiers and a ranked four-problem shortlist. The conditional primary question is **individual validity of physiological quiz measures across people, content and declared reference access**. Read the [comparison](research_gap/candidate_space.md), [primary formulation](research_gap/primary_problem.md), and [pre-model gates](research_gap/pre_model_gates.md).
+
+The user's new instruction authorizes conditional formulation and supersedes the previous stage-only restriction below. It does **not** close OQ-06, restore Exp.2 behavioral eligibility or establish a publication-ready novelty claim. No predictive model was developed. Current tri-modal ceiling remains **94 qualified people / 324 direct observations / 8 videos**; restricting to first tested exposure in Exp.3+4 gives **57 / 216 / 8**. Later independent educational validation is recommended for the intended strong Q1 contribution.
+
+## Historical stage summaries (superseded where explicitly amended above)
+
+**Blocking-issue follow-up — 2026-10-02:** [targeted and dataset-wide checks](dataset_exploration/gate_closure.md) strongly support the ECG filter configuration but leave OQ-06 blocking for actual EEG/eye options, native lineage and physical calibration. Exp.2's content mapping is verified; historical aggregate scores disagree and response permutations remain unavailable, so its behavioral targets are excluded. Current direct EEG+ECG+eye behavioral ceiling: **94 people / 324 observations / 8 videos**. The full transition to Research Gap & Problem Formulation is **not yet ready**. Earlier audit totals below remain forensic release-key counts.
 
 **Dated amendment — 2026-10-02:** the substantial [Dataset Exploration & Empirical Readiness Report](dataset_exploration/README.md) is now available. All five BBBD v1.1 archives have been acquired and verified, and dataset-wide signal/outcome auditing is complete at the documented lightweight-QC level. **OQ-06 derivative execution/scaling provenance remains blocking**; Exp.2 answer-order canonicalization also needs review before behavioral pooling. The earlier landscape-stage status below is retained as historical context and is superseded for acquisition/QC status by this dated amendment. No model or final paper question has been selected.
 

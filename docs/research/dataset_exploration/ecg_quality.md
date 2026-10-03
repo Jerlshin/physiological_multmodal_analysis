@@ -1,5 +1,7 @@
 # ECG, R-peaks and HRV semantics
 
+**Gate follow-up — 2026-10-02:** All 1,140 testable raw/filtered pairs favor causal fifth-order 0.5–25 Hz at design fs 2048 and near-unit gain; ten all-NaN raw files remain untestable. Absolute units and manual peak history remain open; the earlier RR/RMSSD findings stand. [Evidence and verdict](gate_closure.md).
+
 **EMPIRICALLY VERIFIED IN THIS AUDIT.** R-peak files have a `timestamp` header and fractional stimulus-relative seconds; RR magnitudes and corresponding waveform extrema support that interpretation. Native detection timestamps are not restricted to the 128 Hz waveform grid.
 
 | experiment | files | people | peak_count | duplicates | nonmonotonic | median_file_HR_bpm | median_RMS_RR_seconds | median_RMSSD_seconds | max_broad_RR_failure_fraction |
@@ -8,7 +10,6 @@
 | 3 | 321 | 29 | 120122 | 0 | 0 | 72.816 | 0.832 | 0.043 | 0.006 |
 | 4 | 258 | 43 | 81464 | 0 | 0 | 69.541 | 0.862 | 0.045 | 0.008 |
 | 5 | 288 | 48 | 107989 | 0 | 0 | 71.172 | 0.849 | 0.049 | 0.003 |
-
 
 Timestamp order, duplicate/nonmonotonic peaks, broad RR bounds (0.3–2 s), author-range bounds (40–160 bpm), waveform bounds and local ±100 ms extrema were checked. Per-record peak failures are retained in [peak_qc.parquet](evidence/peak_qc.parquet). Local extrema agreement is a waveform/peak consistency diagnostic; a median offset of zero on a sampled ECG is not device synchronization accuracy or independently adjudicated detection sensitivity.
 

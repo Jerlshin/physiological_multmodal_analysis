@@ -1,0 +1,193 @@
+{
+  "phase_date": "2026-10-03",
+  "scope": "read-only aggregate verification, not a new signal or outcome audit",
+  "person_unit": "experiment-qualified records; cross-experiment human uniqueness unresolved",
+  "outcome_eligible_all": {
+    "qualified_people": 147,
+    "observations": 581,
+    "canonical_videos": 11
+  },
+  "outcome_eligible_by_experiment": {
+    "1": {
+      "qualified_people": 27,
+      "observations": 135,
+      "canonical_videos": 5
+    },
+    "3": {
+      "qualified_people": 29,
+      "observations": 173,
+      "canonical_videos": 6
+    },
+    "4": {
+      "qualified_people": 43,
+      "observations": 129,
+      "canonical_videos": 3
+    },
+    "5": {
+      "qualified_people": 48,
+      "observations": 144,
+      "canonical_videos": 3
+    }
+  },
+  "outcome_eligible_experiments_3_5": {
+    "qualified_people": 120,
+    "observations": 446,
+    "canonical_videos": 8
+  },
+  "outcome_eligible_experiments_3_4": {
+    "qualified_people": 72,
+    "observations": 302,
+    "canonical_videos": 8
+  },
+  "outcome_eligible_experiments_4_5": {
+    "qualified_people": 91,
+    "observations": 273,
+    "canonical_videos": 3
+  },
+  "direct_provisional_qc": {
+    "eeg_ecg_eye": {
+      "overall": {
+        "qualified_people": 94,
+        "observations": 324,
+        "canonical_videos": 8
+      },
+      "by_experiment": {
+        "3": {
+          "qualified_people": 24,
+          "observations": 124,
+          "canonical_videos": 6
+        },
+        "4": {
+          "qualified_people": 33,
+          "observations": 92,
+          "canonical_videos": 3
+        },
+        "5": {
+          "qualified_people": 37,
+          "observations": 108,
+          "canonical_videos": 3
+        }
+      },
+      "experiments_3_4": {
+        "qualified_people": 57,
+        "observations": 216,
+        "canonical_videos": 8
+      },
+      "experiments_4_5": {
+        "qualified_people": 70,
+        "observations": 200,
+        "canonical_videos": 3
+      }
+    },
+    "ecg_eye": {
+      "overall": {
+        "qualified_people": 94,
+        "observations": 327,
+        "canonical_videos": 8
+      },
+      "by_experiment": {
+        "3": {
+          "qualified_people": 24,
+          "observations": 126,
+          "canonical_videos": 6
+        },
+        "4": {
+          "qualified_people": 33,
+          "observations": 93,
+          "canonical_videos": 3
+        },
+        "5": {
+          "qualified_people": 37,
+          "observations": 108,
+          "canonical_videos": 3
+        }
+      },
+      "experiments_3_4": {
+        "qualified_people": 57,
+        "observations": 219,
+        "canonical_videos": 8
+      },
+      "experiments_4_5": {
+        "qualified_people": 70,
+        "observations": 201,
+        "canonical_videos": 3
+      }
+    },
+    "eeg": {
+      "overall": {
+        "qualified_people": 119,
+        "observations": 429,
+        "canonical_videos": 8
+      },
+      "by_experiment": {
+        "3": {
+          "qualified_people": 29,
+          "observations": 160,
+          "canonical_videos": 6
+        },
+        "4": {
+          "qualified_people": 43,
+          "observations": 128,
+          "canonical_videos": 3
+        },
+        "5": {
+          "qualified_people": 47,
+          "observations": 141,
+          "canonical_videos": 3
+        }
+      },
+      "experiments_3_4": {
+        "qualified_people": 72,
+        "observations": 288,
+        "canonical_videos": 8
+      },
+      "experiments_4_5": {
+        "qualified_people": 90,
+        "observations": 269,
+        "canonical_videos": 3
+      }
+    },
+    "eye": {
+      "overall": {
+        "qualified_people": 119,
+        "observations": 450,
+        "canonical_videos": 11
+      },
+      "by_experiment": {
+        "1": {
+          "qualified_people": 25,
+          "observations": 119,
+          "canonical_videos": 5
+        },
+        "3": {
+          "qualified_people": 24,
+          "observations": 130,
+          "canonical_videos": 6
+        },
+        "4": {
+          "qualified_people": 33,
+          "observations": 93,
+          "canonical_videos": 3
+        },
+        "5": {
+          "qualified_people": 37,
+          "observations": 108,
+          "canonical_videos": 3
+        }
+      },
+      "experiments_3_4": {
+        "qualified_people": 57,
+        "observations": 223,
+        "canonical_videos": 8
+      },
+      "experiments_4_5": {
+        "qualified_people": 70,
+        "observations": 201,
+        "canonical_videos": 3
+      }
+    }
+  },
+  "full_partial_credit_with_wrong_choices_release_item_rows": 98,
+  "model_fitted": false,
+  "waveform_audit_repeated": false
+}

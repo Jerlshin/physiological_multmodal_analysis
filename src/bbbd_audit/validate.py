@@ -98,7 +98,7 @@ def run(phase='final'):
         for name in ['retention_manifest.json','storage_and_retention.md']:
             p=EVIDENCE/name if name.endswith('.json') else EVIDENCE.parent/name
             check(name+' retained',p.is_file())
-    sources=sorted(list((ROOT/'src/bbbd_audit').glob('*.py'))+list((ROOT/'tests').glob('*.py'))+list((ROOT/'scripts').glob('*.py'))+[ROOT/n for n in ['audit_config.json','pyproject.toml','requirements-audit.lock','.gitignore']])
+    sources=sorted(list((ROOT/'src/bbbd_audit').glob('*.py'))+list((ROOT/'tests').glob('*.py'))+list((ROOT/'scripts').glob('*.py'))+list((ROOT/'scripts').glob('*.sh'))+[ROOT/n for n in ['audit_config.json','pyproject.toml','requirements-audit.lock','.gitignore']])
     write_json(EVIDENCE/'generating_source_fingerprints.json',[dict(path=str(p.relative_to(ROOT)),bytes=p.stat().st_size,sha256=sha(p)) for p in sources])
     result=dict(phase=phase,validated_utc=now(),status='passed' if all(c['passed'] for c in checks) else 'failed',checks=checks,canonical_hashes_reused='Previously computed full MD5/SHA-256; readonly modes, exact official identity and byte sizes checked here. CLI verify independently rehashes.',full_QC_execution_code_sha256=executed_hash,postprocess='Canonical questionnaire fields and separate respiratory peak metrics rebuilt by summary.py from original small keyed metadata/timestamp members; full channel/signal QC unchanged.')
     write_json(EVIDENCE/('validation.json' if phase=='final' else 'validation_pre_cleanup.json'),result)

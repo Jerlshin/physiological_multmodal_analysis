@@ -1,6 +1,14 @@
 # Open questions and evidence required next
 
-**Dated audit disposition — 2026-10-02:** this original queue is retained unchanged. Consult [empirical P0 dispositions](../dataset_exploration/open_questions_resolved.md) and [remaining gates](../dataset_exploration/open_questions_remaining.md) for current status. OQ-01/03/04 are substantially resolved; OQ-02/05/07 have explicit bounded resolutions/quarantines; OQ-06 remains blocking. Actual-file evidence must supersede documentary expectations explicitly, not by silently editing this historical queue.
+**Current disposition — blocking-issue follow-up, 2026-10-02:** the original queue below is historical. [Executed follow-up](../dataset_exploration/gate_closure.md), [P0 status](../dataset_exploration/open_questions_resolved.md), and [remaining material gates](../dataset_exploration/open_questions_remaining.md) supersede its documentary expectations. **OQ-06 remains BLOCKING / EMPIRICALLY NARROWED:** the ECG transfer is strongly supported across 1,140 testable pairs, while EEG/eye execution options, native lineage and physical calibration remain unverified. **OQ-03 is verified for release scoring but partial for response canonicalization:** Exp.2 content/order is mapped, original response permutations are missing, and historical aggregate inputs disagree. Its scientific behavioral targets are quarantined; the immediate pooling decision is closed by exclusion. OQ-01/04 remain resolved at the stated release/provisional-QC scope; OQ-02/05/07 remain bounded.
+
+| Follow-up issue | Current operational status | Evidence needed to remove the constraint |
+| --- | --- | --- |
+| OQ-06 | Full multimodal formulation transition still blocked | Executed EEG reference/high-pass/RPCA/EOG/interpolation and eye options/fit scope; source calibration and native transform lineage, or an adequate documented reconstruction route |
+| OQ-03 / Exp.2 | Behavior excluded; signal/condition work remains available within provenance limits | Response-to-presented-option permutations, canonical mapping and keyed source cohort; reconstruct scores independently |
+| OQ-15 / Exp.2 | Historical aggregate non-equivalence verified; companion ID/core-trait agreement strongly supports cohort correspondence | Original response permutations and explicit score-matrix row binding; aggregate matrices cannot be substituted by row order |
+
+The earlier 736 outcome / 120-person multimodal ceilings are release-key forensic counts. Current scientific behavioral counts are 581 memory outcomes overall and 94 people / 324 observations / 8 videos for the direct EEG+ECG+eye QC subset. The full transition is **not yet ready**; no final question or model is selected.
 
 No issue below is resolved merely by choosing a more complex model. `P0` means it can invalidate basic cohort/target construction; `P1` constrains a specific scientific claim; `P2` improves contextual completeness. Source keys resolve in the [registry](evidence/source_registry.md).
 

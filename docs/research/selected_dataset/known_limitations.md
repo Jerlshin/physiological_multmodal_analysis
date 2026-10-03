@@ -1,5 +1,7 @@
 # Known limitations and boundaries of evidence
 
+**Material follow-up — 2026-10-02:** [new evidence](../dataset_exploration/gate_closure.md) narrows ECG filtering but does not recover actual EEG/eye execution, native lineage or absolute calibration. Exp.2's behavioral scores are now excluded because response mapping is unverified and original historical aggregate scores disagree. This removes incidental-learning behavioral comparisons and reduces the direct multimodal ceiling to 94 people / 324 observations / 8 videos. Existing timing, chronology, masking and identity boundaries remain; the full gate is not closed.
+
 Use [quality assessment](data_quality.md) for actionable checks. This file separates what is documented from what we infer.
 
 ## VERIFIED FACT

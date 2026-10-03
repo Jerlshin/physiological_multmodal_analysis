@@ -1,5 +1,7 @@
 # Modality coverage and provisional usability
 
+**Gate follow-up — 2026-10-02:** The tables below remain physical/QC/release-key coverage. Current behavior-eligible EEG+ECG+eye coverage is 94 people / 324 observations / 8 videos after Exp.2 exclusion; ECG+eye is 94 / 327 / 8. These are eligibility counts, not new signal-QC exclusions. [Evidence and verdict](gate_closure.md).
+
 **EMPIRICALLY VERIFIED IN THIS AUDIT.** Counts are experiment-qualified people and person/video exposures, never windows. `eye` requires both author-processed gaze and pupil. EEG/ECG/head use author-processed files; EOG/respiration use released raw files because corresponding cleaned waveform derivatives are not supplied. Raw and processed coverage are also retained separately.
 
 | modalities | stage | requires_valid_quiz | people | person_video_exposures | videos | valid_hours |
@@ -37,7 +39,6 @@
 | eeg+ecg+eye+respiration | basic_qc | False | 72 | 401 | 6 | 25.985 |
 | eeg+ecg+eye+respiration | basic_qc | True | 70 | 200 | 3 | 13.597 |
 
-
 Valid hours are exact sample-mask unions over the common **released** 128 Hz grid, including event-trimmed EEG bounds; this does not establish latent cross-device synchronization precision. Counts with valid quiz include direct test chronology only: session1 in 1–3, session2 stim01–03 in 4, session2 in 5. Exp.5 first viewing has the later final outcome as an explicitly indirect relation and is not counted twice.
 
 Per-experiment complete EEG+ECG+eye+quiz after provisional QC:
@@ -50,6 +51,5 @@ Per-experiment complete EEG+ECG+eye+quiz after provisional QC:
 | 3 | 24 | 124 | 6 | 8.524 |
 | 4 | 33 | 92 | 3 | 6.183 |
 | 5 | 37 | 108 | 3 | 7.414 |
-
 
 [All combinations and experiments](evidence/modality_intersections.csv); [physical raw/processed coverage](evidence/physical_coverage.csv); [missing-file placeholders](evidence/missing_files.parquet). Presence, intrinsic numerical validity, correction burden and eligibility are distinct. Current QC thresholds were set for this audit, not tuned against outcomes; they are candidates for later sensitivity analysis, not a frozen paper inclusion policy.

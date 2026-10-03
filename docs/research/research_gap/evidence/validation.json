@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-03",
+  "scope": "documentation and aggregate evidence checks; not predictive model validation",
+  "checks": [
+    {
+      "check": "Existing phase JSON files parse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "43 unique curated reference IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "14 FT records; 16 PA; 13 IX",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "71 queries across 38 batches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All saved batches have returned source identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local Markdown targets resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Eight serious dossier sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "24 broad candidate rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "inference_register.md unique IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "decision_log.md unique IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "rejection_log.md unique IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All referenced L IDs exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Current tri-modal ceiling",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "First-view ceiling",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Eligible E3-5 outcome denominator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rechecked permissive-score count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Only intended global documents differ from baseline manifest",
+      "passed": true,
+      "detail": [
+        "docs/research/README.md",
+        "docs/research/decision_log.md",
+        "docs/research/inference_register.md",
+        "docs/research/literature/bibliography.md"
+      ]
+    },
+    {
+      "check": "All fingerprinted aggregate audit inputs unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No control-character corruption in Markdown",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_passed": true,
+  "manual_appraisal": "Eight dossiers reviewed for question, motivation, prior work, gap, data, generalization, confounds, baselines, potential method, external need, falsification, novelty and expected contribution. Access limitations and OQ-06 remain explicit."
+}

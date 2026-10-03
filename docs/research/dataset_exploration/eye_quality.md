@@ -1,5 +1,7 @@
 # Eye and pupil quality
 
+**Gate follow-up — 2026-10-02:** Exporter column selection and 17 pupil probes exclude a simple 95th-percentile-normalized output interpretation. Head-regression history, buffers and kernels remain open; differences outside masks are not proof of unmarked native artifacts. [Evidence and verdict](gate_closure.md).
+
 **EMPIRICALLY VERIFIED IN THIS AUDIT.** Both raw and processed continuous eye files in this release are gzip-compressed and headerless. Correction interval files have `start_time/end_time` headers in seconds. Original masks remain first-class evidence, alongside conservative floor/ceil mapping to the 128 Hz released grid. No masks were replaced by a smooth signal's apparent completeness.
 
 | experiment | modality | files | mean_correction | median_correction | max_correction | max_gap_seconds | basic_QC_flags |
@@ -14,7 +16,6 @@
 | 4 | pupil | 247 | 0.337 | 0.213 | 0.980 | 230.469 | 56 |
 | 5 | gaze | 285 | 0.205 | 0.138 | 0.932 | 108.508 | 28 |
 | 5 | pupil | 285 | 0.354 | 0.192 | 0.988 | 108.695 | 72 |
-
 
 ![Correction burdens](figures/eye_correction.png)
 

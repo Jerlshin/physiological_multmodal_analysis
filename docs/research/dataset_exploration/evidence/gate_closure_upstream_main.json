@@ -1,0 +1,111 @@
+{
+  "sha": "5109afa0fd70c407b869108106f5808c6b0cc33c",
+  "node_id": "C_kwDORx4mZ9oAKDUxMDlhZmEwZmQ3MGM0MDdiODY5MTA4MTA2ZjU4MDhjNmIwY2MzM2M",
+  "commit": {
+    "author": {
+      "name": "nikhilkuppa",
+      "email": "nkk2126@columbia.edu",
+      "date": "2026-09-23T04:17:51Z"
+    },
+    "committer": {
+      "name": "nikhilkuppa",
+      "email": "nkk2126@columbia.edu",
+      "date": "2026-09-23T04:17:51Z"
+    },
+    "message": "Fix duplicated STIM questionnaires in Exp4 and update Exp5",
+    "tree": {
+      "sha": "4728c6243cc18c62d02f48b48d870d9da5dfc9ad",
+      "url": "https://api.github.com/repos/madjens/bbbd-dataset/git/trees/4728c6243cc18c62d02f48b48d870d9da5dfc9ad"
+    },
+    "url": "https://api.github.com/repos/madjens/bbbd-dataset/git/commits/5109afa0fd70c407b869108106f5808c6b0cc33c",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/madjens/bbbd-dataset/commits/5109afa0fd70c407b869108106f5808c6b0cc33c",
+  "html_url": "https://github.com/madjens/bbbd-dataset/commit/5109afa0fd70c407b869108106f5808c6b0cc33c",
+  "comments_url": "https://api.github.com/repos/madjens/bbbd-dataset/commits/5109afa0fd70c407b869108106f5808c6b0cc33c/comments",
+  "author": {
+    "login": "nikhilkuppa",
+    "id": 127818922,
+    "node_id": "U_kgDOB55cqg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/127818922?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nikhilkuppa",
+    "html_url": "https://github.com/nikhilkuppa",
+    "followers_url": "https://api.github.com/users/nikhilkuppa/followers",
+    "following_url": "https://api.github.com/users/nikhilkuppa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nikhilkuppa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nikhilkuppa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nikhilkuppa/subscriptions",
+    "organizations_url": "https://api.github.com/users/nikhilkuppa/orgs",
+    "repos_url": "https://api.github.com/users/nikhilkuppa/repos",
+    "events_url": "https://api.github.com/users/nikhilkuppa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nikhilkuppa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "nikhilkuppa",
+    "id": 127818922,
+    "node_id": "U_kgDOB55cqg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/127818922?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nikhilkuppa",
+    "html_url": "https://github.com/nikhilkuppa",
+    "followers_url": "https://api.github.com/users/nikhilkuppa/followers",
+    "following_url": "https://api.github.com/users/nikhilkuppa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nikhilkuppa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nikhilkuppa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nikhilkuppa/subscriptions",
+    "organizations_url": "https://api.github.com/users/nikhilkuppa/orgs",
+    "repos_url": "https://api.github.com/users/nikhilkuppa/repos",
+    "events_url": "https://api.github.com/users/nikhilkuppa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nikhilkuppa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "5e3f5a42348c45a42d6373b26707ac82d6000ce5",
+      "url": "https://api.github.com/repos/madjens/bbbd-dataset/commits/5e3f5a42348c45a42d6373b26707ac82d6000ce5",
+      "html_url": "https://github.com/madjens/bbbd-dataset/commit/5e3f5a42348c45a42d6373b26707ac82d6000ce5"
+    }
+  ],
+  "stats": {
+    "total": 6592,
+    "additions": 3278,
+    "deletions": 3314
+  },
+  "files": [
+    {
+      "sha": "b37d0185be8fda2b989a57e02b59c1aea3e789f9",
+      "filename": "data-reformatting/config/experiment4_stimuli_questionnaire.tsv",
+      "status": "modified",
+      "additions": 1549,
+      "deletions": 1549,
+      "changes": 3098,
+      "blob_url": "https://github.com/madjens/bbbd-dataset/blob/5109afa0fd70c407b869108106f5808c6b0cc33c/data-reformatting%2Fconfig%2Fexperiment4_stimuli_questionnaire.tsv",
+      "raw_url": "https://github.com/madjens/bbbd-dataset/raw/5109afa0fd70c407b869108106f5808c6b0cc33c/data-reformatting%2Fconfig%2Fexperiment4_stimuli_questionnaire.tsv",
+      "contents_url": "https://api.github.com/repos/madjens/bbbd-dataset/contents/data-reformatting%2Fconfig%2Fexperiment4_stimuli_questionnaire.tsv?ref=5109afa0fd70c407b869108106f5808c6b0cc33c"
+    },
+    {
+      "sha": "c30bb803dbef3143e255e8e6748ef555b97ac438",
+      "filename": "data-reformatting/config/experiment5_stimuli_questionnaire.tsv",
+      "status": "modified",
+      "additions": 1729,
+      "deletions": 1765,
+      "changes": 3494,
+      "blob_url": "https://github.com/madjens/bbbd-dataset/blob/5109afa0fd70c407b869108106f5808c6b0cc33c/data-reformatting%2Fconfig%2Fexperiment5_stimuli_questionnaire.tsv",
+      "raw_url": "https://github.com/madjens/bbbd-dataset/raw/5109afa0fd70c407b869108106f5808c6b0cc33c/data-reformatting%2Fconfig%2Fexperiment5_stimuli_questionnaire.tsv",
+      "contents_url": "https://api.github.com/repos/madjens/bbbd-dataset/contents/data-reformatting%2Fconfig%2Fexperiment5_stimuli_questionnaire.tsv?ref=5109afa0fd70c407b869108106f5808c6b0cc33c"
+    }
+  ]
+}

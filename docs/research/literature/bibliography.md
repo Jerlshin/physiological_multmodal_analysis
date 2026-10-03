@@ -287,3 +287,10 @@ Local appraisal: [dataset note](../dataset_landscape/dataset_notes/tiles.md).
 - [official TILES project](https://tiles-data.isi.edu/homepage). Checked/referenced during the 2026-10-01 review; source access and verification limits are stated in the appraisal.
 - [TILES-2019 descriptor, 2022](https://doi.org/10.1038/s41597-022-01636-4). Checked/referenced during the 2026-10-01 review; source access and verification limits are stated in the appraisal.
 - [TILES-2018 Sleep Benchmark preprint, July 2025](https://arxiv.org/abs/2507.03520). Checked/referenced during the 2026-10-01 review; source access and verification limits are stated in the appraisal.
+
+
+## Research-gap discovery review — 2026-10-03
+
+The dedicated [43-record bibliography and access register](../research_gap/bibliography.md) expands beyond direct BBBD reuse to educational construct validity, missingness, physiological privileged learning, representation/foundation models and transport. [Machine-readable references](../research_gap/evidence/literature_records.json), [search protocol](../research_gap/search_protocol.md), [71-query/38-batch trace](../research_gap/search_log.md), and [candidate-specific literature synthesis](../research_gap/literature_evidence.md) preserve provenance and unresolved access limits. Fourteen records have relevant original full-text sections reviewed; the remainder are scoped primary abstracts/indexed sources, not fictitious full-paper reads.
+
+High-impact novelty constraints for this project include John et al. 2025 (heterogeneous gaze/learning), Chen et al. 2026 (knowledge-dependent neural similarity), ICYM²I 2026 (missingness-distorted modality value), QA-MoE 2026 (quality-aware fusion), and CMCRD/PhysioGMC/PULSE/BioKD (privileged physiological transfer). IDs L01–L43 are local to the formulation phase and do not replace the historical dataset B or selected-paper P/R identifiers. Full Chen/P05 methods and relevant supplements remain retrieval gates; no “first use” claim follows from inaccessible text.

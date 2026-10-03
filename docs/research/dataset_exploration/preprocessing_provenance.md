@@ -1,5 +1,7 @@
 # Released preprocessing provenance — bounded trace
 
+**Gate follow-up — 2026-10-02:** The table below records declarations and earlier documentary limits. The follow-up empirically identifies the ECG transfer configuration, rules out a simple normalized interpretation of probed pupil exports, and leaves OQ-06 blocking for actual EEG/eye options and absolute calibration. [Evidence and verdict](gate_closure.md).
+
 **VERIFIED FACT** below means a documented method or inspected upstream implementation. **EMPIRICALLY VERIFIED IN THIS AUDIT** means a declaration, format or numerical property actually read from the five verified ZIPs. Neither a declaration nor a plausible spectrum proves execution of a particular filter.
 
 | Stream | Native acquisition — documentary | Synchronization/export | Filtering/artifact handling — documentary | Actual release evidence | Unresolved execution link |

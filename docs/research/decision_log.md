@@ -60,3 +60,31 @@ The user's new instruction supersedes the earlier stage's no-download boundary. 
 | D036 | Retain all canonical/scientific artifacts and source snapshots; delete only verified small temporary probes/font caches and log exact bytes/recreation | [Retention manifest](dataset_exploration/evidence/retention_manifest.json); zero canonical or large derived deletion | Disk pressure/new regenerable artifact with verified generating provenance |
 
 No author was contacted; a [concrete query draft](dataset_exploration/evidence/author_query_draft.md) is retained but unsent. No model, predictive performance optimization, final paper question or confirmatory held-out evaluation was developed. The audit materially improves readiness while retaining its blocking and bounded limitations.
+
+## Blocking-issue follow-up — 2026-10-02
+
+| ID | Decision | Evidence / reason | Revisit trigger |
+| --- | --- | --- | --- |
+| D037 | Narrow ECG derivative configuration to strong numerical support for causal fifth-order 0.5–25 Hz at native design rate 2048 Hz; keep calibration/manual lineage separate | [All 1,140 testable ECG transfers](dataset_exploration/evidence/gate_closure_ecg_all_pairs.csv), competing responses and synthetic controls; ten all-NaN raw files are untestable | Source-backed invocation/calibration or contrary native evidence |
+| D038 | Quarantine all Exp.2 domain/memory targets from scientific pooling, behavioral comparisons and physiology–quiz inference; preserve original release scores and signal/condition use | [Content/order map and historical score non-equivalence](dataset_exploration/gate_closure.md); original participant response permutations are unavailable | Authoritative response-position mapping, keyed cohort lineage and independently reconstructed scores |
+| D039 | Revise behavioral feasibility ceilings to 94/324/8 for EEG+ECG+eye and 94/327/8 for ECG+eye; restrict behavioral C03 comparisons to appropriate 3–5 protocols | [Exact before/after counts](dataset_exploration/evidence/gate_closure_feasibility_counts.csv); Exp.3 now strongest remaining first-view multimodal quiz cohort | Exp.2 mapping resolved or justified eligibility/chronology changes |
+| D040 | Keep OQ-06 blocking for the full multimodal transition, with a precise remaining evidence requirement; permit only bounded gap mapping using established measurement facts | [Follow-up gate verdict](dataset_exploration/gate_closure.md); EEG/eye recipe, native lineage and absolute calibration not identified by available code/bytes | Executed release provenance or scientifically adequate documented reconstruction route |
+| D041 | Preserve earlier audit counts as forensic release-key evidence and expose a separate behavioral eligibility view; make report regeneration reapply the new status | [Eligibility](dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet), [source hashes](dataset_exploration/evidence/gate_closure_sources.json), updated report generator | New release/source evidence; do not silently overwrite historical inputs |
+
+D034's Exp.2 pooling review is now completed by D038's conservative exclusion; its OQ-06 gate remains open but is narrowed by D037/D040. No original archive was changed, no native reconstruction or model development was started, no final question was selected, and the updated [author query](dataset_exploration/evidence/author_query_draft.md) remains unsent.
+
+
+## Research-gap discovery and conditional formulation — 2026-10-03
+
+| ID | Decision | Evidence / reason | Revisit trigger |
+|---|---|---|---|
+| D042 | Begin broad gap discovery and conditional problem formulation under the new user instruction | [Phase report](research_gap/README.md); user explicitly initiates next research phase | This supersedes earlier stage restrictions, not scientific measurement gates |
+| D043 | Preserve the current audit contract, E2 exclusion and OQ-06 limits; do not reopen bounded forensics | [Audit contract](research_gap/audit_contract.md); independent aggregate recheck | Candidate-relevant new source evidence only |
+| D044 | Screen 24 directions, deeply assess eight and shortlist G01/G02/G03/G04 | [Candidate comparison](research_gap/candidate_space.md), [dossiers](research_gap/candidate_dossiers.md), [rejections](research_gap/rejection_log.md) | Novelty, identification or precision gate changes |
+| D045 | Prioritize G01 individual criterion validity as the conditional primary scientific question | Strongest importance/feasibility balance; [primary formulation](research_gap/primary_problem.md) | OQ-06, attainable precision, closest-paper or external-access failure |
+| D046 | Demote generic fusion, quality gating, physiological distillation and FM benchmarks as standalone novelty | [Literature comparison](research_gap/literature_evidence.md); ICYM²I, QA-MoE, CMCRD, PhysioGMC, PULSE, BioKD, PhysioOmni and adjacent learning studies | A distinct scientific/methodological result with matched prior comparisons |
+| D047 | Separate first-view E3+4 from E5 repeated-exposure evidence, and known/novel/reference-assisted content access | Current direct-QC first-view ceiling 57/216/8; [information contract](research_gap/primary_problem.md) | Explicitly different estimand justified before fitting |
+| D048 | Plan independent educational validation and complete pre-model gates before bespoke model work | [Eight gates and external plan](research_gap/pre_model_gates.md); limited content/people and exploratory whole-release exposure | Credible external route and justified design/precision |
+| D049 | Stop at formulation/evidence; develop no predictive model in this pass | User boundary; [phase evidence](research_gap/evidence/README.md) | User initiates modeling after appropriate gates |
+
+D040/INF-063 are amended only in phase authorization: conditional formulation is now completed, while OQ-06 remains a scientific prerequisite. G01 is not an unconditional architecture, confirmed novelty claim or journal-acceptance prediction. [Local decisions RGD-001–015](research_gap/decision_log.md) trace the detailed evolution.

@@ -20,6 +20,16 @@
     "sha256": "1c4bc345fb4aa4a1cd580e9f6c3bd433698d119a8d615164545cd6462765129a"
   },
   {
+    "path": "scripts/extract_gate_quiz_workbook.py",
+    "bytes": 1084,
+    "sha256": "23b8f6963d21c4b3e88582df9decd277eb4b87769f5e0f5403d3f63d71064e56"
+  },
+  {
+    "path": "scripts/fetch_gate_closure_sources.sh",
+    "bytes": 2961,
+    "sha256": "0563b3dc5fa5ba2c9d01ebff58a1b9f1edc133f8ea4522db423d353b005089a9"
+  },
+  {
     "path": "scripts/peek_derivatives.py",
     "bytes": 687,
     "sha256": "7d53466de0109f9af0d7511703a1c3305865d916b2063367e5c4da7c39ea35ea"
@@ -60,6 +70,11 @@
     "sha256": "a8895d53fe4d985606786bddf72875c250325975a71c8aa9f5bb56b44677643b"
   },
   {
+    "path": "src/bbbd_audit/gate_closure.py",
+    "bytes": 42853,
+    "sha256": "71d319213df574ac028244f98208f36ceb60800c6292ed60eeeb4c214f38ff7e"
+  },
+  {
     "path": "src/bbbd_audit/io.py",
     "bytes": 11651,
     "sha256": "c8f1b778ddcde08e752be2453526e7b63574ec90a364c228f26033c886a82ff0"
@@ -81,8 +96,8 @@
   },
   {
     "path": "src/bbbd_audit/report.py",
-    "bytes": 69146,
-    "sha256": "f25726c22ea635b0a9139b5797f70de3c0b28e7a9f75b7cbb552107abfb4e9dc"
+    "bytes": 69366,
+    "sha256": "9928bc9218ac65bdf2eb7be32ec57443b7d8103824401ef4a0731cc285374238"
   },
   {
     "path": "src/bbbd_audit/retention.py",
@@ -101,12 +116,17 @@
   },
   {
     "path": "src/bbbd_audit/validate.py",
-    "bytes": 9093,
-    "sha256": "5b594fff5c148d135da6c96e7200448f1bd07f00dcbe280a66c5b93ff18a887b"
+    "bytes": 9129,
+    "sha256": "6b9763aeb1d28073d4c731dad39a92e382308058d49c2e7a8b37e055a0ce6376"
   },
   {
     "path": "tests/test_audit.py",
     "bytes": 7180,
     "sha256": "e3e476fb4a07607a5bd9e8dcc4b2a2ffa295a70f48df6ece44e2343ee2374d72"
+  },
+  {
+    "path": "tests/test_gate_closure.py",
+    "bytes": 1321,
+    "sha256": "6471a4b343b62fc658e695eb85cf4d3b7dcf6d0c4e5e6a79d754fb8ab637f273"
   }
 ]

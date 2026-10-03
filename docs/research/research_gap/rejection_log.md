@@ -1,0 +1,23 @@
+# Rejection and demotion rationale
+
+2026-10-03. Rejecting a candidate here means rejecting its present BBBD/Q1 formulation, not declaring the topic scientifically unimportant. [Full candidate space](candidate_space.md); [literature evidence](literature_evidence.md).
+
+| ID | Direction | Reason for rejection/demotion | Evidence | What could justify reconsideration |
+|---|---|---|---|---|
+| RJ01 | Generic multimodal fusion / new Transformer / first physiological learning prediction | Occupied scientific claim; architectural change without a scientific question | P01–P04, L01–L09/L36/L37/L42 | A distinct, falsifiable measurement failure and useful general solution |
+| RJ02 | Generic EEG-to-eye/peripheral KD with confidence/quality weights | Direct decades-old and current competitors, including same sensor directions and reliability | L17–L24 | Teacher contribution demonstrated first; new transfer principle survives matched prior methods and external replication |
+| RJ03 | First selection-aware modality utility or quality-aware fusion | ICYM²I explicitly treats biased informativeness; QA-MoE and missing-covariate statistics occupy core methods | L11/L12/L14/L38/L39 | Distinct identified estimand or theorem plus naturally incomplete external validation |
+| RJ04 | Guaranteed uncertainty under missing sensors and arbitrary shifts | Existing calibration literature; crossed dependencies/shift invalidate casual guarantee transfer; tiny calibration patterns | L13/L15/L16/L40/L41 | A valid new proof with explicit assumptions, simulations and larger repeated-measure datasets |
+| RJ05 | Standalone shared/private SSL or foundation-model benchmark | Existing representation methods and EEG FM diagnostics; inadequate independent BBBD scale for training a foundation model | L21/L25–L34 | New scientific mechanism with relevant external evidence, not a larger architecture catalogue |
+| RJ06 | Temporal quiz-item encoding or directed brain–body mechanism | Missing item timeline and native timing; no causal identification | Audit OQ/timing; P03/L07/L08 | Appropriate native event ground truth and design, usually another dataset/new study |
+| RJ07 | ADHD diagnosis, mind-wandering detection or continuous attention ground truth | Required target absent; ASRS/condition instructions/synchrony are not those labels | Audit traits/conditions | Clinically or behaviorally validated labels collected in a suitable design |
+| RJ08 | Long-term retention, learning gain or causal attention/reward effect | Delayed outcome/common pretest absent; exposure/protocol factors confounded | Audit outcome chronology; E4/E5 maps | Pre/post/delayed outcomes and an appropriate randomized/identified design |
+| RJ09 | E2 incidental-versus-intentional behavioral comparison | Explicit behavioral quarantine; response permutations unresolved | Gate-closure evidence and D038 | Authoritative keyed response mapping and independent reconstruction, not score-maximizing recoding |
+| RJ10 | Universal content/style mechanism, or thousands of independent training windows | Eight usable videos and repeated labels cannot support claimed independent scale | Exposure tensor, independence map | More independent content/people and design features separated from experiment |
+| RJ11 | Webcam/PPG deployment justified solely by BBBD | Different sensor physics/hardware not observed; removing EEG retains ECG and EyeLink | Modality inventory; P01 webcam precedent exists elsewhere | Paired external hardware validation with the actual intended deployment system |
+| RJ12 | Standalone score-semantics paper or release-forensics paper as current primary | Audit already establishes score/provenance issues; no new general psychometric theory supplied | G06; completed empirical audit | Broad measurement-theory contribution with item-rich external validation, or newly consequential release evidence |
+| RJ13 | Protocol transport as a universal domain-generalization claim | E4/E5 are two bundled protocols and only three shared videos; participant independence unresolved | G04 and sparse content graph | Independent additional protocols/content, with separated interventions if causal claims are wanted |
+| RJ14 | High accuracy as a selection criterion | Easy condition/content identification can be irrelevant to individual learning validity | All candidate estimands and prior occupancy | A meaningful outcome/decision with independent validation and a defensible scientific contribution |
+
+Demotions retain useful components: score sensitivity (G06), existing representation methods (G05), cautious uncertainty analysis (G07), and bounded E4/E5 transport (G04) belong in a stronger study. They are not repackaged as independent “novel modules.”
+

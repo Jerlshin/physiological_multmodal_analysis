@@ -1,5 +1,7 @@
 # Modalities, signal meaning and transformations
 
+**Executed-provenance amendment — 2026-10-02:** [paired release inspection](../dataset_exploration/gate_closure.md) supports causal fifth-order ECG filtering at 0.5–25 Hz designed at 2048 Hz for all 1,140 testable pairs, with preserved numerical scale. Actual voltage calibration remains open. Public export code loads existing processed arrays; it does not establish the EEG/eye options. Pupil export selects column 1 rather than the separate function's normalized column 3, and probed values are not simply q95-normalized. Documentary methods below remain distinct from executed release provenance.
+
 Source keys: [S01–S06](evidence/source_registry.md). The term “raw” below distinguishes the **native sensor recording** from the **release's raw directory**. All released continuous streams are described as synchronized/resampled to 128 Hz, including those stored under raw. Native fidelity must not be inferred from the directory name.
 
 ## Availability and measurement physics

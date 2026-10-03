@@ -1,5 +1,7 @@
 # Labels, outcomes and defensible tasks
 
+**Behavioral eligibility amendment — 2026-10-02:** Exp.2's domain and memory scores reconstruct from supplied keys and its 106 content/option-order entries match Exp.1. Its participant response-option permutations are unverified and historical original aggregate scores differ materially. Exclude its targets from pooling, performance/gain comparisons and physiology–quiz analyses. [Evidence/decision](../dataset_exploration/gate_closure.md); [separate eligibility view](../dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet). The remaining 581 memory outcomes retain the earlier duplicate/surplus-key quarantines and heterogeneous scoring/chronology constraints; this does not certify original response provenance for every other cohort.
+
 Sources: [S01–S06 and P01–P04](evidence/source_registry.md). **There is no verified continuous ground-truth attention trace.** The data contain instructions, stimulus identifiers, behavioral responses and physiological measurements with different semantics. Keep those distinctions in the data dictionary and in claims.
 
 | Variable | Evidence class / role | Defensible use | Boundary |
