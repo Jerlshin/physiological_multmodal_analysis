@@ -1,6 +1,13 @@
 # Research project: evidence and problem formulation
 
-**Current phase — 2026-10-03:** a substantial [Research Gap Discovery & Problem Formulation report](research_gap/README.md) is complete: 71 search queries, 43 scoped external references, 24 candidate directions, eight full dossiers and a ranked four-problem shortlist. The conditional primary question is **individual validity of physiological quiz measures across people, content and declared reference access**. Read the [comparison](research_gap/candidate_space.md), [primary formulation](research_gap/primary_problem.md), and [pre-model gates](research_gap/pre_model_gates.md).
+**Current phase — 2026-10-04:** the [Experimental Design & Pre-model Readiness package](experimental_design/README.md) is complete. **Verdict: GO for baseline implementation of the revised question G01-R** under a [frozen protocol](experimental_design/protocol.md).
+
+- **What changed from G01.** Regime A (new learners, known content) is the confirmatory test on EEG+ECG+gaze for 68 people / 259 cells / 8 videos. Content transfer, E5 and E1 are descriptive. Negative conclusions are limited to effects ≥ 0.10.
+- **Basis.** A simulation of the actual crossed design and calibration of the decision procedures.
+- **Provenance.** OQ-06 is bounded for the frozen feature route, not resolved.
+- **Scope.** No physiology–outcome association has been computed yet.
+
+**Previous phase — 2026-10-03:** a substantial [Research Gap Discovery & Problem Formulation report](research_gap/README.md) is complete: 71 search queries, 43 scoped external references, 24 candidate directions, eight full dossiers and a ranked four-problem shortlist. The conditional primary question is **individual validity of physiological quiz measures across people, content and declared reference access**. Read the [comparison](research_gap/candidate_space.md), [primary formulation](research_gap/primary_problem.md), and [pre-model gates](research_gap/pre_model_gates.md).
 
 The user's new instruction authorizes conditional formulation and supersedes the previous stage-only restriction below. It does **not** close OQ-06, restore Exp.2 behavioral eligibility or establish a publication-ready novelty claim. No predictive model was developed. Current tri-modal ceiling remains **94 qualified people / 324 direct observations / 8 videos**; restricting to first tested exposure in Exp.3+4 gives **57 / 216 / 8**. Later independent educational validation is recommended for the intended strong Q1 contribution.
 

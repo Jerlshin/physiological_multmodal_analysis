@@ -1,0 +1,227 @@
+{
+  "phase_date": "2026-10-04",
+  "physiology_used": false,
+  "sets": {
+    "E3+E4_first_view": {
+      "people": 72,
+      "cells": 302,
+      "videos": 8,
+      "normalized_exact_score": {
+        "mean": 0.455849889624724,
+        "sd": 0.20089040145791087,
+        "floor_fraction": 0.0033112582781456954,
+        "ceiling_fraction": 0.0033112582781456954,
+        "distinct_values": 13
+      },
+      "normalized_partial_score": {
+        "mean": 0.5281227005150846,
+        "sd": 0.18385836773834469,
+        "floor_fraction": 0.0,
+        "ceiling_fraction": 0.0033112582781456954,
+        "distinct_values": 68
+      },
+      "alpha_exact_median": 0.4495432796868204,
+      "alpha_partial_median": 0.5180751506906685,
+      "variance_components_normalized_exact_score": {
+        "person": 0.012867625404601119,
+        "video": 0.008011032175553334,
+        "residual": 0.02024139498758649,
+        "converged": true,
+        "person_fraction": 0.3129282333334342,
+        "video_fraction": 0.19482057233161373
+      },
+      "variance_components_normalized_partial_score": {
+        "person": 0.013460962166614283,
+        "video": 0.0012893662170729394,
+        "residual": 0.01932277797965329,
+        "converged": true,
+        "person_fraction": 0.3950611964483821,
+        "video_fraction": 0.03784117019809434
+      },
+      "one_item_equivalent_skill": {
+        "mean": 0.021167170122659944,
+        "median": -0.00705958311660837,
+        "video_mean_of_means": 0.01942288741673177,
+        "items": 108
+      }
+    },
+    "E3": {
+      "people": 29,
+      "cells": 173,
+      "videos": 6,
+      "normalized_exact_score": {
+        "mean": 0.3959537572254335,
+        "sd": 0.17474512386412833,
+        "floor_fraction": 0.005780346820809248,
+        "ceiling_fraction": 0.0,
+        "distinct_values": 12
+      },
+      "normalized_partial_score": {
+        "mean": 0.4981133590237636,
+        "sd": 0.1697637581343032,
+        "floor_fraction": 0.0,
+        "ceiling_fraction": 0.0,
+        "distinct_values": 62
+      },
+      "alpha_exact_median": 0.44811582769630653,
+      "alpha_partial_median": 0.5000614768169969,
+      "variance_components_normalized_exact_score": {
+        "person": 0.010321249949294398,
+        "video": 0.0007888739568446042,
+        "residual": 0.019873222312603363,
+        "converged": true,
+        "person_fraction": 0.33312250640800356,
+        "video_fraction": 0.025461225242591798
+      },
+      "variance_components_normalized_partial_score": {
+        "person": 0.010906233461980904,
+        "video": 0.00012484931820851765,
+        "residual": 0.01816125087796881,
+        "converged": true,
+        "person_fraction": 0.37359923292507985,
+        "video_fraction": 0.004276784434930801
+      },
+      "one_item_equivalent_skill": {
+        "mean": 0.012862273983099295,
+        "median": -0.016942506739655694,
+        "video_mean_of_means": 0.012862273983099295,
+        "items": 72
+      }
+    },
+    "E4": {
+      "people": 43,
+      "cells": 129,
+      "videos": 3,
+      "normalized_exact_score": {
+        "mean": 0.5361757105943152,
+        "sd": 0.20619868922992166,
+        "floor_fraction": 0.0,
+        "ceiling_fraction": 0.007751937984496124,
+        "distinct_values": 12
+      },
+      "normalized_partial_score": {
+        "mean": 0.5683677863910422,
+        "sd": 0.19472026261023073,
+        "floor_fraction": 0.0,
+        "ceiling_fraction": 0.007751937984496124,
+        "distinct_values": 33
+      },
+      "alpha_exact_median": 0.5713037781174929,
+      "alpha_partial_median": 0.6241769281340258,
+      "variance_components_normalized_exact_score": {
+        "person": 0.015334687564213226,
+        "video": 0.010433328196448566,
+        "residual": 0.02041292547204714,
+        "converged": true,
+        "person_fraction": 0.3320566267140525,
+        "video_fraction": 0.2259228139997041
+      },
+      "variance_components_normalized_partial_score": {
+        "person": 0.015716856916808946,
+        "video": 0.003078089438297781,
+        "residual": 0.020376608247701145,
+        "converged": true,
+        "person_fraction": 0.40123138017305904,
+        "video_fraction": 0.07857971095375263
+      },
+      "one_item_equivalent_skill": {
+        "mean": 0.03777696240178125,
+        "median": 0.007953363926172463,
+        "video_mean_of_means": 0.037776962401781244,
+        "items": 36
+      }
+    },
+    "E5_repeat": {
+      "people": 48,
+      "cells": 144,
+      "videos": 3,
+      "normalized_exact_score": {
+        "mean": 0.578125,
+        "sd": 0.21708735159070924,
+        "floor_fraction": 0.006944444444444444,
+        "ceiling_fraction": 0.0,
+        "distinct_values": 12
+      },
+      "normalized_partial_score": {
+        "mean": 0.609375,
+        "sd": 0.20457880110828328,
+        "floor_fraction": 0.0,
+        "ceiling_fraction": 0.0,
+        "distinct_values": 34
+      },
+      "alpha_exact_median": 0.546451355661882,
+      "alpha_partial_median": 0.5590655636924469,
+      "variance_components_normalized_exact_score": {
+        "person": 0.02303117607728194,
+        "video": 0.010956376566312395,
+        "residual": 0.017062523915339887,
+        "converged": true,
+        "person_fraction": 0.4511487078906502,
+        "video_fraction": 0.21462017894652757
+      },
+      "variance_components_normalized_partial_score": {
+        "person": 0.02279107515025616,
+        "video": 0.00264429812803032,
+        "residual": 0.01760497353235087,
+        "converged": true,
+        "person_fraction": 0.5295281483332143,
+        "video_fraction": 0.061437658475762706
+      },
+      "one_item_equivalent_skill": {
+        "mean": 0.06260304850897386,
+        "median": 0.03127025909256942,
+        "video_mean_of_means": 0.06260304850897384,
+        "items": 36
+      }
+    },
+    "E1_ocular": {
+      "people": 27,
+      "cells": 135,
+      "videos": 5,
+      "normalized_exact_score": {
+        "mean": 0.6503928170594836,
+        "sd": 0.23451362618118657,
+        "floor_fraction": 0.007407407407407408,
+        "ceiling_fraction": 0.05925925925925926,
+        "distinct_values": 19
+      },
+      "normalized_partial_score": {
+        "mean": 0.6503928170594836,
+        "sd": 0.23451362618118657,
+        "floor_fraction": 0.007407407407407408,
+        "ceiling_fraction": 0.05925925925925926,
+        "distinct_values": 19
+      },
+      "alpha_exact_median": 0.6765406737880033,
+      "alpha_partial_median": 0.6765406737880033,
+      "variance_components_normalized_exact_score": {
+        "person": 0.030788485808275274,
+        "video": 0.007719546203848989,
+        "residual": 0.018905499040318935,
+        "converged": true,
+        "person_fraction": 0.5362583565910999,
+        "video_fraction": 0.13445517219273154
+      },
+      "variance_components_normalized_partial_score": {
+        "person": 0.030788485808275274,
+        "video": 0.007719546203848989,
+        "residual": 0.018905499040318935,
+        "converged": true,
+        "person_fraction": 0.5362583565910999,
+        "video_fraction": 0.13445517219273154
+      },
+      "one_item_equivalent_skill": {
+        "mean": 0.04017376976795621,
+        "median": 0.027592011299650276,
+        "video_mean_of_means": 0.041126627102742855,
+        "items": 59
+      }
+    }
+  },
+  "minimum_useful_effect_rule": "delta = max(0.05, one-item-equivalent skill) on E3+E4 first view, exact score",
+  "delta": 0.05,
+  "outcome_rule_check": {
+    "exact_floor_or_ceiling_gt_15pct": false,
+    "exact_alpha_lower_by_gt_0.10": false
+  }
+}

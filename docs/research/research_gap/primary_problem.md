@@ -1,5 +1,7 @@
 # Conditional primary problem: individual validity of physiological learning measures
 
+> **Amendment 2026-10-04.** This formulation was challenged in the [experimental-design phase](../experimental_design/estimand_and_hypotheses.md) and revised to **G01-R**. The changes: regime A is confirmatory; B and C are descriptive; EEG+ECG+gaze is the primary sensor set; negative claims are limited to effects ≥ 0.10; the state component is exploratory. The text below is the historical 2026-10-03 record.
+
 2026-10-03. **Decision:** advance G01 to the next validation/design stage. This selects a scientific question, not a model, a confirmed novelty claim or permission to ignore OQ-06. See [decision record](decision_log.md) and [pre-model gates](pre_model_gates.md).
 
 Working paper framing: **When do shared physiological responses provide valid individual information about learning performance?**

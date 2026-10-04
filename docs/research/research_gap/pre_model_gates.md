@@ -1,5 +1,7 @@
 # Before model development: decision gates and external validation
 
+> **Amendment 2026-10-04.** Gates M01–M08 were worked through in the [Experimental Design & Pre-model Readiness package](../experimental_design/README.md). G01 was revised to **G01-R** and the verdict is **GO for baseline implementation** ([verdict](../experimental_design/readiness_verdict.md)). The text below is the historical 2026-10-03 record.
+
 2026-10-03. This is a **design/evidence queue**, not an implemented modeling pipeline. The user authorized formulation; no additional permission is needed to complete this documentation. Model development has explicitly not been requested in this phase.
 
 ## Ordered gates

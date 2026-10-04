@@ -1,0 +1,15 @@
+{
+  "phase_date": "2026-10-04",
+  "set": "PAS_E34_core",
+  "nsim": 300,
+  "R": 4,
+  "B_perm": 99,
+  "K": 10,
+  "delta": 0.05,
+  "targets": {
+    "null": 0.0,
+    "truth_at_2delta": 0.14
+  },
+  "perm_mode": "person",
+  "physiology_outcome_association_used": false
+}

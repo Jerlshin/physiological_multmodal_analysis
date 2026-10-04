@@ -1,0 +1,9 @@
+set,people,sex_known,age_known,asrs_known,digit_span_valid,gpa_valid
+CAS_E34,72,72,72,72,69,51
+PAS_E34_core,68,68,68,68,66,48
+PAS_E34_four,57,57,57,57,56,42
+E5_core,46,46,46,46,42,31
+E5_four,37,37,37,37,35,25
+E5_CAS,48,48,48,48,44,31
+E1_gaze,26,26,26,0,0,24
+E1_gaze_pupil,25,25,25,0,0,23

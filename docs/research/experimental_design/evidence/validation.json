@@ -1,0 +1,47 @@
+{
+  "phase_date": "2026-10-04",
+  "physiology_outcome_association_computed": false,
+  "predictive_model_of_real_outcomes_fitted": false,
+  "tests": {
+    "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests",
+    "summary": "OK",
+    "ran": [
+      "Ran 29 tests in 0.290s"
+    ]
+  },
+  "ledger_assertions": {
+    "people": 68,
+    "cells": 259,
+    "videos": 8
+  },
+  "delta": 0.05,
+  "link_and_anchor_check": "all local links/anchors in docs/research, research_gap and experimental_design resolve (0 failures)",
+  "artifact_sha256": {
+    "README.md": "c7db816d40bc01d8fe7f2a12b98c63c0662e0ecd3feb2f8d23ce896362d1f673",
+    "analysis_set_incidence.csv": "a09bbffc65a6a1c50fd76559a1978f63d5cce3e1270ecb6f4c6ddb1b82cdb722",
+    "analysis_set_manifest.csv": "05cf1a33f7afb795eb60fc14c187badc49f419c22b9854390ac053c30e87551e",
+    "case_flow.csv": "41d46c246ea27cebd92a59f0b00ada436f728e4cbdfc053ec672f3cf6b0f3b2d",
+    "core_exclusion_reasons.csv": "fa6fff077039de7f534a9bc584a9c3a18425bfdec571aac8a072131105259866",
+    "covariate_availability.csv": "b0b3ecd561880ee026c984381b6d79d65fcf83bb86db318f7e963ee126aa2853",
+    "design_ledger.json": "89ac461c0a7bc71c73ad0cebc9d0435b3aa20607d1707e4576d865d1d2ca9c14",
+    "design_ledger.py": "75fc14e2288b0f7dc4c7ad17fdaf3976905d7c62bd3f8edb69a37f12597b1acd",
+    "external/buhler2024_osf_4qkvx_file_manifest.json": "a8af3d34d3a5a612031c61082324444f6b9ac05205d6a13442e3c023b3be063b",
+    "external/delegated_audit_notes.md": "7c8a82e817287a1f366c7e82cff06c33ea285c0433ab89765a3ae43023339192",
+    "external/john2025_osf_4rn5q_file_manifest.json": "39a16070ffb88c3806aafb43053c9a3b0335d35345dfa1c5597d59eb93d75318",
+    "external/p05_semantic_scholar_record.json": "7280903447b47c22fe5fbf6d150ba6a3d892cbb0b6a4afe0c8c1875052a05821",
+    "inference_calibration.py": "e2aa1f4e4952f266fd4dc816f1e8989e60a35dea6ab120322ea55488e1b9276e",
+    "inference_calibration_meta_cellperm.json": "329fbc4e7682387ab7441ff27606fe0f4eda11deb7121c73e65893a9f2715eb0",
+    "inference_calibration_meta_personperm.json": "678eb7071d758df026cc0fb3ccbbe695631111989769430006b79cf8e7f79907",
+    "inference_calibration_summary_cellperm.csv": "855ff930797d91e0e6d72041ee6e15beffd45ff0f716b6c6ade60575711b208e",
+    "inference_calibration_summary_personperm.csv": "7eda484b443790d3394ae05cdc47411344a18e15db1b0f8dd5cddaeaafc62556",
+    "one_item_equivalent_items.csv": "886f977d5538e775b5189ca4915773adad8958ab68e9dd6f73b4828a518da4c2",
+    "outcome_psychometrics.json": "c00d67fd90023993c2a3838266b776fadf3694831bc44243c7932e88216bbf8f",
+    "outcome_psychometrics.py": "005234f4b0328bc71826cf42d1214bcb8f3fc975e9cd8f734b0fa98277a98a26",
+    "outcome_reliability_by_video.csv": "f43a945a5908df35bff046bf5f000e31a42a7148227c10edffa03276c49c3ad2",
+    "precision_simulation.py": "3b95cc6ea9080519f38bb1dc8052f766dcf18e7674e20ef1470b33ecc93d7ce5",
+    "precision_simulation_meta.json": "f48588a1daad9e1c45b9ef3b55a1335e2b77a08fbf520e2e38de5a2e30d00e1d",
+    "precision_simulation_summary.csv": "19c08b4a02778e48d1878c8eaf7fcd5460b27b56fb6334290f740b2b0c7005f4",
+    "selection_diagnostic.csv": "5951d3a87b698e16a55a91da6ec03e2b32ae9ff2325253537af3a6b06ec06f80"
+  },
+  "simulation_replicate_files": 33
+}

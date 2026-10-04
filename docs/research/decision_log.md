@@ -88,3 +88,12 @@ D034's Exp.2 pooling review is now completed by D038's conservative exclusion; i
 | D049 | Stop at formulation/evidence; develop no predictive model in this pass | User boundary; [phase evidence](research_gap/evidence/README.md) | User initiates modeling after appropriate gates |
 
 D040/INF-063 are amended only in phase authorization: conditional formulation is now completed, while OQ-06 remains a scientific prerequisite. G01 is not an unconditional architecture, confirmed novelty claim or journal-acceptance prediction. [Local decisions RGD-001–015](research_gap/decision_log.md) trace the detailed evolution.
+
+## Amendment — Experimental Design & Pre-model Validation phase, 2026-10-04
+
+Detailed decisions are **EDD-001–014** in the [phase-local log](research_gap/decision_log.md). Earlier entries are unchanged.
+
+| ID | Decision | Evidence / reason | Revisit trigger |
+|---|---|---|---|
+| D050 | Revise G01 → **G01-R**. Regime A on PAS-core is confirmatory; B/C, E5 and E1 are descriptive; the state component is exploratory; negative claims are limited to ≥ 0.10 | [Precision and calibration](experimental_design/precision_and_independence.md) on the actual crossed design | Production re-simulation, or an external replication result |
+| D051 | **GO for baseline implementation** under the [frozen protocol](experimental_design/protocol.md) | [Readiness verdict](experimental_design/readiness_verdict.md) | STOP/REVISE triggers listed in the verdict |

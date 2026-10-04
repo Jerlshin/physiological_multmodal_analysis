@@ -160,3 +160,15 @@ Explicit amendments: **INF-049** is narrowed by INF-056/057/058 rather than reso
 | INF-072 | VERIFIED PHASE FACT | 71 queries/38 saved tool batches and 43 scoped external records support this pass; no model development or author contact occurred | [Search/evidence record](research_gap/evidence/README.md) | High for captured workflow | Not an exhaustive systematic review; 14 external records have relevant full-text sections reviewed |
 
 INF-063's phase boundary is superseded by the user's explicit new instruction: a conditional primary question is now formulated. Its OQ-06 constraint remains. [Local RGI-001–024](research_gap/inference_register.md) separates facts, literature, interpretations, hypotheses and unknowns in greater detail.
+
+## Amendment — Experimental Design & Pre-model Validation phase, 2026-10-04
+
+Detailed entries are **EDI-001–020** in the [phase-local register](research_gap/inference_register.md). Summary rows below; earlier rows are unchanged.
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-073 | VERIFIED FACT / INFERENCE | OQ-06 is **bounded** for scale-free whole-video features: inspected upstream routines fit only within single recordings and use no labels. Execution remains uncertified | [M01](experimental_design/measurement_provenance.md) |
+| INF-074 | VERIFIED FACT | Exact-score within-video reliability: α ≈ 0.45 (E3+E4 median). About three-quarters of the reliable within-video variance is a stable learner level | [M02](experimental_design/estimand_and_hypotheses.md) |
+| INF-075 | VERIFIED FACT | Primary set PAS-core (EEG+ECG+gaze, E3+E4 first tested view) = 68 people / 259 cells / 8 videos | [M03](experimental_design/analysis_population.md) |
+| INF-076 | SIMULATION FACT / INFERENCE | Regime A detects procedure skill ≈ 0.10 with power 0.93 (person-block permutation, false detection 0.063). Effects ≥ 0.10 can be ruled out; δ = 0.05 cannot; regime B content-population inference is not supported | [M04](experimental_design/precision_and_independence.md) |
+| INF-077 | VERIFIED EXTERNAL FACT | John 2025 (OSF 4rn5q) is public CC-BY 4.0, with raw EyeLink EDF and item-level pretest/posttest for one instructional video. This supersedes INF-070's "unverified" status for access and licence | [M07](experimental_design/external_validation.md) |

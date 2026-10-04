@@ -1,0 +1,15 @@
+experiment,reason,cells
+3,ecg: absent,6
+3,eeg: absent,13
+3,"gaze: [""correction_gt_50pct""]",4
+3,gaze: absent,2
+3,included_core,148
+4,eeg: absent,1
+4,"gaze: [""correction_gt_50pct""]",8
+4,"gaze: [""range_or_nonfinite_or_correction_gt_50pct""]",1
+4,gaze: absent,8
+4,included_core,111
+5,eeg: absent,3
+5,"gaze: [""correction_gt_50pct""]",11
+5,gaze: absent,2
+5,included_core,128

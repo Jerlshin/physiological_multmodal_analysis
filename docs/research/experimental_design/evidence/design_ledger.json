@@ -1,0 +1,151 @@
+{
+  "CAS_E34": {
+    "people": 72,
+    "cells": 302,
+    "videos": 8
+  },
+  "PAS_E34_core": {
+    "people": 68,
+    "cells": 259,
+    "videos": 8
+  },
+  "PAS_E34_four": {
+    "people": 57,
+    "cells": 216,
+    "videos": 8
+  },
+  "E5_core": {
+    "people": 46,
+    "cells": 128,
+    "videos": 3
+  },
+  "E5_four": {
+    "people": 37,
+    "cells": 108,
+    "videos": 3
+  },
+  "E5_CAS": {
+    "people": 48,
+    "cells": 144,
+    "videos": 3
+  },
+  "E1_gaze": {
+    "people": 26,
+    "cells": 121,
+    "videos": 5
+  },
+  "E1_gaze_pupil": {
+    "people": 25,
+    "cells": 119,
+    "videos": 5
+  },
+  "PAS_E34_core_eye30": {
+    "people": 65,
+    "cells": 223,
+    "videos": 8
+  },
+  "PAS_E34_core_eye70": {
+    "people": 69,
+    "cells": 265,
+    "videos": 8
+  },
+  "by_experiment": {
+    "CAS_E34": {
+      "3": {
+        "people": 29,
+        "cells": 173,
+        "videos": 6
+      },
+      "4": {
+        "people": 43,
+        "cells": 129,
+        "videos": 3
+      }
+    },
+    "PAS_E34_core": {
+      "3": {
+        "people": 29,
+        "cells": 148,
+        "videos": 6
+      },
+      "4": {
+        "people": 39,
+        "cells": 111,
+        "videos": 3
+      }
+    },
+    "PAS_E34_four": {
+      "3": {
+        "people": 24,
+        "cells": 124,
+        "videos": 6
+      },
+      "4": {
+        "people": 33,
+        "cells": 92,
+        "videos": 3
+      }
+    },
+    "E5_core": {
+      "5": {
+        "people": 46,
+        "cells": 128,
+        "videos": 3
+      }
+    },
+    "E5_four": {
+      "5": {
+        "people": 37,
+        "cells": 108,
+        "videos": 3
+      }
+    },
+    "E5_CAS": {
+      "5": {
+        "people": 48,
+        "cells": 144,
+        "videos": 3
+      }
+    },
+    "E1_gaze": {
+      "1": {
+        "people": 26,
+        "cells": 121,
+        "videos": 5
+      }
+    },
+    "E1_gaze_pupil": {
+      "1": {
+        "people": 25,
+        "cells": 119,
+        "videos": 5
+      }
+    },
+    "PAS_E34_core_eye30": {
+      "3": {
+        "people": 29,
+        "cells": 130,
+        "videos": 6
+      },
+      "4": {
+        "people": 36,
+        "cells": 93,
+        "videos": 3
+      }
+    },
+    "PAS_E34_core_eye70": {
+      "3": {
+        "people": 29,
+        "cells": 151,
+        "videos": 6
+      },
+      "4": {
+        "people": 40,
+        "cells": 114,
+        "videos": 3
+      }
+    }
+  },
+  "qc_rules": "audit_config.json basic_qc unchanged (max_eye_correction_fraction 0.5, etc.)",
+  "outcome_values_in_manifest": false
+}

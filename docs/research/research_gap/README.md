@@ -1,5 +1,7 @@
 # Research Gap Discovery & Problem Formulation
 
+> **Amendment 2026-10-04.** Gates M01–M08 were worked through in the [Experimental Design & Pre-model Readiness package](../experimental_design/README.md). G01 was revised to **G01-R** and the verdict is **GO for baseline implementation** ([verdict](../experimental_design/readiness_verdict.md)). The text below is the historical 2026-10-03 record.
+
 **Completed substantial exploratory pass: 2026-10-03.** Recommendation: prioritize **G01 — individual validity of physiological quiz measures across people, content and reference-access settings**. This is a conditional primary scientific question. A publication-ready novelty/method claim is not yet established, and OQ-06 remains open. No predictive model was developed.
 
 The review starts from the entire repository research trajectory and the latest empirical audit, then broadens beyond BBBD citations. It records **71 search queries / 38 search-and-reading batches**, **43 external literature records** plus inherited BBBD antecedents, **24 candidate directions**, **eight full dossiers**, and **four shortlisted problems**. Fourteen external records have relevant original full-text sections reviewed; others have explicitly scoped primary-abstract/indexed access. This is a substantial adversarial scoping review, not an exhaustive systematic-review census.
