@@ -1,0 +1,11 @@
+# pre-run snapshot 2026-10-05T10:48:47Z
+git HEAD: 646b1360ec421e0bb6ab70d2799a3dcc600833a3
+git status:
+ M .DS_Store
+?? docs/research/confirmatory_h1h2/evidence/logs/05_pre_run_snapshot.log
+python: Python 3.14.5
+--- diff of pip freeze vs requirements-baseline.lock (empty = identical):
+--- derived cache entry counts:
+syn_cache:     7903
+corrca_stats:       71
+outcome_access_log exists: NO
