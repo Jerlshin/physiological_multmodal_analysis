@@ -69,3 +69,15 @@ git add analysis_freeze/outcome_access_log.jsonl && git commit -m "Log G01-R H1/
 ```
 
 Then follow the run book in [analysis_freeze.md](../docs/research/baseline_implementation/analysis_freeze.md#run-book-after-authorization).
+
+## Authorization and first outcome access (appended 2026-10-05)
+
+| Item | Value |
+|---|---|
+| Preregistration | Deposited by the user: https://osf.io/uh397/overview (author Jerlshin; freeze commit `6ba87fe`, tag `g01r-freeze-v1`) |
+| Verification before authorization | `verify-freeze` `VERIFIED` at 2026-10-05T10:47:09Z; 101/101 tests |
+| Authorization | `AUTHORIZATION.json` written 2026-10-05T10:47:40Z, SHA-256 `0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067`; records `git_commit 5ba4f16`; committed as `33e61e6` |
+| Verification after authorization | `VERIFIED` at 10:47:47Z; `load_authorization` accepts |
+| First outcome access | 2026-10-05T10:49:16Z, `PAS_E34_core`, exact, 259 cells (the only access to date) |
+| First confirmatory run | `H1_H2`, run `20261005T104908Z_c57b28d6`, FINISHED 17:30:48Z; post-run `verify-freeze` `VERIFIED` |
+| Record | [docs/research/confirmatory_h1h2](../docs/research/confirmatory_h1h2/README.md) |

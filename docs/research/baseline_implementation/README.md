@@ -10,7 +10,9 @@ Output: a production-quality, reproducible pipeline that executes the frozen pro
 - Every physiological feature was generated outcome-blind.
 - No preregistration was submitted, no author contacted, no external dataset downloaded and no bespoke architecture developed.
 
-**Verdict:** see [freeze_finalization.md](freeze_finalization.md) (current), which finalizes the freeze and preregistration package after the [readiness verdict](readiness_verdict.md).
+**Next phase:** [first confirmatory run (H1/H2)](../confirmatory_h1h2/README.md), 2026-10-05.
+
+**Verdict:** see [freeze_finalization.md](freeze_finalization.md) (current for this phase), which finalizes the freeze and preregistration package after the [readiness verdict](readiness_verdict.md).
 
 ## Reading order
 
@@ -21,7 +23,7 @@ Output: a production-quality, reproducible pipeline that executes the frozen pro
 | [feature_qc.md](feature_qc.md) | Outcome-blind feature QC and missingness; REVISE trigger evaluation; pre-outcome observations |
 | [validation_report.md](validation_report.md) | Production re-validation of the operating characteristics (V1) and real-feature null calibration (V2) |
 | [analysis_freeze.md](analysis_freeze.md) | What is frozen, the hash manifest, the authorization gate, the run book |
-| [preregistration.md](preregistration.md) | Final preregistration text, ready to deposit (not deposited) |
+| [preregistration.md](preregistration.md) | Final preregistration text as frozen. Deposited by the user at OSF (https://osf.io/uh397/overview) before the 2026-10-05 authorization; the repository copy is left unchanged, with deposit-time fields recorded in [FREEZE_RECORD.md](../../../analysis_freeze/FREEZE_RECORD.md) |
 | [readiness_verdict.md](readiness_verdict.md) | Phase verdict and what remained |
 | [freeze_finalization.md](freeze_finalization.md) | Consistency review, finalization changes, current verdict and the exact next steps |
 

@@ -109,3 +109,14 @@ Detailed decisions are **BID-001–027** in the [phase-local log](research_gap/d
 | D054 | **Verdict: READY FOR PREREGISTRATION / ANALYSIS FREEZE.** The freeze manifest is written and verified. Committing it, depositing the preregistration and writing the authorization record are user actions | [Readiness verdict](baseline_implementation/readiness_verdict.md) | First step after authorization: `python -m g01r run --analysis H1_H2` |
 | D055 | **Freeze finalization: READY TO COMMIT AND PREREGISTER.** The preregistration is final; the gate requires a committed freeze and re-verifies at every access; the reused synchrony caches are verified bit-identical and bound; H3 reading clarified (IS-028). No scientific decision changed | [Freeze finalization](baseline_implementation/freeze_finalization.md) | Any change to a bound file before authorization requires a rebuilt freeze; after it, a logged deviation |
 | D056 | **Freeze committed** as `6ba87fe` (tag `g01r-freeze-v1`; manifest `a2594996…`), with the H3 reading (IS-028) confirmed as final. The preregistration snapshot is built and checksummed. Real outcomes remain locked | [Freeze record](../../analysis_freeze/FREEZE_RECORD.md) | Next: user deposits the preregistration, then writes the authorization record |
+
+## Amendment — Real-outcome authorization and first confirmatory run (H1/H2), 2026-10-05
+
+Detailed decisions are **CHR-001–009** in the [phase-local log](research_gap/decision_log.md). Earlier entries are unchanged. No scientific specification changed.
+
+| ID | Decision | Evidence / reason | Revisit trigger |
+|---|---|---|---|
+| D057 | Authorize real-outcome access after the OSF deposit (https://osf.io/uh397/overview; author Jerlshin), only after `verify-freeze` passed; re-verified after authorization | [Phase report](confirmatory_h1h2/README.md); `AUTHORIZATION.json` `0bd14a35…`, commit `33e61e6` | Any change to a bound file makes the loader refuse access |
+| D058 | Execute run-book step 1 (`H1_H2`) exactly as frozen. Run `20261005T104908Z_c57b28d6` FINISHED; one logged outcome access | [Run provenance](confirmatory_h1h2/README.md#run-provenance) | — |
+| D059 | **H1: bounded negative** (Ŝ 0.021, p 0.082, U₃ 0.079). **H2: H2a and H2d rejected (Holm), H2b and H2c not** — all detected increments below δ | [Results](confirmatory_h1h2/h1h2_results.md) | No H2/H3 result revises H1 |
+| D060 | Next: complete run-book steps 2–5 per preregistration §13/§15; no new modelling. Not started | [Recommendation](confirmatory_h1h2/h1h2_results.md#recommendation-for-the-next-phase-not-started) | User decision |

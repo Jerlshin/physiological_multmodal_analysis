@@ -185,3 +185,13 @@ Detailed entries are **BII-001–014** in the [phase-local register](research_ga
 | INF-081 | VERIFIED FACT / INFERENCE | Pre-outcome interpretation constraints:<br>• EEG ISC is coupled to gaze behaviour (ρ = 0.48);<br>• raw-route alpha agrees only moderately with the processed route (ρ = 0.60);<br>• the baseline can under-regularize an extreme 16 Hz quality value, so the matched-noise control is reported next to H1 | [Feature QC](baseline_implementation/feature_qc.md) |
 | INF-082 | INFERENCE | G01-R is ready for preregistration and the analysis freeze. Real outcomes remain locked behind a user-written authorization | [Readiness verdict](baseline_implementation/readiness_verdict.md) |
 | INF-083 | VERIFIED FACT / INFERENCE | The reused synchrony and CorrCA caches are bit-identical under the frozen code, and the preregistration agrees with the frozen protocol and implementation after the finalization fixes. G01-R is ready to commit and preregister | [Freeze finalization](baseline_implementation/freeze_finalization.md) |
+
+## Amendment — Real-outcome authorization and first confirmatory run (H1/H2), 2026-10-05
+
+Detailed entries are **CHI-001–006** in the [phase-local register](research_gap/inference_register.md). First physiology–outcome results.
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-084 | VERIFIED FACT (confirmatory) | H1 not detected in regime A on PAS-core (68 / 259 / 8): Ŝ = 0.021, 90% [−0.033, 0.072], p = 0.082. Increments ≥ 0.10 are ruled out (U₃ = 0.079); 0.05–0.10 remains possible | [Results](confirmatory_h1h2/h1h2_results.md) |
+| INF-085 | VERIFIED FACT (confirmatory) | Holm-adjusted H2: synchrony beyond reference-free features (H2a) and the gaze block (H2d) add detectable held-out information, both below δ; EEG and ECG blocks do not | [Results](confirmatory_h1h2/h1h2_results.md) |
+| INF-086 | INFERENCE | In BBBD, whole-video physiology with the frozen ridge procedure offers at most small (sub-δ) individual information about immediate quiz scores beyond content, covariates and quality; the detectable part is ocular and reference-dependent. Content transfer (B/C) and robustness (H3.1–H3.6) are pending | [Results](confirmatory_h1h2/h1h2_results.md) |

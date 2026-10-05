@@ -1,11 +1,17 @@
 # Research project: evidence and problem formulation
 
-**Current phase — 2026-10-05:** the [Baseline Implementation & Analysis Freeze package](baseline_implementation/README.md) is complete, and the freeze and preregistration package are [finalized](baseline_implementation/freeze_finalization.md). **Freeze committed** (`6ba87fe`, tag `g01r-freeze-v1`; [record](../../analysis_freeze/FREEZE_RECORD.md)). **Status: READY FOR PREREGISTRATION SUBMISSION.**
+**Current phase — 2026-10-05 (evening):** [Real-outcome authorization and first confirmatory run (H1/H2)](confirmatory_h1h2/README.md). The OSF preregistration is deposited (https://osf.io/uh397/overview). `verify-freeze` passed; outcome access was authorized (commit `33e61e6`) and re-verified; the frozen `H1_H2` run `20261005T104908Z_c57b28d6` completed with one logged outcome access. **Status: H1/H2 BASELINE COMPLETE AND DOCUMENTED.** [Results](confirmatory_h1h2/h1h2_results.md):
+
+- **H1 (primary): bounded negative.** Ŝ = 0.021 (90% nested-CV interval −0.033 to 0.072), permutation p = 0.082; increments ≥ 0.10 ruled out (U₃ = 0.079); 0.05–0.10 not ruled out.
+- **H2 (Holm):** synchrony beyond reference-free features (H2a, Holm p = 0.020) and the gaze block (H2d, 0.027) detected, both below δ = 0.05; EEG (H2b) and ECG (H2c) not detected.
+- **Next (not started):** run-book steps 2–5 (H3.1–H3.6, descriptive/explanatory/diagnostic analyses, full report), as the preregistration commits.
+
+**Previous phase — 2026-10-05:** the [Baseline Implementation & Analysis Freeze package](baseline_implementation/README.md) is complete, and the freeze and preregistration package are [finalized](baseline_implementation/freeze_finalization.md). **Freeze committed** (`6ba87fe`, tag `g01r-freeze-v1`; [record](../../analysis_freeze/FREEZE_RECORD.md)). **Status: READY FOR PREREGISTRATION SUBMISSION.**
 
 - **Pipeline.** `src/g01r` implements the frozen G01-R protocol: population and case flow, outcome-blind features (processed and raw routes), split-specific synchrony under explicit reference-access rules, the prespecified ridge baselines, metrics, inference, run tracking (MLflow) and a machine-enforced outcome-access gate.
 - **Validated before any outcome access.** On production code, false detection is 0.060, power at 2δ is 0.973 and the futility error is 0.050. On the real features with synthetic null outcomes, false detection is 0.030 (pure null) and 0.065 (nuisance null).
 - **Feature QC.** Outcome-blind; 0% of learners lost.
-- **Real outcomes remain locked.** The next steps are user actions: commit the freeze, deposit the [preregistration](baseline_implementation/preregistration.md), and write the authorization record. The first confirmatory step is then `python -m g01r run --analysis H1_H2`.
+- **Real outcomes remained locked in that phase.** The next steps were user actions: commit the freeze, deposit the [preregistration](baseline_implementation/preregistration.md), and write the authorization record. The first confirmatory step is then `python -m g01r run --analysis H1_H2`.
 
 **Previous phase — 2026-10-04:** the [Experimental Design & Pre-model Readiness package](experimental_design/README.md) is complete. **Verdict: GO for baseline implementation of the revised question G01-R** under a [frozen protocol](experimental_design/protocol.md).
 
