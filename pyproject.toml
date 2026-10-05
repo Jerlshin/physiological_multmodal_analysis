@@ -4,13 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bbbd-audit"
-version = "0.1.0"
-description = "Reproducible, non-predictive BBBD 1.1 scientific data audit"
+version = "0.2.0"
+description = "BBBD 1.1 scientific data audit and the G01-R baseline study pipeline"
 requires-python = ">=3.11"
 dependencies = ["numpy", "scipy", "pandas", "pyarrow", "matplotlib"]
 
+[project.optional-dependencies]
+tracking = ["mlflow-skinny==3.16.1", "sqlalchemy", "alembic"]
+
 [project.scripts]
 bbbd-audit = "bbbd_audit.cli:main"
+g01r = "g01r.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

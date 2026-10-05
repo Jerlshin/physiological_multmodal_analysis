@@ -1,0 +1,13 @@
+# Scope of the preregistration snapshot built with `git archive` (freeze record: analysis_freeze/FREEZE_RECORD.md).
+# The snapshot holds code and documentation only. Excluded from it, but kept in the repository:
+# local OS artifacts
+.DS_Store export-ignore
+**/.DS_Store export-ignore
+# audit evidence: participant-level BBBD-derived tables (including quiz outcomes), author files, third-party code
+# and materials; only the archive checksum manifest is kept, because the freeze manifest reads it
+docs/research/dataset_exploration/evidence/** export-ignore
+docs/research/dataset_exploration/evidence/download_manifest.json -export-ignore
+# search logs that contain publisher signed-access URLs
+docs/research/dataset_landscape/evidence/search_log.md export-ignore
+docs/research/research_gap/search_log.md export-ignore
+docs/research/research_gap/evidence/search_records.json export-ignore

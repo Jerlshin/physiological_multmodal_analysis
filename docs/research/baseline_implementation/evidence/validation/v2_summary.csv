@@ -1,0 +1,4 @@
+scenario,n,detect_perm,detect_perm_mc_se,mean_est,sd_est,est_ge_delta,decision_detected_useful,futility_rules_out_threshold,n_perm,R_point,elapsed_s,scenario_nuisance_share,scenario_signal_amp,scenario_signal_features
+pure_null,200,0.03,0.012062338081814818,0.0014596106237034251,0.00947210107568305,0.0,0.0,0.915,199,50,1054.928495168686,,,
+nuisance_null,200,0.065,0.017432010784760317,-0.004915216746241997,0.019756888500261395,0.0,0.0,0.785,199,50,2064.788801908493,0.3,,
+planted_rf_signal,100,0.92,0.027129319932501065,0.09745787876895352,0.058793628038415834,0.77,0.76,0.05,199,50,2577.278475999832,,0.12,RF1_eeg_posterior_alpha+RF3_heart_rate+RF5_gaze_dispersion

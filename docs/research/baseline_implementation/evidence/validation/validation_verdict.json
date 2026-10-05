@@ -1,0 +1,129 @@
+{
+  "checks": {
+    "false_detection": {
+      "value": 0.06,
+      "target": "<= 0.07",
+      "passed": true
+    },
+    "power_at_2delta": {
+      "value": 0.9733333333333334,
+      "target": ">= 0.8",
+      "passed": true
+    },
+    "futility_error_at_0_10": {
+      "value": 0.05,
+      "target": "<= 0.05",
+      "passed": true
+    },
+    "real_feature_null_false_detection": {
+      "value": 0.065,
+      "target": "<= 0.07 (all V2 scenarios)",
+      "passed": true
+    }
+  },
+  "all_passed": true,
+  "detection_procedure": "permutation",
+  "rule": "protocol \u00a717.3; fallback per readiness verdict condition 2 / EDD-009",
+  "v1_reference_design_phase": {
+    "false_detection": 0.063,
+    "power_at_2delta": 0.93,
+    "futility_error": 0.043
+  },
+  "v1_rows": [
+    {
+      "scenario": "null",
+      "n": 300,
+      "expected_truth": -0.0094534877302936,
+      "mean_est": -0.0069100505253123,
+      "detect_perm": 0.06,
+      "detect_fallback_bootstrap": 0.0566666666666666,
+      "futility_rules_out_threshold": 0.9366666666666666,
+      "est_ge_delta": 0.0066666666666666,
+      "decision_detected_useful": 0.0066666666666666,
+      "ncv_cover90_conditional": 0.9066666666666666,
+      "detect_perm_mc_se": 0.013711309200802,
+      "oracle_target": 0.0,
+      "amp": 0.0,
+      "phi": 0.5652737563670623,
+      "n_perm": 999,
+      "R_point": 50,
+      "R_perm": 10,
+      "ncv_reps": 20,
+      "elapsed_s": 4994.935599088669
+    },
+    {
+      "scenario": "truth_at_2delta",
+      "n": 300,
+      "expected_truth": 0.1083450092687129,
+      "mean_est": 0.0986928012856324,
+      "detect_perm": 0.9733333333333334,
+      "detect_fallback_bootstrap": 0.8166666666666667,
+      "futility_rules_out_threshold": 0.05,
+      "est_ge_delta": 0.8366666666666667,
+      "decision_detected_useful": 0.8366666666666667,
+      "ncv_cover90_conditional": 0.88,
+      "detect_perm_mc_se": 0.0093015331273139,
+      "oracle_target": 0.14,
+      "amp": 0.3805395718663931,
+      "phi": 0.5652737563670623,
+      "n_perm": 999,
+      "R_point": 50,
+      "R_perm": 10,
+      "ncv_reps": 20,
+      "elapsed_s": 9470.518517017365
+    }
+  ],
+  "v2_rows": [
+    {
+      "scenario": "pure_null",
+      "n": 200,
+      "detect_perm": 0.03,
+      "detect_perm_mc_se": 0.0120623380818148,
+      "mean_est": 0.0014596106237034,
+      "sd_est": 0.009472101075683,
+      "est_ge_delta": 0.0,
+      "decision_detected_useful": 0.0,
+      "futility_rules_out_threshold": 0.915,
+      "n_perm": 199,
+      "R_point": 50,
+      "elapsed_s": 1054.928495168686,
+      "scenario_nuisance_share": NaN,
+      "scenario_signal_amp": NaN,
+      "scenario_signal_features": NaN
+    },
+    {
+      "scenario": "nuisance_null",
+      "n": 200,
+      "detect_perm": 0.065,
+      "detect_perm_mc_se": 0.0174320107847603,
+      "mean_est": -0.0049152167462419,
+      "sd_est": 0.0197568885002613,
+      "est_ge_delta": 0.0,
+      "decision_detected_useful": 0.0,
+      "futility_rules_out_threshold": 0.785,
+      "n_perm": 199,
+      "R_point": 50,
+      "elapsed_s": 2064.788801908493,
+      "scenario_nuisance_share": 0.3,
+      "scenario_signal_amp": NaN,
+      "scenario_signal_features": NaN
+    },
+    {
+      "scenario": "planted_rf_signal",
+      "n": 100,
+      "detect_perm": 0.92,
+      "detect_perm_mc_se": 0.027129319932501,
+      "mean_est": 0.0974578787689535,
+      "sd_est": 0.0587936280384158,
+      "est_ge_delta": 0.77,
+      "decision_detected_useful": 0.76,
+      "futility_rules_out_threshold": 0.05,
+      "n_perm": 199,
+      "R_point": 50,
+      "elapsed_s": 2577.278475999832,
+      "scenario_nuisance_share": NaN,
+      "scenario_signal_amp": 0.12,
+      "scenario_signal_features": "RF1_eeg_posterior_alpha+RF3_heart_rate+RF5_gaze_dispersion"
+    }
+  ]
+}

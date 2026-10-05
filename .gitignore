@@ -4,3 +4,9 @@ __pycache__/
 data/bbbd/
 .pytest_cache/
 **/.DS_Store
+data/derived/
+results/runs/
+results/mlflow/
+*.tmp.npy
+results/report_*/
+dist/

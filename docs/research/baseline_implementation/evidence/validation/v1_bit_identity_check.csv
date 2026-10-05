@@ -1,0 +1,5 @@
+scenario,seed,identical_after_identical_serialization,max_abs_diff_raw_vs_csv,perm_p_equal
+null,91000000,True,9.334980705100193e-17,True
+null,91000001,True,9.324138683375338e-17,True
+truth_at_2delta,182000000,True,9.75781955236954e-17,True
+truth_at_2delta,182000001,True,9.020562075079397e-17,True

@@ -97,3 +97,14 @@ Detailed decisions are **EDD-001–014** in the [phase-local log](research_gap/d
 |---|---|---|---|
 | D050 | Revise G01 → **G01-R**. Regime A on PAS-core is confirmatory; B/C, E5 and E1 are descriptive; the state component is exploratory; negative claims are limited to ≥ 0.10 | [Precision and calibration](experimental_design/precision_and_independence.md) on the actual crossed design | Production re-simulation, or an external replication result |
 | D051 | **GO for baseline implementation** under the [frozen protocol](experimental_design/protocol.md) | [Readiness verdict](experimental_design/readiness_verdict.md) | STOP/REVISE triggers listed in the verdict |
+
+## Amendment — Baseline Implementation & Analysis Freeze phase, 2026-10-04/05
+
+Detailed decisions are **BID-001–025** in the [phase-local log](research_gap/decision_log.md). Earlier entries are unchanged. No real quiz outcome was read in this phase.
+
+| ID | Decision | Evidence / reason | Revisit trigger |
+|---|---|---|---|
+| D052 | Implement the frozen G01-R protocol as the production package `src/g01r`. It includes population and case flow, outcome-blind features (processed and raw routes), split-specific synchrony under explicit reference-access rules, the ridge baselines, metrics, inference, the analysis registry, MLflow-mirrored tracking and a machine-enforced outcome-access gate. Operational clarifications IS-001…IS-027 were fixed before outcome access | [Baseline implementation](baseline_implementation/README.md); [implementation spec](baseline_implementation/implementation_spec.md) | Any change to a bound file is a logged deviation and requires a new freeze |
+| D053 | Keep the person-block permutation test as the H1/H2 detection procedure; the declared fallback is not triggered | [Validation](baseline_implementation/validation_report.md): production V1 false detection 0.060, power 0.973, futility error 0.050; real-feature V2 false detection 0.030 / 0.065 | — |
+| D054 | **Verdict: READY FOR PREREGISTRATION / ANALYSIS FREEZE.** The freeze manifest is written and verified. Committing it, depositing the preregistration and writing the authorization record are user actions | [Readiness verdict](baseline_implementation/readiness_verdict.md) | First step after authorization: `python -m g01r run --analysis H1_H2` |
+| D055 | **Freeze finalization: READY TO COMMIT AND PREREGISTER.** The preregistration is final; the gate requires a committed freeze and re-verifies at every access; the reused synchrony caches are verified bit-identical and bound; H3 reading clarified (IS-028). No scientific decision changed | [Freeze finalization](baseline_implementation/freeze_finalization.md) | Any change to a bound file before authorization requires a rebuilt freeze; after it, a logged deviation |

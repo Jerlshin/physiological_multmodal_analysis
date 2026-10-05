@@ -1,0 +1,186 @@
+{
+  "schema": 2,
+  "created_utc": "2026-10-05T09:35:39.663510+00:00",
+  "question": "G01-R",
+  "protocol_commit": "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34",
+  "documents": {
+    "docs/research/experimental_design/protocol.md": "34c1eee05daade2167ec737002e2cedd0b12475fec8b3e990350a377d18f2022",
+    "docs/research/experimental_design/estimand_and_hypotheses.md": "58ad09d87e1589cf975fd398e20ea2d5d8e029f1b228ae147e358a19b9715ae5",
+    "docs/research/experimental_design/evaluation_contract.md": "7dccadce5183255a4adad796f398d20283be715f85df479c1966875e40612689",
+    "docs/research/experimental_design/evidence/analysis_set_manifest.csv": "05cf1a33f7afb795eb60fc14c187badc49f419c22b9854390ac053c30e87551e",
+    "docs/research/baseline_implementation/implementation_spec.md": "5d6e06af9299c4740faa9dace2a7602ecf9d40ee555f1d09676fa312f1b9e106",
+    "configs/g01r_protocol_v1.toml": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+    "requirements-baseline.lock": "57baa426404d032a2c956e161bcd6b66e7c9a9ba03e793f33f92d66b3c5701b9"
+  },
+  "code": {
+    "sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "files": {
+      "src/g01r/__init__.py": "c202f988c81693461d5772018c2433126db7103c48ea0b905e0e3e0c4c7060e8",
+      "src/g01r/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "src/g01r/analysis.py": "f9d91d8e47de05897f71be668c69f7f5606165dc2ce00ca60209b75f7cf0907b",
+      "src/g01r/cli.py": "59176ce699ef6061717218baf3f399be631f2aac1aced9613d10f8ae92bd505c",
+      "src/g01r/config.py": "63474a764a0c822853e1beb640477c9ec9f47e565ea771f6644cc90c55086d18",
+      "src/g01r/design.py": "30a5b92ffbcbf137623cd46b6fdfb2ec652a5c8bca56cdb04f65103a1c32fadd",
+      "src/g01r/diagnostics.py": "8086e572dfe93483fa268aa490e7690454b13f55265aa3698ec656610144121b",
+      "src/g01r/feature_qc.py": "65730a2824e15aaa6131610ad8951c98415ad9796b399dfaede359cc7fd543d8",
+      "src/g01r/features/__init__.py": "597be371cc2068e81e6d9efdbb048480cd684917faf4ab1a7cf304aa24adedc8",
+      "src/g01r/features/covariates.py": "d04f841d07191df0e4e67008ea1dcedef3b5b22a624fc1aeda9fd5d4916854cd",
+      "src/g01r/features/extract.py": "50654d3f7e7ce3a49a162af05848626503f78751220d277dd26e37419f1424b0",
+      "src/g01r/features/quality.py": "b0f8a2a62fc40d851c9c0da25eae771908629f94cf8241faa69ad0f98c36f415",
+      "src/g01r/features/raw_route.py": "e724dfd2413decd7c00c4d5c328d5c5d6ae158d0fa04fce158e394e62f3d9329",
+      "src/g01r/features/reference_free.py": "2f2adf423c44974654e8f4378bc2d06b95cf61e175c97f3b98c7eb42fa57ecc2",
+      "src/g01r/features/synchrony.py": "fb632c9a471127df585f0a968fcbec765a1e40daf543d855fd9b63c4d1ab8f57",
+      "src/g01r/freeze.py": "68ea240e3eb7384faf20b3d33b2d6921f68dd03a5b76d49e8919ccc5fc2f0b6b",
+      "src/g01r/inference.py": "18b29193ec5306167f1a62e0779e1993c8b25c793581709c6fac559288e4500d",
+      "src/g01r/metrics.py": "91642ba4fc5bd32ed2f9bc8dfa97d12ae5ec28b79d93f355df76681a2b814b28",
+      "src/g01r/models.py": "118abca188e448e8f6a51994ebfb4f91602a5b4f1fff1875f3f2ceed8ab7b5b3",
+      "src/g01r/outcomes.py": "5bdf377e40c37c109501596eba02b905fa21ed590f19363a31eb2313c606fef0",
+      "src/g01r/pipeline.py": "763c6e61f38e11e72baeef0e2d72ce9ee6f0c2cb0948b4af3034462b58a9f791",
+      "src/g01r/population.py": "17971f95636c1619fb827ebfe1c168e99f2a7537973c8ecc370eb84d32701837",
+      "src/g01r/provenance.py": "566eada3fa2b426e8d1fb3d4e681897d6b7014f9bd316b1a7b211096f2160c61",
+      "src/g01r/references.py": "391ff55677643872a36715a96690c6f310645c115fffe3392333f8a4dfc9a5ff",
+      "src/g01r/registry.py": "4228cd7fea8a995ed89b6547a5368d466697c77cd83953be6296c7faa2ff9dba",
+      "src/g01r/report.py": "2b6075a02bab469737bfb1de7b92dd8ac9955abbdae673dba7999291212b2a0d",
+      "src/g01r/rng.py": "7a6b6276d02c86e8b3c80751648221ff674589efa4d0a7bd92df468707dd0463",
+      "src/g01r/signals.py": "b72c703f6bf1b37617e2108272322da93c4705a41e01275c20ca6330187eeb15",
+      "src/g01r/splits.py": "577e444b7afe02454c8ddfddf7694e5c0a56e98c9fb799682194694a7703be72",
+      "src/g01r/tracking.py": "67e6ca16c7cf25e315660002b4a492118a91a6f4d5028a473c83419df63b3b90",
+      "src/g01r/validate.py": "af93b11dcf84b4befe6187853e47e72486641317f9d6b4429b097f8f8eebdef4",
+      "src/bbbd_audit/io.py": "c8f1b778ddcde08e752be2453526e7b63574ec90a364c228f26033c886a82ff0",
+      "src/bbbd_audit/qc.py": "5d8cf468d8f6baff2c81c5e24255ba00a72f1ff208391491450a8a5bee606235",
+      "configs/g01r_protocol_v1.toml": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "docs/research/experimental_design/evidence/precision_simulation.py": "3b95cc6ea9080519f38bb1dc8052f766dcf18e7674e20ef1470b33ecc93d7ce5"
+    }
+  },
+  "registry": [
+    "H1_H2",
+    "H3_1_partial",
+    "H3_2_eye30",
+    "H3_2_eye70",
+    "H3_3_four",
+    "H3_4_raw",
+    "H3_5_alpha",
+    "H3_6_gpa",
+    "H3_7_cell",
+    "D_state",
+    "D_BC",
+    "D_CAS",
+    "D_E5",
+    "D_transport",
+    "D_E1",
+    "X_explanatory",
+    "S_identity_probe"
+  ],
+  "evidence": {
+    "population/analysis_sets.csv": "7f091a4e6d41eb3773b445d998384b29e5329338312af6e7b3c5fbab2cfe7530",
+    "population/case_flow.csv": "41d46c246ea27cebd92a59f0b00ada436f728e4cbdfc053ec672f3cf6b0f3b2d",
+    "population/population_summary.json": "67ab225c068ea89834ff6bb8faf5e587086d2b7dc2e5e6fe1da64fe563dfda36",
+    "feature_qc/feature_qc.json": "efb8dcf9ac9e6948607cb92612f545e524937a1dab93de4ce7759c0fc934a27a",
+    "validation/v1_summary.csv": "2d13c2b39d245a8a091666a59268ca538b647292a098cac8c6a46457757e4bf7",
+    "validation/v2_summary.csv": "c11e93945681ed24fa7fc7332d522d6adcd1642e00b16acf5a361f4ad31a72ce",
+    "validation/validation_verdict.json": "5220727f206036842ad8a94bdc2f384f3f68b6f51f9f2a6ec2ecc6035f413430",
+    "validation/cache_consistency.json": "8a5c67e2e7ca4176c1983cf2997e5d169477a27e913c391b2028a75133ffd62f"
+  },
+  "features": {
+    "processed": "8802f1ef216974a7b3dbe0752bddb70d590ad2d1e590508ec5e08db656c40e7b",
+    "raw": "ae25156b44d1e3372238c911bd3a4578498a0e712c7fe5e4aa849ab7e34ef837"
+  },
+  "data": {
+    "release_record": 22968459,
+    "version": "1.1",
+    "archives": {
+      "experiment4.zip": {
+        "sha256": "fe0eecb9f3f03c676aec3b1a2894ec0ca5fcde4263738f3637cc7d3144ca07f7",
+        "md5": "0842a88740769449ce92b5e5269f6b70",
+        "bytes": 5466148546,
+        "status": "verified"
+      },
+      "experiment5.zip": {
+        "sha256": "ec108ca955de9ee2d05a3a55b1de79173fbef7220411485414e324b019231dfb",
+        "md5": "cc9bf98d80ad8399cff409e13fb448c0",
+        "bytes": 7044836344,
+        "status": "verified"
+      },
+      "experiment2.zip": {
+        "sha256": "e810e7b7a144da0a27171efb78823b07c07502348284a0ba67638b0708bdf5af",
+        "md5": "e9671316f97e1c3ec1d86a03e0a1ab28",
+        "bytes": 5601886507,
+        "status": "verified"
+      },
+      "experiment3.zip": {
+        "sha256": "e804caa1c14de8b5502a60f66f925aadbf4b914ed447863d7aa72a2e0c473fef",
+        "md5": "adbe5c4766253d6be7aba530ac820ac9",
+        "bytes": 7966970285,
+        "status": "verified"
+      },
+      "experiment1.zip": {
+        "sha256": "0698ad5018eb88793ae80aacd7bb22f271c0ec8805e14cc7c9a969c7519079f7",
+        "md5": "419a7468c4e60f052ab7820f3c9ffd4b",
+        "bytes": 893268919,
+        "status": "verified"
+      }
+    },
+    "download_manifest_sha256": "a867e07c24978e82946a85a27979685f36831505c6a5f919c105b08edd3579b0"
+  },
+  "environment": {
+    "python": "3.14.5",
+    "implementation": "CPython",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pandas": "3.0.6",
+      "pyarrow": "25.0.1",
+      "mlflow-skinny": "3.16.1",
+      "sqlalchemy": "2.1.3"
+    }
+  },
+  "git_at_freeze": {
+    "commit": "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34",
+    "branch": "main",
+    "dirty": true,
+    "dirty_files": [
+      ".gitignore",
+      "docs/research/README.md",
+      "docs/research/decision_log.md",
+      "docs/research/experimental_design/estimand_and_hypotheses.md",
+      "docs/research/inference_register.md",
+      "docs/research/research_gap/decision_log.md",
+      "docs/research/research_gap/inference_register.md",
+      "pyproject.toml",
+      ".gitattributes",
+      "analysis_freeze/",
+      "configs/",
+      "docs/research/baseline_implementation/",
+      "requirements-baseline.lock",
+      "src/g01r/",
+      "tests/test_g01r_core.py",
+      "tests/test_g01r_features.py",
+      "tests/test_g01r_integrity.py"
+    ]
+  },
+  "seeds": {
+    "base_seed": 20261004
+  },
+  "signal_caches": {
+    "processed": {
+      "sha256": "c35ba6af412f2116314ca58cfc9169d5bc87d529a99a1fdbf812931a9ed74093",
+      "files": 2381,
+      "bytes": 4664658850
+    },
+    "raw": {
+      "sha256": "4a2a05f3f7dd6bed922804c2b99e1b8e3957bfddfa29643118cf53dcfedb50cf",
+      "files": 1036,
+      "bytes": 2777935553
+    }
+  },
+  "derived_caches": {
+    "index": "derived_cache_index.json",
+    "index_sha256": "6c96e77a43ea99afe09ab97457a80a456cfa0e1057076edc6974d0bd299b2fb8",
+    "entries": {
+      "syn_cache": 7903,
+      "corrca_stats": 71
+    }
+  }
+}

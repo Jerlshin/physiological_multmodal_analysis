@@ -172,3 +172,16 @@ Detailed entries are **EDI-001–020** in the [phase-local register](research_ga
 | INF-075 | VERIFIED FACT | Primary set PAS-core (EEG+ECG+gaze, E3+E4 first tested view) = 68 people / 259 cells / 8 videos | [M03](experimental_design/analysis_population.md) |
 | INF-076 | SIMULATION FACT / INFERENCE | Regime A detects procedure skill ≈ 0.10 with power 0.93 (person-block permutation, false detection 0.063). Effects ≥ 0.10 can be ruled out; δ = 0.05 cannot; regime B content-population inference is not supported | [M04](experimental_design/precision_and_independence.md) |
 | INF-077 | VERIFIED EXTERNAL FACT | John 2025 (OSF 4rn5q) is public CC-BY 4.0, with raw EyeLink EDF and item-level pretest/posttest for one instructional video. This supersedes INF-070's "unverified" status for access and licence | [M07](experimental_design/external_validation.md) |
+
+## Amendment — Baseline Implementation & Analysis Freeze phase, 2026-10-04/05
+
+Detailed entries are **BII-001–014** in the [phase-local register](research_gap/inference_register.md). Summary rows below; earlier rows are unchanged. No real quiz outcome was read in this phase.
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-078 | VERIFIED FACT | The production pipeline reproduces the 10 frozen analysis sets cell for cell and the audit's quality definitions exactly. Feature-level QC loses 0% of PAS-core learners; no core feature is missing in any frozen set | [Feature QC](baseline_implementation/feature_qc.md) |
+| INF-079 | SIMULATION FACT | On production code, the person-block permutation test has false detection 0.060 and power 0.973 at 2δ; the futility error is 0.050 (boundary) and nested-CV coverage 0.88–0.91. These reproduce the design phase within Monte Carlo error | [Validation](baseline_implementation/validation_report.md) |
+| INF-080 | VERIFIED FACT (synthetic outcomes) | On the real features, false detection is 0.030 (pure null) and 0.065 (nuisance null); 0/400 null point estimates reach δ | [Validation](baseline_implementation/validation_report.md) |
+| INF-081 | VERIFIED FACT / INFERENCE | Pre-outcome interpretation constraints:<br>• EEG ISC is coupled to gaze behaviour (ρ = 0.48);<br>• raw-route alpha agrees only moderately with the processed route (ρ = 0.60);<br>• the baseline can under-regularize an extreme 16 Hz quality value, so the matched-noise control is reported next to H1 | [Feature QC](baseline_implementation/feature_qc.md) |
+| INF-082 | INFERENCE | G01-R is ready for preregistration and the analysis freeze. Real outcomes remain locked behind a user-written authorization | [Readiness verdict](baseline_implementation/readiness_verdict.md) |
+| INF-083 | VERIFIED FACT / INFERENCE | The reused synchrony and CorrCA caches are bit-identical under the frozen code, and the preregistration agrees with the frozen protocol and implementation after the finalization fixes. G01-R is ready to commit and preregister | [Freeze finalization](baseline_implementation/freeze_finalization.md) |

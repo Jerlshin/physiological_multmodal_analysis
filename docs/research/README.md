@@ -1,13 +1,20 @@
 # Research project: evidence and problem formulation
 
-**Current phase — 2026-10-04:** the [Experimental Design & Pre-model Readiness package](experimental_design/README.md) is complete. **Verdict: GO for baseline implementation of the revised question G01-R** under a [frozen protocol](experimental_design/protocol.md).
+**Current phase — 2026-10-05:** the [Baseline Implementation & Analysis Freeze package](baseline_implementation/README.md) is complete, and the freeze and preregistration package are [finalized](baseline_implementation/freeze_finalization.md). **Verdict: READY TO COMMIT AND PREREGISTER.**
+
+- **Pipeline.** `src/g01r` implements the frozen G01-R protocol: population and case flow, outcome-blind features (processed and raw routes), split-specific synchrony under explicit reference-access rules, the prespecified ridge baselines, metrics, inference, run tracking (MLflow) and a machine-enforced outcome-access gate.
+- **Validated before any outcome access.** On production code, false detection is 0.060, power at 2δ is 0.973 and the futility error is 0.050. On the real features with synthetic null outcomes, false detection is 0.030 (pure null) and 0.065 (nuisance null).
+- **Feature QC.** Outcome-blind; 0% of learners lost.
+- **Real outcomes remain locked.** The next steps are user actions: commit the freeze, deposit the [preregistration](baseline_implementation/preregistration.md), and write the authorization record. The first confirmatory step is then `python -m g01r run --analysis H1_H2`.
+
+**Previous phase — 2026-10-04:** the [Experimental Design & Pre-model Readiness package](experimental_design/README.md) is complete. **Verdict: GO for baseline implementation of the revised question G01-R** under a [frozen protocol](experimental_design/protocol.md).
 
 - **What changed from G01.** Regime A (new learners, known content) is the confirmatory test on EEG+ECG+gaze for 68 people / 259 cells / 8 videos. Content transfer, E5 and E1 are descriptive. Negative conclusions are limited to effects ≥ 0.10.
 - **Basis.** A simulation of the actual crossed design and calibration of the decision procedures.
 - **Provenance.** OQ-06 is bounded for the frozen feature route, not resolved.
 - **Scope.** No physiology–outcome association has been computed yet.
 
-**Previous phase — 2026-10-03:** a substantial [Research Gap Discovery & Problem Formulation report](research_gap/README.md) is complete: 71 search queries, 43 scoped external references, 24 candidate directions, eight full dossiers and a ranked four-problem shortlist. The conditional primary question is **individual validity of physiological quiz measures across people, content and declared reference access**. Read the [comparison](research_gap/candidate_space.md), [primary formulation](research_gap/primary_problem.md), and [pre-model gates](research_gap/pre_model_gates.md).
+**Earlier phase — 2026-10-03:** a substantial [Research Gap Discovery & Problem Formulation report](research_gap/README.md) is complete: 71 search queries, 43 scoped external references, 24 candidate directions, eight full dossiers and a ranked four-problem shortlist. The conditional primary question is **individual validity of physiological quiz measures across people, content and declared reference access**. Read the [comparison](research_gap/candidate_space.md), [primary formulation](research_gap/primary_problem.md), and [pre-model gates](research_gap/pre_model_gates.md).
 
 The user's new instruction authorizes conditional formulation and supersedes the previous stage-only restriction below. It does **not** close OQ-06, restore Exp.2 behavioral eligibility or establish a publication-ready novelty claim. No predictive model was developed. Current tri-modal ceiling remains **94 qualified people / 324 direct observations / 8 videos**; restricting to first tested exposure in Exp.3+4 gives **57 / 216 / 8**. Later independent educational validation is recommended for the intended strong Q1 contribution.
 

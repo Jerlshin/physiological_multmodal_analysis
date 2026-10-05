@@ -1,0 +1,23 @@
+experiment,stage,people,cells,videos
+3,design tested cells,29,174,6
+3,eligible outcome,29,173,6
+3,+ eeg QC (cumulative),29,160,6
+3,+ ecg QC (cumulative),29,154,6
+3,+ gaze QC (cumulative),29,148,6
+3,"+ pupil QC (cumulative, four-sensor)",24,124,6
+4,design tested cells,43,129,3
+4,eligible outcome,43,129,3
+4,+ eeg QC (cumulative),43,128,3
+4,+ ecg QC (cumulative),43,128,3
+4,+ gaze QC (cumulative),39,111,3
+4,"+ pupil QC (cumulative, four-sensor)",33,92,3
+5,design tested cells,48,144,3
+5,eligible outcome,48,144,3
+5,+ eeg QC (cumulative),47,141,3
+5,+ ecg QC (cumulative),47,141,3
+5,+ gaze QC (cumulative),46,128,3
+5,"+ pupil QC (cumulative, four-sensor)",37,108,3
+1,design tested cells,27,135,5
+1,eligible outcome,27,135,5
+1,+ gaze QC,26,121,5
+1,+ pupil QC,25,119,5

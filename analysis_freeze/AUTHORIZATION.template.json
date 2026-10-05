@@ -1,0 +1,10 @@
+{
+  "_comment": "TEMPLATE ONLY. Do not copy by hand. After depositing the preregistration, the user runs: PYTHONPATH=src .venv/bin/python -m g01r authorize --preregistration <DOI-or-URL> --by <name>. The command verifies the freeze manifest and writes AUTHORIZATION.json with the manifest SHA-256.",
+  "authorized_by": "<name>",
+  "authorized_utc": "<written by the command>",
+  "preregistration": "<OSF DOI or URL of the deposited preregistration>",
+  "freeze_manifest_sha256": "<written by the command>",
+  "statement": "Preregistration deposited; real-outcome analysis authorized under the frozen protocol.",
+  "protocol_commit": "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34",
+  "git_commit": "<written by the command: git HEAD, which must contain the committed freeze>"
+}

@@ -136,14 +136,23 @@ Changes relative to G01 and why:
 - (a) Skill_A(RF + SYN) − Skill_A(RF) > 0: the synchrony increment beyond reference-free features, i.e. reference dependence;
 - (b)–(d) single-modality additions to the baseline: EEG, ECG and gaze.
 
-**H3 (robustness, estimation only, no new tests).** H1's estimate keeps its sign and its decision category under:
+**H3 (robustness, estimation only, no new tests).** H1's estimate keeps its sign and stays on the same side of δ = 0.05 under:
 
 - the partial score;
 - quality policies (eye-correction threshold 0.3 and 0.7 instead of 0.5);
 - the four-sensor set with pupil;
 - the raw-export feature route;
 - excluding content with α < 0.30;
-- GPA as an added covariate.
+- GPA as an added covariate;
+- cell-weighted instead of person-balanced skill (protocol §13.7).
+
+> **Clarification, 2026-10-05 (IS-028; confirmed by the user; recorded before any real-outcome access).** The v1.0 text read "keeps its sign and its decision category". A decision category needs a permutation p-value and a futility bound, which protocol §13 excludes for H3 ("no new tests"). Final interpretation:
+>
+> - H3 is a prespecified robustness/sensitivity analysis. Each H3 analysis reports the point estimate and its nested-CV 90% interval.
+> - Robustness means the estimate keeps the sign of the primary estimate and stays on the same side of δ = 0.05.
+> - H3 introduces no additional confirmatory test and does not revise the H1 conclusion.
+>
+> The seventh analysis is listed to match protocol §13. Nothing computed changes. See [implementation_spec.md IS-028](../baseline_implementation/implementation_spec.md) and decision BID-026.
 
 **Descriptive aims (intervals, no confirmatory p-values).** These are:
 

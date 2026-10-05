@@ -1,0 +1,105 @@
+# Frozen analysis configuration for the G01-R baseline study.
+#
+# Every constant below is taken from docs/research/experimental_design/protocol.md
+# (version 1.0, frozen at commit ef1df1b) or from the implementation
+# specification docs/research/baseline_implementation/implementation_spec.md
+# (IS-xxx, fixed before any outcome access). The SHA-256 of this file is
+# recorded in every tracked run and in the analysis-freeze manifest.
+# Changing any value is a protocol deviation (protocol §16).
+
+[meta]
+question = "G01-R"
+protocol_path = "docs/research/experimental_design/protocol.md"
+protocol_version = "1.0"
+protocol_commit = "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34"
+implementation_spec = "docs/research/baseline_implementation/implementation_spec.md"
+config_version = "1.0"
+
+[data]
+release_record = 22968459
+release_version = "1.1"
+sampling_rate_hz = 128
+screen_width_px = 1920
+screen_height_px = 1080
+screen_diagonal_px = 2203.0
+min_valid_seconds = 60.0                 # protocol §6: fewer than 60 s valid -> feature missing
+items_per_quiz = 12                      # 1 item = 1/12 of the score scale (protocol §4)
+
+[population]
+# Frozen analysis sets (protocol §3); membership is asserted against the
+# design-phase manifest docs/research/experimental_design/evidence/analysis_set_manifest.csv
+primary_set = "PAS_E34_core"
+expected_counts = { PAS_E34_core = [68, 259, 8], PAS_E34_four = [57, 216, 8], CAS_E34 = [72, 302, 8], E5_core = [46, 128, 3], E5_four = [37, 108, 3], E5_CAS = [48, 144, 3], E1_gaze = [26, 121, 5], E1_gaze_pupil = [25, 119, 5], PAS_E34_core_eye30 = [65, 223, 8], PAS_E34_core_eye70 = [69, 265, 8] }
+eye_qc_sensitivity_thresholds = [0.30, 0.70]
+low_reliability_alpha = 0.30             # H3.5: exclude content with exact alpha < 0.30
+low_reliability_content = ["bYgV9nvgJ3E"]
+
+[outcome]
+primary = "normalized_exact_score"
+sensitivity = "normalized_partial_score"
+clip = [0.0, 1.0]
+
+[features.eeg]
+welch_window_s = 4.0                     # Hann, 50 % overlap (protocol §6 RF1)
+welch_overlap = 0.5
+alpha_band_hz = [8.0, 12.0]
+theta_band_hz = [4.0, 8.0]
+total_band_hz = [1.0, 40.0]
+excluded_band_hz = [14.5, 17.5]          # 16 Hz contamination excluded from the denominator
+alpha_channels = ["P3", "Pz", "P4", "PO3", "POz", "PO4", "O1", "Oz", "O2"]
+theta_channels = ["Afz", "Fz", "F1", "F2", "FCz", "Cz"]
+n_channels = 64
+
+[features.ecg]
+rr_valid_s = [0.3, 2.0]
+rmssd_max_relative_change = 0.2          # |dRR| < 0.2 * RR_prev
+hr_grid_hz = 2.0
+
+[features.syn]
+corrca_components = 3
+corrca_shrinkage = 0.5                   # within-subject covariance shrunk toward its mean eigenvalue
+
+[features.raw_route]
+# Prespecified sensitivity route (measurement_provenance.md, frozen feature route item 2)
+highpass_hz = 0.5
+highpass_order = 5
+notch_hz = 60.0
+notch_order = 5                          # band-stop 59-61 Hz, zero-phase
+notch_halfwidth_hz = 1.0
+artifact_iqr_multiple = 4.0
+artifact_extension_s = 0.04
+
+[model]
+learner = "ridge"
+lambda_log10_min = -3.0                  # lambda in {1e-3 ... 1e3} x n_train, 13 log-spaced values
+lambda_log10_max = 3.0
+lambda_n = 13
+inner_folds = 5
+standardize_min_sd = 1e-12
+
+[resampling]
+base_seed = 20261004
+outer_folds_A = 10
+reps_A = 50
+folds_BC = 5
+reps_BC = 20
+
+[inference]
+alpha = 0.05
+reps_permutation = 10                    # first 10 of the 50 regime-A repetitions, paired
+n_permutations = 999
+ncv_reps = 200
+ncv_level = 0.90
+futility_z = 3.0
+delta = 0.05
+futility_threshold = 0.10                # 2 * delta
+holm_family = ["H2a", "H2b", "H2c", "H2d"]
+bootstrap_B = 2000
+bc_interval_level = 0.90
+fallback_detection = "person_bootstrap"  # declared fallback if production false detection > 0.07
+
+[validation]
+# Production re-validation targets (protocol §17.3)
+max_false_detection = 0.07
+min_power_at_2delta = 0.80
+max_futility_error = 0.05

@@ -1,0 +1,78 @@
+{
+ "created_utc": "2026-10-05T09:04:36.625225+00:00",
+ "outcomes_read": false,
+ "corrca_stats": {
+  "units": 71,
+  "bit_identical": 71,
+  "mismatches": []
+ },
+ "PAS_E34_core_processed_outer_all": {
+  "requested": 500,
+  "cached": 500,
+  "bit_identical": 500,
+  "worst_abs_diff": 0.0,
+  "mismatches": []
+ },
+ "PAS_E34_core_processed_nested_M2_M5_sample": {
+  "requested": 100,
+  "cached": 100,
+  "bit_identical": 100,
+  "worst_abs_diff": 0.0,
+  "mismatches": []
+ },
+ "other_regime_A_outer_sample": {
+  "PAS_E34_core|raw": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  },
+  "PAS_E34_four|processed": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  },
+  "PAS_E34_core_eye30|processed": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  },
+  "PAS_E34_core_eye70|processed": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  },
+  "PAS_E34_core_alpha30|processed": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  },
+  "E5_core|processed": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  },
+  "E1_gaze|processed": {
+   "requested": 20,
+   "cached": 20,
+   "bit_identical": 20,
+   "worst_abs_diff": 0.0,
+   "mismatches": []
+  }
+ },
+ "syn_cache_entries_total": 7903,
+ "syn_cache_entries_checked": 740,
+ "all_bit_identical": true,
+ "elapsed_s": 701.8704838752747
+}
