@@ -1,0 +1,8 @@
+2026/10/05 12:47:25 INFO mlflow.store.db.utils: Updating database tables
+....
+----------------------------------------------------------------------
+Ran 101 tests in 2.595s
+
+OK
+PYTHONPATH=src .venv/bin/python -m unittest discover -s tests 2>&1  2.75s user 0.62s system 84% cpu 3.982 total
+tail -6  0.00s user 0.00s system 0% cpu 3.982 total
