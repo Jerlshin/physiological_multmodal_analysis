@@ -100,7 +100,7 @@ Detailed decisions are **EDD-001–014** in the [phase-local log](research_gap/d
 
 ## Amendment — Baseline Implementation & Analysis Freeze phase, 2026-10-04/05
 
-Detailed decisions are **BID-001–025** in the [phase-local log](research_gap/decision_log.md). Earlier entries are unchanged. No real quiz outcome was read in this phase.
+Detailed decisions are **BID-001–027** in the [phase-local log](research_gap/decision_log.md). Earlier entries are unchanged. No real quiz outcome was read in this phase.
 
 | ID | Decision | Evidence / reason | Revisit trigger |
 |---|---|---|---|
@@ -108,3 +108,4 @@ Detailed decisions are **BID-001–025** in the [phase-local log](research_gap/d
 | D053 | Keep the person-block permutation test as the H1/H2 detection procedure; the declared fallback is not triggered | [Validation](baseline_implementation/validation_report.md): production V1 false detection 0.060, power 0.973, futility error 0.050; real-feature V2 false detection 0.030 / 0.065 | — |
 | D054 | **Verdict: READY FOR PREREGISTRATION / ANALYSIS FREEZE.** The freeze manifest is written and verified. Committing it, depositing the preregistration and writing the authorization record are user actions | [Readiness verdict](baseline_implementation/readiness_verdict.md) | First step after authorization: `python -m g01r run --analysis H1_H2` |
 | D055 | **Freeze finalization: READY TO COMMIT AND PREREGISTER.** The preregistration is final; the gate requires a committed freeze and re-verifies at every access; the reused synchrony caches are verified bit-identical and bound; H3 reading clarified (IS-028). No scientific decision changed | [Freeze finalization](baseline_implementation/freeze_finalization.md) | Any change to a bound file before authorization requires a rebuilt freeze; after it, a logged deviation |
+| D056 | **Freeze committed** as `6ba87fe` (tag `g01r-freeze-v1`; manifest `a2594996…`), with the H3 reading (IS-028) confirmed as final. The preregistration snapshot is built and checksummed. Real outcomes remain locked | [Freeze record](../../analysis_freeze/FREEZE_RECORD.md) | Next: user deposits the preregistration, then writes the authorization record |

@@ -17,6 +17,7 @@ The loader re-runs this check at every access, not only when the run starts.
 |---|---|---|
 | `freeze_manifest.json` | `python -m g01r freeze` | SHA-256 binding of everything the confirmatory run depends on |
 | `derived_cache_index.json` | `python -m g01r freeze` | SHA-256 of every synchrony/CorrCA cache entry at the freeze; bound by the manifest (IS-029) |
+| `FREEZE_RECORD.md` | freeze commit step | Freeze commit, tag, manifest hash, test status and the preregistration snapshot checksum. Not bound (it identifies the freeze) |
 | `AUTHORIZATION.template.json` | this phase | Shape of the record. **It is not an authorization** |
 | `AUTHORIZATION.json` | **the user only**, via `python -m g01r authorize …` after depositing the preregistration | Unlocks real outcomes; records the git commit that contains the freeze; append-only (a second record is refused) |
 | `outcome_access_log.jsonl` | the outcome loader | One line per real-outcome access (set, outcome, cells, authorization hash) |

@@ -78,6 +78,8 @@ Not needed, and therefore not asked: a cold confirmatory run. The cache is verif
 
 ## 6. Exact next steps
 
+> **Done 2026-10-05:** step 1 (commit `6ba87fe`, tag `g01r-freeze-v1`) and the snapshot. See [FREEZE_RECORD.md](../../../analysis_freeze/FREEZE_RECORD.md). Steps 2–4 remain user actions.
+
 Run every command from the repository root. Each step is a user action.
 
 **1. Commit the freeze.**

@@ -1,6 +1,6 @@
 # Research project: evidence and problem formulation
 
-**Current phase — 2026-10-05:** the [Baseline Implementation & Analysis Freeze package](baseline_implementation/README.md) is complete, and the freeze and preregistration package are [finalized](baseline_implementation/freeze_finalization.md). **Verdict: READY TO COMMIT AND PREREGISTER.**
+**Current phase — 2026-10-05:** the [Baseline Implementation & Analysis Freeze package](baseline_implementation/README.md) is complete, and the freeze and preregistration package are [finalized](baseline_implementation/freeze_finalization.md). **Freeze committed** (`6ba87fe`, tag `g01r-freeze-v1`; [record](../../analysis_freeze/FREEZE_RECORD.md)). **Status: READY FOR PREREGISTRATION SUBMISSION.**
 
 - **Pipeline.** `src/g01r` implements the frozen G01-R protocol: population and case flow, outcome-blind features (processed and raw routes), split-specific synchrony under explicit reference-access rules, the prespecified ridge baselines, metrics, inference, run tracking (MLflow) and a machine-enforced outcome-access gate.
 - **Validated before any outcome access.** On production code, false detection is 0.060, power at 2δ is 0.973 and the futility error is 0.050. On the real features with synthetic null outcomes, false detection is 0.030 (pure null) and 0.065 (nuisance null).
