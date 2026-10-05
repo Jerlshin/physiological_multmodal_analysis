@@ -1,0 +1,152 @@
+{
+  "run_id": "20261005T104908Z_c57b28d6",
+  "run_dir": "results/runs/g01r-confirmatory/H1_H2__20261005T104908Z_c57b28d6",
+  "status": "FINISHED",
+  "start_utc": "2026-10-05T10:49:08.937093+00:00",
+  "end_utc": "2026-10-05T17:30:48.400071+00:00",
+  "elapsed_s": 24098.277510881424,
+  "config": {
+    "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+    "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+    "frozen": true,
+    "overrides": {}
+  },
+  "protocol": {
+    "path": "docs/research/experimental_design/protocol.md",
+    "version": "1.0",
+    "commit": "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34"
+  },
+  "git": {
+    "commit": "d02e477d62406fbf11d824a31b7fc1d79aea7a9d",
+    "branch": "main",
+    "dirty": true,
+    "dirty_files": [
+      ".DS_Store"
+    ]
+  },
+  "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+  "environment": {
+    "python": "3.14.5",
+    "implementation": "CPython",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pandas": "3.0.6",
+      "pyarrow": "25.0.1",
+      "mlflow-skinny": "3.16.1",
+      "sqlalchemy": "2.1.3"
+    }
+  },
+  "data_download_manifest_sha256": "a867e07c24978e82946a85a27979685f36831505c6a5f919c105b08edd3579b0",
+  "mlflow": {
+    "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+    "experiment_id": "6",
+    "run_id": "19e779362aeb49e7bc9ceaaa39fc017b"
+  },
+  "mlflow_errors": [],
+  "identity": {
+    "set": "PAS_E34_core",
+    "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+    "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+  },
+  "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+  "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+  "detection_procedure": "permutation",
+  "h1_decision": {
+    "category": "bounded_negative",
+    "conclusion": "Increments >= 0.10 are ruled out at this sample size and for this procedure; increments in 0.05-0.10 remain possible (not 'no information')",
+    "p": 0.082,
+    "skill": 0.02057117369452144,
+    "upper3_skill": 0.07861215533359571
+  },
+  "person_bootstrap_NON_DECISIONAL": {
+    "lo": -8.195948778975917e-05,
+    "hi": 0.001408836857513721,
+    "detect": false
+  },
+  "fold_check": {
+    "reps": 50,
+    "people": 68,
+    "folds_per_rep": [
+      10
+    ],
+    "every_person_tested_once_per_rep": true
+  },
+  "permutation_nulls": {
+    "H1": {
+      "B": 999,
+      "nonfinite": 0,
+      "mean": -0.00021232592926017233,
+      "sd": 0.0004777033578468686,
+      "q05": -0.0008498592950113177,
+      "q50": -0.0002994641720169824,
+      "q95": 0.0007037746712635977,
+      "observed": 0.000524554273029263,
+      "n_null_ge_observed": 81
+    },
+    "H2a": {
+      "B": 999,
+      "nonfinite": 0,
+      "mean": 0.0004232010119070848,
+      "sd": 0.00029299745101899486,
+      "q05": 7.931828292301645e-06,
+      "q50": 0.00040380459976941595,
+      "q95": 0.0009371317321962601,
+      "observed": 0.001459641581681064,
+      "n_null_ge_observed": 4
+    },
+    "H2b": {
+      "B": 999,
+      "nonfinite": 0,
+      "mean": -0.00024112262307854034,
+      "sd": 0.00031373172787472526,
+      "q05": -0.0006139248124671221,
+      "q50": -0.00030826149222581755,
+      "q95": 0.00040516237165877687,
+      "observed": -7.251483406328186e-05,
+      "n_null_ge_observed": 227
+    },
+    "H2c": {
+      "B": 999,
+      "nonfinite": 0,
+      "mean": -0.00022847435268032475,
+      "sd": 0.0003013893459689812,
+      "q05": -0.0005795912920271842,
+      "q50": -0.000305655801681398,
+      "q95": 0.0003667646332552735,
+      "observed": -0.0004708237241962872,
+      "n_null_ge_observed": 810
+    },
+    "H2d": {
+      "B": 999,
+      "nonfinite": 0,
+      "mean": 6.233329402345204e-05,
+      "sd": 0.0003039439195186266,
+      "q05": -0.00033369041324750483,
+      "q50": 1.0443553840902896e-05,
+      "q95": 0.0006451525688253041,
+      "observed": 0.0009782500968297614,
+      "n_null_ge_observed": 8
+    }
+  },
+  "artifacts": {
+    "cells.parquet": "3ccbba7aaa1c9a82c9807d8d6940fa4ac175afeb2dc98e6499b5fb889ed081aa",
+    "log10_lambda_absolute.json": "8488755c85a9536106eb108ec0faef341a65a9bc4c992c052d8bfb1ce1bf0823",
+    "outer_folds.npy": "b0c00b4a81b590623e1eef13e234bc362d651e7bf67f21dba3fefac5437116ac",
+    "permutation_null_H1.npy": "c9e0f85f33b1c74e4866f3f1c27e4c8572ffbadd79b15cb599893bb73775f088",
+    "permutation_null_H2a.npy": "f21c396323b9aca11cff982b549c440a1e05ae1eeb6fd9e2112a9d5cf8250c29",
+    "permutation_null_H2b.npy": "f3592d6b1b87936d6e34d8a2452b3149d2b9bf57a5baab152c81282aedfacac0",
+    "permutation_null_H2c.npy": "f4c648fdefa6330fcfc323e7add14109fa2a09f6baf4421a5ce63347b522f640",
+    "permutation_null_H2d.npy": "0f9b7b650e64afe2eb7697d6548f5cacfc43db5ad9bf2c401698894df649c141",
+    "predictions.parquet": "a8af78cb478dd3d4701d9a2d129bfd6afb473b0f8538098867e196febc91bdd5",
+    "result.json": "7b08e12e24f919527913b3c9544bc56418fa85bdab20a86536d2c5de1401ab7c"
+  },
+  "run_files": {
+    "metrics.json": "c898b512ad255f8ab3a8b80558619b26eba760ba8834fd40e1a31645e4a392c5",
+    "params.json": "74288ce167a6a32dddb7dadb5f4d858811eb0d3ff9e236b947f5f94d6d49ba64",
+    "run.json": "67ac62cdcbebff8a244d3601c754f6a9b1886fb001450ce4f7fab4cbe8516518"
+  }
+}

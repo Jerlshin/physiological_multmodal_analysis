@@ -1,0 +1,22 @@
+{
+  "spec.id": "H1_H2",
+  "spec.set": "PAS_E34_core",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M_EEG",
+    "M_ECG",
+    "M_GAZE",
+    "M0_Q",
+    "M2_NOISE"
+  ],
+  "workers": 5
+}

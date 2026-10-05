@@ -1,0 +1,1047 @@
+{
+  "analysis": "H1_H2",
+  "set": "PAS_E34_core",
+  "outcome": "exact",
+  "route": "processed",
+  "n_people": 68,
+  "n_cells": 259,
+  "n_videos": 8,
+  "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+  "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+  "comparisons": {
+    "M5_vs_M2": {
+      "report": {
+        "skill_person_balanced": 0.02057117369452144,
+        "skill_cell_weighted": 0.012811195320721835,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.031028542427506287,
+        "delta_mse_person_balanced": 0.000651699764822912,
+        "delta_rmse_items": 0.02208286838664064,
+        "delta_mae_items": 0.018352893520642066,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.029023225481394275,
+          "slope": 0.9376456228255221
+        },
+        "state_skill": -0.009769044264601234,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.013074283772658069,
+            "skill_over_reliable_share": 0.027671873389613785,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.025698573967634086,
+            "skill_over_reliable_share": 0.04450653427454762,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.022614868274117406,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": 0.0036834927743064627,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": -0.024484222293091884,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.008739187922683689,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.0180314336306161,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": -0.0005742968526820658,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.02609677006976996,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.059887142284200334,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.015538806114168136,
+            "people": 36
+          }
+        }
+      },
+      "futility": {
+        "centre": 0.0006498761390796846,
+        "se": 0.000613525327049877,
+        "z": 3.0,
+        "upper": 0.002490452120229316,
+        "upper_skill": 0.07861215533359571,
+        "J": 500,
+        "threshold": 0.1,
+        "rules_out_threshold": true
+      },
+      "intervals": {
+        "person": {
+          "level": 0.9,
+          "centre": 0.0006197349718330406,
+          "lo": -0.0010524693218646234,
+          "hi": 0.0022919392655307044,
+          "centre_skill": 0.019562191730437536,
+          "lo_skill": -0.03322163118183042,
+          "hi_skill": 0.07234601464270549,
+          "err_ncv": 0.0006916557560602241,
+          "mse_hat": 1.033532540616992e-06,
+          "se_naive": 0.00046570615599967046,
+          "root_over_se": 2.182981718425918,
+          "reps": 200,
+          "base_loss": 0.0316802421923292,
+          "point_skill": 0.020571173694521102
+        },
+        "state": {
+          "level": 0.9,
+          "centre": -0.00015518229030485355,
+          "lo": -0.0008116027113212667,
+          "hi": 0.0005012381307115596,
+          "centre_skill": -0.010762049776479378,
+          "lo_skill": -0.05628547407572261,
+          "hi_skill": 0.03476137452276386,
+          "err_ncv": -0.00012296556915573055,
+          "mse_hat": 1.5926107875854858e-07,
+          "se_naive": 0.00018211140455387886,
+          "root_over_se": 2.1913799442761377,
+          "reps": 200,
+          "base_loss": 0.014419399048312041,
+          "point_skill": -0.009769044264601286
+        },
+        "cell": {
+          "level": 0.9,
+          "centre": 0.0003402506715576216,
+          "lo": -0.001351907039350434,
+          "hi": 0.002032408382465677,
+          "centre_skill": 0.011446607491680876,
+          "lo_skill": -0.04548043703732745,
+          "hi_skill": 0.0683736520206892,
+          "err_ncv": 0.00043151608207579745,
+          "mse_hat": 1.058344752974207e-06,
+          "se_naive": 0.0003933012892768007,
+          "root_over_se": 2.6157016746891593,
+          "reps": 200,
+          "base_loss": 0.02972502305201849,
+          "point_skill": 0.012811195320721783
+        }
+      }
+    },
+    "M3_vs_M2": {
+      "report": {
+        "skill_person_balanced": -0.027627521140834332,
+        "skill_cell_weighted": -0.031854158881246875,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.03255548875324452,
+        "delta_mse_person_balanced": -0.0008752465609153243,
+        "delta_rmse_items": -0.029303426447593428,
+        "delta_mae_items": -0.029843002772447003,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.038427358362914436,
+          "slope": 0.9163898951906643
+        },
+        "state_skill": -0.004225101354120575,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": -0.04934107930536835,
+            "skill_over_reliable_share": -0.10443096717086639,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": -0.012776815685175746,
+            "skill_over_reliable_share": -0.02212775642446297,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.05108936747498105,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.0012960097551970584,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": -0.07141713027522312,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": -0.06658209967528039,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": -0.05016825917960288,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": -0.029634018564684173,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": -0.031176286218904226,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.005306716517190169,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.014436156885286211,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M4_vs_M2": {
+      "report": {
+        "skill_person_balanced": 0.0386215623210352,
+        "skill_cell_weighted": 0.03303912294736322,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.03045670174415267,
+        "delta_mse_person_balanced": 0.0012235404481765293,
+        "delta_rmse_items": 0.041651503843869175,
+        "delta_mae_items": 0.03534680832138237,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.024389055717039067,
+          "slope": 0.9489746256022921
+        },
+        "state_skill": -0.007154081108471599,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.04990008487771702,
+            "skill_over_reliable_share": 0.10561410895446989,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.03090776363382286,
+            "skill_over_reliable_share": 0.05352816242842274,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": 0.008057151211541269,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.01270220422242252,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.03591837529009756,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.05150986258070833,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.06404259598740769,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.017613179899734877,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.03768110713565764,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.07010160477077498,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.020453867953208693,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M5_vs_M3": {
+      "report": {
+        "skill_person_balanced": 0.04690288440489343,
+        "skill_cell_weighted": 0.04328649917968597,
+        "base_mse_person_balanced": 0.03255548875324452,
+        "full_mse_person_balanced": 0.031028542427506287,
+        "delta_mse_person_balanced": 0.0015269463257382362,
+        "delta_rmse_items": 0.05138629483423407,
+        "delta_mae_items": 0.04819589629308907,
+        "calibration_base": {
+          "intercept": 0.038427358362914436,
+          "slope": 0.9163898951906643
+        },
+        "calibration_full": {
+          "intercept": 0.029023225481394275,
+          "slope": 0.9376456228255221
+        },
+        "state_skill": -0.0055206177409874435,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.059480529552262906,
+            "skill_over_reliable_share": 0.12589123133150204,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.037989998444800555,
+            "skill_over_reliable_share": 0.0657936572668584,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": 0.027090464504714196,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": 0.004973057398601655,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.04380451521255335,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.07061930593143795,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.06494168169155756,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.028223350421649362,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.05554147923502195,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.05487161386664119,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.0010869577364707173,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M_EEG_vs_M2": {
+      "report": {
+        "skill_person_balanced": -0.004353954936049398,
+        "skill_cell_weighted": -0.004016470931379912,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.03181817653919773,
+        "delta_mse_person_balanced": -0.00013793434686853318,
+        "delta_rmse_items": -0.004644697900639594,
+        "delta_mae_items": -0.0090327692032659,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.04280864898673741,
+          "slope": 0.9069761176521901
+        },
+        "state_skill": -0.007359152477986353,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": -0.0113283611092021,
+            "skill_over_reliable_share": -0.023976607803268893,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.0004160993784375622,
+            "skill_over_reliable_share": 0.0007206291396313719,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": 0.003944820933308613,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.01649411254690558,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": -0.020925602909102725,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": -0.0067029415246875335,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.015236491462371271,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": -0.03755878493900511,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": -0.000698175449157068,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.01753085808902044,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.01756926757456201,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M_ECG_vs_M2": {
+      "report": {
+        "skill_person_balanced": -0.010544019765994506,
+        "skill_cell_weighted": -0.01254764558675081,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.032014279292196614,
+        "delta_mse_person_balanced": -0.00033403709986741525,
+        "delta_rmse_items": -0.011230818433028977,
+        "delta_mae_items": -0.008754102037403122,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.03150463610238962,
+          "slope": 0.9327319775291785
+        },
+        "state_skill": -0.007998068797770763,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": -0.01866220038125288,
+            "skill_over_reliable_share": -0.039498763764146246,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": -0.004991695810635743,
+            "skill_over_reliable_share": -0.008644957535930881,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.02396982951549642,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.018141370914551702,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": -0.017959893490758105,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": -0.026362164887440587,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": -0.023181357466165897,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.004138304312649388,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": -0.024355580397704468,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.013135055796361872,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": 0.0009019961307423774,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M_GAZE_vs_M2": {
+      "report": {
+        "skill_person_balanced": 0.030654125691799705,
+        "skill_cell_weighted": 0.022703052513447286,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.030709112066218885,
+        "delta_mse_person_balanced": 0.0009711301261103138,
+        "delta_rmse_items": 0.03299146371482331,
+        "delta_mae_items": 0.03022293157356737,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.016897590519575047,
+          "slope": 0.9655792964540604
+        },
+        "state_skill": 0.0030948005511578502,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.0316986982228088,
+            "skill_over_reliable_share": 0.06709066279190978,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.029939703906684767,
+            "skill_over_reliable_share": 0.05185161090148028,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.02954009099100552,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": 0.027533049542065147,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.0077104019867283435,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.01568533839106101,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.02862564892714714,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.0338315271130617,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.033581810884271035,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.04920987745049887,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": 0.0011674480564224377,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M1_vs_M0": {
+      "report": {
+        "skill_person_balanced": 0.03554647128998356,
+        "skill_cell_weighted": 0.045214081353390445,
+        "base_mse_person_balanced": 0.0346376559487172,
+        "full_mse_person_balanced": 0.033406409505983795,
+        "delta_mse_person_balanced": 0.0012312464427334038,
+        "delta_rmse_items": 0.04005289269230561,
+        "delta_mae_items": 0.038614293558668744,
+        "calibration_base": {
+          "intercept": 0.06581698544974256,
+          "slope": 0.8579216215585325
+        },
+        "calibration_full": {
+          "intercept": 0.04765414374268719,
+          "slope": 0.8938357330155028
+        },
+        "state_skill": -2.220446049250313e-16,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.07139217893139205,
+            "skill_over_reliable_share": 0.15110237552970696,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.009075209904304882,
+            "skill_over_reliable_share": 0.015717064346191207,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": 0.09722051047387004,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.0022192147162867215,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.11050355880069729,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.11521474081641403,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.055666561241114354,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.05896283170243233,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.003715054544343621,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.0209046210219741,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.007859203182543295,
+            "people": 36
+          }
+        }
+      }
+    },
+    "M2_vs_M1": {
+      "report": {
+        "skill_person_balanced": 0.05167174021935528,
+        "skill_cell_weighted": 0.05607384239640989,
+        "base_mse_person_balanced": 0.033406409505983795,
+        "full_mse_person_balanced": 0.0316802421923292,
+        "delta_mse_person_balanced": 0.001726167313654596,
+        "delta_rmse_items": 0.057417114773741895,
+        "delta_mae_items": 0.04839983850605911,
+        "calibration_base": {
+          "intercept": 0.04765414374268719,
+          "slope": 0.8938357330155028
+        },
+        "calibration_full": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "state_skill": -0.0011678402667945065,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.05826307235029293,
+            "skill_over_reliable_share": 0.12331446902956698,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.04711029653186738,
+            "skill_over_reliable_share": 0.081588808387592,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": 0.05188807145342189,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": 0.020343570602392558,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.06425971265591668,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.05552443579188837,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.08617777473005106,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.0635690739979361,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.11131739057529066,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": -0.05132838766550396,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": 0.07910191371627973,
+            "people": 36
+          }
+        }
+      }
+    },
+    "SHORTCUT_i_M0Q_vs_M0": {
+      "report": {
+        "skill_person_balanced": 0.06942581883668142,
+        "skill_cell_weighted": 0.08306873417507343,
+        "base_mse_person_balanced": 0.0346376559487172,
+        "full_mse_person_balanced": 0.03223290832189426,
+        "delta_mse_person_balanced": 0.0024047476268229395,
+        "delta_rmse_items": 0.07892025819036352,
+        "delta_mae_items": 0.0719132864048414,
+        "calibration_base": {
+          "intercept": 0.06581698544974256,
+          "slope": 0.8579216215585325
+        },
+        "calibration_full": {
+          "intercept": 0.04046413561001733,
+          "slope": 0.9180677304047593
+        },
+        "state_skill": 0.011910027676403478,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.11143432197166081,
+            "skill_over_reliable_share": 0.23585203614028216,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": 0.038403469437654825,
+            "skill_over_reliable_share": 0.06650973438997723,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": 0.11270585819709877,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": 0.0523605096053078,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.13275537837403806,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.11066644939633585,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.12968915175516116,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.1340306241036816,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.13637712329848506,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": -0.06250271958338427,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": 0.020716690788544656,
+            "people": 36
+          }
+        }
+      }
+    },
+    "SHORTCUT_iii_NOISE_vs_M2": {
+      "report": {
+        "skill_person_balanced": -0.020881664957791646,
+        "skill_cell_weighted": -0.025033002223034062,
+        "base_mse_person_balanced": 0.0316802421923292,
+        "full_mse_person_balanced": 0.03234177839557111,
+        "delta_mse_person_balanced": -0.0006615362032419136,
+        "delta_rmse_items": -0.02218507864782604,
+        "delta_mae_items": -0.02332995497165291,
+        "calibration_base": {
+          "intercept": 0.027247770977229392,
+          "slope": 0.9423444037831634
+        },
+        "calibration_full": {
+          "intercept": 0.02924784078058586,
+          "slope": 0.9369860913177622
+        },
+        "state_skill": -0.023681396780649955,
+        "n_people": 68,
+        "n_cells": 259,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": -0.03255135827197342,
+            "skill_over_reliable_share": -0.06889532768485086,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 148
+          },
+          "4": {
+            "skill": -0.012900330122957993,
+            "skill_over_reliable_share": -0.02234166710937025,
+            "reliable_share": 0.5774112585155968,
+            "people": 39,
+            "cells": 111
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.04211035873725866,
+            "people": 27
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.040645676372676576,
+            "people": 25
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": -0.052097699963698174,
+            "people": 26
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": -0.036836304094336025,
+            "people": 24
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": -0.039838450557622807,
+            "people": 24
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.006556237752825211,
+            "people": 22
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": -0.0221986000483676,
+            "people": 38
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": -0.018510680023086534,
+            "people": 37
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": 0.006710433353286582,
+            "people": 36
+          }
+        }
+      }
+    }
+  },
+  "tests": {
+    "H1": {
+      "observed_loss_difference": 0.000524554273029263,
+      "observed_skill_R10": 0.01660659742041103,
+      "p": 0.082,
+      "B": 999,
+      "reps": 10,
+      "null_mean": -0.00021232592926017233,
+      "null_q95": 0.0007037746712635977,
+      "tested_blocks": [
+        "RF_EEG",
+        "RF_ECG",
+        "RF_GAZE",
+        "SYN_EEG",
+        "SYN_ECG",
+        "SYN_GAZE"
+      ],
+      "nuisance_blocks": [
+        "C",
+        "Q"
+      ],
+      "base": "M2",
+      "full": "M5"
+    },
+    "H2a": {
+      "observed_loss_difference": 0.001459641581681064,
+      "observed_skill_R10": 0.044881407105833826,
+      "p": 0.005,
+      "B": 999,
+      "reps": 10,
+      "null_mean": 0.0004232010119070848,
+      "null_q95": 0.0009371317321962601,
+      "tested_blocks": [
+        "SYN_EEG",
+        "SYN_ECG",
+        "SYN_GAZE"
+      ],
+      "nuisance_blocks": [
+        "C",
+        "Q",
+        "RF_EEG",
+        "RF_ECG",
+        "RF_GAZE"
+      ],
+      "base": "M3",
+      "full": "M5",
+      "p_holm": 0.02,
+      "reject_holm": true
+    },
+    "H2b": {
+      "observed_loss_difference": -7.251483406328186e-05,
+      "observed_skill_R10": -0.0022957103167657376,
+      "p": 0.228,
+      "B": 999,
+      "reps": 10,
+      "null_mean": -0.00024112262307854034,
+      "null_q95": 0.00040516237165877687,
+      "tested_blocks": [
+        "RF_EEG",
+        "SYN_EEG"
+      ],
+      "nuisance_blocks": [
+        "C",
+        "Q"
+      ],
+      "base": "M2",
+      "full": "M_EEG",
+      "p_holm": 0.456,
+      "reject_holm": false
+    },
+    "H2c": {
+      "observed_loss_difference": -0.0004708237241962872,
+      "observed_skill_R10": -0.014905569253212804,
+      "p": 0.811,
+      "B": 999,
+      "reps": 10,
+      "null_mean": -0.00022847435268032475,
+      "null_q95": 0.0003667646332552735,
+      "tested_blocks": [
+        "RF_ECG",
+        "SYN_ECG"
+      ],
+      "nuisance_blocks": [
+        "C",
+        "Q"
+      ],
+      "base": "M2",
+      "full": "M_ECG",
+      "p_holm": 0.811,
+      "reject_holm": false
+    },
+    "H2d": {
+      "observed_loss_difference": 0.0009782500968297614,
+      "observed_skill_R10": 0.03096992317060714,
+      "p": 0.009,
+      "B": 999,
+      "reps": 10,
+      "null_mean": 6.233329402345204e-05,
+      "null_q95": 0.0006451525688253041,
+      "tested_blocks": [
+        "RF_GAZE",
+        "SYN_GAZE"
+      ],
+      "nuisance_blocks": [
+        "C",
+        "Q"
+      ],
+      "base": "M2",
+      "full": "M_GAZE",
+      "p_holm": 0.026999999999999996,
+      "reject_holm": true
+    }
+  },
+  "detection_procedure": "permutation",
+  "h1_decision": {
+    "category": "bounded_negative",
+    "conclusion": "Increments >= 0.10 are ruled out at this sample size and for this procedure; increments in 0.05-0.10 remain possible (not 'no information')",
+    "p": 0.082,
+    "skill": 0.02057117369452144,
+    "upper3_skill": 0.07861215533359571
+  },
+  "person_bootstrap_detection_NON_DECISIONAL": {
+    "lo": -8.195948778975917e-05,
+    "hi": 0.001408836857513721,
+    "detect": false
+  },
+  "elapsed_s": 24098.277510881424
+}
