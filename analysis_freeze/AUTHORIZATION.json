@@ -1,0 +1,9 @@
+{
+  "authorized_by": "Jerlshin",
+  "authorized_utc": "2026-10-05T10:47:40.460140+00:00",
+  "preregistration": "https://osf.io/uh397/overview",
+  "freeze_manifest_sha256": "a2594996ac122348ffacff8a0a100f7dc035aa6848c7df23b0ca939e310f2149",
+  "statement": "Preregistration deposited; real-outcome analysis authorized under the frozen protocol.",
+  "protocol_commit": "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34",
+  "git_commit": "5ba4f167fd675f4eca4c7abd17f3cfb85a4a98e7"
+}
