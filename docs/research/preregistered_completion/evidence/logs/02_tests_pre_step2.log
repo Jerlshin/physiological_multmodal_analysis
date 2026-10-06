@@ -1,0 +1,11 @@
+2026-10-06T12:31:50Z
+$ PYTHONPATH=src .venv/bin/python -m unittest discover -s tests
+  _SESSION_TRACE_METADATA = aliased(SqlTraceMetadata)
+2026/10/06 14:31:53 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/10/06 14:31:53 INFO mlflow.store.db.utils: Updating database tables
+....
+----------------------------------------------------------------------
+Ran 101 tests in 1.797s
+
+OK (skipped=1)
+NOTE: the one skip is test_no_authorization_record_exists_in_repository ('The user has written the authorization record (post-freeze state)'), which by design applies only before authorization. 100 of 101 executed; all passed.

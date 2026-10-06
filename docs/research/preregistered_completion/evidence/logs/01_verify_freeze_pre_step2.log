@@ -1,0 +1,16 @@
+2026-10-06T12:31:44Z
+$ git rev-parse HEAD
+a9c1ce74873ce0780bc94b939f12a31c70ab2866
+$ git status --short
+ M .DS_Store
+?? docs/research/preregistered_completion/
+$ PYTHONPATH=src .venv/bin/python -m g01r verify-freeze
+VERIFIED
+exit=0
+$ shasum -a 256 analysis_freeze/freeze_manifest.json analysis_freeze/AUTHORIZATION.json configs/g01r_protocol_v1.toml analysis_freeze/derived_cache_index.json
+a2594996ac122348ffacff8a0a100f7dc035aa6848c7df23b0ca939e310f2149  analysis_freeze/freeze_manifest.json
+0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067  analysis_freeze/AUTHORIZATION.json
+f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff  configs/g01r_protocol_v1.toml
+6c96e77a43ea99afe09ab97457a80a456cfa0e1057076edc6974d0bd299b2fb8  analysis_freeze/derived_cache_index.json
+$ wc -l analysis_freeze/outcome_access_log.jsonl
+       1 analysis_freeze/outcome_access_log.jsonl
