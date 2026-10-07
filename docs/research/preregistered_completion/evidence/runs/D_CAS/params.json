@@ -1,0 +1,13 @@
+{
+  "spec.id": "D_CAS",
+  "spec.set": "CAS_E34",
+  "spec.regime": "CAS",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5"
+  ],
+  "workers": 5
+}

@@ -1,6 +1,15 @@
 # Research project: evidence and problem formulation
 
-**Current phase — 2026-10-05 (evening):** [Real-outcome authorization and first confirmatory run (H1/H2)](confirmatory_h1h2/README.md). The OSF preregistration is deposited (https://osf.io/uh397/overview). `verify-freeze` passed; outcome access was authorized (commit `33e61e6`) and re-verified; the frozen `H1_H2` run `20261005T104908Z_c57b28d6` completed with one logged outcome access. **Status: H1/H2 BASELINE COMPLETE AND DOCUMENTED.** [Results](confirmatory_h1h2/h1h2_results.md):
+**Current phase — 2026-10-06/07:** [Completion of the preregistered G01-R plan](preregistered_completion/README.md) (run-book steps 2–5). All 17 registry analyses ran exactly as frozen: 14 new runs, 14 logged outcome accesses, and the freeze `VERIFIED` before and after every step. **Status: PREREGISTERED PHASE COMPLETE.** [Integrated final report](preregistered_completion/final_report.md); [per-analysis records](preregistered_completion/results_steps2_5.md):
+
+- **H1: bounded negative, robust.** All eight H3 estimates keep the sign and stay below δ (0.009–0.021).
+- **H2a (synchrony > reference-free) confirmed and reference-dependent.** It reappears on new videos with an unlabelled half-cohort reference (regime C better than B in 8 of 8 videos). It does not transfer across protocols, and it stays below δ over the baseline (C 0.020 [−0.014, 0.045]).
+- **H2d (gaze) confirmed in regime A.** Its robustness to the eye-quality policy was not a prespecified analysis. The full-model increment halves at the strictest eye QC.
+- **EEG and ECG (H2b, H2c):** no support in any prespecified analysis.
+- **About 82% of the held-out signal beyond content is nonsignal** (covariates and quality).
+- **Bottleneck and next direction (not started):** a noisy criterion without a pretest, n = 68, and behaviour-entangled eye-quality variables. Ranked first: the time-stamped John 2025 external ocular replication.
+
+**Previous phase — 2026-10-05 (evening):** [Real-outcome authorization and first confirmatory run (H1/H2)](confirmatory_h1h2/README.md). The OSF preregistration is deposited (https://osf.io/uh397/overview). `verify-freeze` passed; outcome access was authorized (commit `33e61e6`) and re-verified; the frozen `H1_H2` run `20261005T104908Z_c57b28d6` completed with one logged outcome access. **Status: H1/H2 BASELINE COMPLETE AND DOCUMENTED.** [Results](confirmatory_h1h2/h1h2_results.md):
 
 - **H1 (primary): bounded negative.** Ŝ = 0.021 (90% nested-CV interval −0.033 to 0.072), permutation p = 0.082; increments ≥ 0.10 ruled out (U₃ = 0.079); 0.05–0.10 not ruled out.
 - **H2 (Holm):** synchrony beyond reference-free features (H2a, Holm p = 0.020) and the gaze block (H2d, 0.027) detected, both below δ = 0.05; EEG (H2b) and ECG (H2c) not detected.

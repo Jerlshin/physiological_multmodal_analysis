@@ -120,3 +120,14 @@ Detailed decisions are **CHR-001–009** in the [phase-local log](research_gap/d
 | D058 | Execute run-book step 1 (`H1_H2`) exactly as frozen. Run `20261005T104908Z_c57b28d6` FINISHED; one logged outcome access | [Run provenance](confirmatory_h1h2/README.md#run-provenance) | — |
 | D059 | **H1: bounded negative** (Ŝ 0.021, p 0.082, U₃ 0.079). **H2: H2a and H2d rejected (Holm), H2b and H2c not** — all detected increments below δ | [Results](confirmatory_h1h2/h1h2_results.md) | No H2/H3 result revises H1 |
 | D060 | Next: complete run-book steps 2–5 per preregistration §13/§15; no new modelling. Not started | [Recommendation](confirmatory_h1h2/h1h2_results.md#recommendation-for-the-next-phase-not-started) | User decision |
+
+## Completion of the preregistered G01-R plan (run-book steps 2–5), 2026-10-06/07
+
+Detailed decisions are **PCD-001–013** in the [phase-local log](research_gap/decision_log.md). Earlier entries are unchanged. No scientific specification changed.
+
+| ID | Decision | Evidence / reason | Revisit trigger |
+|---|---|---|---|
+| D061 | Execute run-book steps 2–5 exactly as frozen (14 runs, 14 logged outcome accesses, freeze `VERIFIED` before and after every step). H1/H2 untouched; nothing added | [Phase report](preregistered_completion/README.md); decision log PCD-001…PCD-008 | — |
+| D062 | **H1 final: bounded negative, robust.** All eight H3 estimates (0.009–0.021) keep the sign and stay below δ | [Results](preregistered_completion/results_steps2_5.md) | An external replication |
+| D063 | **H2 final:** H2a confirmed and reference-dependent, reappearing on new content with unlabelled same-protocol references (B − C < 0 in 8/8 videos) but not across protocols. H2d confirmed in regime A, with its quality robustness untested by design. H2b and H2c not supported anywhere | [Final report §2](preregistered_completion/final_report.md#2-final-status-of-each-h2-component) | — |
+| D064 | **Close the preregistered phase.** Bottleneck: criterion noise without a pretest, n = 68, and behaviour-entangled quality variables, relative to a sub-δ ocular-synchrony effect. Ranked next: (1) the John 2025 external ocular replication as time-stamped; (2) a gaze-ISC versus quality/looking-away separation study; (3) prospective cohort design; (4) deployable synchrony references. No new modelling on BBBD. **Not started** | [Final report §12–§13](preregistered_completion/final_report.md#12-the-empirical-bottleneck-for-the-next-phase) | User decision; external data download needs authorization |

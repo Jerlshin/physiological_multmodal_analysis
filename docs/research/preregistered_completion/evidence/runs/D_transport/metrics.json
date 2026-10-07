@@ -1,0 +1,15 @@
+{
+  "directions.E4_core->E5_core.source_offsets.skill": -0.14259265551085964,
+  "directions.E4_core->E5_core.source_offsets.loss_difference_interval_conditional_on_fitted_source_model.lo": -0.009146883346766714,
+  "directions.E4_core->E5_core.source_offsets.loss_difference_interval_conditional_on_fitted_source_model.hi": -0.00123748697282152,
+  "directions.E4_core->E5_core.target_mean_recalibrated_USES_TARGET_LABELS.skill": -0.0652794774403358,
+  "directions.E4_core->E5_core.target_mean_recalibrated_USES_TARGET_LABELS.loss_difference_interval_conditional_on_fitted_source_model.lo": -0.005406610221639302,
+  "directions.E4_core->E5_core.target_mean_recalibrated_USES_TARGET_LABELS.loss_difference_interval_conditional_on_fitted_source_model.hi": 0.0011078972953233138,
+  "directions.E5_core->E4_core.source_offsets.skill": 0.018022901152228932,
+  "directions.E5_core->E4_core.source_offsets.loss_difference_interval_conditional_on_fitted_source_model.lo": -0.0002708997508208797,
+  "directions.E5_core->E4_core.source_offsets.loss_difference_interval_conditional_on_fitted_source_model.hi": 0.0015348244997068334,
+  "directions.E5_core->E4_core.target_mean_recalibrated_USES_TARGET_LABELS.skill": 0.02799958305693573,
+  "directions.E5_core->E4_core.target_mean_recalibrated_USES_TARGET_LABELS.loss_difference_interval_conditional_on_fitted_source_model.lo": -1.3413035441095666e-05,
+  "directions.E5_core->E4_core.target_mean_recalibrated_USES_TARGET_LABELS.loss_difference_interval_conditional_on_fitted_source_model.hi": 0.0017219015663543027,
+  "elapsed_s": 11.489593267440796
+}

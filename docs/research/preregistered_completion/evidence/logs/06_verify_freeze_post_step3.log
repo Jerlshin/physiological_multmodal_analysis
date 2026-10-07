@@ -1,0 +1,4 @@
+2026-10-07T16:56:37Z
+$ PYTHONPATH=src .venv/bin/python -m g01r verify-freeze
+VERIFIED
+exit=0

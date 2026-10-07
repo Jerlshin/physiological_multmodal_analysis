@@ -1,0 +1,12 @@
+{
+  "analysis": "D_CAS",
+  "n_people": 72,
+  "n_cells": 302,
+  "n_core_cells": 259,
+  "policy_vs_M2_skill_all_cells": -2.435692097635389e-05,
+  "policy_vs_M2_cell_weighted": -0.010095340874757275,
+  "skill_on_core_cells": -0.01185515220189659,
+  "skill_on_noncore_cells": 0.0,
+  "label": "DESCRIPTIVE coverage-policy risk; selection report in analysis_population.md",
+  "elapsed_s": 565.4291799068451
+}

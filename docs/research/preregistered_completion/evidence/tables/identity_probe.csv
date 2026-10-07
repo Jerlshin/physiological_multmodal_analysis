@@ -1,0 +1,2 @@
+accuracy,majority_rate,chance_by_frequency,n_classes,splits,label,elapsed_s
+0.5019305019305019,0.14671814671814673,0.11590465258418925,9,100,DIAGNOSTIC: accuracy well above the majority rate means features carry content identity,0.6217067241668701

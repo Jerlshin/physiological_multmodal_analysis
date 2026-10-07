@@ -1,0 +1,14 @@
+{
+  "spec.id": "D_BC",
+  "spec.set": "PAS_E34_core",
+  "spec.regime": "BC",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5_B",
+    "M5"
+  ],
+  "workers": 5
+}

@@ -1,0 +1,5 @@
+start 2026-10-06T12:32:15Z HEAD d737ac1
+$ PYTHONPATH=src .venv/bin/python -m g01r run --analysis H3_1_partial,H3_6_gpa
+[H3_1_partial] done in 36s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_1_partial__20261006T123221Z_a27a0b62
+[H3_6_gpa] done in 38s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_6_gpa__20261006T123257Z_d1e38f11
+exit=0 end 2026-10-06T12:33:35Z

@@ -1,0 +1,2 @@
+converged,reml_neg_loglik,var_person,var_content,var_residual,label
+True,-386.16559275412396,0.008542120857272567,0.004714388659924311,0.019016009693161973,EXPLANATORY: in-sample crossed REML; not predictive evidence; Wald inference conditional on the model

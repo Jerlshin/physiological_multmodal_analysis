@@ -195,3 +195,12 @@ Detailed entries are **CHI-001–006** in the [phase-local register](research_ga
 | INF-084 | VERIFIED FACT (confirmatory) | H1 not detected in regime A on PAS-core (68 / 259 / 8): Ŝ = 0.021, 90% [−0.033, 0.072], p = 0.082. Increments ≥ 0.10 are ruled out (U₃ = 0.079); 0.05–0.10 remains possible | [Results](confirmatory_h1h2/h1h2_results.md) |
 | INF-085 | VERIFIED FACT (confirmatory) | Holm-adjusted H2: synchrony beyond reference-free features (H2a) and the gaze block (H2d) add detectable held-out information, both below δ; EEG and ECG blocks do not | [Results](confirmatory_h1h2/h1h2_results.md) |
 | INF-086 | INFERENCE | In BBBD, whole-video physiology with the frozen ridge procedure offers at most small (sub-δ) individual information about immediate quiz scores beyond content, covariates and quality; the detectable part is ocular and reference-dependent. Content transfer (B/C) and robustness (H3.1–H3.6) are pending | [Results](confirmatory_h1h2/h1h2_results.md) |
+
+## Amendment — Completion of the preregistered plan (run-book steps 2–5), 2026-10-06/07
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-087 | VERIFIED FACT (robustness) | H1's estimate is robust across all prespecified H3 analyses (0.009–0.021; all same sign and below δ); the H1 category stays bounded negative | [Results](preregistered_completion/results_steps2_5.md) |
+| INF-088 | VERIFIED FACT (descriptive) | On new videos, reference-free physiology is worse than the nonsignal baseline (B −0.025 [−0.049, −0.006]). Synchrony with an unlabelled half-cohort reference restores 0.020 [−0.014, 0.045] and improves on B in 8/8 videos. Physiology does not transfer E4→E5 and adds nothing in CAS or E5 | [Results](preregistered_completion/results_steps2_5.md) |
+| INF-089 | VERIFIED FACT (descriptive / explanatory / diagnostic) | E1 ocular-only 0.261 [−0.104, 0.584] (26 learners; numerical warnings). No RF or SYN coefficient has Wald p < 0.05 in the explanatory model. Features carry strong content identity (probe 0.50 vs 0.15) | [Results](preregistered_completion/results_steps2_5.md) |
+| INF-090 | INFERENCE | About 82% of the held-out signal beyond content is nonsignal (C 34%, Q 48%, physiology 18%). Gaze information is small and partly entangled with eye-data quality and attention behaviour. EEG and ECG show no credible increment. BBBD cannot resolve the remaining question; external and prospective data are the next lever | [Final report](preregistered_completion/final_report.md) |

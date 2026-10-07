@@ -1,0 +1,13 @@
+{
+  "spec.id": "H3_4_raw",
+  "spec.set": "PAS_E34_core",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "raw",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5"
+  ],
+  "workers": 5
+}

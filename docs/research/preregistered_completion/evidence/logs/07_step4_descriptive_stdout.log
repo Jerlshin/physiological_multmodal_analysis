@@ -1,0 +1,10 @@
+start 2026-10-07T16:56:44Z HEAD d737ac1
+$ PYTHONPATH=src .venv/bin/python -m g01r run --analysis D_BC,D_CAS,D_E5,D_transport,D_E1,X_explanatory,S_identity_probe
+[D_BC] done in 370s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/D_BC__20261007T165649Z_c945a3df
+[D_CAS] done in 565s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/D_CAS__20261007T170301Z_6dbbf219
+[D_E5] done in 4374s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/D_E5__20261007T171226Z_99ee1196
+[D_transport] done in 11s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/D_transport__20261007T182520Z_c9759030
+[D_E1] done in 766s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/D_E1__20261007T182532Z_8e41b75d
+[X_explanatory] done in 6s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/X_explanatory__20261007T183817Z_904fe9c0
+[S_identity_probe] done in 1s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/S_identity_probe__20261007T183823Z_12d883ba
+exit=0 end 2026-10-07T18:38:25Z

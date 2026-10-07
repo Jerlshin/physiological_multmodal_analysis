@@ -1,0 +1,13 @@
+{
+  "spec.id": "H3_1_partial",
+  "spec.set": "PAS_E34_core",
+  "spec.regime": "A",
+  "spec.outcome": "partial",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5"
+  ],
+  "workers": 5
+}

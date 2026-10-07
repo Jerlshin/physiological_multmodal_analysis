@@ -1,0 +1,13 @@
+{
+  "spec.id": "H3_2_eye70",
+  "spec.set": "PAS_E34_core_eye70",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5"
+  ],
+  "workers": 5
+}

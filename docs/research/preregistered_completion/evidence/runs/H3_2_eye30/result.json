@@ -1,0 +1,110 @@
+{
+  "analysis": "H3_2_eye30",
+  "set": "PAS_E34_core_eye30",
+  "outcome": "exact",
+  "route": "processed",
+  "n_people": 65,
+  "n_cells": 223,
+  "n_videos": 8,
+  "split_identity": "370be6101e618e6b893e60d044dbb5cabf10332bd08435de93ad5fb05bd87e6a",
+  "set_identity": "3523e829d1304721bc4c43aafd3db3d07394fa47faf1a1fbe8090934c5a6acd0",
+  "comparisons": {
+    "M5_vs_M2": {
+      "report": {
+        "skill_person_balanced": 0.008723074643475881,
+        "skill_cell_weighted": 0.013607642070743386,
+        "base_mse_person_balanced": 0.033699246385281476,
+        "full_mse_person_balanced": 0.03340528534363378,
+        "delta_mse_person_balanced": 0.00029396104164769454,
+        "delta_rmse_items": 0.009628999021370488,
+        "delta_mae_items": 0.008892746232567972,
+        "calibration_base": {
+          "intercept": 0.05575774288507603,
+          "slope": 0.8904594669573535
+        },
+        "calibration_full": {
+          "intercept": 0.049564760477101864,
+          "slope": 0.9023281469482637
+        },
+        "state_skill": -0.0027038371274816786,
+        "n_people": 65,
+        "n_cells": 223,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.008870358756460472,
+            "skill_over_reliable_share": 0.018774217287722446,
+            "reliable_share": 0.472475556265204,
+            "people": 29,
+            "cells": 130
+          },
+          "4": {
+            "skill": 0.008616078519678383,
+            "skill_over_reliable_share": 0.014921909458136498,
+            "reliable_share": 0.5774112585155968,
+            "people": 36,
+            "cells": 93
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.029251250036391063,
+            "people": 23
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.018816643681176304,
+            "people": 23
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.02405519654749433,
+            "people": 23
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.02110564851945884,
+            "people": 21
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.012959061089735435,
+            "people": 22
+          },
+          "3:rkntp3_cZl4": {
+            "skill": 0.00798195537993307,
+            "people": 18
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.00911828590819097,
+            "people": 32
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.06577709738103488,
+            "people": 30
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.022952655602995975,
+            "people": 31
+          }
+        }
+      },
+      "intervals": {
+        "person": {
+          "level": 0.9,
+          "centre": 0.00030104362367739654,
+          "lo": -0.0006915004775624096,
+          "hi": 0.0012935877249172028,
+          "centre_skill": 0.008933244982264076,
+          "lo_skill": -0.02051976087703938,
+          "hi_skill": 0.038386250841567535,
+          "err_ncv": 0.00028510781411057403,
+          "mse_hat": 3.6412048433918557e-07,
+          "se_naive": 0.00045229723691213536,
+          "root_over_se": 1.3341314473687351,
+          "reps": 200,
+          "base_loss": 0.033699246385281476,
+          "point_skill": 0.008723074643475957
+        }
+      }
+    }
+  },
+  "tests": {},
+  "elapsed_s": 20024.336970090866
+}

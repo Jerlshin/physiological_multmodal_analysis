@@ -1,0 +1,13 @@
+{
+  "spec.id": "D_E1",
+  "spec.set": "E1_gaze",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5_E1"
+  ],
+  "workers": 5
+}

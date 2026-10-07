@@ -1,0 +1,4 @@
+2026-10-07T18:39:04Z
+$ PYTHONPATH=src .venv/bin/python -m g01r report --experiment g01r-confirmatory --out results/report
+wrote results/report/report.md
+exit=0

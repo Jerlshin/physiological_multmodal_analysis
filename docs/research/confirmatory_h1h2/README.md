@@ -91,4 +91,6 @@ Two read-only helpers were also run; neither reads outcomes:
 
 ## Next step (not started)
 
+> **Update 2026-10-07.** Run-book steps 2–5 were completed in the [next phase](../preregistered_completion/README.md). This H1/H2 record is unchanged.
+
 Per [preregistration §13 and §15](../baseline_implementation/preregistration.md#13-reporting-commitments-regardless-of-result), every registered analysis is completed and reported whatever the H1 result. The next frozen steps are run-book steps 2–4, then step 5. See the recommendation in [h1h2_results.md](h1h2_results.md) and the decision log (CHR-009).

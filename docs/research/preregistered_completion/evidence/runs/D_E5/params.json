@@ -1,0 +1,13 @@
+{
+  "spec.id": "D_E5",
+  "spec.set": "E5_core",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5"
+  ],
+  "workers": 5
+}

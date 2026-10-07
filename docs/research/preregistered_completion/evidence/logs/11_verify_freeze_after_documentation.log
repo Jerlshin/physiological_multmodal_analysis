@@ -1,0 +1,7 @@
+2026-10-07T18:47:48Z
+$ PYTHONPATH=src .venv/bin/python -m g01r verify-freeze
+VERIFIED
+exit=0
+$ shasum -a 256 analysis_freeze/outcome_access_log.jsonl
+2ea691fa4243b7cdf7d2902b0beb8adec2d57c29b12dc63b8eeb5ee198c3d202  analysis_freeze/outcome_access_log.jsonl
+      15

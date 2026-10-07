@@ -1,0 +1,911 @@
+{
+  "D_BC": {
+    "run_id": "20261007T165649Z_c945a3df",
+    "run_dir": "results/runs/g01r-confirmatory/D_BC__20261007T165649Z_c945a3df",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T16:56:49.623627+00:00",
+    "end_utc": "2026-10-07T17:03:01.017822+00:00",
+    "elapsed_s": 370.24370217323303,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "b44cfbbeaaf043809b4ff0162613bedd"
+    },
+    "mlflow_errors": [],
+    "identity": {},
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "predictions_B.parquet": "2df5722f870eaae4929d0a6bfbc95bdc0ad04ae5e421a7a61b0c8d514e185266",
+      "predictions_C.parquet": "118f31ae3b0ee1edc032a003e798e0240718101ffb402da91d5503c385ec01dd",
+      "result.json": "aa0c205f7e69fbc8d6eeb256a82ad319a6457913a77e1c89078249c0de110005"
+    }
+  },
+  "D_CAS": {
+    "run_id": "20261007T170301Z_6dbbf219",
+    "run_dir": "results/runs/g01r-confirmatory/D_CAS__20261007T170301Z_6dbbf219",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T17:03:01.025846+00:00",
+    "end_utc": "2026-10-07T17:12:26.583230+00:00",
+    "elapsed_s": 565.4291799068451,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "50950f177c5e41afa06922ce06b4ff6f"
+    },
+    "mlflow_errors": [],
+    "identity": {},
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "result.json": "c82e11b1fb55709208d97c5789602c42356bc17d3431f2576a59ca66e6d40a16"
+    }
+  },
+  "D_E1": {
+    "run_id": "20261007T182532Z_8e41b75d",
+    "run_dir": "results/runs/g01r-confirmatory/D_E1__20261007T182532Z_8e41b75d",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T18:25:32.308342+00:00",
+    "end_utc": "2026-10-07T18:38:17.945587+00:00",
+    "elapsed_s": 765.5826818943024,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py",
+        "docs/research/preregistered_completion/evidence/tables/"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "0364bb251d914b6abf350a8e4713d59d"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "E1_gaze",
+      "set_identity": "8319265685bd4d892f698c801883f3e3c608253a4740b72a3e418aa98574a697",
+      "split_identity": "c1c59690488933b1ab4727e36fe34d37e1ae69f0a0f4f38799e998af6b702c82",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "bcbfbdb0316af1cc21c46281bf33a2957ba97604bf58e06f6616b4452b9b92f1",
+      "log10_lambda_absolute.json": "244d52548e0cb50ae47476082269caa2c07cd159758ffb283e2ae6b2095737e6",
+      "outer_folds.npy": "421a4b6cea6c73ded2cb745df4ab1fc52b145e3142557aff89e88c1a800ab19e",
+      "predictions.parquet": "5ffb6e5122039e335e924a59f15a32029a40a92dfa88fcb585ef954b49b3c9b6",
+      "result.json": "e7e63c1131e6f8b6933fc16bfb9d01c92496c2dd28a869bf122c7865767bdd1d"
+    }
+  },
+  "D_E5": {
+    "run_id": "20261007T171226Z_99ee1196",
+    "run_dir": "results/runs/g01r-confirmatory/D_E5__20261007T171226Z_99ee1196",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T17:12:26.587511+00:00",
+    "end_utc": "2026-10-07T18:25:20.720647+00:00",
+    "elapsed_s": 4373.9846358299255,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "305f781a20494223914bdc6e13302395"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "E5_core",
+      "set_identity": "83608cdcd71617b633bc546104e257b3bd5054218e195296cff52073a478da12",
+      "split_identity": "87451e2e4367d18bb18f2cd2a2d51eed03973cbf732f5435c213bd3383e46d8a",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "ecb073d5853bfe15624a83b2155ac76971bca1be2e5d334e1c1ffc72a1e54e5b",
+      "log10_lambda_absolute.json": "f5d1dee14a0cdea3dbf819ab4b468e0a36ce81d680956dc3419ef9a5f7103be6",
+      "outer_folds.npy": "706c6f6eda809e3d4cdbc44b7e1558311f6119bfb19f277bc755bc5795e3df79",
+      "predictions.parquet": "f3b411af4bfe002267f9f234c7821a92ad4641ef6d28611c462e754e2fc95093",
+      "result.json": "e55200f1da18e8f94432da5271e182ce4087e914209dd783b032e25a31c6b7d7"
+    }
+  },
+  "D_transport": {
+    "run_id": "20261007T182520Z_c9759030",
+    "run_dir": "results/runs/g01r-confirmatory/D_transport__20261007T182520Z_c9759030",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T18:25:20.726133+00:00",
+    "end_utc": "2026-10-07T18:25:32.305761+00:00",
+    "elapsed_s": 11.489593267440796,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py",
+        "docs/research/preregistered_completion/evidence/tables/"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "244d34980384402686247a1f47e45a30"
+    },
+    "mlflow_errors": [],
+    "identity": {},
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "result.json": "9d59ca4ca6405cdb67b9fe95bfe60167e33a39aaa15d81c3373444820a7179cc"
+    }
+  },
+  "H1_H2": {
+    "run_id": "20261005T104908Z_c57b28d6",
+    "run_dir": "results/runs/g01r-confirmatory/H1_H2__20261005T104908Z_c57b28d6",
+    "status": "FINISHED",
+    "start_utc": "2026-10-05T10:49:08.937093+00:00",
+    "end_utc": "2026-10-05T17:30:48.400071+00:00",
+    "elapsed_s": 24098.277510881424,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d02e477d62406fbf11d824a31b7fc1d79aea7a9d",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "19e779362aeb49e7bc9ceaaa39fc017b"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core",
+      "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+      "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "3ccbba7aaa1c9a82c9807d8d6940fa4ac175afeb2dc98e6499b5fb889ed081aa",
+      "log10_lambda_absolute.json": "8488755c85a9536106eb108ec0faef341a65a9bc4c992c052d8bfb1ce1bf0823",
+      "outer_folds.npy": "b0c00b4a81b590623e1eef13e234bc362d651e7bf67f21dba3fefac5437116ac",
+      "permutation_null_H1.npy": "c9e0f85f33b1c74e4866f3f1c27e4c8572ffbadd79b15cb599893bb73775f088",
+      "permutation_null_H2a.npy": "f21c396323b9aca11cff982b549c440a1e05ae1eeb6fd9e2112a9d5cf8250c29",
+      "permutation_null_H2b.npy": "f3592d6b1b87936d6e34d8a2452b3149d2b9bf57a5baab152c81282aedfacac0",
+      "permutation_null_H2c.npy": "f4c648fdefa6330fcfc323e7add14109fa2a09f6baf4421a5ce63347b522f640",
+      "permutation_null_H2d.npy": "0f9b7b650e64afe2eb7697d6548f5cacfc43db5ad9bf2c401698894df649c141",
+      "predictions.parquet": "a8af78cb478dd3d4701d9a2d129bfd6afb473b0f8538098867e196febc91bdd5",
+      "result.json": "7b08e12e24f919527913b3c9544bc56418fa85bdab20a86536d2c5de1401ab7c"
+    }
+  },
+  "H3_1_partial": {
+    "run_id": "20261006T123221Z_a27a0b62",
+    "run_dir": "results/runs/g01r-confirmatory/H3_1_partial__20261006T123221Z_a27a0b62",
+    "status": "FINISHED",
+    "start_utc": "2026-10-06T12:32:21.278119+00:00",
+    "end_utc": "2026-10-06T12:32:57.728283+00:00",
+    "elapsed_s": 35.61998891830444,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "f9d4ff4129aa493bb12f26229c0c7a1a"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core",
+      "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+      "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "3ccbba7aaa1c9a82c9807d8d6940fa4ac175afeb2dc98e6499b5fb889ed081aa",
+      "log10_lambda_absolute.json": "d7bf46d93cce19a3e5f5804b94294b537a5de87991aefae20814d98f07066ae3",
+      "outer_folds.npy": "b0c00b4a81b590623e1eef13e234bc362d651e7bf67f21dba3fefac5437116ac",
+      "predictions.parquet": "3e0ccae5ee0ecc28de8fe2a4ee4920903472b03b5deb8f10f80182188d26358c",
+      "result.json": "18acb19d90a6758d7a77f250e1f0122017f2499e79373640d5a5114768b68635"
+    }
+  },
+  "H3_2_eye30": {
+    "run_id": "20261006T123439Z_5a0263c2",
+    "run_dir": "results/runs/g01r-confirmatory/H3_2_eye30__20261006T123439Z_5a0263c2",
+    "status": "FINISHED",
+    "start_utc": "2026-10-06T12:34:39.308924+00:00",
+    "end_utc": "2026-10-06T18:08:24.677713+00:00",
+    "elapsed_s": 20024.336970090866,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "433a6cad666a4bdcaae7401230ff488d"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core_eye30",
+      "set_identity": "3523e829d1304721bc4c43aafd3db3d07394fa47faf1a1fbe8090934c5a6acd0",
+      "split_identity": "370be6101e618e6b893e60d044dbb5cabf10332bd08435de93ad5fb05bd87e6a",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "f72e77b66b076c53261f602cb83583f865d4dadb41c56acc570ff60862eec6c7",
+      "log10_lambda_absolute.json": "39cc757ccc7e08b7ddca51f4d87b589e5e6f996e146ae39fdbd42a928bff6315",
+      "outer_folds.npy": "d80210368fb03c095b94b028c62f2e144e2b4b99c90aeb21e40f7f32836495ac",
+      "predictions.parquet": "dad933fc204ae003a68d8d5c607f19c1361c1bd54167059d956af0219145b4cc",
+      "result.json": "341c03dc9edab5832301ef1c4d4f14545f1804804ed4ab5163ef6333a1c117fb"
+    }
+  },
+  "H3_2_eye70": {
+    "run_id": "20261006T180824Z_85517ad2",
+    "run_dir": "results/runs/g01r-confirmatory/H3_2_eye70__20261006T180824Z_85517ad2",
+    "status": "FINISHED",
+    "start_utc": "2026-10-06T18:08:24.695363+00:00",
+    "end_utc": "2026-10-07T03:16:45.202922+00:00",
+    "elapsed_s": 32900.354138851166,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "84361aedfc57463ca4a550893179d727"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core_eye70",
+      "set_identity": "6a8f04382166a6ecae9adc476994a159abd2572acc2ae2a92f3418f4191382a5",
+      "split_identity": "2d02a223b366c229653b3919676f3844b093bbeb6482007f691fa72cecd3294a",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "6827fc9ca0921761aa16a7fb47d1c4d574861e6585a969c609defd0423d2749b",
+      "log10_lambda_absolute.json": "3f012c9e7dfe405619e144570a727f55fd00f6d3aa9aeb8be0328be7edd26c5c",
+      "outer_folds.npy": "46145597731ab9c702320557240618d25909ce45397132f66fde2531fa046c9b",
+      "predictions.parquet": "19c46bddeb677cded57d6c6a9a0ab1c8d408358125bb97983805abed0d386642",
+      "result.json": "18de04d3f9efc69c16c2952687b2593af6e52aed6f55538b039591090d77717b"
+    }
+  },
+  "H3_3_four": {
+    "run_id": "20261007T031645Z_20f139c0",
+    "run_dir": "results/runs/g01r-confirmatory/H3_3_four__20261007T031645Z_20f139c0",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T03:16:45.212233+00:00",
+    "end_utc": "2026-10-07T08:44:04.010505+00:00",
+    "elapsed_s": 19638.667069911957,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "d53d81ffed854b31a8dff62815ec2d67"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_four",
+      "set_identity": "29051f1c49b025e066d6ed0b1fb2b692d2f5996253cb17b03573486e49c126bc",
+      "split_identity": "f9d96bd2904d628c6c45c0473b2dccb662eb038b2114abf7683379f980310699",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "a7c865f5c798cf2dbd2bbc0cc7d302f69f9bf17e190b0060396158c699558e44",
+      "log10_lambda_absolute.json": "6283cf27bf3cb9296aa464c4aad8631e4f64c1d081d3d29f2c221b93cefe7ef0",
+      "outer_folds.npy": "7d0410f030883cec8881eaa69498e865dbd8418b25df638bdf7d4e87fcd9294d",
+      "predictions.parquet": "6613b204d2695538af040aa6c023f9dbc5840242fef3ef58bb9ab44889a55557",
+      "result.json": "5824f906ff1c30647f6083c58e0c18ebf0a26ed948bd877adb9cde057c7d796f"
+    }
+  },
+  "H3_4_raw": {
+    "run_id": "20261007T084404Z_9117498b",
+    "run_dir": "results/runs/g01r-confirmatory/H3_4_raw__20261007T084404Z_9117498b",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T08:44:04.021412+00:00",
+    "end_utc": "2026-10-07T13:06:48.544813+00:00",
+    "elapsed_s": 15764.389689207077,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "e626b84e88de41008265016d83445fc2"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core",
+      "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+      "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "3ccbba7aaa1c9a82c9807d8d6940fa4ac175afeb2dc98e6499b5fb889ed081aa",
+      "log10_lambda_absolute.json": "88083ef976324996f3d87cc496e97d2142c81c69409bd7fcf9d11401fef3f90e",
+      "outer_folds.npy": "b0c00b4a81b590623e1eef13e234bc362d651e7bf67f21dba3fefac5437116ac",
+      "predictions.parquet": "29cd25838d5a6a63ee2babb073e66f9307f996f52f312322a6f9c2a7b768c51d",
+      "result.json": "fe98bebd1b46f1b2f416665821de78fb5bb9f14e0c6f60c84e95c0d440d9b3bf"
+    }
+  },
+  "H3_5_alpha": {
+    "run_id": "20261007T130648Z_ea387334",
+    "run_dir": "results/runs/g01r-confirmatory/H3_5_alpha__20261007T130648Z_ea387334",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T13:06:48.552345+00:00",
+    "end_utc": "2026-10-07T16:56:18.279124+00:00",
+    "elapsed_s": 13769.572004079819,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "487791262c73424b928407d969bb00a1"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core_alpha30",
+      "set_identity": "b47b2bb4b0bb1ff91aa0d4b5b33e9c45f02814e70ea11727758a970693893698",
+      "split_identity": "7be86145556c55e1e4f074c3fe1255a682d2fd69a1d85401a22585910ae0e0de",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "4223d23a02a56072eb7a159a33235d7233998193cca03cb9cc9ad0449808b4bb",
+      "log10_lambda_absolute.json": "dbec441256ef61d3ac74c3c71d9e63eeff2ba47c8442ce7755c3152816e6b492",
+      "outer_folds.npy": "79fe554f07228506a072a517001b6f77576a7f44b8cea3b0886cd8a90e868f65",
+      "predictions.parquet": "dc8b798540f516e3f0ed9456150b5a441ad33e6d0d429398c01e9f3b21e57323",
+      "result.json": "7b9a61dd00bb2ead8e35657c76ac15aafe4124ebe88041ca37902d7f937436e3"
+    }
+  },
+  "H3_6_gpa": {
+    "run_id": "20261006T123257Z_d1e38f11",
+    "run_dir": "results/runs/g01r-confirmatory/H3_6_gpa__20261006T123257Z_d1e38f11",
+    "status": "FINISHED",
+    "start_utc": "2026-10-06T12:32:57.731687+00:00",
+    "end_utc": "2026-10-06T12:33:35.461996+00:00",
+    "elapsed_s": 37.6712167263031,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "f1f8ab1bf1214373a1c834b86070bc38"
+    },
+    "mlflow_errors": [],
+    "identity": {
+      "set": "PAS_E34_core",
+      "set_identity": "8a682fc06fcb4d16d01c22b9bd1cb7398854e619c4f6331303ec3501914525b6",
+      "split_identity": "f62f7ae362c148c1b716bb8bd1cdd9764a6699f38aaa6ec240122a842cb68391",
+      "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"
+    },
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "cells.parquet": "3ccbba7aaa1c9a82c9807d8d6940fa4ac175afeb2dc98e6499b5fb889ed081aa",
+      "log10_lambda_absolute.json": "f4f72c9061f67fd85157904b13b8bc226b8731faa1b7ea3bf376062f07570c40",
+      "outer_folds.npy": "b0c00b4a81b590623e1eef13e234bc362d651e7bf67f21dba3fefac5437116ac",
+      "predictions.parquet": "c94ea2ca053ebc304041b70732562708bff5b14384ad719b0e479a2c0a3e826a",
+      "result.json": "a079cb369d1a980f21f38ce6762d81da8e359695adae1493d0f86c4bf3f87347"
+    }
+  },
+  "S_identity_probe": {
+    "run_id": "20261007T183823Z_12d883ba",
+    "run_dir": "results/runs/g01r-confirmatory/S_identity_probe__20261007T183823Z_12d883ba",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T18:38:23.940891+00:00",
+    "end_utc": "2026-10-07T18:38:24.645386+00:00",
+    "elapsed_s": 0.6217067241668701,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py",
+        "docs/research/preregistered_completion/evidence/tables/"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "c545220fee264838bee2359aeea692e0"
+    },
+    "mlflow_errors": [],
+    "identity": {},
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "result.json": "f77c56ca6d46917007982fcb643b388d1841583186c80db2fb2f43bbaa5355d9"
+    }
+  },
+  "X_explanatory": {
+    "run_id": "20261007T183817Z_904fe9c0",
+    "run_dir": "results/runs/g01r-confirmatory/X_explanatory__20261007T183817Z_904fe9c0",
+    "status": "FINISHED",
+    "start_utc": "2026-10-07T18:38:17.948509+00:00",
+    "end_utc": "2026-10-07T18:38:23.937629+00:00",
+    "elapsed_s": 5.907094955444336,
+    "config": {
+      "path": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/configs/g01r_protocol_v1.toml",
+      "sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+      "frozen": true,
+      "overrides": {}
+    },
+    "git": {
+      "commit": "d737ac162cf9a5b6c7c1fcba76ef6c2b2e71c865",
+      "branch": "main",
+      "dirty": true,
+      "dirty_files": [
+        ".DS_Store",
+        "analysis_freeze/outcome_access_log.jsonl",
+        "docs/research/preregistered_completion/evidence/logs/03_step2_H3_1_H3_6_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/04_verify_freeze_post_step2.log",
+        "docs/research/preregistered_completion/evidence/logs/05_step3_H3_2_to_H3_5_stdout.log",
+        "docs/research/preregistered_completion/evidence/logs/06_verify_freeze_post_step3.log",
+        "docs/research/preregistered_completion/evidence/logs/07_step4_descriptive_stdout.log",
+        "docs/research/preregistered_completion/evidence/runs/",
+        "docs/research/preregistered_completion/evidence/summarize_steps2_4.py",
+        "docs/research/preregistered_completion/evidence/tables/"
+      ]
+    },
+    "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+    "environment": {
+      "python": "3.14.5",
+      "implementation": "CPython",
+      "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.6",
+        "pyarrow": "25.0.1",
+        "mlflow-skinny": "3.16.1",
+        "sqlalchemy": "2.1.3"
+      }
+    },
+    "mlflow": {
+      "tracking_uri": "sqlite:////Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/mlflow/mlflow.db",
+      "experiment_id": "6",
+      "run_id": "558608a67b7345d6bd9865b3c9772109"
+    },
+    "mlflow_errors": [],
+    "identity": {},
+    "outcome_source": "real:authorized:0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067",
+    "artifacts": {
+      "result.json": "4373119cdf18e48a86236299f84088f4c183e950ec18f01cd58ef5ed41a984aa"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "analysis": "H3_3_four",
+  "set": "PAS_E34_four",
+  "outcome": "exact",
+  "route": "processed",
+  "n_people": 57,
+  "n_cells": 216,
+  "n_videos": 8,
+  "split_identity": "f9d96bd2904d628c6c45c0473b2dccb662eb038b2114abf7683379f980310699",
+  "set_identity": "29051f1c49b025e066d6ed0b1fb2b692d2f5996253cb17b03573486e49c126bc",
+  "comparisons": {
+    "M5_vs_M2": {
+      "report": {
+        "skill_person_balanced": 0.018510811469645838,
+        "skill_cell_weighted": 0.011801141927315961,
+        "base_mse_person_balanced": 0.034376120285150004,
+        "full_mse_person_balanced": 0.03373979040349372,
+        "delta_mse_person_balanced": 0.0006363298816562807,
+        "delta_rmse_items": 0.02068850078764306,
+        "delta_mae_items": 0.014913077808130448,
+        "calibration_base": {
+          "intercept": 0.08438113956346813,
+          "slope": 0.8252172504394606
+        },
+        "calibration_full": {
+          "intercept": 0.07783272283358014,
+          "slope": 0.8377352221010461
+        },
+        "state_skill": -0.01056942658720117,
+        "n_people": 57,
+        "n_cells": 216,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.01402514472031302,
+            "skill_over_reliable_share": 0.029684381624264608,
+            "reliable_share": 0.472475556265204,
+            "people": 24,
+            "cells": 124
+          },
+          "4": {
+            "skill": 0.02139625470035822,
+            "skill_over_reliable_share": 0.03705548581675304,
+            "reliable_share": 0.5774112585155968,
+            "people": 33,
+            "cells": 92
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.004868349529164817,
+            "people": 22
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.02535945293454822,
+            "people": 22
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.0387820050035077,
+            "people": 22
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.021247001461072168,
+            "people": 20
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.011197520936526706,
+            "people": 19
+          },
+          "3:rkntp3_cZl4": {
+            "skill": -0.0098803935204137,
+            "people": 19
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.023106943397030344,
+            "people": 32
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.025458038410447914,
+            "people": 30
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": -0.001985463111743302,
+            "people": 30
+          }
+        }
+      },
+      "intervals": {
+        "person": {
+          "level": 0.9,
+          "centre": 0.0007394227680133969,
+          "lo": -0.0010131976491921705,
+          "hi": 0.002492043185218964,
+          "centre_skill": 0.02150977951787122,
+          "lo_skill": -0.029473880146674302,
+          "hi_skill": 0.07249343918241674,
+          "err_ncv": 0.0005074637737098937,
+          "mse_hat": 1.135327662971438e-06,
+          "se_naive": 0.0003869701280537964,
+          "root_over_se": 2.753487877079887,
+          "reps": 200,
+          "base_loss": 0.034376120285150004,
+          "point_skill": 0.018510811469645977
+        }
+      }
+    },
+    "M5_PUPIL_vs_M2": {
+      "report": {
+        "skill_person_balanced": 0.03159969955723241,
+        "skill_cell_weighted": 0.01684064890719228,
+        "base_mse_person_balanced": 0.034376120285150004,
+        "full_mse_person_balanced": 0.03328984521219598,
+        "delta_mse_person_balanced": 0.0010862750729540224,
+        "delta_rmse_items": 0.0354352019632348,
+        "delta_mae_items": 0.02784851913000963,
+        "calibration_base": {
+          "intercept": 0.08438113956346813,
+          "slope": 0.8252172504394606
+        },
+        "calibration_full": {
+          "intercept": 0.06963548814064202,
+          "slope": 0.8542129429031741
+        },
+        "state_skill": -0.011796978893318988,
+        "n_people": 57,
+        "n_cells": 216,
+        "n_videos": 8,
+        "per_experiment": {
+          "3": {
+            "skill": 0.01507676769177424,
+            "skill_over_reliable_share": 0.03191015385208953,
+            "reliable_share": 0.472475556265204,
+            "people": 24,
+            "cells": 124
+          },
+          "4": {
+            "skill": 0.04222821579950442,
+            "skill_over_reliable_share": 0.07313368968257443,
+            "reliable_share": 0.5774112585155968,
+            "people": 33,
+            "cells": 92
+          }
+        },
+        "per_video": {
+          "3:30o4omX5qfo": {
+            "skill": -0.023025805947478384,
+            "people": 22
+          },
+          "3:bYgV9nvgJ3E": {
+            "skill": -0.0249974535626305,
+            "people": 22
+          },
+          "3:e0NT9i4Qnak": {
+            "skill": 0.05897262101526457,
+            "people": 22
+          },
+          "3:lkRZKqDdwzU": {
+            "skill": 0.011175061860743019,
+            "people": 20
+          },
+          "3:mnYSMhR3jCI": {
+            "skill": 0.01978105333630986,
+            "people": 19
+          },
+          "3:rkntp3_cZl4": {
+            "skill": -0.026922457892273766,
+            "people": 19
+          },
+          "4:VVAKFJ8VVp4": {
+            "skill": 0.04319875084985281,
+            "people": 32
+          },
+          "4:mnYSMhR3jCI": {
+            "skill": 0.03137025461629728,
+            "people": 30
+          },
+          "4:zQGOcOUBi6s": {
+            "skill": 0.011571149518729729,
+            "people": 30
+          }
+        }
+      },
+      "intervals": {
+        "person": {
+          "level": 0.9,
+          "centre": 0.0012250804902970787,
+          "lo": -0.000984042613883025,
+          "hi": 0.003434203594477182,
+          "centre_skill": 0.035637543740684896,
+          "lo_skill": -0.028625761305242973,
+          "hi_skill": 0.09990084878661276,
+          "err_ncv": 0.0009127683012752144,
+          "mse_hat": 1.8037872879236462e-06,
+          "se_naive": 0.000621328303170442,
+          "root_over_se": 2.161581046392482,
+          "reps": 200,
+          "base_loss": 0.034376120285150004,
+          "point_skill": 0.03159969955723256
+        }
+      }
+    }
+  },
+  "tests": {},
+  "elapsed_s": 19638.667069911957
+}

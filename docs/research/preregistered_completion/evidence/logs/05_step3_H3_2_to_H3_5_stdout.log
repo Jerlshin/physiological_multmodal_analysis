@@ -1,0 +1,8 @@
+start 2026-10-06T12:34:32Z HEAD d737ac1
+$ PYTHONPATH=src .venv/bin/python -m g01r run --analysis H3_2_eye30,H3_2_eye70,H3_3_four,H3_4_raw,H3_5_alpha
+[H3_2_eye30] done in 20024s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_2_eye30__20261006T123439Z_5a0263c2
+[H3_2_eye70] done in 32900s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_2_eye70__20261006T180824Z_85517ad2
+[H3_3_four] done in 19639s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_3_four__20261007T031645Z_20f139c0
+[H3_4_raw] done in 15764s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_4_raw__20261007T084404Z_9117498b
+[H3_5_alpha] done in 13770s -> /Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/results/runs/g01r-confirmatory/H3_5_alpha__20261007T130648Z_ea387334
+exit=0 end 2026-10-07T16:56:19Z

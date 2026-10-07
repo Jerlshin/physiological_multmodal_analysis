@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.5019305019305019,
+  "majority_rate": 0.14671814671814673,
+  "chance_by_frequency": 0.11590465258418925,
+  "n_classes": 9,
+  "splits": 100,
+  "elapsed_s": 0.6217067241668701
+}

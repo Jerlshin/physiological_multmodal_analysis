@@ -1,0 +1,13 @@
+{
+  "spec.id": "H3_5_alpha",
+  "spec.set": "PAS_E34_core_alpha30",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5"
+  ],
+  "workers": 5
+}

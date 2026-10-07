@@ -1,1 +1,15 @@
 {"utc": "2026-10-05T10:49:16.567822+00:00", "set": "PAS_E34_core", "outcome": "exact", "cells": 259, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-06T12:32:27.699755+00:00", "set": "PAS_E34_core", "outcome": "partial", "cells": 259, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-06T12:33:03.621420+00:00", "set": "PAS_E34_core", "outcome": "exact", "cells": 259, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-06T12:34:46.247012+00:00", "set": "PAS_E34_core_eye30", "outcome": "exact", "cells": 223, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-06T18:08:30.842816+00:00", "set": "PAS_E34_core_eye70", "outcome": "exact", "cells": 265, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T03:16:51.214687+00:00", "set": "PAS_E34_four", "outcome": "exact", "cells": 216, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T08:44:09.957588+00:00", "set": "PAS_E34_core", "outcome": "exact", "cells": 259, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T13:06:54.629150+00:00", "set": "PAS_E34_core_alpha30", "outcome": "exact", "cells": 234, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T16:56:56.386967+00:00", "set": "PAS_E34_core", "outcome": "exact", "cells": 259, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T17:03:06.843810+00:00", "set": "CAS_E34", "outcome": "exact", "cells": 302, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T17:12:32.344318+00:00", "set": "E5_core", "outcome": "exact", "cells": 128, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T18:25:26.713204+00:00", "set": "E4_core", "outcome": "exact", "cells": 111, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T18:25:32.273181+00:00", "set": "E5_core", "outcome": "exact", "cells": 128, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T18:25:37.888061+00:00", "set": "E1_gaze", "outcome": "exact", "cells": 121, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}
+{"utc": "2026-10-07T18:38:23.782694+00:00", "set": "PAS_E34_core", "outcome": "exact", "cells": 259, "authorization_sha256": "0bd14a35f56734bb6c151f46c9fff9d23a532abac37348bccb6acd2bcacf3067"}

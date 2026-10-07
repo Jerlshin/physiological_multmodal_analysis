@@ -1,0 +1,14 @@
+{
+  "spec.id": "H3_3_four",
+  "spec.set": "PAS_E34_four",
+  "spec.regime": "A",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [
+    "M2",
+    "M5",
+    "M5_PUPIL"
+  ],
+  "workers": 5
+}

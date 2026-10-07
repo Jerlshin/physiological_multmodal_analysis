@@ -1,0 +1,10 @@
+analysis,comparison,set,outcome,route,people,cells,videos,skill_person_balanced,ncv90_lo,ncv90_hi,primary_skill,same_sign_as_primary,same_side_of_delta_as_primary,IS028_reading,point_below_delta,interval_contains_0,interval_contains_delta,interval_upper_below_2delta
+H3_1_partial,M5_vs_M2,PAS_E34_core,partial,processed,68,259,8,0.019039123406281333,-0.04062274028657146,0.07882703145381922,0.02057117369452144,True,True,robust,True,True,True,True
+H3_2_eye30,M5_vs_M2,PAS_E34_core_eye30,exact,processed,65,223,8,0.008723074643475881,-0.02051976087703938,0.038386250841567535,0.02057117369452144,True,True,robust,True,True,False,True
+H3_2_eye70,M5_vs_M2,PAS_E34_core_eye70,exact,processed,69,265,8,0.017002178260276835,-0.03154046182334216,0.058278842195608443,0.02057117369452144,True,True,robust,True,True,True,True
+H3_3_four,M5_vs_M2,PAS_E34_four,exact,processed,57,216,8,0.018510811469645838,-0.029473880146674302,0.07249343918241674,0.02057117369452144,True,True,robust,True,True,True,True
+H3_3_four,M5_PUPIL_vs_M2,PAS_E34_four,exact,processed,57,216,8,0.03159969955723241,-0.028625761305242973,0.09990084878661276,0.02057117369452144,True,True,robust,True,True,True,True
+H3_4_raw,M5_vs_M2,PAS_E34_core,exact,raw,68,259,8,0.02115386458634183,-0.04045720228336467,0.07605048509779551,0.02057117369452144,True,True,robust,True,True,True,True
+H3_5_alpha,M5_vs_M2,PAS_E34_core_alpha30,exact,processed,68,234,7,0.01609995688371879,-0.03798598397854967,0.0626120314286698,0.02057117369452144,True,True,robust,True,True,True,True
+H3_6_gpa,M5_vs_M2,PAS_E34_core,exact,processed,68,259,8,0.015275456886539418,-0.03487996908344589,0.06082007443943074,0.02057117369452144,True,True,robust,True,True,True,True
+H3_7_cell,M5_vs_M2 (cell-weighted),PAS_E34_core,exact,processed,68,259,8,0.012811195320721783,-0.04548043703732745,0.0683736520206892,0.02057117369452144,True,True,robust,True,True,True,True

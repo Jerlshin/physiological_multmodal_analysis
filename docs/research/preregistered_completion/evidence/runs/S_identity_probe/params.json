@@ -1,0 +1,10 @@
+{
+  "spec.id": "S_identity_probe",
+  "spec.set": "PAS_E34_core",
+  "spec.regime": "identity_probe",
+  "spec.outcome": "exact",
+  "spec.route": "processed",
+  "spec.include_gpa": false,
+  "spec.models": [],
+  "workers": 5
+}
