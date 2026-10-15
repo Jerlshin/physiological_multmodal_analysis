@@ -204,3 +204,79 @@ Detailed entries are **CHI-001–006** in the [phase-local register](research_ga
 | INF-088 | VERIFIED FACT (descriptive) | On new videos, reference-free physiology is worse than the nonsignal baseline (B −0.025 [−0.049, −0.006]). Synchrony with an unlabelled half-cohort reference restores 0.020 [−0.014, 0.045] and improves on B in 8/8 videos. Physiology does not transfer E4→E5 and adds nothing in CAS or E5 | [Results](preregistered_completion/results_steps2_5.md) |
 | INF-089 | VERIFIED FACT (descriptive / explanatory / diagnostic) | E1 ocular-only 0.261 [−0.104, 0.584] (26 learners; numerical warnings). No RF or SYN coefficient has Wald p < 0.05 in the explanatory model. Features carry strong content identity (probe 0.50 vs 0.15) | [Results](preregistered_completion/results_steps2_5.md) |
 | INF-090 | INFERENCE | About 82% of the held-out signal beyond content is nonsignal (C 34%, Q 48%, physiology 18%). Gaze information is small and partly entangled with eye-data quality and attention behaviour. EEG and ECG show no credible increment. BBBD cannot resolve the remaining question; external and prospective data are the next lever | [Final report](preregistered_completion/final_report.md) |
+
+## Amendment — External ocular replication on John et al. 2025, 2026-10-07
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-091 | VERIFIED FACT (confirmatory, external) | In John 2025 (112 learners, one 16-min video), the BBBD gaze block (dispersion, saccade rate, gaze ISC) with the frozen ridge procedure adds held-out information about immediate posttest performance beyond age, sex, condition, pretest and eye-data loss: Ŝ 0.079, permutation p 0.002 (test calibrated on these features: 0.045 / 0.050). 90% nested-CV interval −0.050 to 0.215 | [Results](external_john2025/results.md) |
+| INF-092 | VERIFIED FACT (estimates) | The increment is 0.066 (p 0.006) without the pretest, and stable across eye-QC 0.30 / 0.50 / 0.70 (0.082 / 0.079 / 0.096). It is 0.109 beyond decomposed blink, loss and off-screen quality. Reference-free gaze 0.058; gaze ISC alone 0.018; pupil ISC −0.019 | [Results](external_john2025/results.md) |
+| INF-093 | INFERENCE | The G01-R gaze finding (H2d) replicates externally and is not explained by prior knowledge or eye-data quality in this cohort. BBBD's "synchrony carries it" reading does not transfer: the active component appears cohort- or content-dependent. Sizes are imprecise, and there is only one video | [Results §10–11](external_john2025/results.md) |
+
+## Amendment — Novel-method phase (planning), 2026-10-08
+
+No outcome was read. Entries are outcome-free facts, literature findings, interpretations and untested hypotheses.
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-094 | VERIFIED FACT (outcome-free) | Windowed gaze ISC (10 s) splits into person 10%, stimulus-locked window 44% and person × window 46% (PAS-core); E1 22 / 37 / 40. The x/y residual agreement 0.18–0.28 implies about 16% of windowed ISC variance is reliable person × moment structure, an upper bound that may include shared artifacts. Validity residuals persist over 10–20 s (lag-1 +0.17 to +0.40); ISC residuals do not | [Evidence](novel_method/evidence/README.md) |
+| INF-095 | VERIFIED FACT (outcome-free) | Relative posterior alpha is 64% person-level and 10% person × window. The filter-free EEG ISC proxy is 77% residual. EEG–gaze residual coupling is ≤ 0.07 (PAS-core) | [Evidence](novel_method/evidence/README.md) |
+| INF-096 | VERIFIED FACT | Item texts with recognition/comprehension tags exist for all 11 videos (131 rows; 11–12 per video). Recorded video durations differ from the reported YouTube durations (e.g. Stars 184.8 s vs 3:29; Enzyme 268.5 s vs 3:12) | `dataset_exploration/evidence/gate_closure_Education_questions.json`; events tables |
+| INF-097 | EXTERNAL LITERATURE FINDING | Moment-level engagement → memory links are explanatory only (Davidesco 2023; Song 2021; Chen 2026). Item-level gaze prediction succeeds in reading only with content-aware models (EyeBench 2025). EEG-FM benchmarks report limited low-data gains. No predictive content-anchored item-response model for video learning was found. Closest-paper risks: Lallé AIED 2025, Chen 2026 | [Literature review](novel_method/literature_review.md) |
+| INF-098 | OUR INFERENCE | The G01-R bottleneck (noisy criterion, n, quality/behaviour entanglement) is partly a granularity problem. An item-anchored within-learner design uses about 12 contrasts per video, is immune by design to person-level confounds, and makes in-window data loss a testable behavioural signal | [Plan §4, §8](novel_method/research_plan.md#4-re-evaluated-research-gap) |
+| INF-099 | HYPOTHESIS | NH1: engagement pooled over an item's content anchor predicts that item's correctness beyond item easiness and the learner level. NH2–NH5 are secondary. All are untested | [Plan §20](novel_method/research_plan.md#20-hypotheses-success-and-failure-criteria) |
+| INF-100 | OPEN QUESTION | Whether the stimulus trim is recoverable; whether Lallé data terms permit reuse; whether John posttest item texts and Madsen 2021 item-level webcam answers are available | [Plan §11.2, §19](novel_method/research_plan.md#19-external-validation-strategy) |
+
+## Amendment — Novel-method Stage 0, 2026-10-13
+
+No outcome was read. Local IDs S0-I01–S0-I11 are in [stage0/decisions.md](novel_method/stage0/decisions.md).
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-101 | VERIFIED FACT (outcome-free) | Stimulus timelines are recovered for 10/11 videos by peer-gaze alignment to the public sources, with independent validators (cut-locked saccades; pupillary light response). Immune is reliable only to 215 s. The Enzymes stimulus is `AAZ03aScPr8` [5–145 s] + `lkRZKqDdwzU` [50–178 s] | [Timeline audit](novel_method/stage0/timeline_audit.md) |
+| INF-102 | VERIFIED FACT (code level) | Lallé 2025 predicts per-item retention from gaze features in windows tied to author-specified item content spans, with participant-grouped CV. Item identity is dropped; no difficulty term or randomization null. No per-item "already knew" control was found | [Literature close-out](novel_method/stage0/literature_closeout.md) |
+| INF-103 | EXTERNAL LITERATURE FINDING (FT) | EyeBench reading comprehension (OneStop, test): text-only RoBERTa 61.1 AUROC vs text + gaze 61.9–62.9. Gaze increments over item knowledge are about 1–3 points | idem |
+| INF-104 | PROVISIONAL FACT (machine anchors) | 105/131 items are anchorable (development 87/107; 59 distinct development moments). The locked primary cohort has 26 items in about 19 moments | [Anchor audit](novel_method/stage0/anchor_audit.md) |
+| INF-105 | VERIFIED FACT (outcome-free) | Anchored gaze moment terms: person × item share 40–89%; within-viewing split-half reliability ≤ .68–.80 (upper bound); attentive ↔ distracted test–retest ≈ 0 | [Signal feasibility](novel_method/stage0/signal_feasibility.md) |
+| INF-106 | VERIFIED FACT (outcome-free) | Attentive vs distracted viewing is separated in held-out learners (AUC .89; rho5 dz −1.28; repetition-confounded). Long invalid episodes are 7× more frequent under distraction | idem |
+| INF-107 | VERIFIED FACT (outcome-free) | Item-centred anchored moment terms carry no video identity (.11 = chance). Whole-video reference-relative means do (.58) | idem |
+| INF-108 | VERIFIED FACT (outcome-free) | CorrCA windowed EEG-ISC (held-out half): person × moment reliability across components SB .06; R² on ocular residuals .02 | idem |
+| INF-109 | VERIFIED FACT (outcome-free) | A label-free linear masked encoder does not beat handcrafted channels (construct AUC .80 vs .89; reconstruction .26 vs neighbour .30). Reference-free gaze does not predict reference-relative channels in new learners (R² < 0) | idem |
+| INF-110 | INFERENCE | CAIRN's gap survives in narrowed form (psychometric identification + falsification). The moment effect is likely small. Locked-cohort power must be re-derived on the real anchor structure before any outcome access | [Reassessment](novel_method/stage0/reassessment.md) |
+| INF-111 | OPEN QUESTION | Human anchors (G-AN); Lallé paper text and data terms; Chen 2026 methods; outcome-free mapping of forensic `question_no` to item-bank items; Immune post-215 s edit structure | — |
+
+## Amendment — Novel-method Stage 1, 2026-10-14
+
+No outcome was read; simulation results rest on synthetic outcomes over real incidence, anchors and signals. Local IDs S1-I01–S1-I13 are in [stage1/decisions.md](novel_method/stage1/decisions.md).
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-112 | VERIFIED FACT (outcome-free) | Incidence:<br>• development 55 / 229 / 9 (2,205 anchorable responses, 59 moments);<br>• E4 39 / 112 / 3 (977, 19 moments);<br>• E5 47 / 129 / 3;<br>• pooled 86 / 241 / 3;<br>• reserved-descriptive 24 learners (plan said 26) | [stage1/decisions.md](novel_method/stage1/decisions.md) S1-I01 |
+| INF-113 | VERIFIED FACT (outcome-free) | Release `question_no` equals the item-bank item in all 203 cases (sidecar texts only) | S1-I02 |
+| INF-114 | SIMULATION RESULT | The plan-literal moment regressor carries a learner's engagement trend, so a fatigue/position confound inflates T1/T2 to .085–.10. Within-recording detrending restores calibration | [simulation_report §1](novel_method/stage1/simulation_report.md) |
+| INF-115 | SIMULATION RESULT | The detrended primary's T1, T2, T2c, NH1 and LR versions are ≤ .07 in N0–N3 at 500 replicates. Parametric Wald tests reach .34 under temporal confounds; the cluster sandwich over-rejects with 39 clusters | idem §2 |
+| INF-116 | SIMULATION RESULT | NH1 MDE (OR per SD of latent state, ρ = .4): E4 1.72; pooled 1.48 (CV) / 1.43 (LR); development 1.49. Power at OR 1.35: E4 .32 | idem §3 |
+| INF-117 | SIMULATION RESULT | The plan's useful threshold corresponds to OR ≈ 2.1–2.2 at ρ = .4 (the ΔAUC_wp arm binds), above plausible effects (OR 1.15–1.5) | idem §4 |
+| INF-118 | SIMULATION RESULT | Clustering by learner, item, video and shared moments does not inflate the within-cell moment effect's variance (ratio .79–1.03). The analytic §20.3 power is optimistic because the moment direction must be estimated (E4 MDE 1.72 vs 1.34 for a 1-df oracle) | idem §6 |
+| INF-119 | SIMULATION RESULT | T1 and T2 are calibrated and their intersection is conservative. Their p-values correlate .93–.98 under the nulls; T2 does not guard against temporal trends | idem §7 |
+| INF-120 | SIMULATION RESULT | The cross-validated S_item is biased downward in small cohorts: pure-null mean −.011 in E4, −.002 with a frozen development direction | idem §4 |
+| INF-121 | SIMULATION RESULT | Gaze-only channels partly carry in-window data loss: 15–26% rejection under content-timed loss | idem §9 |
+| INF-122 | SIMULATION RESULT | The pooled lock's power depends on E5 carrying the effect (halved E5 effect: .55 vs .93 at OR 1.5). A guessing floor lowers E4 power at OR 1.5 from .51 to .32 | idem §5, §10 |
+| INF-123 | INFERENCE / OPEN QUESTION | At plausible effects the likely outcome is a development stop (go ≤ .25 at OR ≤ 1.5) or the "Weak" category. Linear detrending leaves a residual non-linear-fatigue confound in single tests (.072–.082; intersections ≤ .068). Open: human anchors (G-AN); the lock-design decision; a non-linear trend control; the NH4 conditional test | idem §8; [stage1/README.md](novel_method/stage1/README.md) |
+
+## Amendment — Novel-method closure phase, 2026-10-14 – 2026-10-15
+
+No outcome was read; simulation results rest on synthetic outcomes over real incidence, provisional anchors and real signals. Local IDs are in [closure/decisions.md](novel_method/closure/decisions.md).
+
+| ID | Class | Statement | Evidence |
+|---|---|---|---|
+| INF-124 | SIMULATION RESULT | Linear within-recording detrending does not control non-linear fatigue: up to .135 (pooled, 1-df composite, quadratic fatigue). A quadratic detrend fails one out-of-family cubic cell (.074). A cubic detrend keeps all 60 decisive cells ≤ .066, including an exponential decrement it was not built for | [closure/simulation_report §1](novel_method/closure/simulation_report.md) |
+| INF-125 | VERIFIED FACT (outcome-free) | Real recordings carry slow, position-aligned engagement structure beyond chance (within-cell R² excess +.042 pooled, +.076 development, raw). It is removed by a degree 2–3 detrend; a cubic detrend also removes some between-moment contrast | [closure/evidence/trend_leakage.json](novel_method/closure/evidence/trend_leakage.json) |
+| INF-126 | SIMULATION RESULT | At d = 3, five moment parametrizations are all calibrated. The ones with higher mean power (frozen development direction .77, adaptive .74, unit composite .68 vs six-channel .71) are fragile to direction assumptions: the unit composite reaches .23 under a single-channel truth; the frozen direction .46 when development and lock directions differ | idem §2 |
+| INF-127 | SIMULATION RESULT | The final pooled LR design has MDE OR 1.45 (ρ = .4) with calibration under linear, quadratic, cubic and exponential fatigue. That is near Stage-1 design 7 (1.43, uncalibrated under non-linear fatigue) and better than design 5 (1.48). The CV fallback's MDE is ≈ 1.55 | idem §4 |
+| INF-128 | SIMULATION RESULT | Pooled power depends on E5 carrying the effect: OR 1.5 gives .89 with equal effects, .45 with E5 halved, .19 with no E5 effect. Closed-testing claims reach 80% only at OR ≈ 1.85 (E4) and 1.70 (E5) | idem §4.3 |
+| INF-129 | SIMULATION RESULT | Gaze channels carry content-timed data loss: the unconditional gaze test rejects in up to .35 of N4 nulls. Conditioning on the in-window validity term removes this (≤ .062) at negligible power cost | idem §3 |
+| INF-130 | SIMULATION RESULT | The development stop rule under the final design has false go ≤ .010 and reaches 80% go at OR ≈ 2.2, close to the useful OR ≈ 2.27. At plausible effects (OR ≤ 1.5) the likely outcome is a development stop (go ≤ .13) | idem §4.4 |
+| INF-131 | VERIFIED FACT (synthetic outcomes) | 17 strong baselines are deterministic and fold-safe; none shows spurious skill. With ~190 training cells, flexible whole-video learners (GBMs, TabPFN v2, FM video embeddings, MIL) do not beat a linear whole-video IRT on a moderate person-level signal, but do learn a strong one | [closure/baselines.md](novel_method/closure/baselines.md) |
+| INF-132 | VERIFIED FACT (outcome-free) | The within-viewing reliability of the anchored moment term is equal across cohorts (split-half Spearman–Brown: development .918, E4 .914, E5 .924; an upper bound). So no outcome-free difference in measurement explains a possible E4/E5 heterogeneity | [closure/evidence/moment_reliability_d3.json](novel_method/closure/evidence/moment_reliability_d3.json) |
+| INF-133 | OPEN QUESTION | The final design rests on provisional machine anchors (E4: 19 moments). Human anchors may change the moment structure; rule R-J re-certifies calibration and power on them, and the power floor (.50 at OR 1.5) is put to the user | Rule R-J |

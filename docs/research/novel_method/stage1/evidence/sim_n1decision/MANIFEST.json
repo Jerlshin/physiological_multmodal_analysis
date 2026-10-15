@@ -1,0 +1,154 @@
+{
+  "run_id": "stage1-sim-n1decision",
+  "stage": "1-simulation",
+  "created_utc": "2026-10-13T12:20:57+00:00",
+  "code_sha256": "6f471264b018b85114ee0a735ac2a370be3ca00581f4e1f750d264ad7b80efc8",
+  "code_files": {
+    "__init__.py": "65682bc303b35a2366deb5e95b613599ba9b18fa687a63e9cb098ce18c8cc2c0",
+    "__main__.py": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "anchors.py": "8661932022eee58bc9329a5a1c1ec42d133bd87db58cb69e49bcf60d1ba7fa13",
+    "channels.py": "b86f6116d18f52a8fe22236180f49cdf6d1e16a162cf6663ac361d437aa91d59",
+    "cli.py": "6620fbd8f052cb878a4f5ee3a0524d791c8f3b5c6a4de7e34184ab5807731ac3",
+    "design.py": "8025fc345cc58d3d9b88eb256f273c9694cc87e84f82fee377b7e8cae294e478",
+    "encoder.py": "b1fc1f43120f96a5a72fcc7ed9a732484df0551f2d9971dd4d82b49632360205",
+    "exposures.py": "a3863237583819acef32e0767df0a991c2ce6f9131b1ebe027ab004122aa90fa",
+    "extract.py": "9aafa66e159cb58da34c126c0fe0103650b92f8217a7bd2abef27025bbcaa7ff",
+    "features.py": "e2a7cce70e5a6e8b0bbcec82f485a91bae7d7ee2f7413cc25c780094321e0db8",
+    "gate.py": "e92e252892e35bf27c741f74fc48287695fa51e0046f34bf364cfcaf68a05214",
+    "inference.py": "390f326f8383566d354a9fcfe53f34e7d6fe74d4b86c5f8b25206545c538b74c",
+    "item_keys.py": "7cd0d62943df9793392540691b03a37e1f267ada38949bc88f92c0707694ba16",
+    "manifest.py": "ae1ece60c9b0833445735a3d99a6caf6d2b012b66308c875b51581b4ae1d10e7",
+    "model.py": "80cd4ccdfc7a7b2dfd246a3dca170ae556e46a6e6d25faf1efbecf3583a16d4b",
+    "paths.py": "bedf92060d461bc484a93922c9e8151ce5c2d82d26d3a3b5aa0a0a55933e7eee",
+    "pooling.py": "eb3e249eff18e7a3765264547e363268e07d7fc224f3f10e61ec1201d5f7a559",
+    "simrun.py": "72846054ecd4ea74ad0ad06f68c4d64b75d0d034742997dab0079ad78bc32083",
+    "simulate.py": "4bfb328501a87106cd24d487d1a1fd0a964f126f53e95866b79c2bf5d35d515f",
+    "stats.py": "ac8d29d47a5745007be10a2771557298bc86920d88832ab8abb2fcf49ff4765c",
+    "timeline.py": "6c21ded52bbe4fa52a455a723df7cffc8533e2b0ff031bd91829a89b87e20386",
+    "transcripts.py": "31eb8183e93245e44e7790cf2851c16ebd1876122e090518726e4b81ab3ae9d0"
+  },
+  "environment": {
+    "python": "3.14.5",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "environment_lock": "2b1f83152d212832f3028c334a58e9f0d1cbf31c6b660be0f8d1ec91aa043983",
+    "interpreter": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/.venv-cairn/bin/python"
+  },
+  "inputs": {
+    "item_bank": {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_Education_questions.json",
+      "sha256": "74fc8c2f1aa084ab9cf7b767f2ed15e4dd064aa6adab559ff28cb6d679c31329"
+    },
+    "anchor_table": {
+      "path": "docs/research/novel_method/stage0/evidence/anchors_provisional.csv",
+      "sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477"
+    },
+    "timeline_table": {
+      "path": "docs/research/novel_method/stage0/evidence/timeline_table.csv",
+      "sha256": "1f26a3bf68af552b8ba1f6bc2fb7247ee1f844788f02028a793233defa1281cc"
+    },
+    "timeline_seconds": {
+      "path": "docs/research/novel_method/stage0/evidence/timeline_seconds.csv",
+      "sha256": "87b00d2b6815d1f677e7e587ccab75034eb2d0b7e9b7bd85b4fd2f97ed0f0616"
+    },
+    "series10_manifest": {
+      "path": "data/derived/cairn/series10_manifest.parquet",
+      "sha256": "894d2a8d7c260e19196f59d2ccd649b72510d79a131af22bc549703f4f9c42ee"
+    },
+    "exposure_tensor": {
+      "path": "docs/research/dataset_exploration/evidence/exposure_tensor.parquet",
+      "sha256": "5bedc3d805f254cec6649ef5c1b60948a35639db1dd7a5f443c5c522f3e0c68d"
+    },
+    "behavioral_eligibility_flags": {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet",
+      "sha256": "50617bbd0f18b3b5da556c5b4267ed516d99f5d884d34898a330fe0cd19d9158"
+    }
+  },
+  "anchor_provisional": true,
+  "anchor_freeze_sha256": null,
+  "sets": [
+    "development",
+    "locked_primary"
+  ],
+  "regime": "A",
+  "models": [
+    "IRT-M2",
+    "IRT-whole",
+    "CAIRN-linear",
+    "CAIRN-linear-dir (frozen development direction)",
+    "CAIRN-validity",
+    "CAIRN-gaze",
+    "B9 Lalle-style pooled classifier"
+  ],
+  "grid": [
+    {
+      "set": "locked_primary",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true
+    },
+    {
+      "set": "development",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true
+    },
+    {
+      "set": "development",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 100,
+      "circular_shift": true
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 100,
+      "circular_shift": true
+    }
+  ],
+  "cv": {
+    "outer": "learner-grouped, experiment-stratified 5-fold",
+    "repetitions": 3,
+    "inner": "none (fixed hyperparameters, S1-D04)",
+    "cv_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "inference": {
+    "T1_B": 199,
+    "T2_B": 199,
+    "T2c_B": 199,
+    "circular_shift_min_s": 30,
+    "alpha": 0.05,
+    "ridge": {
+      "intercepts": 0.0001,
+      "person_path": 10.0,
+      "moment_multi": 100.0,
+      "moment_one": 1.0
+    }
+  },
+  "seeds": {
+    "base": 20261013,
+    "per_task": "sha256(base|set|scenario)[:8]",
+    "cv": [
+      0,
+      1,
+      2
+    ]
+  },
+  "outcome_access": "none (synthetic outcomes only)",
+  "manifest_sha256": "8d573627498cbdabd46b76d1f8fb7487ad598e8e79f71dc96fd0cc43c7f710ad"
+}

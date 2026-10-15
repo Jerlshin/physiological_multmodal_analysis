@@ -10,3 +10,9 @@ results/mlflow/
 *.tmp.npy
 results/report_*/
 dist/
+.venv-ext/
+data/john2025/
+data/stimuli/
+.venv-cairn/
+.venv-cairn-ml/
+gan_private/

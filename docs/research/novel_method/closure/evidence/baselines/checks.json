@@ -1,0 +1,97 @@
+{
+  "set": "locked_pooled",
+  "split": 0,
+  "perturbed_learner": "exp-4:sub-03",
+  "results": {
+    "B3-elastic-net": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": false,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-random-forest": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-lightgbm": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-catboost": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-gpboost": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-tabpfn-v2": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-item-lightgbm-residual": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B3-item-gpboost-crossed-RE": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4a-mantisv2-video": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4a-mantisv2-anchored (A4-FM)": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4a-mantis8m-anchored (A4-FM)": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4b-attention-MIL": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4b-item-text-attention-MIL": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4b-item-text-attention-linear": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B7-TCN-encoder (A4)": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "B3-catboost": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-elastic-net": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-gpboost": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-item-gpboost-crossed-RE": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-item-lightgbm-residual": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-lightgbm": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-random-forest": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B3-tabpfn-v2": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4a-mantis8m-anchored (A4-FM)": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4a-mantisv2-anchored (A4-FM)": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4a-mantisv2-video": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4a-moment-anchored (A4-FM)": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4a-moment-video": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4b-attention-MIL": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": false,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4b-item-text-attention-MIL": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B4b-item-text-attention-linear": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B7-TCN-encoder (A4)": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true,
+    "deterministic": true,
+    "fold_safe": true
+  },
+  "B9-Lalle": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": false
+  },
+  "CAIRN-linear-dt (B6)": {
+    "kind": "anchored/item-level",
+    "negative_control": true,
+    "positive_control_scenario": "ALT3",
+    "positive_control": true
+  },
+  "IRT-whole (B5)": {
+    "kind": "whole-video",
+    "negative_control": true,
+    "positive_control_scenario": "N2",
+    "positive_control": true
+  }
+}

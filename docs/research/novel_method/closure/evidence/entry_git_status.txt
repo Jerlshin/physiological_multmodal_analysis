@@ -1,0 +1,18 @@
+ M .DS_Store
+ M .gitignore
+ M docs/research/.DS_Store
+ M docs/research/README.md
+ M docs/research/decision_log.md
+ M docs/research/inference_register.md
+ M docs/research/research_gap/decision_log.md
+?? docs/research/external_john2025/
+?? docs/research/novel_method/
+?? requirements-cairn.lock
+?? requirements-john2025.lock
+?? results/
+?? src/cairn/
+?? src/john2025/
+?? tests/test_cairn.py
+?? tests/test_cairn_stage1.py
+?? tests/test_john2025.py
+ade510228ca1338c51edf24fd54e6b0452609ee7

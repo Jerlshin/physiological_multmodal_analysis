@@ -1,0 +1,12 @@
+video,items,localized,anchorable,timeline_tier_A,conf3,recognition,comprehension,distinct_moments,span_median_s,centre_first_s,centre_last_s,role
+Birth rate,12,11,11,11,10,11,0,6,10.600000000000001,5.45,118.55,development
+Capacitors,12,12,11,5,6,7,4,10,18.099999999999994,26.75,359.55,development
+Enzymes,12,9,9,0,1,3,6,5,31.900000000000006,35.6,245.1,development
+Immune,12,12,7,6,5,7,0,6,6.099999999999994,14.3,200.3,locked_or_reserved
+Internet,12,11,11,8,10,11,0,8,7.900000000000006,83.85,288.6,development
+Lightbulbs,11,10,10,10,8,10,0,6,10.049999999999997,12.7,129.15,development
+Mosquitoes,12,9,9,3,7,3,6,8,15.800000000000011,32.85,228.15,development
+Planets,12,8,8,0,2,4,4,3,32.25,49.7,144.95,development
+Related,12,8,8,8,4,5,3,6,19.6,27.9,318.0,development
+Stars,12,11,11,11,9,11,0,7,12.200000000000003,15.45,162.7,locked_or_reserved
+Work-energy,12,10,10,8,4,4,6,7,8.2,8.3,334.8,development

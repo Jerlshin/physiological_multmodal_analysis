@@ -1,0 +1,12 @@
+# Environment of the CAIRN Stage-1 phase (.venv-cairn), created 2026-10-13 from Python 3.14.5.
+# Scientific stack identical to the frozen .venv (requirements-baseline.lock). No package was downloaded:
+# .venv-cairn reads the frozen .venv's site-packages read-only through one path file
+# (.venv-cairn/lib/python3.14/site-packages/_frozen_venv_readonly.pth); the frozen .venv is unmodified.
+# Optional Stage-2 baseline dependencies (torch, lightgbm, catboost, gpboost, tabpfn) are NOT installed:
+# installing them needs network downloads and therefore a user authorization (Stage-2 work, spec §5).
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0

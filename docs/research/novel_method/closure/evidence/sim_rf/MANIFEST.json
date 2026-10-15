@@ -1,0 +1,302 @@
+{
+  "run_id": "closure-sim-rf",
+  "stage": "1-simulation",
+  "created_utc": "2026-10-14T18:49:42+00:00",
+  "code_sha256": "dc433f22b812f1d7815a6273531fa6c427e2f618722bed692c2e8959ced92668",
+  "code_files": {
+    "__init__.py": "65682bc303b35a2366deb5e95b613599ba9b18fa687a63e9cb098ce18c8cc2c0",
+    "__main__.py": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "analysis.py": "23a98a6c4a2df520a0172e34b464baab6faa7de4c8857f50934c399268437a61",
+    "anchors.py": "8661932022eee58bc9329a5a1c1ec42d133bd87db58cb69e49bcf60d1ba7fa13",
+    "baselines.py": "9b2ed9b388a956f843dcb52c87142ac2be6a35f5c393c0854534bd0f56137b67",
+    "channels.py": "b86f6116d18f52a8fe22236180f49cdf6d1e16a162cf6663ac361d437aa91d59",
+    "checks.py": "684e7facaab59b82ecf9e110cdb6a8c00a8a9d646e716786d7f1ee59be6e7d96",
+    "cli.py": "f3ac62e928b462833499fc36972ab36e4dbfedb7dc915708f102476b7d685eea",
+    "clock.py": "28c0cd35aeb29aecc220c0e251fc24dc5d2f2319482aefc764a0ad832894be2a",
+    "design.py": "e836b9fcc56daa337772db9b33ffdee35f420422bc499e940829dfe15add66dc",
+    "encoder.py": "b1fc1f43120f96a5a72fcc7ed9a732484df0551f2d9971dd4d82b49632360205",
+    "exposures.py": "a3863237583819acef32e0767df0a991c2ce6f9131b1ebe027ab004122aa90fa",
+    "extract.py": "9aafa66e159cb58da34c126c0fe0103650b92f8217a7bd2abef27025bbcaa7ff",
+    "features.py": "e7229c41d734c9472e6f761dd8f3f6f6c79fee3c906b938aff159d0088fe4903",
+    "gate.py": "e92e252892e35bf27c741f74fc48287695fa51e0046f34bf364cfcaf68a05214",
+    "inference.py": "b981ac6da4db8d13b80b3147b7baa7ffe50d6b8eac96c78fc0cdab9a649b264c",
+    "item_keys.py": "e6f47c0a214f889f5c385f2eadf09a5a51b3cb18869d9cba610b529f2546666d",
+    "manifest.py": "6c74e48725d57ad19f9444b91ca0d8b93ccc693586412fa10189aa19c902b2a0",
+    "model.py": "cc3855abf70d909a9f57e0a207b375362f01c845f51517b4693e550516cdada8",
+    "paths.py": "2f95d26b6be03b5e651bee7485260139ddba3f3f7e420c1f7dd4b03aaafb8eca",
+    "paths_stage1.py": "0b61e11599e79a998a3646eb7f301ba8f9f7397a8afbf78b127b0d9082879230",
+    "pooling.py": "eb3e249eff18e7a3765264547e363268e07d7fc224f3f10e61ec1201d5f7a559",
+    "simrun.py": "bfb92ccb815f5406a57397ff65cfe94f3ce3193e53b02d87de0cdba5f515f445",
+    "simulate.py": "3175ce06d1fc22414e3a92ac8233af2fcf375e7d4b42df4fdbefd91aa7a6483d",
+    "stats.py": "ac8d29d47a5745007be10a2771557298bc86920d88832ab8abb2fcf49ff4765c",
+    "timeline.py": "6c21ded52bbe4fa52a455a723df7cffc8533e2b0ff031bd91829a89b87e20386",
+    "transcripts.py": "31eb8183e93245e44e7790cf2851c16ebd1876122e090518726e4b81ab3ae9d0"
+  },
+  "environment": {
+    "python": "3.14.5",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "environment_lock": "2b1f83152d212832f3028c334a58e9f0d1cbf31c6b660be0f8d1ec91aa043983",
+    "interpreter": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/.venv-cairn/bin/python"
+  },
+  "inputs": {
+    "item_bank": {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_Education_questions.json",
+      "sha256": "74fc8c2f1aa084ab9cf7b767f2ed15e4dd064aa6adab559ff28cb6d679c31329"
+    },
+    "anchor_table": {
+      "path": "docs/research/novel_method/stage0/evidence/anchors_provisional.csv",
+      "sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477"
+    },
+    "timeline_table": {
+      "path": "docs/research/novel_method/stage0/evidence/timeline_table.csv",
+      "sha256": "1f26a3bf68af552b8ba1f6bc2fb7247ee1f844788f02028a793233defa1281cc"
+    },
+    "timeline_seconds": {
+      "path": "docs/research/novel_method/stage0/evidence/timeline_seconds.csv",
+      "sha256": "87b00d2b6815d1f677e7e587ccab75034eb2d0b7e9b7bd85b4fd2f97ed0f0616"
+    },
+    "series10_manifest": {
+      "path": "data/derived/cairn/series10_manifest.parquet",
+      "sha256": "894d2a8d7c260e19196f59d2ccd649b72510d79a131af22bc549703f4f9c42ee"
+    },
+    "exposure_tensor": {
+      "path": "docs/research/dataset_exploration/evidence/exposure_tensor.parquet",
+      "sha256": "5bedc3d805f254cec6649ef5c1b60948a35639db1dd7a5f443c5c522f3e0c68d"
+    },
+    "behavioral_eligibility_flags": {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet",
+      "sha256": "50617bbd0f18b3b5da556c5b4267ed516d99f5d884d34898a330fe0cd19d9158"
+    }
+  },
+  "anchor_provisional": true,
+  "anchor_freeze_sha256": null,
+  "sets": [
+    "development",
+    "locked_pooled",
+    "locked_primary"
+  ],
+  "regime": "A",
+  "models": [
+    "CAIRN-linear-dt",
+    "CAIRN-linear-dt2",
+    "CAIRN-linear-dt3",
+    "CAIRN-u-dt1",
+    "CAIRN-u-dt2",
+    "CAIRN-u-dt3"
+  ],
+  "grid": [
+    {
+      "set": "locked_pooled",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N1q_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N1c_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N1e_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 200,
+      "B": 99,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_random",
+      "replicates": 200,
+      "B": 99,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N1q_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N1c_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N1e_or1_rho0.4_q0.5",
+      "replicates": 1000,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 200,
+      "B": 99,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_random",
+      "replicates": 200,
+      "B": 99,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "N1q_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "N1c_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "N1e_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "B": 199,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 200,
+      "B": 99,
+      "mode": "rf",
+      "kwargs": {}
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_random",
+      "replicates": 200,
+      "B": 99,
+      "mode": "rf",
+      "kwargs": {}
+    }
+  ],
+  "cv": {
+    "outer": "learner-grouped, experiment-stratified 5-fold",
+    "repetitions": 3,
+    "inner": "none (fixed hyperparameters, S1-D04)",
+    "cv_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "inference": {
+    "B_null": 199,
+    "B_alternative": 99,
+    "circular_shift_min_s": 30,
+    "alpha": 0.05,
+    "ridge": {
+      "intercepts": 0.0001,
+      "person_path": 10.0,
+      "moment_multi": 100.0,
+      "moment_one": 1.0
+    }
+  },
+  "seeds": {
+    "base": 20261013,
+    "per_task": "sha256(base|set|mode|scenario)[:8]",
+    "cv": [
+      0,
+      1,
+      2
+    ]
+  },
+  "outcome_access": "none (synthetic outcomes only)",
+  "extra": {
+    "phase": "closure",
+    "mode": "rf",
+    "degree": 1,
+    "chosen": "",
+    "degrees": [
+      1,
+      2,
+      3
+    ],
+    "rules": "591913adf5cfcf107fa1dc2b87d1118078a6c4a692adc057182c876433152a55"
+  },
+  "manifest_sha256": "853adbf7cb806375b542d801373534f3548b285b12412dee1edf9b3250ea0569"
+}

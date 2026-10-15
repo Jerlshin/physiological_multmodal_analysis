@@ -1,0 +1,17 @@
+{
+  "development": {
+    "rows": 2205,
+    "split_half_r": 0.848574462786792,
+    "spearman_brown": 0.9180852379703826
+  },
+  "locked_primary": {
+    "rows": 977,
+    "split_half_r": 0.8409390067287621,
+    "spearman_brown": 0.9135979015655279
+  },
+  "locked_secondary": {
+    "rows": 1119,
+    "split_half_r": 0.8593492797010218,
+    "spearman_brown": 0.9243548687519354
+  }
+}

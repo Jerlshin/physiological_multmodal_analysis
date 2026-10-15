@@ -1,0 +1,8 @@
+{
+ "blink_buffer_ms": 100.0,
+ "long_blink_ms": 500.0,
+ "grid_hz": 128,
+ "min_valid_seconds": 60.0,
+ "window": "[start_video_mine, stop_video_mine) on the EDF clock",
+ "eye": "as recorded (right)"
+}

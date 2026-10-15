@@ -1,0 +1,1 @@
+{"utc": "2026-10-07T21:38:19.128988+00:00", "freeze_record_sha256": "ead43998bbb9bdc220a7e1794b963639163901d3e29392dc50e4e3d5942b8de4", "purpose": "run 20261007T213818Z: all 117 plan-population participants (analysis sets + QC-exclusion report)", "n": 117, "semantics": {"items": 13, "item_values": [0.0, 0.5, 1.0], "binary_items": false, "sum_matches_knowPost_sum": true}}

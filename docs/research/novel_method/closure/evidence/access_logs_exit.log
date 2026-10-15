@@ -1,0 +1,6 @@
+ls: analysis_freeze_cairn: No such file or directory
+      15 analysis_freeze/outcome_access_log.jsonl
+       1 docs/research/external_john2025/evidence/outcome_access_log.jsonl
+      16 total
+2ea691fa4243b7cdf7d2902b0beb8adec2d57c29b12dc63b8eeb5ee198c3d202  analysis_freeze/outcome_access_log.jsonl
+766489e7797f063842e11dc10a46b6b46ad6ba8fe97414ff796dce03770d11cd  docs/research/external_john2025/evidence/outcome_access_log.jsonl

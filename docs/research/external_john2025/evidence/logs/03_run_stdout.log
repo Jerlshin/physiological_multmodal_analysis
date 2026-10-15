@@ -1,0 +1,89 @@
+2026-10-07T21:38:18Z start
+$ PYTHONPATH=src caffeinate -i -s .venv-ext/bin/python -m john2025 run --workers 5
+[     62s] primary: 12 models x 50 repetitions fitted
+[     74s] PRIMARY_M5p_vs_M2p: permutation p = 0.0020
+[   2001s] PRIMARY_M5p_vs_M2p: nested-CV interval done
+[   2012s] SECONDARY_M5_vs_M2ext: permutation p = 0.0060
+[   3549s] SECONDARY_M5_vs_M2ext: nested-CV interval done
+[   3609s] eye30: 2 models x 50 repetitions fitted
+[   3669s] eye70: 2 models x 50 repetitions fitted
+{
+ "role": "PRIMARY (plan): gaze block beyond the pretest-adjusted baseline; one-sided alpha 0.05",
+ "base": "M2p",
+ "full": "M5p",
+ "set": "primary",
+ "report": {
+  "skill": 0.07891188882199374,
+  "base_mse": 0.030221744545932423,
+  "full_mse": 0.02783688960031711,
+  "delta_rmse_items": 0.09100150438598073,
+  "delta_mae_items": 0.06633604565604703,
+  "calibration_base": {
+   "intercept": 0.0014721686718725552,
+   "slope": 0.9970943061018747
+  },
+  "calibration_full": {
+   "intercept": -0.022747159165708734,
+   "slope": 1.0426878042695806
+  },
+  "skill_per_repetition": {
+   "min": 0.041796731929488184,
+   "median": 0.07676356916923333,
+   "max": 0.11823833446831233
+  },
+  "n_people": 112
+ },
+ "futility": {
+  "centre": 0.0023713017693521464,
+  "se": 0.0019639613729118014,
+  "z": 3.0,
+  "upper": 0.00826318588808755,
+  "upper_skill": 0.27341856045168983,
+  "J": 500,
+  "threshold": 0.1,
+  "rules_out_threshold": false
+ },
+ "test": {
+  "observed_loss_difference": 0.0024961354432975597,
+  "observed_skill_R10": 0.08231860778721363,
+  "p": 0.002,
+  "B": 999,
+  "reps": 10,
+  "null_mean": -0.0006664020226918168,
+  "null_q95": 0.0006184446926101416,
+  "tested_blocks": [
+   "RF_GAZE",
+   "SYN_GAZE"
+  ],
+  "nuisance_blocks": [
+   "C",
+   "P",
+   "Q"
+  ]
+ },
+ "interval": {
+  "level": 0.9,
+  "centre": 0.0024883689164360225,
+  "lo": -0.0015106687876834854,
+  "hi": 0.00648740662055553,
+  "centre_skill": 0.08233703758080818,
+  "lo_skill": -0.04998615435278729,
+  "hi_skill": 0.21466022951440364,
+  "err_ncv": 0.0022554624820894224,
+  "mse_hat": 5.9109390886927695e-06,
+  "se_naive": 0.001941093820696625,
+  "root_over_se": 1.2525114795428487,
+  "reps": 200,
+  "base_loss": 0.030221744545932423,
+  "point_skill": 0.07891188882199363
+ },
+ "decision": {
+  "category": "detected_useful",
+  "conclusion": "Incremental individual information detected, with a point estimate of practically useful size",
+  "p": 0.002,
+  "skill": 0.07891188882199374,
+  "upper3_skill": 0.27341856045168983
+ }
+}
+exit=0
+2026-10-07T22:39:29Z end

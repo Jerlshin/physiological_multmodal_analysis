@@ -1,0 +1,91 @@
+{
+  "Stars": {
+    "sources": [
+      "https://www.youtube.com/watch?v=VVAKFJ8VVp4"
+    ],
+    "items_sha256": "34061757c3d57de919b6642e71c236ecbb12c76d3f51d0679c14cee1dab83552",
+    "transcript_sha256": "7375993e776023693c8748b751d913e41357a8a67d8d1f6dbd82134b5d313609",
+    "n_items": 12
+  },
+  "Lightbulbs": {
+    "sources": [
+      "https://www.youtube.com/watch?v=oCEKMEeZXug"
+    ],
+    "items_sha256": "2c108385bfe493314a22b953290beeb43768af91c983e0161d1fc5314f5f8fa9",
+    "transcript_sha256": "4712b3e5b9b9bb05f6ceb9505ee684ed4ddd7984e3d451d56b428226dcfdd34d",
+    "n_items": 11
+  },
+  "Immune": {
+    "sources": [
+      "https://www.youtube.com/watch?v=zQGOcOUBi6s"
+    ],
+    "items_sha256": "bfc3ec2b7a681a62a21a23680a4448763eeab1bc116ebcbb25013423feac9c37",
+    "transcript_sha256": "66f8be35e0ea013d5444014bdfc3b4b49cbbc9278811ab5b522480ffa2e33487",
+    "n_items": 12
+  },
+  "Internet": {
+    "sources": [
+      "https://www.youtube.com/watch?v=21eFwbb48sE"
+    ],
+    "items_sha256": "b57c9686a496e6f1b1b51bf055cb3053ba51694ec6e08a01d62fa3ae84d5883a",
+    "transcript_sha256": "576a080ad4a324157b141e9c07d9f7464f6e295056bbeee2d941c786b0edf9b0",
+    "n_items": 12
+  },
+  "Birth rate": {
+    "sources": [
+      "https://www.youtube.com/watch?v=3IaYhG11ckA"
+    ],
+    "items_sha256": "a88fbfeb8d498c9f9583b7537c8e71d2c0f21dbebc89a61de10865f08f0d7beb",
+    "transcript_sha256": "34ca0687d3f6a2643b842e2d949cc358d6662d819273623747464a49ba1ac311",
+    "n_items": 12
+  },
+  "Mosquitoes": {
+    "sources": [
+      "https://www.youtube.com/watch?v=e0NT9i4Qnak"
+    ],
+    "items_sha256": "79a0644696ff36da99c16876f38cb49199ab53f285502607173288743ba2b25c",
+    "transcript_sha256": "61a7cb5a80c490b1c54b83862249c7921bde0b0f5f29f2721658e2cb4ebafdc9",
+    "n_items": 12
+  },
+  "Related": {
+    "sources": [
+      "https://www.youtube.com/watch?v=mnYSMhR3jCI"
+    ],
+    "items_sha256": "c311803bc5ed0164e69593ff98319d8400c49a4afc291250c35f2d98224dfe45",
+    "transcript_sha256": "d68a2c9fddbbfb3df84b63dae285e33795bb1cdc95db9e26516290ac6c02ae42",
+    "n_items": 12
+  },
+  "Work-energy": {
+    "sources": [
+      "https://www.youtube.com/watch?v=30o4omX5qfo"
+    ],
+    "items_sha256": "e2348ba31c16156aece7c4ffee0a51e3301110739e5041d52d78b90ad7e34540",
+    "transcript_sha256": "bbd0d50360cf12303fccd9d3b2b362581b20a9dceed5867100e65ce0c2b99021",
+    "n_items": 12
+  },
+  "Capacitors": {
+    "sources": [
+      "https://www.youtube.com/watch?v=rkntp3_cZl4"
+    ],
+    "items_sha256": "b5245cc510823d8aa3c9f1a0d547beafdb48c7bcebecec36cec61fbc0a6afc37",
+    "transcript_sha256": "d9a631435dc2fb45e74d79a2b5639c118027831c2c03385bc86380518780371e",
+    "n_items": 12
+  },
+  "Planets": {
+    "sources": [
+      "https://www.youtube.com/watch?v=bYgV9nvgJ3E"
+    ],
+    "items_sha256": "1428a2e0006a7ad0c99c908758407fbd6c52bf2dc98f49866dd2fcb54614dc79",
+    "transcript_sha256": "2ae4fbb37e01f80ae88b5240ea6c851c556cea8c75cafa9396dc79feec51f04c",
+    "n_items": 12
+  },
+  "Enzymes": {
+    "sources": [
+      "https://www.youtube.com/watch?v=lkRZKqDdwzU",
+      "https://www.youtube.com/watch?v=AAZ03aScPr8"
+    ],
+    "items_sha256": "e8198ff578aab4463552da30e4c9687d5962a0430183d13380c92d6d0317095c",
+    "transcript_sha256": "07fe2cdaefcf790ee68947506aeb54576c42da51cf7090e5c7c556c0ecbdc914",
+    "n_items": 12
+  }
+}

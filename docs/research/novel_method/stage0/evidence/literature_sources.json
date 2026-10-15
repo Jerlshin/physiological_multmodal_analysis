@@ -1,0 +1,95 @@
+{
+  "retrieved": "2026-10-13",
+  "note": "copies kept git-ignored in data/stimuli/literature (licensing); hashes for provenance",
+  "files": {
+    "becquet2026_2605.20211.pdf": {
+      "source": "https://arxiv.org/pdf/2605.20211",
+      "sha256": "8bafc2270e4a1c72880e36f165458795592bf9d35798acf975476c1b4e1edfd5",
+      "bytes": 1686054
+    },
+    "lalle_LICENCE.md": {
+      "source": "https://gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (LICENCE.md, main)",
+      "sha256": "2618ac304e7907964c6efef98423fdeea6d658f72d1d2a1323d696aa3378ccb1",
+      "bytes": 1490
+    },
+    "lalle_Memory.txt": {
+      "source": "same repository (Memory.txt)",
+      "sha256": "08ec52d52645038755ca9ac2a014b63f884bfbc9b843cfcd69ea306468423657",
+      "bytes": 1461
+    },
+    "lalle_gitlab_tree.json": {
+      "source": "GitLab API tree, project 2304, page 1",
+      "sha256": "819063f6f868b2a5251df6154a27ddc7b48724cc75ffddbc39df2066effae152",
+      "bytes": 16941
+    },
+    "eyebench.pdf": {
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a3080b8e00bed560c433100a33ca6b2d-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "sha256": "9653a264db598e8ad6e98df19b370d2663867cf8f71fdfb16abe33afa5e9ae4f",
+      "bytes": 934812
+    },
+    "auroc.csv": {
+      "source": "https://raw.githubusercontent.com/EyeBench/eyebench/main/results/eyebench_benchmark_results/auroc.csv",
+      "sha256": "2ef0608f7b43f264fab6422d3b73a752c7516aebc8568daed3c170ef4673be2b",
+      "bytes": 13918
+    },
+    "eyebench_README.md": {
+      "source": "https://raw.githubusercontent.com/EyeBench/eyebench/main/README.md",
+      "sha256": "50815c316025f8981167e98825f8e6597c8e613e17adf3e9920f0817e1e81ed7",
+      "bytes": 9449
+    },
+    "pubmed_42302884.xml": {
+      "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42302884",
+      "sha256": "c5b09fd091993dbbfd5d31da7c9fc01aed888e85d4c0ff91f11196f2ff0f11b4",
+      "bytes": 7421
+    },
+    "bbbd_sdata.xml": {
+      "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13284221/fullTextXML",
+      "sha256": "805b83535f3cc6920ce701eef4d35092d61753cc0a90bbf779e3c27201d4510e",
+      "bytes": 117663
+    },
+    "lalle_code/data_preprocessing_AOIs_AOIs_definition.csv": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "9e08c0b7113010c470fc477108f423b8f7eb5ac324f126219b6375390cdc5523",
+      "bytes": 8980
+    },
+    "lalle_code/data_preprocessing_Logs_QCM_to_Tobii_time_QCM_to_Tobii_time.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "58858d51ec5d95629997f243e452a6712fc2d9e10dac17daa46ddfab5acf0249",
+      "bytes": 3805
+    },
+    "lalle_code/data_preprocessing_build_feature_sets_emdat_feature_sets.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "b4ce361720821cad721c7d4b68e072499bc892e7b80e627b39a56eed0bd6bf3d",
+      "bytes": 7189
+    },
+    "lalle_code/data_preprocessing_emdat_generate_segs.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "a2af837cc92afcdf7a383256d4e34ceeb6ee2f22e5ef013a05dd907d0e3db44f",
+      "bytes": 3473
+    },
+    "lalle_code/machine_learning_experiment2024_aggregate_results.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "5d40612ab271a28677f7905eca042982aa4f81f3ce7ae368b0ead634c39131de",
+      "bytes": 1781
+    },
+    "lalle_code/machine_learning_experiment2024_modules_train_model.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "070efcb7080ce3b9665e5371cfea551bafc2b73a47620ec648d38c28ad766bda",
+      "bytes": 20192
+    },
+    "lalle_code/machine_learning_experiment2024_src_ML_models.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "cb581d8d22509583c1e479d83319978beb009b1ecc80b63e6e8298d931e15d24",
+      "bytes": 64189
+    },
+    "lalle_code/machine_learning_experiment2024_train_model.py": {
+      "source": "gitlab.lip6.fr/mocah-public/eye_tracking_green_chem_video (raw file API, main)",
+      "sha256": "0d0d1ae0654f576e98037a537e973ed0372002bdf3d95e6108361c76fec71004",
+      "bytes": 37518
+    }
+  },
+  "not_obtained": {
+    "Lalle2025_paper_pdf": "Springer and HAL serve bot challenges (not circumvented); author page host unresolvable",
+    "Chen2026_fulltext": "Elsevier subscription; no preprint found"
+  }
+}

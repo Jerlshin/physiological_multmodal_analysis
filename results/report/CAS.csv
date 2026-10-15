@@ -1,0 +1,2 @@
+analysis,n_people,n_cells,n_core_cells,policy_vs_M2_skill_all_cells,policy_vs_M2_cell_weighted,skill_on_core_cells,skill_on_noncore_cells,label,elapsed_s
+D_CAS,72,302,259,-2.435692097635389e-05,-0.010095340874757275,-0.01185515220189659,0.0,DESCRIPTIVE coverage-policy risk; selection report in analysis_population.md,565.4291799068451

@@ -1,0 +1,9 @@
+design,set,statistic,moment,nulls_checked,max_false_detection,admissible,power_or_1_35,power_or_1_50,mde80_or,or_useful_cv,power_at_useful_cv,or_useful_pop,power_at_useful_pop
+1,locked_primary,CV log-loss,refitted,4,0.0580,True,0.3200,0.5050,1.7181,2.5653,1.0000,2.1623,0.9675
+2,locked_primary,CV log-loss,frozen development direction,4,0.0660,True,0.3950,0.6500,1.6424,2.2644,0.9978,2.1623,0.9967
+3,locked_primary,likelihood ratio,refitted,4,0.0640,True,0.3350,0.5300,1.7049,2.5653,1.0000,2.1623,0.9707
+4,locked_primary,likelihood ratio,frozen development direction,4,0.0660,True,0.4450,0.6700,1.6178,2.2644,0.9978,2.1623,0.9967
+5,locked_pooled,CV log-loss,refitted,4,0.0660,True,0.5050,0.8500,1.4773,2.1283,1.0000,2.1147,1.0000
+6,locked_pooled,CV log-loss,frozen development direction,4,0.0700,True,0.6050,0.9150,1.4425,2.1190,1.0000,2.1147,1.0000
+7,locked_pooled,likelihood ratio,refitted,4,0.0660,True,0.6600,0.9250,1.4273,2.1283,1.0000,2.1147,1.0000
+8,locked_pooled,likelihood ratio,frozen development direction,4,0.0780,False,0.7450,0.9600,1.3869,2.1190,1.0000,2.1147,1.0000

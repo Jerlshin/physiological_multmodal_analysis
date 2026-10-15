@@ -1,0 +1,9 @@
+2026-10-15T00:21:42+00:00 start closure grid=cvpow degree=3 chosen=P6 anchors=None manifest=68e4bc6c466b77f4b59c22aa1f08000f469cb1906f0a686022b6b5f78b823fee
+2026-10-15T00:21:42+00:00 cvpow: set locked_pooled: 600 replicates to run, 2 workers
+2026-10-15T00:31:50+00:00 cvpow/locked_pooled: 100/600 done, 0.17 h, ETA 0.84 h
+2026-10-15T00:41:47+00:00 cvpow/locked_pooled: 200/600 done, 0.33 h, ETA 0.67 h
+2026-10-15T00:51:39+00:00 cvpow/locked_pooled: 300/600 done, 0.50 h, ETA 0.50 h
+2026-10-15T00:55:34+00:00 cvpow/locked_pooled: 400/600 done, 0.56 h, ETA 0.28 h
+2026-10-15T00:59:28+00:00 cvpow/locked_pooled: 500/600 done, 0.63 h, ETA 0.13 h
+2026-10-15T01:03:23+00:00 cvpow/locked_pooled: 600/600 done, 0.69 h, ETA 0.00 h
+2026-10-15T01:03:23+00:00 finished {'replicates': 600, 'seconds': 2501.2370607852936}

@@ -1,0 +1,23 @@
+2026-10-13T12:21:00+00:00 start grid=n1decision manifest=8d573627498cbdabd46b76d1f8fb7487ad598e8e79f71dc96fd0cc43c7f710ad
+2026-10-13T12:21:00+00:00 1000 replicates in grid 'n1decision', 1000 to run, 9 workers, B=199
+2026-10-13T12:23:58+00:00 50/1000 done, 0.05 h elapsed, ETA 0.94 h
+2026-10-13T12:27:04+00:00 100/1000 done, 0.10 h elapsed, ETA 0.91 h
+2026-10-13T12:29:44+00:00 150/1000 done, 0.15 h elapsed, ETA 0.83 h
+2026-10-13T12:32:56+00:00 200/1000 done, 0.20 h elapsed, ETA 0.80 h
+2026-10-13T12:35:42+00:00 250/1000 done, 0.25 h elapsed, ETA 0.74 h
+2026-10-13T12:39:05+00:00 300/1000 done, 0.30 h elapsed, ETA 0.70 h
+2026-10-13T12:41:57+00:00 350/1000 done, 0.35 h elapsed, ETA 0.65 h
+2026-10-13T12:45:11+00:00 400/1000 done, 0.40 h elapsed, ETA 0.60 h
+2026-10-13T12:51:57+00:00 450/1000 done, 0.52 h elapsed, ETA 0.63 h
+2026-10-13T12:58:43+00:00 500/1000 done, 0.63 h elapsed, ETA 0.63 h
+2026-10-13T13:05:30+00:00 550/1000 done, 0.74 h elapsed, ETA 0.61 h
+2026-10-13T13:12:48+00:00 600/1000 done, 0.86 h elapsed, ETA 0.58 h
+2026-10-13T13:20:17+00:00 650/1000 done, 0.99 h elapsed, ETA 0.53 h
+2026-10-13T13:27:47+00:00 700/1000 done, 1.11 h elapsed, ETA 0.48 h
+2026-10-13T13:35:04+00:00 750/1000 done, 1.23 h elapsed, ETA 0.41 h
+2026-10-13T13:43:02+00:00 800/1000 done, 1.37 h elapsed, ETA 0.34 h
+2026-10-13T13:46:38+00:00 850/1000 done, 1.43 h elapsed, ETA 0.25 h
+2026-10-13T13:50:31+00:00 900/1000 done, 1.49 h elapsed, ETA 0.17 h
+2026-10-13T13:58:52+00:00 950/1000 done, 1.63 h elapsed, ETA 0.09 h
+2026-10-13T14:05:53+00:00 1000/1000 done, 1.75 h elapsed, ETA 0.00 h
+2026-10-13T14:05:53+00:00 finished {'replicates': 1000, 'seconds': 6293.959151268005}

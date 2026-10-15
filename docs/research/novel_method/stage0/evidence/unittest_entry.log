@@ -1,0 +1,9 @@
+2026-10-13T10:19:20Z
+  _SESSION_TRACE_METADATA = aliased(SqlTraceMetadata)
+2026/10/13 12:19:23 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/10/13 12:19:23 INFO mlflow.store.db.utils: Updating database tables
+.........s..
+----------------------------------------------------------------------
+Ran 109 tests in 1.904s
+
+OK (skipped=2)

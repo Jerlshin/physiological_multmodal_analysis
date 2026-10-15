@@ -1,0 +1,132 @@
+canonical_video_id,video,item,question_no,category,k_keyed,has_graph,r2_type,r2_confidence,r2_key_check,r2_visual_check,source,src_start_s,src_end_s,src_centre_s,extra_spans,r1_source,r1_src_start_s,r1_src_end_s,r1_score,r1_margin,r1_r2_centre_diff_s,r1_r2_iou,localized,rec_start_s,rec_end_s,rec_centre_s,shown_fraction,timeline_pass_fraction,timeline_tier,anchorable,role
+VVAKFJ8VVp4,Stars,1,48,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,11.00,20.00,15.50,,VVAKFJ8VVp4,10.97,29.37,0.43,0.35,4.67,0.49,True,10.95,19.95,15.45,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,2,49,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,42.50,60.20,51.35,,VVAKFJ8VVp4,42.46,60.22,0.45,0.27,0.01,1.00,True,42.45,60.15,51.30,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,3,50,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,69.10,81.30,75.20,,VVAKFJ8VVp4,60.22,81.31,0.49,0.34,4.43,0.58,True,69.05,81.25,75.15,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,4,51,R,1,False,localized,2,supported,no,VVAKFJ8VVp4,108.70,137.10,122.90,,VVAKFJ8VVp4,117.51,137.12,0.34,0.05,4.41,0.69,True,108.65,137.05,122.85,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,5,52,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,69.10,81.30,75.20,,VVAKFJ8VVp4,60.22,81.31,0.65,0.55,4.43,0.58,True,69.05,81.25,75.15,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,6,53,R,1,False,localized,2,supported,no,VVAKFJ8VVp4,29.40,42.50,35.95,137.1-157.0,VVAKFJ8VVp4,29.37,42.46,0.32,0.26,0.04,0.99,True,29.35,42.45,35.90,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,7,54,R,1,False,multi_span,1,partial,yes,VVAKFJ8VVp4,42.50,51.40,46.95,81.3-91.6;158.6-166.9,VVAKFJ8VVp4,42.46,60.22,0.27,0.17,4.39,0.50,False,42.45,51.35,46.90,1.00,1.00,A,False,locked_or_reserved
+VVAKFJ8VVp4,Stars,8,55,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,158.60,166.90,162.75,,VVAKFJ8VVp4,158.55,176.39,0.53,0.37,4.72,0.47,True,158.55,166.85,162.70,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,9,56,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,98.90,108.70,103.80,,VVAKFJ8VVp4,91.63,108.68,0.50,0.38,3.65,0.57,True,98.85,108.65,103.75,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,10,57,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,69.10,81.30,75.20,,VVAKFJ8VVp4,69.13,91.63,0.17,0.10,5.18,0.54,True,69.05,81.25,75.15,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,11,58,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,108.70,127.10,117.90,,VVAKFJ8VVp4,108.68,127.08,0.48,0.27,0.02,1.00,True,108.65,127.05,117.85,1.00,1.00,A,True,locked_or_reserved
+VVAKFJ8VVp4,Stars,12,59,R,1,False,localized,3,supported,no,VVAKFJ8VVp4,117.50,127.10,122.30,,VVAKFJ8VVp4,108.68,127.08,0.18,0.08,4.42,0.52,True,117.45,127.05,122.25,1.00,1.00,A,True,locked_or_reserved
+oCEKMEeZXug,Lightbulbs,1,60,R,1,False,localized,3,supported,no,oCEKMEeZXug,18.00,24.00,21.00,7.3-14.4,oCEKMEeZXug,17.99,28.44,0.36,0.25,2.21,0.57,True,18.05,24.05,21.05,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,2,61,R,1,False,localized,2,supported,no,oCEKMEeZXug,7.30,18.00,12.65,,oCEKMEeZXug,110.90,120.82,0.15,0.07,103.21,0.00,True,7.35,18.05,12.70,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,3,62,R,1,False,localized,3,supported,no,oCEKMEeZXug,37.30,57.80,47.55,,oCEKMEeZXug,37.28,52.78,0.38,0.22,2.52,0.75,True,37.35,57.85,47.60,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,4,63,R,1,False,absent_narration,1,not_in_narration,yes,oCEKMEeZXug,37.30,45.50,41.40,,oCEKMEeZXug,37.28,52.78,0.21,0.08,3.63,0.53,False,37.35,45.55,41.45,1.00,1.00,A,False,development
+oCEKMEeZXug,Lightbulbs,5,64,R,1,False,localized,3,supported,no,oCEKMEeZXug,104.30,109.50,106.90,,oCEKMEeZXug,94.86,109.52,0.49,0.26,4.71,0.35,True,104.35,109.55,106.95,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,6,65,R,1,False,localized,3,supported,no,oCEKMEeZXug,63.20,76.10,69.65,,oCEKMEeZXug,63.24,76.08,0.64,0.44,0.01,1.00,True,63.25,76.15,69.70,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,7,66,R,1,False,localized,3,supported,no,oCEKMEeZXug,59.10,76.10,67.60,,oCEKMEeZXug,63.24,76.08,0.40,0.20,2.06,0.76,True,59.15,76.15,67.65,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,8,67,R,1,False,localized,3,supported,no,oCEKMEeZXug,76.10,85.10,80.60,,oCEKMEeZXug,69.44,85.08,0.56,0.43,3.34,0.57,True,76.15,85.15,80.65,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,9,68,R,1,False,localized,3,supported,no,oCEKMEeZXug,94.90,104.30,99.60,,oCEKMEeZXug,94.86,109.52,0.29,0.10,2.59,0.64,True,94.95,104.35,99.65,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,10,69,R,1,False,localized,3,supported,no,oCEKMEeZXug,120.80,128.90,124.85,,oCEKMEeZXug,118.64,128.88,0.84,0.75,1.09,0.79,True,120.85,128.95,124.90,1.00,1.00,A,True,development
+oCEKMEeZXug,Lightbulbs,11,70,R,1,False,localized,2,supported,no,oCEKMEeZXug,120.80,137.40,129.10,110.9-118.3,oCEKMEeZXug,104.34,118.30,0.33,0.18,17.78,0.00,True,120.85,137.45,129.15,1.00,1.00,A,True,development
+zQGOcOUBi6s,Immune,1,71,R,1,False,localized,2,supported,no,zQGOcOUBi6s,3.40,25.10,14.25,,zQGOcOUBi6s,17.56,32.30,0.13,0.01,10.68,0.26,True,3.45,25.15,14.30,1.00,1.00,B,True,locked_or_reserved
+zQGOcOUBi6s,Immune,2,72,R,1,False,localized,3,supported,no,zQGOcOUBi6s,344.50,347.60,346.05,,zQGOcOUBi6s,341.40,347.60,0.25,0.01,1.55,0.50,True,271.30,274.40,272.85,1.00,0.00,,False,locked_or_reserved
+zQGOcOUBi6s,Immune,3,73,R,1,False,localized,3,supported,no,zQGOcOUBi6s,104.10,108.10,106.10,,zQGOcOUBi6s,104.12,111.82,0.34,0.10,1.87,0.52,True,104.15,108.15,106.15,1.00,1.00,A,True,locked_or_reserved
+zQGOcOUBi6s,Immune,4,74,R,1,False,localized,2,partial,yes,zQGOcOUBi6s,104.10,134.60,119.35,43.5-49.5,zQGOcOUBi6s,17.56,32.30,0.25,0.03,94.42,0.00,True,104.15,134.65,119.40,1.00,1.00,A,True,locked_or_reserved
+zQGOcOUBi6s,Immune,5,75,R,1,False,localized,3,supported,no,zQGOcOUBi6s,86.10,91.00,88.55,,zQGOcOUBi6s,82.24,91.04,0.30,0.21,1.91,0.56,True,86.15,91.05,88.60,1.00,1.00,A,True,locked_or_reserved
+zQGOcOUBi6s,Immune,6,76,R,1,False,localized,3,supported,no,zQGOcOUBi6s,197.20,203.30,200.25,,zQGOcOUBi6s,192.88,203.34,0.53,0.36,2.14,0.58,True,197.25,203.35,200.30,1.00,1.00,A,True,locked_or_reserved
+zQGOcOUBi6s,Immune,7,77,R,1,False,localized,2,supported,no,zQGOcOUBi6s,240.70,265.70,253.20,234.9-240.6,zQGOcOUBi6s,58.48,65.72,0.20,0.05,191.10,0.00,True,219.25,244.00,231.62,0.99,0.72,,False,locked_or_reserved
+zQGOcOUBi6s,Immune,8,78,R,1,False,localized,2,supported,no,zQGOcOUBi6s,272.50,295.10,283.80,318.1-328.3,zQGOcOUBi6s,272.48,277.38,0.46,0.25,8.87,0.22,True,,,,0.00,0.00,,False,locked_or_reserved
+zQGOcOUBi6s,Immune,9,79,R,1,False,localized,3,supported,no,zQGOcOUBi6s,351.40,362.20,356.80,,zQGOcOUBi6s,351.36,362.16,0.54,0.29,0.04,0.99,True,278.20,289.00,283.60,1.00,0.00,,False,locked_or_reserved
+zQGOcOUBi6s,Immune,10,80,R,1,False,localized,3,supported,no,zQGOcOUBi6s,257.50,265.70,261.60,,zQGOcOUBi6s,14.06,25.14,0.18,0.01,242.00,0.00,True,236.05,244.00,240.03,0.97,0.12,,False,locked_or_reserved
+zQGOcOUBi6s,Immune,11,81,R,1,False,localized,3,supported,no,zQGOcOUBi6s,155.30,162.10,158.70,,zQGOcOUBi6s,151.30,162.06,0.61,0.44,2.02,0.63,True,155.35,162.15,158.75,1.00,1.00,A,True,locked_or_reserved
+zQGOcOUBi6s,Immune,12,82,R,1,False,localized,3,supported,no,zQGOcOUBi6s,189.80,192.80,191.30,,zQGOcOUBi6s,189.82,197.04,0.30,0.10,2.13,0.41,True,189.85,192.85,191.35,1.00,1.00,A,True,locked_or_reserved
+21eFwbb48sE,Internet,1,83,R,1,False,localized,3,supported,no,21eFwbb48sE,205.70,212.60,209.15,,21eFwbb48sE,205.69,215.19,0.30,0.20,1.29,0.73,True,205.75,212.65,209.20,1.00,1.00,B,True,development
+21eFwbb48sE,Internet,2,84,R,1,False,localized,3,supported,no,21eFwbb48sE,213.20,225.20,219.20,,21eFwbb48sE,213.25,217.53,0.34,0.15,3.81,0.36,True,213.25,225.25,219.25,1.00,1.00,B,True,development
+21eFwbb48sE,Internet,3,85,R,1,False,localized,2,supported,no,21eFwbb48sE,218.30,225.20,221.75,,21eFwbb48sE,218.32,229.97,0.24,0.07,2.39,0.59,True,218.35,225.25,221.80,1.00,1.00,B,True,development
+21eFwbb48sE,Internet,4,86,R,1,False,localized,3,supported,no,21eFwbb48sE,141.70,150.40,146.05,,21eFwbb48sE,126.99,133.06,0.43,0.30,16.03,0.00,True,141.75,150.45,146.10,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,5,87,R,1,False,localized,3,supported,no,21eFwbb48sE,271.90,277.20,274.55,,21eFwbb48sE,266.93,277.22,0.41,0.18,2.47,0.52,True,271.95,277.25,274.60,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,6,88,R,1,False,localized,3,supported,no,21eFwbb48sE,133.40,140.90,137.15,,21eFwbb48sE,131.43,140.94,0.49,0.36,0.97,0.79,True,133.45,140.95,137.20,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,7,89,R,1,False,localized,3,supported,no,21eFwbb48sE,79.80,94.90,87.35,,21eFwbb48sE,79.81,94.86,0.51,0.41,0.01,1.00,True,79.85,94.95,87.40,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,8,90,R,1,False,localized,3,supported,no,21eFwbb48sE,95.60,113.70,104.65,,21eFwbb48sE,104.57,113.67,0.48,0.31,4.47,0.50,True,95.65,113.75,104.70,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,9,91,R,1,False,multi_span,2,supported,no,21eFwbb48sE,79.80,87.80,83.80,133.4-140.9;153.4-161.5,21eFwbb48sE,153.39,165.14,0.14,0.02,75.46,0.00,False,79.85,87.85,83.85,1.00,1.00,A,False,development
+21eFwbb48sE,Internet,10,92,R,1,False,localized,3,supported,no,21eFwbb48sE,79.80,87.80,83.80,,21eFwbb48sE,70.72,87.77,0.39,0.21,4.55,0.47,True,79.85,87.85,83.85,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,11,93,R,1,False,localized,3,supported,no,21eFwbb48sE,247.60,255.50,251.55,,21eFwbb48sE,264.16,271.39,0.23,0.03,16.22,0.00,True,247.65,255.55,251.60,1.00,1.00,A,True,development
+21eFwbb48sE,Internet,12,94,R,1,False,localized,3,supported,no,21eFwbb48sE,285.20,291.90,288.55,,21eFwbb48sE,277.83,291.90,0.51,0.45,3.68,0.48,True,285.25,291.95,288.60,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,1,95,R,1,False,absent_narration,1,not_in_narration,yes,3IaYhG11ckA,16.90,35.50,26.20,,3IaYhG11ckA,16.91,35.45,0.26,0.12,0.02,1.00,False,16.95,35.55,26.25,1.00,1.00,A,False,development
+3IaYhG11ckA,Birth rate,2,96,R,1,False,localized,3,supported,no,3IaYhG11ckA,1.40,9.40,5.40,,3IaYhG11ckA,1.43,16.43,0.61,0.53,3.53,0.53,True,1.45,9.45,5.45,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,3,97,R,1,False,localized,3,supported,no,3IaYhG11ckA,9.40,16.40,12.90,,3IaYhG11ckA,9.43,26.34,0.24,0.16,4.98,0.41,True,9.45,16.45,12.95,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,4,98,R,1,False,localized,3,supported,no,3IaYhG11ckA,16.90,26.30,21.60,,3IaYhG11ckA,9.43,26.34,0.55,0.39,3.72,0.56,True,16.95,26.35,21.65,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,5,99,R,1,False,localized,3,supported,no,3IaYhG11ckA,35.50,46.00,40.75,,3IaYhG11ckA,35.45,57.08,0.34,0.25,5.52,0.49,True,35.55,46.05,40.80,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,6,100,R,1,False,localized,3,supported,no,3IaYhG11ckA,46.00,67.70,56.85,,3IaYhG11ckA,46.01,67.71,0.27,0.07,0.01,1.00,True,46.05,67.75,56.90,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,7,101,R,1,False,localized,3,supported,no,3IaYhG11ckA,57.10,67.70,62.40,,3IaYhG11ckA,57.08,76.73,0.37,0.08,4.50,0.54,True,57.15,67.75,62.45,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,8,102,R,1,False,localized,3,supported,no,3IaYhG11ckA,67.70,86.80,77.25,,3IaYhG11ckA,67.71,86.77,0.43,0.36,0.01,1.00,True,67.75,86.85,77.30,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,9,103,R,1,False,localized,3,supported,no,3IaYhG11ckA,76.70,93.80,85.25,,3IaYhG11ckA,76.73,93.82,0.34,0.28,0.03,1.00,True,76.75,93.85,85.30,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,10,104,R,1,False,localized,3,supported,no,3IaYhG11ckA,86.80,103.80,95.30,,3IaYhG11ckA,86.77,103.75,0.28,0.24,0.04,1.00,True,86.85,103.85,95.35,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,11,105,R,1,False,localized,2,supported,no,3IaYhG11ckA,103.80,133.20,118.50,133.2-143.6,3IaYhG11ckA,57.08,76.73,0.22,0.10,51.59,0.00,True,103.85,133.25,118.55,1.00,1.00,A,True,development
+3IaYhG11ckA,Birth rate,12,106,R,1,False,localized,3,supported,no,3IaYhG11ckA,93.80,103.80,98.80,,3IaYhG11ckA,86.77,103.75,0.17,0.08,3.54,0.58,True,93.85,103.85,98.85,1.00,1.00,A,True,development
+e0NT9i4Qnak,Mosquitoes,1,107,C,1,False,localized,2,supported,no,e0NT9i4Qnak,142.00,157.80,149.90,,e0NT9i4Qnak,142.00,157.76,0.24,0.15,0.02,1.00,True,131.45,147.25,139.35,1.00,1.00,B,True,development
+e0NT9i4Qnak,Mosquitoes,2,108,R,1,False,localized,3,supported,no,e0NT9i4Qnak,40.50,46.30,43.40,,e0NT9i4Qnak,39.40,46.32,0.35,0.22,0.54,0.84,True,29.95,35.75,32.85,1.00,1.00,B,True,development
+e0NT9i4Qnak,Mosquitoes,3,109,R,3,False,localized,3,supported,no,e0NT9i4Qnak,130.90,142.00,136.45,,e0NT9i4Qnak,130.94,142.00,0.59,0.45,0.02,1.00,True,120.35,131.45,125.90,1.00,1.00,B,True,development
+e0NT9i4Qnak,Mosquitoes,4,110,R,1,False,localized,3,supported,no,e0NT9i4Qnak,181.30,188.90,185.10,,e0NT9i4Qnak,178.51,188.86,0.33,0.11,1.42,0.73,True,170.75,178.35,174.55,1.00,1.00,B,True,development
+e0NT9i4Qnak,Mosquitoes,5,111,C,1,False,localized,3,supported,no,e0NT9i4Qnak,157.80,178.50,168.15,,e0NT9i4Qnak,167.56,178.51,0.51,0.32,4.88,0.53,True,147.25,167.95,157.60,1.00,1.00,B,True,development
+e0NT9i4Qnak,Mosquitoes,6,112,C,1,False,localized,3,supported,no,e0NT9i4Qnak,181.30,203.00,192.15,,e0NT9i4Qnak,188.86,203.01,0.38,0.18,3.78,0.65,True,170.75,192.45,181.60,1.00,1.00,A,True,development
+e0NT9i4Qnak,Mosquitoes,7,113,C,1,False,localized,3,supported,no,e0NT9i4Qnak,213.90,235.90,224.90,,e0NT9i4Qnak,213.87,232.74,0.20,0.08,1.59,0.86,True,203.35,225.35,214.35,1.00,1.00,A,True,development
+e0NT9i4Qnak,Mosquitoes,8,114,C,1,False,diffuse,2,supported,no,e0NT9i4Qnak,157.80,181.30,169.55,181.3-235.9,e0NT9i4Qnak,157.76,174.41,0.28,0.20,3.47,0.71,False,147.25,170.75,159.00,1.00,1.00,B,False,development
+e0NT9i4Qnak,Mosquitoes,9,115,C,2,False,diffuse,1,questionable,no,e0NT9i4Qnak,181.30,212.20,196.75,213.9-235.9,e0NT9i4Qnak,178.51,188.86,0.22,0.13,13.06,0.22,False,170.75,201.65,186.20,1.00,1.00,A,False,development
+e0NT9i4Qnak,Mosquitoes,10,116,C,1,False,localized,3,supported,no,e0NT9i4Qnak,235.90,241.50,238.70,,e0NT9i4Qnak,232.74,241.46,0.13,0.04,1.60,0.63,True,225.35,230.95,228.15,1.00,1.00,A,True,development
+e0NT9i4Qnak,Mosquitoes,11,117,C,3,False,localized,2,supported,no,e0NT9i4Qnak,80.20,113.70,96.95,,e0NT9i4Qnak,80.16,94.11,0.12,0.01,9.82,0.41,True,69.65,103.15,86.40,1.00,1.00,B,True,development
+e0NT9i4Qnak,Mosquitoes,12,118,R,4,False,multi_span,2,supported,no,e0NT9i4Qnak,96.90,105.80,101.35,10.7-24.1,e0NT9i4Qnak,96.86,113.71,0.41,0.32,3.94,0.53,False,86.35,95.25,90.80,1.00,1.00,B,False,development
+mnYSMhR3jCI,Related,1,119,R,1,False,localized,1,partial,yes,mnYSMhR3jCI,22.40,39.10,30.75,,mnYSMhR3jCI,31.55,39.09,0.59,0.39,4.57,0.45,True,19.55,36.25,27.90,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,2,120,R,3,False,multi_span,2,supported,no,mnYSMhR3jCI,50.20,100.50,75.35,315.0-324.4,mnYSMhR3jCI,67.68,81.93,0.42,0.22,0.54,0.28,False,47.35,97.65,72.50,1.00,1.00,A,False,development
+mnYSMhR3jCI,Related,3,121,R,1,False,absent_narration,1,not_in_narration,yes,mnYSMhR3jCI,142.60,150.70,146.65,,mnYSMhR3jCI,165.32,178.33,0.11,0.00,25.18,0.00,False,139.75,147.85,143.80,1.00,1.00,A,False,development
+mnYSMhR3jCI,Related,4,122,R,1,False,localized,3,supported,no,mnYSMhR3jCI,150.70,159.70,155.20,,mnYSMhR3jCI,142.64,159.68,0.40,0.18,4.04,0.53,True,147.85,156.85,152.35,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,5,123,R,1,False,localized,2,supported,no,mnYSMhR3jCI,165.30,187.80,176.55,,mnYSMhR3jCI,169.71,187.80,0.25,0.18,2.20,0.80,True,162.45,184.95,173.70,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,6,124,R,1,False,multi_span,1,partial,yes,mnYSMhR3jCI,285.50,304.30,294.90,193.8-206.8,mnYSMhR3jCI,192.84,199.45,0.30,0.02,98.75,0.00,False,282.65,301.45,292.05,1.00,1.00,A,False,development
+mnYSMhR3jCI,Related,7,125,R,1,False,localized,3,supported,no,mnYSMhR3jCI,193.80,206.80,200.30,,mnYSMhR3jCI,193.84,206.76,0.51,0.41,0.00,0.99,True,190.95,203.95,197.45,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,8,126,C,2,False,localized,2,supported,no,mnYSMhR3jCI,159.70,165.30,162.50,,mnYSMhR3jCI,142.64,159.68,0.16,0.07,11.34,0.00,True,156.85,162.45,159.65,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,9,127,C,1,False,localized,3,supported,no,mnYSMhR3jCI,206.80,232.70,219.75,,mnYSMhR3jCI,199.45,213.07,0.12,0.05,13.49,0.19,True,203.95,229.85,216.90,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,10,128,C,1,False,localized,3,supported,no,mnYSMhR3jCI,304.30,337.40,320.85,,mnYSMhR3jCI,329.26,339.40,0.42,0.35,13.48,0.23,True,301.45,334.55,318.00,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,11,129,R,1,False,localized,2,supported,no,mnYSMhR3jCI,295.70,339.40,317.55,,mnYSMhR3jCI,337.39,342.23,0.34,0.21,22.26,0.04,True,292.85,336.55,314.70,1.00,1.00,A,True,development
+mnYSMhR3jCI,Related,12,130,C,3,False,multi_span,2,supported,no,mnYSMhR3jCI,206.80,230.40,218.60,150.7-159.7,mnYSMhR3jCI,206.76,221.34,0.16,0.07,4.55,0.62,False,203.95,227.55,215.75,1.00,1.00,A,False,development
+30o4omX5qfo,Work-energy,1,131,R,1,False,localized,3,supported,no,30o4omX5qfo,6.80,12.50,9.65,,30o4omX5qfo,6.84,20.36,0.67,0.42,3.95,0.42,True,5.45,11.15,8.30,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,2,132,R,3,False,localized,3,supported,no,30o4omX5qfo,12.50,47.60,30.05,,30o4omX5qfo,33.99,47.63,0.43,0.17,10.76,0.39,True,11.15,46.25,28.70,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,3,133,C,1,False,localized,2,supported,no,30o4omX5qfo,93.90,102.40,98.15,85.1-93.9,30o4omX5qfo,108.50,117.99,0.41,0.08,15.09,0.00,True,92.55,101.05,96.80,1.00,1.00,B,True,development
+30o4omX5qfo,Work-energy,4,134,C,1,False,localized,2,supported,no,30o4omX5qfo,330.80,341.50,336.15,,30o4omX5qfo,338.84,341.47,0.28,0.18,4.00,0.25,True,329.45,340.15,334.80,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,5,135,C,1,False,diffuse,1,supported,no,30o4omX5qfo,292.40,316.70,304.55,12.5-20.4,30o4omX5qfo,142.23,149.67,0.09,0.01,158.60,0.00,False,291.05,315.35,303.20,1.00,1.00,A,False,development
+30o4omX5qfo,Work-energy,6,136,C,1,False,localized,2,supported,no,30o4omX5qfo,118.00,144.20,131.10,,30o4omX5qfo,29.54,39.54,0.14,0.05,96.56,0.00,True,116.65,142.85,129.75,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,7,137,C,1,False,localized,2,supported,no,30o4omX5qfo,12.50,20.40,16.45,,30o4omX5qfo,91.75,102.43,0.17,0.04,80.64,0.00,True,11.15,19.05,15.10,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,8,138,C,3,False,diffuse,1,partial,no,30o4omX5qfo,330.80,341.50,336.15,118.0-128.9,30o4omX5qfo,330.78,341.47,0.30,0.09,0.02,1.00,False,329.45,340.15,334.80,1.00,1.00,A,False,development
+30o4omX5qfo,Work-energy,9,139,C,1,False,localized,3,supported,no,30o4omX5qfo,316.70,323.10,319.90,,30o4omX5qfo,316.68,330.78,0.41,0.07,3.83,0.45,True,315.35,321.75,318.55,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,10,140,C,1,False,localized,3,supported,no,30o4omX5qfo,323.10,330.80,326.95,,30o4omX5qfo,323.06,338.84,0.59,0.27,4.00,0.49,True,321.75,329.45,325.60,1.00,1.00,A,True,development
+30o4omX5qfo,Work-energy,11,141,R,1,False,localized,2,supported,no,30o4omX5qfo,102.40,118.00,110.20,,30o4omX5qfo,338.84,341.47,0.29,0.01,229.95,0.00,True,101.05,116.65,108.85,1.00,1.00,B,True,development
+30o4omX5qfo,Work-energy,12,142,R,1,False,localized,2,supported,no,30o4omX5qfo,292.40,298.60,295.50,,30o4omX5qfo,338.84,341.47,0.29,0.05,44.65,0.00,True,291.05,297.25,294.15,1.00,1.00,A,True,development
+rkntp3_cZl4,Capacitors,1,143,R,3,False,localized,3,supported,no,rkntp3_cZl4,9.40,46.60,28.00,,rkntp3_cZl4,11.12,23.86,0.67,0.46,10.51,0.34,True,8.15,45.35,26.75,1.00,1.00,B,True,development
+rkntp3_cZl4,Capacitors,2,144,C,1,False,localized,3,supported,no,rkntp3_cZl4,65.20,83.30,74.25,,rkntp3_cZl4,249.09,253.53,0.20,0.08,177.06,0.00,True,63.95,82.05,73.00,1.00,1.00,A,True,development
+rkntp3_cZl4,Capacitors,3,145,R,1,False,localized,3,supported,no,rkntp3_cZl4,94.50,112.70,103.60,127.0-217.1,rkntp3_cZl4,94.50,107.43,0.58,0.23,2.63,0.71,True,93.25,111.45,102.35,1.00,1.00,A,True,development
+rkntp3_cZl4,Capacitors,4,146,R,1,False,localized,3,supported,no,rkntp3_cZl4,112.70,127.00,119.85,,rkntp3_cZl4,252.12,262.25,0.34,0.03,137.34,0.00,True,111.45,125.75,118.60,1.00,1.00,A,True,development
+rkntp3_cZl4,Capacitors,5,147,C,1,False,localized,2,supported,no,rkntp3_cZl4,166.30,197.00,181.65,197.0-232.9,rkntp3_cZl4,284.85,298.98,0.41,0.09,110.27,0.00,True,165.05,195.75,180.40,1.00,1.00,B,True,development
+rkntp3_cZl4,Capacitors,6,148,C,1,False,localized,3,supported,no,rkntp3_cZl4,284.90,304.50,294.70,,rkntp3_cZl4,298.98,311.21,0.32,0.03,10.40,0.21,True,283.65,303.25,293.45,1.00,1.00,B,True,development
+rkntp3_cZl4,Capacitors,7,149,R,2,False,localized,2,supported,no,rkntp3_cZl4,268.70,284.90,276.80,241.6-246.4,rkntp3_cZl4,241.57,249.09,0.35,0.02,31.47,0.00,True,267.45,283.65,275.55,1.00,1.00,B,True,development
+rkntp3_cZl4,Capacitors,8,150,C,1,False,localized,1,inconsistent,no,rkntp3_cZl4,218.20,232.90,225.55,,rkntp3_cZl4,208.96,218.16,0.35,0.15,11.99,0.00,True,216.95,231.65,224.30,1.00,1.00,B,False,development
+rkntp3_cZl4,Capacitors,9,151,C,1,False,localized,2,supported,no,rkntp3_cZl4,218.20,232.90,225.55,304.5-317.2,rkntp3_cZl4,208.96,218.16,0.34,0.16,11.99,0.00,True,216.95,231.65,224.30,1.00,1.00,B,True,development
+rkntp3_cZl4,Capacitors,10,152,R,1,False,localized,3,supported,no,rkntp3_cZl4,355.90,365.70,360.80,,rkntp3_cZl4,352.02,365.69,0.61,0.28,1.94,0.72,True,354.65,364.45,359.55,1.00,1.00,A,True,development
+rkntp3_cZl4,Capacitors,11,153,R,1,False,localized,1,partial,no,rkntp3_cZl4,326.30,340.60,333.45,29.6-37.7,rkntp3_cZl4,275.89,284.85,0.21,0.04,53.08,0.00,True,325.05,339.35,332.20,1.00,1.00,A,True,development
+rkntp3_cZl4,Capacitors,12,154,R,1,False,localized,2,supported,no,rkntp3_cZl4,23.90,46.60,35.25,340.6-355.9,rkntp3_cZl4,340.65,352.02,0.23,0.01,311.08,0.00,True,22.65,45.35,34.00,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,1,155,R,3,False,localized,2,supported,yes,bYgV9nvgJ3E,37.70,76.80,57.25,,bYgV9nvgJ3E,64.52,76.79,0.47,0.11,13.41,0.31,True,30.15,69.25,49.70,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,2,156,R,1,False,localized,1,partial,yes,bYgV9nvgJ3E,44.20,76.80,60.50,,bYgV9nvgJ3E,58.29,70.56,0.42,0.20,3.92,0.38,True,36.65,69.25,52.95,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,3,157,C,1,False,localized,1,partial,yes,bYgV9nvgJ3E,44.20,76.80,60.50,,bYgV9nvgJ3E,58.29,70.56,0.35,0.21,3.92,0.38,True,36.65,69.25,52.95,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,4,158,C,1,False,diffuse,1,partial,no,bYgV9nvgJ3E,37.70,76.80,57.25,76.8-108.7;108.7-171.4,bYgV9nvgJ3E,6.14,18.63,0.14,0.00,44.87,0.00,False,30.15,69.25,49.70,1.00,1.00,B,False,development
+bYgV9nvgJ3E,Planets,5,159,C,1,False,localized,1,partial,yes,bYgV9nvgJ3E,76.80,108.70,92.75,,bYgV9nvgJ3E,18.63,31.08,0.11,0.00,67.90,0.00,True,69.25,101.15,85.20,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,6,160,C,1,False,localized,2,supported,no,bYgV9nvgJ3E,140.20,164.80,152.50,,bYgV9nvgJ3E,177.54,190.13,0.12,0.02,31.33,0.00,True,132.65,157.25,144.95,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,7,161,R,2,False,localized,3,supported,yes,bYgV9nvgJ3E,76.80,108.70,92.75,,bYgV9nvgJ3E,96.12,108.72,0.32,0.12,9.67,0.39,True,69.25,101.15,85.20,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,8,162,C,1,False,localized,1,partial,yes,bYgV9nvgJ3E,83.00,108.70,95.85,,bYgV9nvgJ3E,18.63,31.08,0.09,0.01,71.00,0.00,True,75.45,101.15,88.30,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,9,163,C,1,False,localized,1,partial,no,bYgV9nvgJ3E,115.10,164.80,139.95,,bYgV9nvgJ3E,115.14,127.35,0.16,0.02,18.70,0.25,False,107.55,157.25,132.40,1.00,1.00,B,False,development
+bYgV9nvgJ3E,Planets,10,164,C,1,False,localized,2,supported,no,bYgV9nvgJ3E,108.70,171.40,140.05,,bYgV9nvgJ3E,115.14,127.35,0.29,0.04,18.81,0.19,False,101.15,163.85,132.50,1.00,1.00,B,False,development
+bYgV9nvgJ3E,Planets,11,165,R,2,False,localized,3,supported,no,bYgV9nvgJ3E,127.30,164.80,146.05,,bYgV9nvgJ3E,158.70,171.42,0.36,0.20,19.01,0.14,True,119.75,157.25,138.50,1.00,1.00,B,True,development
+bYgV9nvgJ3E,Planets,12,166,C,2,False,diffuse,2,supported,no,bYgV9nvgJ3E,190.10,251.90,221.00,171.4-190.1,bYgV9nvgJ3E,164.76,177.54,0.26,0.08,49.85,0.00,False,182.55,244.35,213.45,1.00,1.00,B,False,development
+lkRZKqDdwzU,Enzymes,1,167,R,1,False,diffuse,2,supported,no,lkRZKqDdwzU,56.00,127.20,91.60,85.8-146.2@AAZ03aScPr8,lkRZKqDdwzU,6.36,18.54,0.11,0.01,79.15,0.00,False,146.05,217.25,181.65,1.00,1.00,B,False,development
+lkRZKqDdwzU,Enzymes,2,168,C,3,False,diffuse,2,supported,no,lkRZKqDdwzU,56.00,177.00,116.50,,lkRZKqDdwzU,74.88,88.04,0.43,0.11,35.04,0.11,False,146.05,267.05,206.55,1.00,1.00,B,False,development
+lkRZKqDdwzU,Enzymes,3,169,C,1,False,localized,2,supported,no,lkRZKqDdwzU,56.00,96.80,76.40,,lkRZKqDdwzU,74.88,88.04,0.26,0.06,5.06,0.32,True,146.05,186.85,166.45,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,4,170,C,1,False,localized,2,partial,no,lkRZKqDdwzU,96.80,127.20,112.00,,lkRZKqDdwzU,96.84,114.30,0.20,0.07,6.43,0.57,True,186.85,217.25,202.05,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,5,171,C,1,False,localized,2,supported,no,lkRZKqDdwzU,145.60,164.50,155.05,,lkRZKqDdwzU,127.20,139.44,0.14,0.02,21.73,0.00,True,235.65,254.55,245.10,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,6,172,C,1,False,localized,2,supported,no,lkRZKqDdwzU,127.20,152.10,139.65,,lkRZKqDdwzU,127.20,139.44,0.18,0.06,6.33,0.49,True,217.25,242.15,229.70,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,7,173,R,2,False,localized,3,supported,no,AAZ03aScPr8,85.80,124.20,105.00,,lkRZKqDdwzU,31.44,43.74,0.42,0.19,inf,0.00,True,80.85,119.25,100.05,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,8,174,C,1,False,localized,1,questionable,no,lkRZKqDdwzU,127.20,164.50,145.85,,AAZ03aScPr8,98.32,111.84,0.13,0.00,inf,0.00,True,217.25,254.55,235.90,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,9,175,R,1,False,localized,1,partial,yes,AAZ03aScPr8,20.70,60.40,40.55,,AAZ03aScPr8,20.72,33.36,0.23,0.07,13.51,0.32,True,15.75,55.45,35.60,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,10,176,C,1,True,localized,1,partial,no,AAZ03aScPr8,34.20,79.60,56.90,,AAZ03aScPr8,105.76,117.92,0.22,0.07,54.94,0.00,False,29.25,74.65,51.95,1.00,1.00,B,False,development
+lkRZKqDdwzU,Enzymes,11,177,C,2,True,localized,2,supported,no,AAZ03aScPr8,98.30,130.20,114.25,,AAZ03aScPr8,98.32,111.84,0.23,0.03,9.17,0.42,True,93.35,125.25,109.30,1.00,1.00,B,True,development
+lkRZKqDdwzU,Enzymes,12,178,R,2,False,localized,2,questionable,no,lkRZKqDdwzU,145.60,164.50,155.05,,lkRZKqDdwzU,127.20,139.44,0.21,0.06,21.73,0.00,True,235.65,254.55,245.10,1.00,1.00,B,True,development

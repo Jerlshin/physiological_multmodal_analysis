@@ -1,0 +1,26 @@
+{
+  "development|CAIRN-linear-dt3": {
+    "balanced_accuracy": 0.09879227053140097,
+    "chance": 0.1111111111111111,
+    "null_q95": 0.09879227053140097,
+    "at_chance": true
+  },
+  "development|CAIRN-u-dt3": {
+    "balanced_accuracy": 0.09879227053140097,
+    "chance": 0.1111111111111111,
+    "null_q95": 0.09879227053140097,
+    "at_chance": true
+  },
+  "locked_pooled|CAIRN-linear-dt3": {
+    "balanced_accuracy": 0.3333333333333333,
+    "chance": 0.3333333333333333,
+    "null_q95": 0.3333333333333333,
+    "at_chance": true
+  },
+  "locked_pooled|CAIRN-u-dt3": {
+    "balanced_accuracy": 0.3333333333333333,
+    "chance": 0.3333333333333333,
+    "null_q95": 0.3333333333333333,
+    "at_chance": true
+  }
+}

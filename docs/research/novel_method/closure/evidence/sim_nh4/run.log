@@ -1,0 +1,56 @@
+2026-10-14T14:25:17+00:00 start closure grid=nh4 degree=3 chosen= anchors=None manifest=c6ae83e7efc330a6c7557d9e17f25ca63385bd69bc43307c148f96658b35e309
+2026-10-14T14:25:17+00:00 nh4: set locked_pooled: 1700 replicates to run, 2 workers
+2026-10-14T14:31:30+00:00 nh4/locked_pooled: 100/1700 done, 0.10 h, ETA 1.66 h
+2026-10-14T14:37:23+00:00 nh4/locked_pooled: 200/1700 done, 0.20 h, ETA 1.51 h
+2026-10-14T14:43:43+00:00 nh4/locked_pooled: 300/1700 done, 0.31 h, ETA 1.43 h
+2026-10-14T14:50:01+00:00 nh4/locked_pooled: 400/1700 done, 0.41 h, ETA 1.34 h
+2026-10-14T14:55:13+00:00 nh4/locked_pooled: 500/1700 done, 0.50 h, ETA 1.20 h
+2026-10-14T15:00:35+00:00 nh4/locked_pooled: 600/1700 done, 0.59 h, ETA 1.08 h
+2026-10-14T15:05:57+00:00 nh4/locked_pooled: 700/1700 done, 0.68 h, ETA 0.97 h
+2026-10-14T15:11:22+00:00 nh4/locked_pooled: 800/1700 done, 0.77 h, ETA 0.86 h
+2026-10-14T15:16:53+00:00 nh4/locked_pooled: 900/1700 done, 0.86 h, ETA 0.76 h
+2026-10-14T15:22:30+00:00 nh4/locked_pooled: 1000/1700 done, 0.95 h, ETA 0.67 h
+2026-10-14T15:28:05+00:00 nh4/locked_pooled: 1100/1700 done, 1.05 h, ETA 0.57 h
+2026-10-14T15:33:20+00:00 nh4/locked_pooled: 1200/1700 done, 1.13 h, ETA 0.47 h
+2026-10-14T15:38:41+00:00 nh4/locked_pooled: 1300/1700 done, 1.22 h, ETA 0.38 h
+2026-10-14T15:44:04+00:00 nh4/locked_pooled: 1400/1700 done, 1.31 h, ETA 0.28 h
+2026-10-14T15:49:31+00:00 nh4/locked_pooled: 1500/1700 done, 1.40 h, ETA 0.19 h
+2026-10-14T15:52:23+00:00 nh4/locked_pooled: 1600/1700 done, 1.45 h, ETA 0.09 h
+2026-10-14T15:55:13+00:00 nh4/locked_pooled: 1700/1700 done, 1.50 h, ETA 0.00 h
+2026-10-14T15:55:13+00:00 nh4: set locked_primary: 1700 replicates to run, 2 workers
+2026-10-14T15:58:12+00:00 nh4/locked_primary: 100/1700 done, 0.05 h, ETA 0.79 h
+2026-10-14T16:02:26+00:00 nh4/locked_primary: 200/1700 done, 0.12 h, ETA 0.90 h
+2026-10-14T16:10:11+00:00 nh4/locked_primary: 300/1700 done, 0.25 h, ETA 1.16 h
+2026-10-14T16:17:52+00:00 nh4/locked_primary: 400/1700 done, 0.38 h, ETA 1.23 h
+2026-10-14T16:25:22+00:00 nh4/locked_primary: 500/1700 done, 0.50 h, ETA 1.21 h
+2026-10-14T16:30:55+00:00 nh4/locked_primary: 600/1700 done, 0.60 h, ETA 1.09 h
+2026-10-14T16:33:05+00:00 nh4/locked_primary: 700/1700 done, 0.63 h, ETA 0.90 h
+2026-10-14T16:35:19+00:00 nh4/locked_primary: 800/1700 done, 0.67 h, ETA 0.75 h
+2026-10-14T16:37:52+00:00 nh4/locked_primary: 900/1700 done, 0.71 h, ETA 0.63 h
+2026-10-14T16:40:29+00:00 nh4/locked_primary: 1000/1700 done, 0.75 h, ETA 0.53 h
+2026-10-14T16:43:09+00:00 nh4/locked_primary: 1100/1700 done, 0.80 h, ETA 0.44 h
+2026-10-14T16:45:57+00:00 nh4/locked_primary: 1200/1700 done, 0.85 h, ETA 0.35 h
+2026-10-14T16:48:49+00:00 nh4/locked_primary: 1300/1700 done, 0.89 h, ETA 0.27 h
+2026-10-14T17:01:05+00:00 nh4/locked_primary: 1400/1700 done, 1.10 h, ETA 0.24 h
+2026-10-14T17:22:08+00:00 nh4/locked_primary: 1500/1700 done, 1.45 h, ETA 0.19 h
+2026-10-14T17:23:11+00:00 nh4/locked_primary: 1600/1700 done, 1.47 h, ETA 0.09 h
+2026-10-14T17:24:14+00:00 nh4/locked_primary: 1700/1700 done, 1.48 h, ETA 0.00 h
+2026-10-14T17:24:14+00:00 nh4: set development: 1700 replicates to run, 2 workers
+2026-10-14T17:29:07+00:00 nh4/development: 100/1700 done, 0.08 h, ETA 1.30 h
+2026-10-14T17:34:06+00:00 nh4/development: 200/1700 done, 0.16 h, ETA 1.23 h
+2026-10-14T17:39:18+00:00 nh4/development: 300/1700 done, 0.25 h, ETA 1.17 h
+2026-10-14T17:44:40+00:00 nh4/development: 400/1700 done, 0.34 h, ETA 1.11 h
+2026-10-14T17:50:16+00:00 nh4/development: 500/1700 done, 0.43 h, ETA 1.04 h
+2026-10-14T17:55:33+00:00 nh4/development: 600/1700 done, 0.52 h, ETA 0.96 h
+2026-10-14T18:00:50+00:00 nh4/development: 700/1700 done, 0.61 h, ETA 0.87 h
+2026-10-14T18:06:09+00:00 nh4/development: 800/1700 done, 0.70 h, ETA 0.79 h
+2026-10-14T18:11:33+00:00 nh4/development: 900/1700 done, 0.79 h, ETA 0.70 h
+2026-10-14T18:17:00+00:00 nh4/development: 1000/1700 done, 0.88 h, ETA 0.62 h
+2026-10-14T18:22:25+00:00 nh4/development: 1100/1700 done, 0.97 h, ETA 0.53 h
+2026-10-14T18:27:45+00:00 nh4/development: 1200/1700 done, 1.06 h, ETA 0.44 h
+2026-10-14T18:33:06+00:00 nh4/development: 1300/1700 done, 1.15 h, ETA 0.35 h
+2026-10-14T18:38:27+00:00 nh4/development: 1400/1700 done, 1.24 h, ETA 0.27 h
+2026-10-14T18:43:44+00:00 nh4/development: 1500/1700 done, 1.32 h, ETA 0.18 h
+2026-10-14T18:46:24+00:00 nh4/development: 1600/1700 done, 1.37 h, ETA 0.09 h
+2026-10-14T18:49:06+00:00 nh4/development: 1700/1700 done, 1.41 h, ETA 0.00 h
+2026-10-14T18:49:06+00:00 finished {'replicates': 5100, 'seconds': 15828.540157794952}

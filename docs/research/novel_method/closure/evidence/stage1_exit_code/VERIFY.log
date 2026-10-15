@@ -1,0 +1,28 @@
+# Stage-1-exit versions of the src/cairn modules the closure phase edits, checked against stage1/SHA256SUMS
+features.py OK bdf7df971c5fce8cbbf7415698a8ddcb59e433db22bdd6d2222b0851b5e83aa5
+cli.py OK 8e48010c512eb262448804738a4866f5626d8da482034277e4d33febdbdb519a
+inference.py OK 2929a7438ca52478cea85bf6155d7b7953fc246cc8fb27b3c0b2f2fb54ad8b60
+simulate.py OK 02c7e16060b72a02a31655b3ecf04bdb41c34e3b99f387e08255fcd6c8bce7fc
+simrun.py OK a1b6b2db1ff121a77ec1b77394f6fda5d2fa6c6a7efd8f13b9934f9f227546b9
+__init__.py OK 65682bc303b35a2366deb5e95b613599ba9b18fa687a63e9cb098ce18c8cc2c0 (copied from src at closure, unchanged since Stage-1 exit)
+__main__.py OK 13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e (copied from src at closure, unchanged since Stage-1 exit)
+analysis.py OK 23a98a6c4a2df520a0172e34b464baab6faa7de4c8857f50934c399268437a61 (copied from src at closure, unchanged since Stage-1 exit)
+anchors.py OK 8661932022eee58bc9329a5a1c1ec42d133bd87db58cb69e49bcf60d1ba7fa13 (copied from src at closure, unchanged since Stage-1 exit)
+baselines.py OK 9b2ed9b388a956f843dcb52c87142ac2be6a35f5c393c0854534bd0f56137b67 (copied from src at closure, unchanged since Stage-1 exit)
+channels.py OK b86f6116d18f52a8fe22236180f49cdf6d1e16a162cf6663ac361d437aa91d59 (copied from src at closure, unchanged since Stage-1 exit)
+checks.py OK 684e7facaab59b82ecf9e110cdb6a8c00a8a9d646e716786d7f1ee59be6e7d96 (copied from src at closure, unchanged since Stage-1 exit)
+clock.py OK 28c0cd35aeb29aecc220c0e251fc24dc5d2f2319482aefc764a0ad832894be2a (copied from src at closure, unchanged since Stage-1 exit)
+design.py OK e836b9fcc56daa337772db9b33ffdee35f420422bc499e940829dfe15add66dc (copied from src at closure, unchanged since Stage-1 exit)
+encoder.py OK b1fc1f43120f96a5a72fcc7ed9a732484df0551f2d9971dd4d82b49632360205 (copied from src at closure, unchanged since Stage-1 exit)
+exposures.py OK a3863237583819acef32e0767df0a991c2ce6f9131b1ebe027ab004122aa90fa (copied from src at closure, unchanged since Stage-1 exit)
+extract.py OK 9aafa66e159cb58da34c126c0fe0103650b92f8217a7bd2abef27025bbcaa7ff (copied from src at closure, unchanged since Stage-1 exit)
+gate.py OK e92e252892e35bf27c741f74fc48287695fa51e0046f34bf364cfcaf68a05214 (copied from src at closure, unchanged since Stage-1 exit)
+item_keys.py OK e6f47c0a214f889f5c385f2eadf09a5a51b3cb18869d9cba610b529f2546666d (copied from src at closure, unchanged since Stage-1 exit)
+manifest.py OK 6c74e48725d57ad19f9444b91ca0d8b93ccc693586412fa10189aa19c902b2a0 (copied from src at closure, unchanged since Stage-1 exit)
+model.py OK cc3855abf70d909a9f57e0a207b375362f01c845f51517b4693e550516cdada8 (copied from src at closure, unchanged since Stage-1 exit)
+paths_stage1.py OK 0b61e11599e79a998a3646eb7f301ba8f9f7397a8afbf78b127b0d9082879230 (copied from src at closure, unchanged since Stage-1 exit)
+paths.py OK 5656e956c827fc30ab29ecf4495e3c5555e0d57600be4ede5b1d426eb57eedc8 (copied from src at closure, unchanged since Stage-1 exit)
+pooling.py OK eb3e249eff18e7a3765264547e363268e07d7fc224f3f10e61ec1201d5f7a559 (copied from src at closure, unchanged since Stage-1 exit)
+stats.py OK ac8d29d47a5745007be10a2771557298bc86920d88832ab8abb2fcf49ff4765c (copied from src at closure, unchanged since Stage-1 exit)
+timeline.py OK 6c21ded52bbe4fa52a455a723df7cffc8533e2b0ff031bd91829a89b87e20386 (copied from src at closure, unchanged since Stage-1 exit)
+transcripts.py OK 31eb8183e93245e44e7790cf2851c16ebd1876122e090518726e4b81ab3ae9d0 (copied from src at closure, unchanged since Stage-1 exit)

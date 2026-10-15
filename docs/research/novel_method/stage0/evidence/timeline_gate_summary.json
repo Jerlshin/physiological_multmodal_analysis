@@ -1,0 +1,857 @@
+{
+  "Stars": {
+    "canonical_video_id": "VVAKFJ8VVp4",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 0.978,
+    "frac_pass_B": 0.022,
+    "final_config": "combined",
+    "single_experiment": false,
+    "experiments": [
+      "E1",
+      "E2",
+      "E4",
+      "E5"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.7423,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.007494648075538221,
+        "cut_p_final": 0.23353293413173654
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5283,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.0546900231369982,
+        "cut_p_final": 0.03792415169660679
+      },
+      "120-180s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.9075,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.023932746648707395,
+        "cut_p_final": 0.08582834331337326
+      },
+      "180-184s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 24.5
+  },
+  "Lightbulbs": {
+    "canonical_video_id": "oCEKMEeZXug",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 1.0,
+    "frac_pass_B": 0.0,
+    "final_config": "combined",
+    "single_experiment": false,
+    "experiments": [
+      "E1",
+      "E2",
+      "E4"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6674,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.018999962568072584,
+        "cut_p_final": 0.08183632734530938
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6163,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.011672046331999569,
+        "cut_p_final": 0.1596806387225549
+      },
+      "120-142s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": 0.05957809414705165,
+        "cut_p_final": 0.027944111776447105
+      }
+    },
+    "removed_s": 0.9
+  },
+  "Immune": {
+    "canonical_video_id": "zQGOcOUBi6s",
+    "verdict": "PARTIAL",
+    "frac_pass": 0.771,
+    "verdict_v1": "PARTIAL",
+    "frac_pass_v1": 0.76,
+    "frac_pass_A": 0.448,
+    "frac_pass_B": 0.322,
+    "final_config": "spatial",
+    "single_experiment": false,
+    "experiments": [
+      "E1",
+      "E2",
+      "E4",
+      "E5"
+    ],
+    "n_segments": 5,
+    "edits": [
+      {
+        "window_boundary_s": 218,
+        "refined_s": 215,
+        "ci95": [
+          214.0,
+          216.0
+        ]
+      },
+      {
+        "window_boundary_s": 243,
+        "refined_s": 244,
+        "ci95": [
+          237.0,
+          244.0
+        ]
+      },
+      {
+        "window_boundary_s": 283,
+        "refined_s": 270,
+        "ci95": [
+          270.0,
+          294.0
+        ]
+      },
+      {
+        "window_boundary_s": 343,
+        "refined_s": 347,
+        "ci95": [
+          335.0,
+          347.0
+        ]
+      }
+    ],
+    "blocks": {
+      "0-60s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.1981,
+        "lum_p_final": 0.1294,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.7802,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5919,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "180-240s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6054,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "240-300s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.2727,
+        "lum_p_final": 0.0846,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "300-360s": {
+        "final_validated": false,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.1216,
+        "lum_p_final": 0.3383,
+        "cut_r_final": 0.020323247560329043,
+        "cut_p_final": 0.2774451097804391
+      },
+      "360-388s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 80.7
+  },
+  "Internet": {
+    "canonical_video_id": "21eFwbb48sE",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PARTIAL",
+    "frac_pass_v1": 0.837,
+    "frac_pass_A": 0.65,
+    "frac_pass_B": 0.35,
+    "final_config": "combined",
+    "single_experiment": false,
+    "experiments": [
+      "E1",
+      "E2"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5409,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.10429387187459489,
+        "cut_p_final": 0.013972055888223553
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5969,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.3796,
+        "lum_p_final": 0.0149,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "180-240s": {
+        "final_validated": false,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": -0.0933,
+        "lum_p_final": 0.8756,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "240-300s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.562,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "300-360s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.3041,
+        "lum_p_final": 0.0647,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "360-369s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 23.0
+  },
+  "Birth rate": {
+    "canonical_video_id": "3IaYhG11ckA",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 1.0,
+    "frac_pass_B": 0.0,
+    "final_config": "combined",
+    "single_experiment": false,
+    "experiments": [
+      "E1",
+      "E2"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.1589,
+        "lum_p_final": 0.194,
+        "cut_r_final": 0.09334823305258656,
+        "cut_p_final": 0.00998003992015968
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6931,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.022297467647272938,
+        "cut_p_final": 0.24750499001996007
+      },
+      "120-150s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.8326,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.14845430348466376,
+        "cut_p_final": 0.003992015968063872
+      }
+    },
+    "removed_s": 3.2
+  },
+  "Mosquitoes": {
+    "canonical_video_id": "e0NT9i4Qnak",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PARTIAL",
+    "frac_pass_v1": 0.54,
+    "frac_pass_A": 0.23,
+    "frac_pass_B": 0.77,
+    "final_config": "temporal",
+    "single_experiment": false,
+    "experiments": [
+      "E3",
+      "E4"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": false,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": -0.1312,
+        "lum_p_final": 0.9005,
+        "cut_r_final": 0.30206967799121787,
+        "cut_p_final": 0.001996007984031936
+      },
+      "60-120s": {
+        "final_validated": false,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": -0.2147,
+        "lum_p_final": 0.9502,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.1388,
+        "lum_p_final": 0.8657,
+        "cut_r_final": 0.21737222949333454,
+        "cut_p_final": 0.003992015968063872
+      },
+      "180-240s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6859,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.29783128885921034,
+        "cut_p_final": 0.003992015968063872
+      },
+      "240-261s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 39.2
+  },
+  "Related": {
+    "canonical_video_id": "mnYSMhR3jCI",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 0.994,
+    "frac_pass_B": 0.006,
+    "final_config": "combined",
+    "single_experiment": false,
+    "experiments": [
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": true,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.7396,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.007781633692115764,
+        "cut_p_final": 0.47704590818363274
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.8397,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.12266100184622954,
+        "cut_p_final": 0.005988023952095809
+      },
+      "120-180s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5545,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.05718209148706015,
+        "cut_p_final": 0.17365269461077845
+      },
+      "180-240s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6211,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.08409655635218477,
+        "cut_p_final": 0.05788423153692615
+      },
+      "240-300s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5311,
+        "lum_p_final": 0.01,
+        "cut_r_final": 0.13123560990920122,
+        "cut_p_final": 0.001996007984031936
+      },
+      "300-360s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.3434,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "360-362s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 23.0
+  },
+  "Work-energy": {
+    "canonical_video_id": "30o4omX5qfo",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 0.825,
+    "frac_pass_B": 0.175,
+    "final_config": "combined",
+    "single_experiment": true,
+    "experiments": [
+      "E3"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": true,
+        "alternative_validated_v1": true,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.6322,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.043789097979522504,
+        "cut_p_final": 0.029940119760479042
+      },
+      "60-120s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.2614,
+        "lum_p_final": 1.0,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.4358,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.014061197292666743,
+        "cut_p_final": 0.23552894211576847
+      },
+      "180-240s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.5933,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.006657437998422552,
+        "cut_p_final": 0.35728542914171657
+      },
+      "240-300s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.7853,
+        "lum_p_final": 0.005,
+        "cut_r_final": 0.012319298360822767,
+        "cut_p_final": 0.29141716566866266
+      },
+      "300-342s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.4579,
+        "lum_p_final": 0.0149,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 5.2
+  },
+  "Capacitors": {
+    "canonical_video_id": "rkntp3_cZl4",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 0.312,
+    "frac_pass_B": 0.688,
+    "final_config": "combined",
+    "single_experiment": true,
+    "experiments": [
+      "E3"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.1586,
+        "lum_p_final": 0.1741,
+        "cut_r_final": 0.050515979848772215,
+        "cut_p_final": 0.07584830339321358
+      },
+      "60-120s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.4514,
+        "lum_p_final": 0.005,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.002,
+        "lum_p_final": 0.7313,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "180-240s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.0532,
+        "lum_p_final": 0.5075,
+        "cut_r_final": 0.05796857794678721,
+        "cut_p_final": 0.06986027944111776
+      },
+      "240-300s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.1135,
+        "lum_p_final": 0.9652,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "300-360s": {
+        "final_validated": true,
+        "alternative_validated_v1": false,
+        "informative_v1": true,
+        "contradicted_v2": false,
+        "lum_r_final": 0.2623,
+        "lum_p_final": 0.0448,
+        "cut_r_final": 0.03396492671815751,
+        "cut_p_final": 0.05189620758483034
+      },
+      "360-385s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": 0.03755038099336768,
+        "cut_p_final": 0.25149700598802394
+      }
+    },
+    "removed_s": 1.7
+  },
+  "Planets": {
+    "canonical_video_id": "bYgV9nvgJ3E",
+    "verdict": "PASS",
+    "frac_pass": 1.0,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 0.0,
+    "frac_pass_B": 1.0,
+    "final_config": "combined",
+    "single_experiment": true,
+    "experiments": [
+      "E3"
+    ],
+    "n_segments": 1,
+    "edits": [],
+    "blocks": {
+      "0-60s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.045,
+        "lum_p_final": 0.7861,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "60-120s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.0079,
+        "lum_p_final": 0.7413,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.0117,
+        "lum_p_final": 0.6517,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "180-240s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.1126,
+        "lum_p_final": 0.8905,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "240-262s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 16.8
+  },
+  "Enzymes": {
+    "canonical_video_id": "lkRZKqDdwzU",
+    "verdict": "PASS",
+    "frac_pass": 0.996,
+    "verdict_v1": "PASS",
+    "frac_pass_v1": 1.0,
+    "frac_pass_A": 0.0,
+    "frac_pass_B": 0.996,
+    "final_config": "combined",
+    "single_experiment": false,
+    "experiments": [
+      "E3",
+      "E4"
+    ],
+    "n_segments": 2,
+    "edits": [
+      {
+        "window_boundary_s": 138,
+        "refined_s": 140,
+        "ci95": [
+          140.0,
+          140.0
+        ]
+      }
+    ],
+    "blocks": {
+      "0-60s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.2215,
+        "lum_p_final": 0.9851,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "60-120s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.0095,
+        "lum_p_final": 0.6418,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "120-180s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": -0.1403,
+        "lum_p_final": 0.9104,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "180-240s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": 0.0562,
+        "lum_p_final": 0.5075,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      },
+      "240-268s": {
+        "final_validated": false,
+        "alternative_validated_v1": false,
+        "informative_v1": false,
+        "contradicted_v2": false,
+        "lum_r_final": null,
+        "lum_p_final": null,
+        "cut_r_final": NaN,
+        "cut_p_final": NaN
+      }
+    },
+    "removed_s": 80.5
+  }
+}

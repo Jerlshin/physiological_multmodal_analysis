@@ -1,0 +1,58 @@
+== exit checks 2026-10-13T11:30:16Z
+-- g01r verify-freeze
+VERIFIED
+-- unit tests (all)
+----------------------------------------------------------------------
+Ran 130 tests in 1.698s
+
+OK (skipped=2)
+-- outcome access logs
+      15 analysis_freeze/outcome_access_log.jsonl
+       1 docs/research/external_john2025/evidence/outcome_access_log.jsonl
+      16 total
+2ea691fa4243b7cdf7d2902b0beb8adec2d57c29b12dc63b8eeb5ee198c3d202  analysis_freeze/outcome_access_log.jsonl
+766489e7797f063842e11dc10a46b6b46ad6ba8fe97414ff796dce03770d11cd  docs/research/external_john2025/evidence/outcome_access_log.jsonl
+-- entry hashes of frozen/historical files (must all be OK; plan/lit-review/README/logs are expected to differ: dated amendments)
+docs/research/novel_method/critical_review.md: OK
+docs/research/novel_method/evidence/eeg_temporal_audit.py: OK
+docs/research/novel_method/evidence/eeg_temporal_w10_summary.json: OK
+docs/research/novel_method/evidence/eeg_temporal_w10.csv: OK
+docs/research/novel_method/evidence/README.md: OK
+docs/research/novel_method/evidence/SHA256SUMS: OK
+docs/research/novel_method/evidence/temporal_structure_audit.py: OK
+docs/research/novel_method/evidence/temporal_structure_w10_summary.json: OK
+docs/research/novel_method/evidence/temporal_structure_w10.csv: OK
+docs/research/novel_method/evidence/temporal_structure_w20_summary.json: OK
+docs/research/novel_method/evidence/temporal_structure_w20.csv: OK
+docs/research/novel_method/evidence/temporal_structure_w30_summary.json: OK
+docs/research/novel_method/evidence/temporal_structure_w30.csv: OK
+docs/research/novel_method/evidence/temporal_structure_w5_summary.json: OK
+docs/research/novel_method/evidence/temporal_structure_w5.csv: OK
+docs/research/novel_method/evidence/temporal_units_w10.csv: OK
+docs/research/novel_method/evidence/temporal_units_w20.csv: OK
+docs/research/novel_method/evidence/temporal_units_w30.csv: OK
+docs/research/novel_method/evidence/temporal_units_w5.csv: OK
+docs/research/novel_method/literature_review.md: FAILED
+docs/research/novel_method/README.md: FAILED
+docs/research/novel_method/research_plan.md: FAILED
+analysis_freeze/AUTHORIZATION.json: OK
+analysis_freeze/AUTHORIZATION.template.json: OK
+analysis_freeze/derived_cache_index.json: OK
+analysis_freeze/freeze_manifest.json: OK
+analysis_freeze/FREEZE_RECORD.md: OK
+analysis_freeze/outcome_access_log.jsonl: OK
+analysis_freeze/README.md: OK
+docs/research/external_john2025/evidence/outcome_access_log.jsonl: OK
+docs/research/external_john2025/evidence/feature_freeze.json: OK
+docs/research/README.md: FAILED
+docs/research/decision_log.md: FAILED
+docs/research/inference_register.md: FAILED
+docs/research/research_gap/decision_log.md: OK
+shasum: WARNING: 6 computed checksums did NOT match
+-- CAIRN freeze/authorization present?
+ls: analysis_freeze_cairn: No such file or directory
+-- tracked-file diff vs HEAD restricted to frozen/historical paths
+(empty = unchanged)
+-- untracked historical John files unchanged (evidence SHA256SUMS)
+john evidence check done
+planning evidence check done

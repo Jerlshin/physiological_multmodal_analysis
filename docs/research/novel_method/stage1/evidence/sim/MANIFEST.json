@@ -1,0 +1,730 @@
+{
+  "run_id": "stage1-sim-main",
+  "stage": "1-simulation",
+  "created_utc": "2026-10-13T14:09:46+00:00",
+  "code_sha256": "0fc633c46a38f03b877b12087ebb22e218a927caf4fa3c9f38e34602b6152676",
+  "code_files": {
+    "__init__.py": "65682bc303b35a2366deb5e95b613599ba9b18fa687a63e9cb098ce18c8cc2c0",
+    "__main__.py": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "analysis.py": "a33f03b7fbd872b6b1b313cf92e600c201c7880831ca33ecfb22f973495693ef",
+    "anchors.py": "8661932022eee58bc9329a5a1c1ec42d133bd87db58cb69e49bcf60d1ba7fa13",
+    "baselines.py": "9b2ed9b388a956f843dcb52c87142ac2be6a35f5c393c0854534bd0f56137b67",
+    "channels.py": "b86f6116d18f52a8fe22236180f49cdf6d1e16a162cf6663ac361d437aa91d59",
+    "checks.py": "174d6c800a144d2c24354ebca00bbde4ea5c905f58216ba0505f32b8e0c614c7",
+    "cli.py": "1f76b9219aac25b82b205e55cdae58f023a301cb8e9ce8bf244031583876bba3",
+    "clock.py": "28c0cd35aeb29aecc220c0e251fc24dc5d2f2319482aefc764a0ad832894be2a",
+    "design.py": "f5b80ad8757251d9354c5e5bd78fbf15a4864aae9cf64e5e0f472e26b6689aae",
+    "encoder.py": "b1fc1f43120f96a5a72fcc7ed9a732484df0551f2d9971dd4d82b49632360205",
+    "exposures.py": "a3863237583819acef32e0767df0a991c2ce6f9131b1ebe027ab004122aa90fa",
+    "extract.py": "9aafa66e159cb58da34c126c0fe0103650b92f8217a7bd2abef27025bbcaa7ff",
+    "features.py": "c95e5750b265a7e57d30ac9f79d60bd0e5cd9f593e42d4ee493dd2ba7e291ae5",
+    "gate.py": "e92e252892e35bf27c741f74fc48287695fa51e0046f34bf364cfcaf68a05214",
+    "inference.py": "2929a7438ca52478cea85bf6155d7b7953fc246cc8fb27b3c0b2f2fb54ad8b60",
+    "item_keys.py": "7cd0d62943df9793392540691b03a37e1f267ada38949bc88f92c0707694ba16",
+    "manifest.py": "ff8f2bbf234b5b7927f3d6816bf823519b34b15590ed0a3e062e62bd55377082",
+    "model.py": "cc3855abf70d909a9f57e0a207b375362f01c845f51517b4693e550516cdada8",
+    "paths.py": "ae2c27641c759f2b75d020b18c73a8090f0786d716664d95b70bd0ebe0c85766",
+    "pooling.py": "eb3e249eff18e7a3765264547e363268e07d7fc224f3f10e61ec1201d5f7a559",
+    "simrun.py": "da2731656cb1d9bacbc2c7840672429d2482d687ec68df5a37a1b706d21f2ceb",
+    "simulate.py": "02c7e16060b72a02a31655b3ecf04bdb41c34e3b99f387e08255fcd6c8bce7fc",
+    "stats.py": "ac8d29d47a5745007be10a2771557298bc86920d88832ab8abb2fcf49ff4765c",
+    "timeline.py": "6c21ded52bbe4fa52a455a723df7cffc8533e2b0ff031bd91829a89b87e20386",
+    "transcripts.py": "31eb8183e93245e44e7790cf2851c16ebd1876122e090518726e4b81ab3ae9d0"
+  },
+  "environment": {
+    "python": "3.14.5",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "environment_lock": "2b1f83152d212832f3028c334a58e9f0d1cbf31c6b660be0f8d1ec91aa043983",
+    "interpreter": "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/.venv-cairn/bin/python"
+  },
+  "inputs": {
+    "item_bank": {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_Education_questions.json",
+      "sha256": "74fc8c2f1aa084ab9cf7b767f2ed15e4dd064aa6adab559ff28cb6d679c31329"
+    },
+    "anchor_table": {
+      "path": "docs/research/novel_method/stage0/evidence/anchors_provisional.csv",
+      "sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477"
+    },
+    "timeline_table": {
+      "path": "docs/research/novel_method/stage0/evidence/timeline_table.csv",
+      "sha256": "1f26a3bf68af552b8ba1f6bc2fb7247ee1f844788f02028a793233defa1281cc"
+    },
+    "timeline_seconds": {
+      "path": "docs/research/novel_method/stage0/evidence/timeline_seconds.csv",
+      "sha256": "87b00d2b6815d1f677e7e587ccab75034eb2d0b7e9b7bd85b4fd2f97ed0f0616"
+    },
+    "series10_manifest": {
+      "path": "data/derived/cairn/series10_manifest.parquet",
+      "sha256": "894d2a8d7c260e19196f59d2ccd649b72510d79a131af22bc549703f4f9c42ee"
+    },
+    "exposure_tensor": {
+      "path": "docs/research/dataset_exploration/evidence/exposure_tensor.parquet",
+      "sha256": "5bedc3d805f254cec6649ef5c1b60948a35639db1dd7a5f443c5c522f3e0c68d"
+    },
+    "behavioral_eligibility_flags": {
+      "path": "docs/research/dataset_exploration/evidence/gate_closure_behavioral_eligibility.parquet",
+      "sha256": "50617bbd0f18b3b5da556c5b4267ed516d99f5d884d34898a330fe0cd19d9158"
+    }
+  },
+  "anchor_provisional": true,
+  "anchor_freeze_sha256": null,
+  "sets": [
+    "development",
+    "locked_pooled",
+    "locked_primary",
+    "locked_secondary"
+  ],
+  "regime": "A",
+  "models": [
+    "IRT-M2",
+    "IRT-whole",
+    "CAIRN-linear",
+    "CAIRN-linear-dir (frozen development direction)",
+    "CAIRN-validity",
+    "CAIRN-gaze",
+    "B9 Lalle-style pooled classifier"
+  ],
+  "grid": [
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N2_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N3_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.15_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.25_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.35_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.75_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or2_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or2.5_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or3_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "development",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "development",
+      "scenario": "N2_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "development",
+      "scenario": "N3_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.15_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.25_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.35_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.75_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or2_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or2.5_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or3_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.15_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.25_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.35_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.5_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.75_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or2_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or2.5_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or3_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N2_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "N3_or1_rho0.4_q0.5",
+      "replicates": 500,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N1q_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "development",
+      "scenario": "N1q_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N4_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "development",
+      "scenario": "N4_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or2_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or2.5_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or3_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or4_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.15_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.25_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.35_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.75_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or2_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.5_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or2_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or2.5_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or3_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or4_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.15_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.25_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.35_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.5_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or1.75_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "development",
+      "scenario": "ALT_or2_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.5_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or2_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or2.5_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or3_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or4_rho0.2_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.15_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.25_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.35_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.5_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.75_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or2_rho0.7_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_secondary",
+      "scenario": "N0_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_secondary",
+      "scenario": "N1_or1_rho0.4_q0.5",
+      "replicates": 200,
+      "circular_shift": true,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0.5_2pl",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_2pl",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0.5_guess",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_guess",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N0_or1_rho0.4_q0.5_het",
+      "replicates": 200,
+      "circular_shift": false,
+      "B": 199
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_het",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_logdens",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_primary",
+      "scenario": "N2_or1.5_rho0.4_q0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    },
+    {
+      "set": "locked_pooled",
+      "scenario": "ALT_or1.5_rho0.4_q0.5_e5x0.5",
+      "replicates": 100,
+      "circular_shift": false,
+      "B": 99
+    }
+  ],
+  "cv": {
+    "outer": "learner-grouped, experiment-stratified 5-fold",
+    "repetitions": 3,
+    "inner": "none (fixed hyperparameters, S1-D04)",
+    "cv_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "inference": {
+    "B_null": 199,
+    "B_alternative": 99,
+    "B_override": null,
+    "circular_shift_min_s": 30,
+    "alpha": 0.05,
+    "ridge": {
+      "intercepts": 0.0001,
+      "person_path": 10.0,
+      "moment_multi": 100.0,
+      "moment_one": 1.0
+    }
+  },
+  "seeds": {
+    "base": 20261013,
+    "per_task": "sha256(base|set|scenario)[:8]",
+    "cv": [
+      0,
+      1,
+      2
+    ]
+  },
+  "outcome_access": "none (synthetic outcomes only)",
+  "extra": {
+    "primary_form": "dt",
+    "mode": "main"
+  },
+  "manifest_sha256": "4e692198abbee725d379c7a6613dca29503f4fc9e2e832ffbef5fa7c290867ed"
+}

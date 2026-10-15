@@ -1,0 +1,9 @@
+2026-10-07T22:40:23Z
+$ john2025 verify
+VERIFIED
+$ g01r verify-freeze
+VERIFIED
+$ wc -l analysis_freeze/outcome_access_log.jsonl (BBBD; must stay 15)
+      15
+$ wc -l evidence/outcome_access_log.jsonl (John; 1 expected)
+       1

@@ -1,0 +1,34 @@
+2026-10-14T18:49:42+00:00 start closure grid=rf degree=1 chosen= manifest=853adbf7cb806375b542d801373534f3548b285b12412dee1edf9b3250ea0569
+2026-10-14T18:49:42+00:00 rf: set locked_pooled: 0 replicates to run, 2 workers
+2026-10-14T18:49:42+00:00 rf: set locked_primary: 0 replicates to run, 2 workers
+2026-10-14T18:49:42+00:00 rf: set development: 2900 replicates to run, 2 workers
+2026-10-14T19:01:48+00:00 rf/development: 100/2900 done, 0.20 h, ETA 5.64 h
+2026-10-14T19:13:43+00:00 rf/development: 200/2900 done, 0.40 h, ETA 5.40 h
+2026-10-14T19:25:42+00:00 rf/development: 300/2900 done, 0.60 h, ETA 5.20 h
+2026-10-14T19:37:38+00:00 rf/development: 400/2900 done, 0.80 h, ETA 4.99 h
+2026-10-14T19:49:42+00:00 rf/development: 500/2900 done, 1.00 h, ETA 4.80 h
+2026-10-14T20:01:49+00:00 rf/development: 600/2900 done, 1.20 h, ETA 4.61 h
+2026-10-14T20:14:08+00:00 rf/development: 700/2900 done, 1.41 h, ETA 4.42 h
+2026-10-14T20:26:15+00:00 rf/development: 800/2900 done, 1.61 h, ETA 4.22 h
+2026-10-14T20:38:20+00:00 rf/development: 900/2900 done, 1.81 h, ETA 4.02 h
+2026-10-14T20:50:35+00:00 rf/development: 1000/2900 done, 2.01 h, ETA 3.83 h
+2026-10-14T21:03:07+00:00 rf/development: 1100/2900 done, 2.22 h, ETA 3.64 h
+2026-10-14T21:15:39+00:00 rf/development: 1200/2900 done, 2.43 h, ETA 3.45 h
+2026-10-14T21:27:38+00:00 rf/development: 1300/2900 done, 2.63 h, ETA 3.24 h
+2026-10-14T21:39:40+00:00 rf/development: 1400/2900 done, 2.83 h, ETA 3.03 h
+2026-10-14T21:51:46+00:00 rf/development: 1500/2900 done, 3.03 h, ETA 2.83 h
+2026-10-14T22:03:45+00:00 rf/development: 1600/2900 done, 3.23 h, ETA 2.63 h
+2026-10-14T22:15:39+00:00 rf/development: 1700/2900 done, 3.43 h, ETA 2.42 h
+2026-10-14T22:27:45+00:00 rf/development: 1800/2900 done, 3.63 h, ETA 2.22 h
+2026-10-14T22:40:09+00:00 rf/development: 1900/2900 done, 3.84 h, ETA 2.02 h
+2026-10-14T22:52:25+00:00 rf/development: 2000/2900 done, 4.05 h, ETA 1.82 h
+2026-10-14T23:04:49+00:00 rf/development: 2100/2900 done, 4.25 h, ETA 1.62 h
+2026-10-14T23:17:21+00:00 rf/development: 2200/2900 done, 4.46 h, ETA 1.42 h
+2026-10-14T23:29:58+00:00 rf/development: 2300/2900 done, 4.67 h, ETA 1.22 h
+2026-10-14T23:42:31+00:00 rf/development: 2400/2900 done, 4.88 h, ETA 1.02 h
+2026-10-14T23:55:01+00:00 rf/development: 2500/2900 done, 5.09 h, ETA 0.81 h
+2026-10-15T00:01:42+00:00 rf/development: 2600/2900 done, 5.20 h, ETA 0.60 h
+2026-10-15T00:08:15+00:00 rf/development: 2700/2900 done, 5.31 h, ETA 0.39 h
+2026-10-15T00:14:52+00:00 rf/development: 2800/2900 done, 5.42 h, ETA 0.19 h
+2026-10-15T00:21:29+00:00 rf/development: 2900/2900 done, 5.53 h, ETA 0.00 h
+2026-10-15T00:21:29+00:00 finished {'replicates': 2900, 'seconds': 19907.016371011734}

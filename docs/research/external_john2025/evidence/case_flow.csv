@@ -1,0 +1,11 @@
+step,people
+Workbook Quest rows,121
+Instructional-video EDF files,118
+EDF without a Quest row (excluded),1
+Quest row without an EDF (no eye data),4
+People with EDF + Quest (plan population),117
+Excluded: no usable video window,0
+Excluded: invalid-sample fraction > 0.5,5
+Primary analysis set (QC <= 0.50),112
+"Sensitivity set A1, QC <= 0.30",105
+"Sensitivity set A1, QC <= 0.70",116

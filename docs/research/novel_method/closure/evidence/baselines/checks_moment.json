@@ -1,0 +1,19 @@
+{
+  "set": "locked_pooled",
+  "split": 0,
+  "perturbed_learner": "exp-4:sub-03",
+  "results": {
+    "B4a-moment-video": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    },
+    "B4a-moment-anchored (A4-FM)": {
+      "deterministic": true,
+      "fold_safe": true,
+      "victim_rows_changed": true,
+      "max_abs_diff_other_learners": 0.0
+    }
+  }
+}

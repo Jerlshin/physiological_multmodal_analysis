@@ -1,0 +1,144 @@
+{
+  "gate": {
+    "passed": true,
+    "refused": {
+      "development": true,
+      "locked_primary": true,
+      "locked_secondary": true,
+      "reserved_descriptive": true
+    },
+    "access_logs_unchanged": {
+      "analysis_freeze/outcome_access_log.jsonl": true,
+      "docs/research/external_john2025/evidence/outcome_access_log.jsonl": true
+    },
+    "cairn_access_log_exists": false
+  },
+  "incidence": {
+    "passed": true,
+    "sets": {
+      "development": {
+        "set": "development",
+        "learners": 55,
+        "cells": 229,
+        "videos": 9,
+        "item_responses": 2725,
+        "anchorable_responses": 2205,
+        "items": 107,
+        "anchorable_items": 87,
+        "distinct_moments": 59,
+        "anchor_sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477",
+        "anchor_provisional": true,
+        "kernel": [
+          0.0,
+          0.0
+        ]
+      },
+      "locked_primary": {
+        "set": "locked_primary",
+        "learners": 39,
+        "cells": 112,
+        "videos": 3,
+        "item_responses": 1344,
+        "anchorable_responses": 977,
+        "items": 36,
+        "anchorable_items": 26,
+        "distinct_moments": 19,
+        "anchor_sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477",
+        "anchor_provisional": true,
+        "kernel": [
+          0.0,
+          0.0
+        ]
+      },
+      "locked_secondary": {
+        "set": "locked_secondary",
+        "learners": 47,
+        "cells": 129,
+        "videos": 3,
+        "item_responses": 1548,
+        "anchorable_responses": 1119,
+        "items": 36,
+        "anchorable_items": 26,
+        "distinct_moments": 19,
+        "anchor_sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477",
+        "anchor_provisional": true,
+        "kernel": [
+          0.0,
+          0.0
+        ]
+      },
+      "locked_pooled": {
+        "set": "locked_pooled",
+        "learners": 86,
+        "cells": 241,
+        "videos": 3,
+        "item_responses": 2892,
+        "anchorable_responses": 2096,
+        "items": 72,
+        "anchorable_items": 52,
+        "distinct_moments": 19,
+        "anchor_sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477",
+        "anchor_provisional": true,
+        "kernel": [
+          0.0,
+          0.0
+        ]
+      },
+      "reserved_descriptive": {
+        "set": "reserved_descriptive",
+        "learners": 24,
+        "cells": 47,
+        "videos": 2,
+        "item_responses": 564,
+        "anchorable_responses": 421,
+        "items": 24,
+        "anchorable_items": 18,
+        "distinct_moments": 13,
+        "anchor_sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477",
+        "anchor_provisional": true,
+        "kernel": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "item_keys": {
+    "passed": true,
+    "rows": 203,
+    "matches": {
+      "question+options": 200,
+      "question": 3
+    }
+  },
+  "anchor_table": {
+    "passed": true,
+    "sha256": "69ce6c83b53c5b73571e57316175e243de39d899a190e20180a98a8afa7c0477",
+    "status": "PROVISIONAL (machine anchors; Stage-1 use only)"
+  },
+  "timeline_round_trip": {
+    "passed": "True",
+    "seconds": 3113,
+    "round_trip_failures": 0
+  },
+  "fold_safety": {
+    "passed": true,
+    "set": "locked_primary",
+    "learner_independence": true,
+    "regime_A_reference_rule": true,
+    "regime_C_other_half_only": true,
+    "normalization_isolation": true
+  },
+  "identity_probe": {
+    "passed": true,
+    "balanced_accuracy": 0.09879227053140097,
+    "chance": 0.1111111111111111,
+    "null_q95": 0.09879227053140097,
+    "at_chance": true
+  },
+  "determinism": {
+    "passed": true,
+    "compared": 57
+  },
+  "passed": true
+}

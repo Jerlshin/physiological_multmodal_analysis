@@ -1,0 +1,57 @@
+{
+  "K": 3,
+  "context_s": 9,
+  "channels": [
+    "valid",
+    "onscreen",
+    "sacc",
+    "disp5",
+    "dist",
+    "logdens",
+    "rho5",
+    "speed"
+  ],
+  "n_params": 536,
+  "reconstruction": {
+    "encoder_r2_median": 0.2649703647388131,
+    "neighbour_mean_r2_median": 0.30272796800429586
+  },
+  "distillation_r2_median": {
+    "dist": -0.12662583619890821,
+    "logdens": -0.10441696434769632,
+    "rho5": -0.08337939323963328
+  },
+  "construct_auc": {
+    "encoder": 0.8013771023386111,
+    "random_encoder": 0.6169972601615171,
+    "raw_channel_means": 0.8905962996788129
+  },
+  "identity": {
+    "encoder_person_centred": {
+      "balanced_accuracy": 0.15679658885779507,
+      "chance": 0.1111111111111111
+    },
+    "encoder_item_centred": {
+      "balanced_accuracy": 0.11077441077441078,
+      "chance": 0.1111111111111111
+    },
+    "random_encoder_person_centred": {
+      "balanced_accuracy": 0.11774052928642299,
+      "chance": 0.1111111111111111
+    },
+    "random_encoder_item_centred": {
+      "balanced_accuracy": 0.11159548703408352,
+      "chance": 0.1111111111111111
+    }
+  },
+  "fold_param_hashes": [
+    "7cb52bb3112c0ddc",
+    "73e71dbc5bd2d205",
+    "3648d96fa7bee050",
+    "d35ed943203c9cd1",
+    "a61372b4211e1aba"
+  ],
+  "deterministic": true,
+  "n_exposures": 1152,
+  "n_learners": 177
+}

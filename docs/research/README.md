@@ -1,6 +1,51 @@
 # Research project: evidence and problem formulation
 
-**Current phase — 2026-10-06/07:** [Completion of the preregistered G01-R plan](preregistered_completion/README.md) (run-book steps 2–5). All 17 registry analyses ran exactly as frozen: 14 new runs, 14 logged outcome accesses, and the freeze `VERIFIED` before and after every step. **Status: PREREGISTERED PHASE COMPLETE.** [Integrated final report](preregistered_completion/final_report.md); [per-analysis records](preregistered_completion/results_steps2_5.md):
+**Current phase — 2026-10-15:** [Novel-method closure phase — outcome-free completion before Stage 2](novel_method/closure/README.md). No outcome of any cohort was read; simulated outcomes are synthetic. **Status: CLOSURE COMPLETE; stopped at the human / authorization boundary.**
+
+- **Temporal control.** A **cubic** within-recording detrend replaces the linear one. It is the only degree calibrated under quadratic, cubic and exponential fatigue (60 decisive cells ≤ .066).
+- **Design (D110; needs your ratification).**
+  - Pooled E4 + E5 lock; NH1 = T1 ∧ T2 on the likelihood-ratio statistic; closed testing of E4 and E5; CV fallback certified.
+  - Power: MDE OR 1.45 (ρ = .4); .58 at OR 1.35 and .89 at 1.5. E4 claim MDE 1.85.
+  - All calibration checks ≤ .068.
+- **NH4.** The gaze-given-validity test is calibrated (≤ .062).
+- **Baselines.** 17 strong ML/DL/FM baselines are implemented and validated outcome-free.
+- **Infrastructure.** G-AN tooling and protocol addendum v1.1, freeze tooling, and the Stage-2 / lock runners are ready and dry-run.
+- **Next:** two human annotators (G-AN), rule R-J on the frozen human anchors, ratification and commit, the CAIRN freeze, and your development authorization ([run-book](novel_method/closure/gan/README.md)).
+
+**Previous phase — 2026-10-14:** [Novel-method Stage 1 — outcome-free implementation and design simulation](novel_method/stage1/README.md). No outcome of any cohort was read; simulated outcomes are synthetic. **Status: STAGE 1 COMPLETE; stopped before Stage 2.**
+
+- **Primary method.** CAIRN-linear stays primary, in a within-recording detrended form. The plan-literal form fails calibration under a fatigue/position confound.
+- **Calibration.** T1, T2, their intersection and the development stop rule are calibrated (≤ .07; false go ≤ .008).
+- **Power.** E4 alone has .32 power at OR 1.35; it has .97 power at the unchanged minimum useful effect (≈ OR 2.16).
+- **Lock redesign (needs user decision).** Pooled E4 + E5 with NH1 confirmatory is ready now: MDE 1.48. A likelihood-ratio upgrade (MDE 1.43) needs a non-linear trend control first.
+- **Next:** human anchors (G-AN), the lock-design decision, a non-linear trend control, the NH4 conditional test, the CAIRN freeze and an explicit Stage-2 authorization.
+
+**Previous phase — 2026-10-13:** [Novel-method Stage 0 — feasibility, novelty close-out and Stage-1 preparation](novel_method/stage0/README.md). Everything is outcome-free: no outcome was accessed and no CAIRN model was fitted. **Status: STAGE 0 COMPLETE (computational parts); GO to Stage 1 under conditions; gate G-AN awaits two human annotators.**
+
+- **Novelty, narrowed.** Lallé et al. (AIED 2025) already predict per-item retention from gaze in content-tied video windows. CAIRN's claim narrows to psychometric identification: item easiness + learner level + a within-learner moment effect, with anchor-randomization falsification and outcome-blind, reliability-gated anchors.
+- **Stage 0a.** Stimulus timelines are recovered for 10 of 11 videos; Immune is partial. The Enzymes stimulus is two concatenated public videos.
+- **Stage 0b.** Provisional machine/LLM-assisted anchors: 105/131 items, development 87/107. Not frozen; human annotation package ready.
+- **Stage 0c.** Gaze moment-level structure is present and construct-sensitive. EEG time-resolved synchrony is unreliable, so it stays a diagnostic. A learned label-free encoder does not beat handcrafted channels, so CAIRN-linear is primary.
+- **Next:** human anchor annotation and Stage 1 (outcome-free simulation and implementation, [spec](novel_method/stage0/stage1_spec.md)). Stage-2 outcome access needs explicit user authorization.
+
+**Previous phase — 2026-10-08:** [Novel-method development, planning](novel_method/README.md). This is post-preregistration: everything in it is post hoc relative to G01-R and the John replication, which stay unchanged. **Status: RESEARCH AND ARCHITECTURE PLAN COMPLETE AND REVIEWED; no training, outcome access or download.** [Plan v1.1](novel_method/research_plan.md):
+
+- **Gap.** Whole-video summaries keep only about 10% of windowed ocular-synchrony variance (outcome-free audit). No predictive model links engagement at the moments carrying each quiz item's content to that item's correctness.
+- **Method.** CAIRN, a content-anchored item-response network. It has outcome-blind item anchors, a per-second peer-relative engagement encoder pretrained without outcomes, and a Rasch-type head with person, item and within-learner moment terms. Gaze is primary; EEG, ECG and pupil are evidence-gated secondary channels.
+- **Evaluation.** Develop on E3 + E1 (three videos). Lock E4 (primary) and E5. Validate externally on Lallé (if its terms allow) and John (restricted). The core test: CAIRN beats an item-level baseline **and** true anchors beat randomized anchors. Development stop rules protect the locked cohorts.
+- **Next:** user decisions on transcript/video access for anchoring and on external data terms. [Literature review](novel_method/literature_review.md); [critical review](novel_method/critical_review.md).
+
+**Previous phase — 2026-10-07:** [External ocular replication on John et al. 2025](external_john2025/README.md), the next step ranked first when G01-R closed. The plan was time-stamped (`ef1df1b`) before download. The features were frozen and hash-bound before the single logged outcome access, and the frozen G01-R statistical code was reused unchanged. **Status: REPLICATION COMPLETE.** [Results](external_john2025/results.md):
+
+- **Primary (confirmatory): the BBBD gaze block adds held-out information about posttest performance beyond the pretest and eye-data loss** in an independent cohort.
+  - Ŝ = 0.079, permutation p = 0.002, 112 learners.
+  - The size is imprecise: 90% interval −0.05 to 0.21; 2.26 → 2.17 items RMSE.
+- **Not a prior-knowledge proxy:** the increment is larger with the pretest in the baseline (secondary, without it: 0.066, p = 0.006).
+- **Robust to eye-QC policy** (0.082 / 0.079 / 0.096), and **not absorbed by explicit blink, loss and off-screen measures** (0.109). Both are declared, results-informed estimates.
+- **Composition differs from BBBD:** the increment sits mainly in reference-free gaze, not gaze ISC (estimates).
+- **Not run:** the BBBD→John transport check, which needs a new BBBD outcome access (user decision). Ranked next steps are in the [phase README](external_john2025/README.md#ranked-next-steps-not-started).
+
+**Previous phase — 2026-10-06/07:** [Completion of the preregistered G01-R plan](preregistered_completion/README.md) (run-book steps 2–5). All 17 registry analyses ran exactly as frozen: 14 new runs, 14 logged outcome accesses, and the freeze `VERIFIED` before and after every step. **Status: PREREGISTERED PHASE COMPLETE.** [Integrated final report](preregistered_completion/final_report.md); [per-analysis records](preregistered_completion/results_steps2_5.md):
 
 - **H1: bounded negative, robust.** All eight H3 estimates keep the sign and stay below δ (0.009–0.021).
 - **H2a (synchrony > reference-free) confirmed and reference-dependent.** It reappears on new videos with an unlabelled half-cohort reference (regime C better than B in 8 of 8 videos). It does not transfer across protocols, and it stays below δ over the baseline (C 0.020 [−0.014, 0.045]).

@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "window_s": 20.0,
+    "outcome_access": false,
+    "inputs": [
+      "docs/research/experimental_design/evidence/analysis_set_manifest.csv",
+      "data/derived/g01r/cache/processed"
+    ],
+    "note": "Variance shares of person x window matrices; residual = time-localized idiosyncratic component"
+  },
+  "summary": {
+    "E1_gaze": {
+      "disp": {
+        "units": 5,
+        "cells": 1442,
+        "share_person": 0.42,
+        "share_window": 0.362,
+        "share_resid": 0.218,
+        "resid_lag1_autocorr_median": 0.026,
+        "resid_lag3_autocorr_median": -0.166,
+        "resid_lag6_autocorr_median": -0.148
+      },
+      "isc": {
+        "units": 5,
+        "cells": 1442,
+        "share_person": 0.325,
+        "share_window": 0.347,
+        "share_resid": 0.329,
+        "resid_lag1_autocorr_median": 0.009,
+        "resid_lag3_autocorr_median": -0.119,
+        "resid_lag6_autocorr_median": -0.136
+      },
+      "isc_x": {
+        "units": 5,
+        "cells": 1442,
+        "share_person": 0.253,
+        "share_window": 0.344,
+        "share_resid": 0.402,
+        "resid_lag1_autocorr_median": -0.045,
+        "resid_lag3_autocorr_median": -0.146,
+        "resid_lag6_autocorr_median": -0.088
+      },
+      "isc_y": {
+        "units": 5,
+        "cells": 1442,
+        "share_person": 0.267,
+        "share_window": 0.318,
+        "share_resid": 0.416,
+        "resid_lag1_autocorr_median": -0.04,
+        "resid_lag3_autocorr_median": -0.141,
+        "resid_lag6_autocorr_median": -0.064
+      },
+      "pupil_isc": {
+        "units": 5,
+        "cells": 1431,
+        "share_person": 0.211,
+        "share_window": 0.257,
+        "share_resid": 0.532,
+        "resid_lag1_autocorr_median": -0.037,
+        "resid_lag3_autocorr_median": -0.04,
+        "resid_lag6_autocorr_median": -0.043
+      },
+      "valid": {
+        "units": 5,
+        "cells": 1456,
+        "share_person": 0.604,
+        "share_window": 0.027,
+        "share_resid": 0.369,
+        "resid_lag1_autocorr_median": 0.029,
+        "resid_lag3_autocorr_median": 0.061,
+        "resid_lag6_autocorr_median": 0.052
+      },
+      "_pairs_median_over_units": {
+        "xy_resid_corr": 0.192,
+        "valid_isc_resid_corr": 0.054,
+        "disp_isc_resid_corr": -0.07,
+        "pupil_gaze_isc_resid_corr": 0.067
+      }
+    },
+    "E5_core": {
+      "disp": {
+        "units": 3,
+        "cells": 1929,
+        "share_person": 0.246,
+        "share_window": 0.417,
+        "share_resid": 0.337,
+        "resid_lag1_autocorr_median": 0.118,
+        "resid_lag3_autocorr_median": -0.03,
+        "resid_lag6_autocorr_median": -0.136
+      },
+      "isc": {
+        "units": 3,
+        "cells": 1929,
+        "share_person": 0.118,
+        "share_window": 0.332,
+        "share_resid": 0.55,
+        "resid_lag1_autocorr_median": -0.005,
+        "resid_lag3_autocorr_median": -0.028,
+        "resid_lag6_autocorr_median": -0.089
+      },
+      "isc_x": {
+        "units": 3,
+        "cells": 1929,
+        "share_person": 0.103,
+        "share_window": 0.327,
+        "share_resid": 0.569,
+        "resid_lag1_autocorr_median": 0.009,
+        "resid_lag3_autocorr_median": -0.062,
+        "resid_lag6_autocorr_median": -0.035
+      },
+      "isc_y": {
+        "units": 3,
+        "cells": 1929,
+        "share_person": 0.101,
+        "share_window": 0.258,
+        "share_resid": 0.64,
+        "resid_lag1_autocorr_median": -0.079,
+        "resid_lag3_autocorr_median": -0.013,
+        "resid_lag6_autocorr_median": -0.135
+      },
+      "pupil_isc": {
+        "units": 3,
+        "cells": 1639,
+        "share_person": 0.156,
+        "share_window": 0.245,
+        "share_resid": 0.599,
+        "resid_lag1_autocorr_median": -0.022,
+        "resid_lag3_autocorr_median": 0.025,
+        "resid_lag6_autocorr_median": -0.013
+      },
+      "valid": {
+        "units": 3,
+        "cells": 1952,
+        "share_person": 0.543,
+        "share_window": 0.023,
+        "share_resid": 0.434,
+        "resid_lag1_autocorr_median": 0.385,
+        "resid_lag3_autocorr_median": 0.022,
+        "resid_lag6_autocorr_median": -0.188
+      },
+      "_pairs_median_over_units": {
+        "xy_resid_corr": 0.166,
+        "valid_isc_resid_corr": 0.009,
+        "disp_isc_resid_corr": 0.17,
+        "pupil_gaze_isc_resid_corr": 0.037
+      }
+    },
+    "PAS_E34_core": {
+      "disp": {
+        "units": 9,
+        "cells": 3942,
+        "share_person": 0.181,
+        "share_window": 0.513,
+        "share_resid": 0.305,
+        "resid_lag1_autocorr_median": 0.041,
+        "resid_lag3_autocorr_median": -0.06,
+        "resid_lag6_autocorr_median": -0.105
+      },
+      "isc": {
+        "units": 9,
+        "cells": 3942,
+        "share_person": 0.189,
+        "share_window": 0.396,
+        "share_resid": 0.415,
+        "resid_lag1_autocorr_median": 0.033,
+        "resid_lag3_autocorr_median": -0.075,
+        "resid_lag6_autocorr_median": -0.128
+      },
+      "isc_x": {
+        "units": 9,
+        "cells": 3942,
+        "share_person": 0.142,
+        "share_window": 0.397,
+        "share_resid": 0.461,
+        "resid_lag1_autocorr_median": 0.001,
+        "resid_lag3_autocorr_median": -0.112,
+        "resid_lag6_autocorr_median": -0.052
+      },
+      "isc_y": {
+        "units": 9,
+        "cells": 3942,
+        "share_person": 0.161,
+        "share_window": 0.37,
+        "share_resid": 0.469,
+        "resid_lag1_autocorr_median": 0.002,
+        "resid_lag3_autocorr_median": -0.085,
+        "resid_lag6_autocorr_median": -0.062
+      },
+      "pupil_isc": {
+        "units": 9,
+        "cells": 3368,
+        "share_person": 0.131,
+        "share_window": 0.228,
+        "share_resid": 0.641,
+        "resid_lag1_autocorr_median": 0.02,
+        "resid_lag3_autocorr_median": -0.074,
+        "resid_lag6_autocorr_median": -0.065
+      },
+      "valid": {
+        "units": 9,
+        "cells": 3976,
+        "share_person": 0.581,
+        "share_window": 0.03,
+        "share_resid": 0.389,
+        "resid_lag1_autocorr_median": 0.171,
+        "resid_lag3_autocorr_median": -0.098,
+        "resid_lag6_autocorr_median": -0.115
+      },
+      "_pairs_median_over_units": {
+        "xy_resid_corr": 0.243,
+        "valid_isc_resid_corr": 0.121,
+        "disp_isc_resid_corr": 0.068,
+        "pupil_gaze_isc_resid_corr": 0.045
+      }
+    }
+  }
+}

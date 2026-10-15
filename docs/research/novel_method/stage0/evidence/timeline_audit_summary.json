@@ -1,0 +1,1357 @@
+{
+  "Stars": {
+    "canonical_video_id": "VVAKFJ8VVp4",
+    "sources": [
+      "VVAKFJ8VVp4"
+    ],
+    "recording_s": 184.7,
+    "source_s": {
+      "VVAKFJ8VVp4": 208.5
+    },
+    "groups": {
+      "E1s1": 27,
+      "E1s2": 24,
+      "E2s1": 30,
+      "E2s2": 28,
+      "E4s2": 40,
+      "E5s1": 48,
+      "E5s2": 48
+    },
+    "experiments": [
+      "E1",
+      "E2",
+      "E4",
+      "E5"
+    ],
+    "single_experiment": false,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        184,
+        "VVAKFJ8VVp4",
+        -0.2
+      ]
+    ],
+    "removed_s": 24.5,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "exp_E4": 1.0,
+          "exp_E5": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "grp_E4s2": 1.0,
+          "grp_E5s1": 1.0,
+          "grp_E5s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            184,
+            "VVAKFJ8VVp4",
+            -0.2
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "exp_E4": 1.0,
+          "exp_E5": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "grp_E4s2": 1.0,
+          "grp_E5s1": 1.0,
+          "grp_E5s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            184,
+            "VVAKFJ8VVp4",
+            -0.3
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 0.576,
+          "exp_E2": 0.668,
+          "exp_E4": 0.522,
+          "exp_E5": 1.0,
+          "grp_E1s1": 0.576,
+          "grp_E1s2": 0.0,
+          "grp_E2s1": 0.424,
+          "grp_E2s2": 0.424,
+          "grp_E4s2": 0.522,
+          "grp_E5s1": 1.0,
+          "grp_E5s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            78,
+            "VVAKFJ8VVp4",
+            -3.8
+          ],
+          [
+            78,
+            184,
+            "VVAKFJ8VVp4",
+            8.2
+          ]
+        ]
+      }
+    }
+  },
+  "Lightbulbs": {
+    "canonical_video_id": "oCEKMEeZXug",
+    "sources": [
+      "oCEKMEeZXug"
+    ],
+    "recording_s": 142.1,
+    "source_s": {
+      "oCEKMEeZXug": 142.9
+    },
+    "groups": {
+      "E1s1": 27,
+      "E1s2": 25,
+      "E2s1": 30,
+      "E2s2": 31,
+      "E4s1": 42
+    },
+    "experiments": [
+      "E1",
+      "E2",
+      "E4"
+    ],
+    "single_experiment": false,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial",
+      "temporal"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        142,
+        "oCEKMEeZXug",
+        -0.3
+      ]
+    ],
+    "removed_s": 0.9,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "exp_E4": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "grp_E4s1": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            142,
+            "oCEKMEeZXug",
+            -0.3
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "exp_E4": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "grp_E4s1": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            142,
+            "oCEKMEeZXug",
+            -0.3
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": true,
+        "frac_defended": 0.444,
+        "agreement": {
+          "exp_E1": 0.0,
+          "exp_E2": 1.0,
+          "exp_E4": 0.444,
+          "grp_E1s1": 0.0,
+          "grp_E1s2": 0.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "grp_E4s1": 0.444,
+          "half_0": 1.0,
+          "half_1": 0.444
+        },
+        "segments": [
+          [
+            0,
+            142,
+            "oCEKMEeZXug",
+            -0.2
+          ]
+        ]
+      }
+    }
+  },
+  "Immune": {
+    "canonical_video_id": "zQGOcOUBi6s",
+    "sources": [
+      "zQGOcOUBi6s"
+    ],
+    "recording_s": 388.7,
+    "source_s": {
+      "zQGOcOUBi6s": 468.7
+    },
+    "groups": {
+      "E1s1": 27,
+      "E1s2": 26,
+      "E2s1": 30,
+      "E2s2": 29,
+      "E4s2": 40,
+      "E5s1": 47,
+      "E5s2": 48
+    },
+    "experiments": [
+      "E1",
+      "E2",
+      "E4",
+      "E5"
+    ],
+    "single_experiment": false,
+    "final_config": "spatial",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PARTIAL",
+    "frac_seconds_pass": 0.884,
+    "segments": [
+      [
+        0,
+        218,
+        "zQGOcOUBi6s",
+        -0.3
+      ],
+      [
+        218,
+        243,
+        "zQGOcOUBi6s",
+        21.2
+      ],
+      [
+        243,
+        283,
+        "zQGOcOUBi6s",
+        58.1
+      ],
+      [
+        283,
+        343,
+        "zQGOcOUBi6s",
+        72.95
+      ],
+      [
+        343,
+        388,
+        "zQGOcOUBi6s",
+        76.9
+      ]
+    ],
+    "removed_s": 80.7,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 0.82,
+        "agreement": {
+          "exp_E1": 0.665,
+          "exp_E2": 0.716,
+          "exp_E4": 0.652,
+          "exp_E5": 1.0,
+          "grp_E1s1": 0.936,
+          "grp_E1s2": 0.322,
+          "grp_E2s1": 0.807,
+          "grp_E2s2": 0.716,
+          "grp_E4s2": 0.652,
+          "grp_E5s1": 0.729,
+          "grp_E5s2": 0.974,
+          "half_0": 0.897,
+          "half_1": 0.858
+        },
+        "segments": [
+          [
+            0,
+            218,
+            "zQGOcOUBi6s",
+            -0.3
+          ],
+          [
+            218,
+            243,
+            "zQGOcOUBi6s",
+            21.2
+          ],
+          [
+            243,
+            293,
+            "zQGOcOUBi6s",
+            58.15
+          ],
+          [
+            293,
+            333,
+            "zQGOcOUBi6s",
+            71.7
+          ],
+          [
+            333,
+            388,
+            "zQGOcOUBi6s",
+            80.2
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 0.987,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 0.858,
+          "exp_E4": 0.858,
+          "exp_E5": 0.987,
+          "grp_E1s1": 0.884,
+          "grp_E1s2": 0.335,
+          "grp_E2s1": 0.807,
+          "grp_E2s2": 0.884,
+          "grp_E4s2": 0.858,
+          "grp_E5s1": 0.897,
+          "grp_E5s2": 0.974,
+          "half_0": 0.884,
+          "half_1": 0.91
+        },
+        "segments": [
+          [
+            0,
+            218,
+            "zQGOcOUBi6s",
+            -0.3
+          ],
+          [
+            218,
+            243,
+            "zQGOcOUBi6s",
+            21.2
+          ],
+          [
+            243,
+            283,
+            "zQGOcOUBi6s",
+            58.1
+          ],
+          [
+            283,
+            343,
+            "zQGOcOUBi6s",
+            72.95
+          ],
+          [
+            343,
+            388,
+            "zQGOcOUBi6s",
+            76.9
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 0.0,
+          "exp_E2": 1.0,
+          "exp_E4": 1.0,
+          "exp_E5": 0.343,
+          "grp_E1s1": 0.768,
+          "grp_E1s2": 0.0,
+          "grp_E2s1": 0.0,
+          "grp_E2s2": 0.24,
+          "grp_E4s2": 1.0,
+          "grp_E5s1": 0.343,
+          "grp_E5s2": 0.49,
+          "half_0": 0.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            93,
+            "zQGOcOUBi6s",
+            6.9
+          ],
+          [
+            93,
+            133,
+            "zQGOcOUBi6s",
+            70.7
+          ],
+          [
+            133,
+            388,
+            "zQGOcOUBi6s",
+            177.7
+          ]
+        ]
+      }
+    }
+  },
+  "Internet": {
+    "canonical_video_id": "21eFwbb48sE",
+    "sources": [
+      "21eFwbb48sE"
+    ],
+    "recording_s": 369.0,
+    "source_s": {
+      "21eFwbb48sE": 392.0
+    },
+    "groups": {
+      "E1s1": 27,
+      "E1s2": 26,
+      "E2s1": 30,
+      "E2s2": 29
+    },
+    "experiments": [
+      "E1",
+      "E2"
+    ],
+    "single_experiment": false,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        369,
+        "21eFwbb48sE",
+        -0.3
+      ]
+    ],
+    "removed_s": 23.0,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            369,
+            "21eFwbb48sE",
+            -0.3
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            369,
+            "21eFwbb48sE",
+            -0.4
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E1": 0.0,
+          "exp_E2": 1.0,
+          "grp_E1s1": 0.463,
+          "grp_E1s2": 0.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 0.298,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            118,
+            "21eFwbb48sE",
+            -58.6
+          ],
+          [
+            118,
+            148,
+            "21eFwbb48sE",
+            -54.1
+          ],
+          [
+            148,
+            198,
+            "21eFwbb48sE",
+            -29.5
+          ],
+          [
+            198,
+            369,
+            "21eFwbb48sE",
+            52.5
+          ]
+        ]
+      }
+    }
+  },
+  "Birth rate": {
+    "canonical_video_id": "3IaYhG11ckA",
+    "sources": [
+      "3IaYhG11ckA"
+    ],
+    "recording_s": 150.1,
+    "source_s": {
+      "3IaYhG11ckA": 153.2
+    },
+    "groups": {
+      "E1s1": 27,
+      "E1s2": 27,
+      "E2s1": 30,
+      "E2s2": 30
+    },
+    "experiments": [
+      "E1",
+      "E2"
+    ],
+    "single_experiment": false,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        150,
+        "3IaYhG11ckA",
+        -0.3
+      ]
+    ],
+    "removed_s": 3.2,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            150,
+            "3IaYhG11ckA",
+            -0.3
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E1": 1.0,
+          "exp_E2": 1.0,
+          "grp_E1s1": 1.0,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 1.0,
+          "grp_E2s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            150,
+            "3IaYhG11ckA",
+            -0.3
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E1": 0.387,
+          "exp_E2": 0.0,
+          "grp_E1s1": 0.387,
+          "grp_E1s2": 1.0,
+          "grp_E2s1": 0.0,
+          "grp_E2s2": 0.0,
+          "half_0": 0.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            150,
+            "3IaYhG11ckA",
+            11.5
+          ]
+        ]
+      }
+    }
+  },
+  "Mosquitoes": {
+    "canonical_video_id": "e0NT9i4Qnak",
+    "sources": [
+      "e0NT9i4Qnak"
+    ],
+    "recording_s": 261.0,
+    "source_s": {
+      "e0NT9i4Qnak": 300.2
+    },
+    "groups": {
+      "E3s1": 27,
+      "E3s2": 28,
+      "E4s1": 42
+    },
+    "experiments": [
+      "E3",
+      "E4"
+    ],
+    "single_experiment": false,
+    "final_config": "temporal",
+    "admissible": [
+      "temporal"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        261,
+        "e0NT9i4Qnak",
+        10.3
+      ]
+    ],
+    "removed_s": 39.2,
+    "per_config": {
+      "combined": {
+        "admissible": false,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E3": 0.617,
+          "exp_E4": 0.0,
+          "grp_E3s1": 0.375,
+          "grp_E3s2": 0.617,
+          "grp_E4s1": 0.0,
+          "half_0": 0.375,
+          "half_1": 0.559
+        },
+        "segments": [
+          [
+            0,
+            108,
+            "e0NT9i4Qnak",
+            -20.1
+          ],
+          [
+            108,
+            208,
+            "e0NT9i4Qnak",
+            10.3
+          ],
+          [
+            208,
+            261,
+            "e0NT9i4Qnak",
+            13.6
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": false,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "exp_E4": 1.0,
+          "grp_E3s1": 0.778,
+          "grp_E3s2": 0.598,
+          "grp_E4s1": 1.0,
+          "half_0": 0.0,
+          "half_1": 0.981
+        },
+        "segments": [
+          [
+            0,
+            98,
+            "e0NT9i4Qnak",
+            -18.7
+          ],
+          [
+            98,
+            138,
+            "e0NT9i4Qnak",
+            -13.9
+          ],
+          [
+            138,
+            173,
+            "e0NT9i4Qnak",
+            0.3
+          ],
+          [
+            173,
+            203,
+            "e0NT9i4Qnak",
+            7.8
+          ],
+          [
+            203,
+            261,
+            "e0NT9i4Qnak",
+            13.6
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "exp_E4": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "grp_E4s1": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            261,
+            "e0NT9i4Qnak",
+            10.3
+          ]
+        ]
+      }
+    }
+  },
+  "Related": {
+    "canonical_video_id": "mnYSMhR3jCI",
+    "sources": [
+      "mnYSMhR3jCI"
+    ],
+    "recording_s": 362.8,
+    "source_s": {
+      "mnYSMhR3jCI": 385.0
+    },
+    "groups": {
+      "E3s1": 27,
+      "E3s2": 28,
+      "E4s2": 41,
+      "E5s1": 48,
+      "E5s2": 46
+    },
+    "experiments": [
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "single_experiment": false,
+    "final_config": "combined",
+    "admissible": [
+      "combined"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        362,
+        "mnYSMhR3jCI",
+        2.6
+      ]
+    ],
+    "removed_s": 23.0,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "exp_E4": 1.0,
+          "exp_E5": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "grp_E4s2": 1.0,
+          "grp_E5s1": 0.508,
+          "grp_E5s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            362,
+            "mnYSMhR3jCI",
+            2.6
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": false,
+        "frac_defended": 0.757,
+        "agreement": {
+          "exp_E3": 0.757,
+          "exp_E4": 0.605,
+          "exp_E5": 1.0,
+          "grp_E3s1": 0.715,
+          "grp_E3s2": 0.536,
+          "grp_E4s2": 0.605,
+          "grp_E5s1": 0.633,
+          "grp_E5s2": 1.0,
+          "half_0": 0.619,
+          "half_1": 0.84
+        },
+        "segments": [
+          [
+            0,
+            168,
+            "mnYSMhR3jCI",
+            -14.6
+          ],
+          [
+            168,
+            362,
+            "mnYSMhR3jCI",
+            2.3
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 0.986,
+        "agreement": {
+          "exp_E3": 0.713,
+          "exp_E4": 0.972,
+          "exp_E5": 1.0,
+          "grp_E3s1": 0.727,
+          "grp_E3s2": 0.58,
+          "grp_E4s2": 0.972,
+          "grp_E5s1": 0.837,
+          "grp_E5s2": 0.837,
+          "half_0": 0.713,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            58,
+            "mnYSMhR3jCI",
+            -2.0
+          ],
+          [
+            58,
+            268,
+            "mnYSMhR3jCI",
+            2.7
+          ],
+          [
+            268,
+            362,
+            "mnYSMhR3jCI",
+            5.5
+          ]
+        ]
+      }
+    }
+  },
+  "Work-energy": {
+    "canonical_video_id": "30o4omX5qfo",
+    "sources": [
+      "30o4omX5qfo"
+    ],
+    "recording_s": 342.6,
+    "source_s": {
+      "30o4omX5qfo": 347.2
+    },
+    "groups": {
+      "E3s1": 29,
+      "E3s2": 26
+    },
+    "experiments": [
+      "E3"
+    ],
+    "single_experiment": true,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        342,
+        "30o4omX5qfo",
+        1.1
+      ]
+    ],
+    "removed_s": 5.2,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            342,
+            "30o4omX5qfo",
+            1.1
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            342,
+            "30o4omX5qfo",
+            1.0
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 0.0,
+          "grp_E3s2": 0.594,
+          "half_0": 0.292,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            203,
+            "30o4omX5qfo",
+            17.0
+          ],
+          [
+            203,
+            342,
+            "30o4omX5qfo",
+            26.5
+          ]
+        ]
+      }
+    }
+  },
+  "Capacitors": {
+    "canonical_video_id": "rkntp3_cZl4",
+    "sources": [
+      "rkntp3_cZl4"
+    ],
+    "recording_s": 385.5,
+    "source_s": {
+      "rkntp3_cZl4": 386.7
+    },
+    "groups": {
+      "E3s1": 23,
+      "E3s2": 26
+    },
+    "experiments": [
+      "E3"
+    ],
+    "single_experiment": true,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial",
+      "temporal"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        385,
+        "rkntp3_cZl4",
+        1.0
+      ]
+    ],
+    "removed_s": 1.7,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            385,
+            "rkntp3_cZl4",
+            1.0
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            385,
+            "rkntp3_cZl4",
+            0.9
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": true,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 0.0,
+          "grp_E3s2": 0.0,
+          "half_0": 0.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            385,
+            "rkntp3_cZl4",
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "Planets": {
+    "canonical_video_id": "bYgV9nvgJ3E",
+    "sources": [
+      "bYgV9nvgJ3E"
+    ],
+    "recording_s": 262.4,
+    "source_s": {
+      "bYgV9nvgJ3E": 278.8
+    },
+    "groups": {
+      "E3s1": 29,
+      "E3s2": 27
+    },
+    "experiments": [
+      "E3"
+    ],
+    "single_experiment": true,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        262,
+        "bYgV9nvgJ3E",
+        7.3
+      ]
+    ],
+    "removed_s": 16.8,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            262,
+            "bYgV9nvgJ3E",
+            7.3
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            262,
+            "bYgV9nvgJ3E",
+            7.3
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "grp_E3s1": 0.0,
+          "grp_E3s2": 1.0,
+          "half_0": 1.0,
+          "half_1": 0.0
+        },
+        "segments": [
+          [
+            0,
+            262,
+            "bYgV9nvgJ3E",
+            181.6
+          ]
+        ]
+      }
+    }
+  },
+  "Enzymes": {
+    "canonical_video_id": "lkRZKqDdwzU",
+    "sources": [
+      "lkRZKqDdwzU",
+      "AAZ03aScPr8"
+    ],
+    "recording_s": 268.4,
+    "source_s": {
+      "lkRZKqDdwzU": 191.5,
+      "AAZ03aScPr8": 157.0
+    },
+    "groups": {
+      "E3s1": 26,
+      "E3s2": 27,
+      "E4s1": 42
+    },
+    "experiments": [
+      "E3",
+      "E4"
+    ],
+    "single_experiment": false,
+    "final_config": "combined",
+    "admissible": [
+      "combined",
+      "spatial"
+    ],
+    "verdict": "PASS",
+    "frac_seconds_pass": 1.0,
+    "segments": [
+      [
+        0,
+        138,
+        "AAZ03aScPr8",
+        4.7
+      ],
+      [
+        138,
+        268,
+        "lkRZKqDdwzU",
+        -90.3
+      ]
+    ],
+    "removed_s": 80.5,
+    "per_config": {
+      "combined": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "exp_E4": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 0.981,
+          "grp_E4s1": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            138,
+            "AAZ03aScPr8",
+            4.7
+          ],
+          [
+            138,
+            268,
+            "lkRZKqDdwzU",
+            -90.3
+          ]
+        ]
+      },
+      "spatial": {
+        "admissible": true,
+        "frac_defended": 1.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "exp_E4": 1.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "grp_E4s1": 1.0,
+          "half_0": 1.0,
+          "half_1": 1.0
+        },
+        "segments": [
+          [
+            0,
+            138,
+            "AAZ03aScPr8",
+            4.7
+          ],
+          [
+            138,
+            268,
+            "lkRZKqDdwzU",
+            -90.3
+          ]
+        ]
+      },
+      "temporal": {
+        "admissible": false,
+        "frac_defended": 0.0,
+        "agreement": {
+          "exp_E3": 1.0,
+          "exp_E4": 0.0,
+          "grp_E3s1": 1.0,
+          "grp_E3s2": 1.0,
+          "grp_E4s1": 0.0,
+          "half_0": 0.0,
+          "half_1": 0.672
+        },
+        "segments": [
+          [
+            0,
+            268,
+            "AAZ03aScPr8",
+            -63.8
+          ]
+        ]
+      }
+    }
+  }
+}

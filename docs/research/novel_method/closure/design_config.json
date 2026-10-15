@@ -1,0 +1,188 @@
+{
+  "decision_id": "D110",
+  "local_decision": "C-D15",
+  "status": "adopted for the CAIRN freeze; ratified by the user's commit and freeze (gate 4); certified by rule R-H (closure/evidence/sim_conf) and to be re-certified on human anchors by rule R-J",
+  "design": "Pooled E4 + E5 lock; NH1 = T1 AND T2 on the likelihood-ratio statistic; closed testing of E4 and E5; NH2-NH5 descriptive",
+  "sets": {
+    "confirmatory": "locked_pooled",
+    "elementary": [
+      "locked_primary",
+      "locked_secondary"
+    ],
+    "development": "development",
+    "reserved_descriptive": "reserved_descriptive"
+  },
+  "hypotheses": {
+    "H_pool": "no moment effect in E4 or E5",
+    "H_E4": "no moment effect in E4",
+    "H_E5": "no moment effect in E5",
+    "procedure": "reject H_pool at alpha; only then test H_E4 and H_E5 each at alpha (closed testing; strong FWER .05)"
+  },
+  "statistic": "LR",
+  "statistic_definition": "full-data conditional log-likelihood gain of CAIRN-linear over IRT-M2 (same variance components, Laplace-EM on IRT-M2), moment terms from leave-one-learner-out (regime A) references",
+  "fallback_statistic": "CV (person-balanced held-out item log-loss gain, R = 10 x 5-fold), used only if the user does not ratify LR; certified in rule R-H",
+  "nulls": {
+    "T1": "learner-block Freedman-Lane (whole learners' moment blocks exchanged within experiment x tested-video pattern)",
+    "T2": "relocation of distinct anchor moments within video (one permutation for all learners)",
+    "T2c": "circular shift >= 30 s per video (sensitivity, not part of NH1)"
+  },
+  "alpha": 0.05,
+  "one_sided": true,
+  "B_lock": 999,
+  "R_lock": 10,
+  "K_folds": 5,
+  "cv_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "circular_shift_min_s": 30,
+  "parametrization": "P6",
+  "variant_name": "CAIRN-linear-dt3",
+  "moment_block": {
+    "channels": [
+      "loss_long",
+      "onscreen",
+      "logdens",
+      "rho5",
+      "sacc",
+      "disp5"
+    ],
+    "centring": "within learner x video over the cell's anchorable items, then within item (training rows); scaled on training rows",
+    "ridge_moment": 100.0,
+    "ridge_person_path": 10.0,
+    "ridge_intercepts": 0.0001,
+    "person_path": [
+      "recording invalid fraction Q",
+      "anchored engagement summary e_anch (six channels)"
+    ]
+  },
+  "detrend_degree": 3,
+  "temporal_control": "Legendre polynomial of degree 3 removed from each per-second channel over the recording's own seconds before anchored pooling (mean kept); estimand = effect of anchored engagement's deviation from the learner's own cubic course",
+  "regime": "A",
+  "kernel_grid": [
+    [
+      -5.0,
+      0.0
+    ],
+    [
+      -5.0,
+      5.0
+    ],
+    [
+      -5.0,
+      10.0
+    ],
+    [
+      -5.0,
+      20.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      5.0
+    ],
+    [
+      0.0,
+      10.0
+    ],
+    [
+      0.0,
+      20.0
+    ],
+    [
+      5.0,
+      0.0
+    ],
+    [
+      5.0,
+      5.0
+    ],
+    [
+      5.0,
+      10.0
+    ],
+    [
+      5.0,
+      20.0
+    ]
+  ],
+  "kernel_selection": "development: simplest kernel within one SE of the best repetition-level CV S_item (plan \u00a712.4); frozen into development_selections",
+  "usefulness": {
+    "s_item_min": 0.01,
+    "d_auc_wp_min": 0.02,
+    "estimator": "CV, R = 10, nested-CV 90% interval",
+    "disclosure": "CV S_item of P6 is biased downward under the null (about -.006 pooled at d = 3)"
+  },
+  "stop_rule": {
+    "go": "CV T2 p < .10 AND CV dAUC_wp >= .01 AND Stage-0 construct check (met)",
+    "model": "P6 at d = 3, selected kernel"
+  },
+  "nh4_attribution": {
+    "test": "gaze block (logdens, rho5, sacc, disp5) conditional on the in-window validity term held at the true anchors; LR statistic; T1lr AND T2lr; B = 999",
+    "variant_name": "CAIRN-gaze|val-dt3",
+    "role": "descriptive secondary (NH4 attribution); licenses claims of behaviour beyond data loss",
+    "certified_by": "rule R-I (closure/evidence/sim_nh4): <= .062 under N4, N0, N3 in pooled, E4, development"
+  },
+  "nh2_nh5": "descriptive (spec option c)",
+  "development_selections": null,
+  "certification": {
+    "rule_R_H": "passed (closure/evidence/sim_conf, manifest b05add69...)",
+    "calibration": {
+      "pooled_LR_max": 0.068,
+      "elementary_NH1lr_max": 0.043,
+      "cv_fallback_max": 0.065,
+      "robustness_nulls_max": 0.056,
+      "development_false_go_max": 0.01,
+      "nulls": [
+        "N0",
+        "N1",
+        "N2",
+        "N3",
+        "N1q",
+        "N1c",
+        "N1e"
+      ],
+      "replicates_per_null": 1000
+    },
+    "power_rho04_random": {
+      "1.35": 0.58,
+      "1.5": 0.893,
+      "1.75": 0.987,
+      "MDE": 1.45
+    },
+    "mde_by_rho": {
+      "0.2": 1.81,
+      "0.4": 1.45,
+      "0.7": 1.33
+    },
+    "closed_testing_mde": {
+      "E4": 1.85,
+      "E5": 1.7
+    },
+    "cv_fallback_power_rho04": {
+      "1.35": 0.425,
+      "1.5": 0.75,
+      "1.75": 0.97,
+      "MDE_approx": 1.55
+    },
+    "useful_or_mean_cv_estimate_rho04": 2.27,
+    "development_go_probability": {
+      "1.35": 0.07,
+      "1.5": 0.133,
+      "2.0": 0.673,
+      "2.5": 0.91
+    },
+    "to_recertify": "rule R-J on the frozen human anchors before the CAIRN freeze"
+  }
+}

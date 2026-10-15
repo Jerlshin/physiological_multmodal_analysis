@@ -1,0 +1,30 @@
+{
+ "B4a-moment-video": {
+  "deterministic": true,
+  "fold_safe": true,
+  "victim_rows_changed": true,
+  "max_abs_diff_other_learners": 0.0
+ },
+ "B4a-moment-anchored (A4-FM)": {
+  "deterministic": true,
+  "fold_safe": true,
+  "victim_rows_changed": true,
+  "max_abs_diff_other_learners": 0.0
+ }
+}
+locked_pooled N0 rep 0 done
+locked_pooled N0 rep 1 done
+locked_pooled N0 rep 2 done
+locked_pooled N0 rep 3 done
+locked_pooled N2 rep 0 done
+locked_pooled N2 rep 1 done
+locked_pooled N2 rep 2 done
+locked_pooled N2 rep 3 done
+locked_pooled ALT3 rep 0 done
+locked_pooled ALT3 rep 1 done
+locked_pooled ALT3 rep 2 done
+locked_pooled ALT3 rep 3 done
+development ALT3 rep 0 done
+development ALT3 rep 1 done
+development N0 rep 0 done
+development N0 rep 1 done

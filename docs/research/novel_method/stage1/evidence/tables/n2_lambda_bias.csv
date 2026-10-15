@@ -1,0 +1,5 @@
+set,scenario,oracle|glmm_lambda,oracle|literal_lambda,oracle|naive_lambda
+development,N2_or1_rho0.4_q0.5,-0.0019,-0.0112,-0.0019
+locked_pooled,N2_or1_rho0.4_q0.5,-0.0005,-0.0081,-0.0002
+locked_primary,N2_or1.5_rho0.4_q0.5,0.2220,0.2311,0.2130
+locked_primary,N2_or1_rho0.4_q0.5,0.0018,-0.0065,0.0017

@@ -1,0 +1,195 @@
+set,scenario,name,odds_ratio,rho,realism,variant,test,n,rate,ci_lo,ci_hi,mean_p,B
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1,100,0.5500,0.4524,0.6439,0.1292,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2,100,0.5300,0.4329,0.6249,0.1256,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,100,0.5900,0.4920,0.6813,0.0977,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,100,0.5700,0.4722,0.6627,0.1112,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,100,0.7400,0.6463,0.8160,0.1090,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,100,0.6800,0.5834,0.7633,0.1121,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,100,0.7700,0.6785,0.8416,0.0654,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,100,0.7500,0.6570,0.8245,0.0742,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1,100,0.5000,0.4038,0.5962,0.1432,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,100,0.5400,0.4426,0.6344,0.1199,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,100,0.6800,0.5834,0.7633,0.1214,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,100,0.7300,0.6357,0.8073,0.0822,99
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,full-data naive Wald,one-sided z,100,0.9400,0.8752,0.9722,,0
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,full-data robust Wald,one-sided z,100,0.9600,0.9016,0.9843,,0
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,full-data glmm Wald,one-sided z,100,0.9400,0.8752,0.9722,,0
+locked_primary,ALT_or1.5_rho0.4_q0,ALT,1.5000,0.4000,sensitivity,full-data literal Wald,one-sided z,100,0.9000,0.8256,0.9448,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,T1,200,0.5400,0.4708,0.6077,0.1290,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,T2,200,0.5400,0.4708,0.6077,0.1357,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,T1lr,200,0.6200,0.5511,0.6844,0.0997,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,T2lr,200,0.5700,0.5007,0.6367,0.1071,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,T2c,200,0.5300,0.4609,0.5980,0.1379,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,T2clr,200,0.5950,0.5258,0.6606,0.1066,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt-dir,T1,200,0.7050,0.6384,0.7639,0.0738,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt-dir,T2,200,0.6850,0.6176,0.7454,0.0766,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt-dir,T1lr,200,0.7350,0.6698,0.7913,0.0612,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt-dir,T2lr,200,0.7150,0.6488,0.7731,0.0623,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,NH1,200,0.5050,0.4363,0.5735,0.1482,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,NH1c,200,0.4950,0.4265,0.5637,0.1494,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,NH1lr,200,0.5300,0.4609,0.5980,0.1170,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt,NH1clr,200,0.5450,0.4758,0.6125,0.1178,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt-dir,NH1,200,0.6500,0.5816,0.7127,0.0866,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,CAIRN-linear-dt-dir,NH1lr,200,0.6700,0.6022,0.7314,0.0716,99
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,full-data naive Wald,one-sided z,200,0.9200,0.8740,0.9502,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,full-data robust Wald,one-sided z,200,0.9350,0.8920,0.9616,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,full-data glmm Wald,one-sided z,200,0.9300,0.8859,0.9578,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5,ALT,1.5000,0.4000,base,full-data literal Wald,one-sided z,200,0.8800,0.8277,0.9180,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1,100,0.5400,0.4426,0.6344,0.1090,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2,100,0.4900,0.3942,0.5865,0.1219,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,100,0.6100,0.5120,0.6998,0.0919,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,100,0.6000,0.5020,0.6906,0.0900,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,100,0.7500,0.6570,0.8245,0.0991,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,100,0.7800,0.6893,0.8500,0.0987,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,100,0.8000,0.7112,0.8666,0.0564,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,100,0.8200,0.7333,0.8830,0.0558,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1,100,0.4500,0.3561,0.5476,0.1312,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,100,0.5200,0.4232,0.6154,0.1051,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,100,0.7300,0.6357,0.8073,0.1095,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,100,0.7800,0.6893,0.8500,0.0640,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,full-data naive Wald,one-sided z,100,0.9200,0.8500,0.9589,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,full-data robust Wald,one-sided z,100,0.9400,0.8752,0.9722,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,full-data glmm Wald,one-sided z,100,0.9300,0.8625,0.9657,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_2pl,ALT,1.5000,0.4000,sensitivity,full-data literal Wald,one-sided z,100,0.9100,0.8377,0.9519,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1,100,0.3600,0.2727,0.4576,0.2214,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2,100,0.3200,0.2367,0.4166,0.2285,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,100,0.4300,0.3373,0.5278,0.1897,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,100,0.4300,0.3373,0.5278,0.1941,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,100,0.4700,0.3751,0.5671,0.1915,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,100,0.4600,0.3656,0.5574,0.1956,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,100,0.5100,0.4135,0.6058,0.1667,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,100,0.4900,0.3942,0.5865,0.1640,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1,100,0.3200,0.2367,0.4166,0.2413,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,100,0.4000,0.3094,0.4980,0.2126,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,100,0.4200,0.3280,0.5179,0.2125,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,100,0.4500,0.3561,0.5476,0.1808,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,full-data naive Wald,one-sided z,100,0.7600,0.6677,0.8331,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,full-data robust Wald,one-sided z,100,0.7900,0.7002,0.8583,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,full-data glmm Wald,one-sided z,100,0.7500,0.6570,0.8245,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_guess,ALT,1.5000,0.4000,sensitivity,full-data literal Wald,one-sided z,100,0.7000,0.6041,0.7811,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1,100,0.5000,0.4038,0.5962,0.1812,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2,100,0.4400,0.3467,0.5377,0.1874,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,100,0.5400,0.4426,0.6344,0.1470,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,100,0.5400,0.4426,0.6344,0.1558,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,100,0.5800,0.4821,0.6720,0.1519,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,100,0.5200,0.4232,0.6154,0.1541,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,100,0.6200,0.5221,0.7090,0.1037,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,100,0.5900,0.4920,0.6813,0.1103,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1,100,0.4200,0.3280,0.5179,0.2022,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,100,0.5000,0.4038,0.5962,0.1712,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,100,0.5000,0.4038,0.5962,0.1673,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,100,0.5400,0.4426,0.6344,0.1216,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,full-data naive Wald,one-sided z,100,0.8700,0.7902,0.9224,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,full-data robust Wald,one-sided z,100,0.8800,0.8019,0.9300,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,full-data glmm Wald,one-sided z,100,0.8900,0.8137,0.9375,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_het,ALT,1.5000,0.4000,sensitivity,full-data literal Wald,one-sided z,100,0.8700,0.7902,0.9224,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1,100,0.4800,0.3846,0.5768,0.1603,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2,100,0.4700,0.3751,0.5671,0.1689,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,100,0.5200,0.4232,0.6154,0.1202,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,100,0.5300,0.4329,0.6249,0.1309,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,100,0.6000,0.5020,0.6906,0.1567,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,100,0.5900,0.4920,0.6813,0.1605,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,100,0.6800,0.5834,0.7633,0.1023,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,100,0.6300,0.5322,0.7182,0.1069,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1,100,0.4300,0.3373,0.5278,0.1812,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,100,0.4800,0.3846,0.5768,0.1425,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,100,0.5300,0.4329,0.6249,0.1724,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,100,0.6000,0.5020,0.6906,0.1150,99
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,full-data naive Wald,one-sided z,100,0.3500,0.2636,0.4475,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,full-data robust Wald,one-sided z,100,0.3600,0.2727,0.4576,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,full-data glmm Wald,one-sided z,100,0.3700,0.2818,0.4678,,0
+locked_primary,ALT_or1.5_rho0.4_q0.5_logdens,ALT,1.5000,0.4000,sensitivity,full-data literal Wald,one-sided z,100,0.2600,0.1840,0.3537,,0
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1,200,0.0750,0.0460,0.1200,0.4844,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2,200,0.0700,0.0422,0.1141,0.4884,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,200,0.0700,0.0422,0.1141,0.5041,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,200,0.0850,0.0537,0.1319,0.5053,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2,200,0.0600,0.0347,0.1019,0.4749,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2lr,200,0.0550,0.0310,0.0958,0.4829,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,200,0.0450,0.0239,0.0833,0.5111,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,200,0.0650,0.0384,0.1080,0.5081,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,200,0.0600,0.0347,0.1019,0.4964,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,200,0.0700,0.0422,0.1141,0.4995,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1,200,0.0500,0.0274,0.0896,0.5111,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,200,0.0650,0.0384,0.1080,0.5320,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,200,0.0400,0.0204,0.0769,0.5342,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,200,0.0500,0.0274,0.0896,0.5175,199
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,full-data naive Wald,one-sided z,200,0.0650,0.0384,0.1080,,0
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,full-data robust Wald,one-sided z,200,0.0650,0.0384,0.1080,,0
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,full-data glmm Wald,one-sided z,200,0.0450,0.0239,0.0833,,0
+locked_primary,N0_or1_rho0.4_q0,N0,1.0000,0.4000,sensitivity,full-data literal Wald,one-sided z,200,0.0400,0.0204,0.0769,,0
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,T1,500,0.0540,0.0374,0.0774,0.4900,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,T2,500,0.0420,0.0276,0.0634,0.4969,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,T1lr,500,0.0520,0.0357,0.0751,0.5016,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,T2lr,500,0.0440,0.0292,0.0657,0.5053,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,T2c,500,0.0480,0.0325,0.0704,0.4937,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,T2clr,500,0.0520,0.0357,0.0751,0.5051,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-validity-dt,T2,500,0.0360,0.0229,0.0562,0.4914,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-validity-dt,T2lr,500,0.0320,0.0198,0.0513,0.4985,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt-dir,T1,500,0.0460,0.0308,0.0681,0.4859,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt-dir,T2,500,0.0520,0.0357,0.0751,0.4860,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt-dir,T1lr,500,0.0420,0.0276,0.0634,0.4907,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt-dir,T2lr,500,0.0600,0.0423,0.0844,0.4923,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,NH1,500,0.0380,0.0245,0.0586,0.5198,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,NH1c,500,0.0440,0.0292,0.0657,0.5156,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,NH1lr,500,0.0380,0.0245,0.0586,0.5287,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt,NH1clr,500,0.0400,0.0260,0.0610,0.5283,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt-dir,NH1,500,0.0380,0.0245,0.0586,0.5105,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,CAIRN-linear-dt-dir,NH1lr,500,0.0320,0.0198,0.0513,0.5126,199
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,full-data naive Wald,one-sided z,500,0.0560,0.0390,0.0797,,0
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,full-data robust Wald,one-sided z,500,0.0860,0.0645,0.1138,,0
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,full-data glmm Wald,one-sided z,500,0.0620,0.0440,0.0867,,0
+locked_primary,N0_or1_rho0.4_q0.5,N0,1.0000,0.4000,base,full-data literal Wald,one-sided z,500,0.0520,0.0357,0.0751,,0
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1,200,0.0550,0.0310,0.0958,0.4545,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2,200,0.0550,0.0310,0.0958,0.4610,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,200,0.0400,0.0204,0.0769,0.4791,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,200,0.0550,0.0310,0.0958,0.4730,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2,200,0.0550,0.0310,0.0958,0.5004,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2lr,200,0.0450,0.0239,0.0833,0.5310,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,200,0.0600,0.0347,0.1019,0.4938,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,200,0.0650,0.0384,0.1080,0.4997,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,200,0.0700,0.0422,0.1141,0.4924,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,200,0.0700,0.0422,0.1141,0.4983,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1,200,0.0450,0.0239,0.0833,0.4826,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,200,0.0300,0.0138,0.0639,0.5015,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,200,0.0550,0.0310,0.0958,0.5234,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,200,0.0650,0.0384,0.1080,0.5159,199
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,full-data naive Wald,one-sided z,200,0.0400,0.0204,0.0769,,0
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,full-data robust Wald,one-sided z,200,0.0600,0.0347,0.1019,,0
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,full-data glmm Wald,one-sided z,200,0.0450,0.0239,0.0833,,0
+locked_primary,N0_or1_rho0.4_q0.5_2pl,N0,1.0000,0.4000,sensitivity,full-data literal Wald,one-sided z,200,0.0550,0.0310,0.0958,,0
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1,200,0.0450,0.0239,0.0833,0.5020,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2,200,0.0450,0.0239,0.0833,0.5151,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,200,0.0550,0.0310,0.0958,0.4865,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,200,0.0550,0.0310,0.0958,0.4965,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2,200,0.0600,0.0347,0.1019,0.5060,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2lr,200,0.0750,0.0460,0.1200,0.4847,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,200,0.0250,0.0107,0.0572,0.5241,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,200,0.0400,0.0204,0.0769,0.5273,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,200,0.0450,0.0239,0.0833,0.5284,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,200,0.0400,0.0204,0.0769,0.5362,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1,200,0.0300,0.0138,0.0639,0.5336,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,200,0.0350,0.0171,0.0705,0.5206,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,200,0.0200,0.0078,0.0503,0.5507,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,200,0.0350,0.0171,0.0705,0.5540,199
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,full-data naive Wald,one-sided z,200,0.0700,0.0422,0.1141,,0
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,full-data robust Wald,one-sided z,200,0.0950,0.0617,0.1436,,0
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,full-data glmm Wald,one-sided z,200,0.0750,0.0460,0.1200,,0
+locked_primary,N0_or1_rho0.4_q0.5_guess,N0,1.0000,0.4000,sensitivity,full-data literal Wald,one-sided z,200,0.0850,0.0537,0.1319,,0
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1,200,0.0800,0.0498,0.1260,0.4780,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2,200,0.0550,0.0310,0.0958,0.4857,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T1lr,200,0.0500,0.0274,0.0896,0.4991,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,T2lr,200,0.0600,0.0347,0.1019,0.5008,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2,200,0.0450,0.0239,0.0833,0.4798,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-validity-dt,T2lr,200,0.0500,0.0274,0.0896,0.5054,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1,200,0.0700,0.0422,0.1141,0.4983,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2,200,0.0750,0.0460,0.1200,0.4962,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T1lr,200,0.0500,0.0274,0.0896,0.5295,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,T2lr,200,0.0600,0.0347,0.1019,0.5325,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1,200,0.0550,0.0310,0.0958,0.5099,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt,NH1lr,200,0.0350,0.0171,0.0705,0.5256,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1,200,0.0600,0.0347,0.1019,0.5245,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,CAIRN-linear-dt-dir,NH1lr,200,0.0450,0.0239,0.0833,0.5528,199
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,full-data naive Wald,one-sided z,200,0.0450,0.0239,0.0833,,0
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,full-data robust Wald,one-sided z,200,0.0650,0.0384,0.1080,,0
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,full-data glmm Wald,one-sided z,200,0.0400,0.0204,0.0769,,0
+locked_primary,N0_or1_rho0.4_q0.5_het,N0,1.0000,0.4000,sensitivity,full-data literal Wald,one-sided z,200,0.0450,0.0239,0.0833,,0

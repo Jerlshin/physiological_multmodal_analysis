@@ -1,0 +1,64 @@
+{
+ "clarifications": {
+  "path": "docs/research/external_john2025/implementation_clarifications.md",
+  "sha256": "8e1c8d3e550dec1dc66a36c6ffb7e00bf3528736c56854ad62a57f1dea6bf140"
+ },
+ "code": {
+  "src/john2025/__init__.py": "1419b08d98993c06841eafb308b650932c492028023d187932cb35d4c10c52b3",
+  "src/john2025/__main__.py": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+  "src/john2025/analysis.py": "882a58cf5e6f8e876157766c2bcc6b7ec23191186ca11a43f8a07769b6e04fbf",
+  "src/john2025/cli.py": "d2f416cbf311f744305e1ceb581d22e628a5f894640bb56ba6dbbb0036bcb1c3",
+  "src/john2025/edf.py": "25d1dfcaa223701e2de624072ac0212745661c471f090c7b9f2ccc99fddb6fa4",
+  "src/john2025/features.py": "40fdbf0247b2d5c8bd972bc3a2ebedc0a152e1ba6155094e3d29fbfa76b274be",
+  "src/john2025/fetch.py": "497dbe7634345776d9b4a75d277dc52e20ae74fa8dfceadc40914e38571e7831",
+  "src/john2025/freeze.py": "7aa91403446541d9420905a6d542d8ce6f72f858c0d8b92a6dc561a0724e23ce",
+  "src/john2025/outcomes.py": "21b97b361252c55cb47c6a47c3f785674fd29ac950019e98742e1e09342a4a9b",
+  "src/john2025/paths.py": "3b396c578f71be167e454bd8a04bee97fd43adc6b46528d48eddeb1d69544b99",
+  "src/john2025/population.py": "b2bff5e6efbf5994d66ee2001e0a0ddfb2d21395f327150ebcb68e092e4ae638",
+  "src/john2025/provider.py": "f21850420e9abbba883f613d86364cb008459da067a3d565fec52ad252c621d1",
+  "src/john2025/validate.py": "7225de8557fac3cf403f8bd368bd53739fc71f6ff7cbc4ad5273a1b78c95684c"
+ },
+ "created_utc": "2026-10-07T21:37:47.791818+00:00",
+ "derived": {
+  "people.parquet": "0a94cf2337b116814750b70a46fe37b076c1c2fd12bb3f30f633fb1dc779b2e0",
+  "person_features.parquet": "052ed739b39e916f7a80e74c87ffc4f4adc3abafe86e177eff068dc00ba126ba"
+ },
+ "environment": {
+  "packages": {
+   "et_xmlfile": "2.0.0",
+   "eyelinkio": "0.3.0",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pandas": "3.0.6",
+   "pip": "26.1.1",
+   "pyarrow": "25.0.1",
+   "python-dateutil": "2.9.0.post0",
+   "scipy": "1.18.1",
+   "six": "1.17.0"
+  },
+  "python": "3.14.5"
+ },
+ "evidence": {
+  "case_flow.csv": "934bab7a73e687d06def407de04987aa90afab73ab11959606a55230a6be55ba",
+  "download_manifest.json": "f6202c38c1c61aa5aa9878d5e6e04fd9a2ceb762ea4c9de1710e2079fdd386b0",
+  "edf_parse_summary.csv": "1b6fc0176a472fa7c13f197669406330e42a0a3df8150118b90f920f0f160792",
+  "person_features.csv": "609ee50f2fc8c2abee65178c6627df0082320493b26ec0701e6e19d1f4472706",
+  "validation/null_calibration_summary.json": "1cf4063b356292234c4c1a5f1c77731e54136531e2bce00eea7743006408af41"
+ },
+ "g01r": {
+  "code_sha256": "ead83bb691b2bfda29662f1702da0b7260a92cd0127e83093318a9f4ed0a365d",
+  "config_sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+  "equals_bbbd_freeze": true
+ },
+ "plan": {
+  "commit": "ef1df1b3014ccc85f5ac956bd192b6b0d39c3e34",
+  "identical_to_commit": true,
+  "path": "docs/research/experimental_design/external_analysis_plan_john2025.md",
+  "sha256": "e8bc066a9745fc4d9a7447ab6568deb138b08d1bf77c42f989c468231d2d3ab3"
+ },
+ "purpose": "John 2025 feature freeze before outcome access",
+ "series": {
+  "files": 236,
+  "sha256": "7cb6071b973e75df018de9e5e557a38488987a0bd5ab7726c82243d91c1794c9"
+ }
+}

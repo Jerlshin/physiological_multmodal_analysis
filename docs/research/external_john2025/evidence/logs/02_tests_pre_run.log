@@ -1,0 +1,20 @@
+2026-10-07T21:38:11Z
+$ PYTHONPATH=src .venv/bin/python -m unittest discover -s tests
+----------------------------------------------------------------------
+Ran 109 tests in 1.651s
+
+OK (skipped=2)
+$ PYTHONPATH=src .venv-ext/bin/python -m unittest tests.test_john2025 -v
+test_bit_identical_to_frozen_function (tests.test_john2025.TestChunkedISC.test_bit_identical_to_frozen_function) ... ok
+test_bin_average (tests.test_john2025.TestFeatureHelpers.test_bin_average) ... ok
+test_blink_mask_buffer (tests.test_john2025.TestFeatureHelpers.test_blink_mask_buffer) ... ok
+test_nearest_sample (tests.test_john2025.TestFeatureHelpers.test_nearest_sample) ... ok
+test_covariate_reader_never_requests_posttest (tests.test_john2025.TestOutcomeIsolation.test_covariate_reader_never_requests_posttest) ... ok
+test_covariate_table_has_no_posttest (tests.test_john2025.TestOutcomeIsolation.test_covariate_table_has_no_posttest) ... ok
+test_outcome_gate_refuses_without_verified_freeze (tests.test_john2025.TestOutcomeIsolation.test_outcome_gate_refuses_without_verified_freeze) ... ok
+test_plan_identical_to_time_stamping_commit (tests.test_john2025.TestPlanTimestamp.test_plan_identical_to_time_stamping_commit) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.093s
+
+OK

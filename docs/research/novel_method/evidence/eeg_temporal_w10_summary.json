@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "window_s": 10.0,
+    "outcome_access": false
+  },
+  "summary": {
+    "E5_core": {
+      "alpha": {
+        "person": 0.724,
+        "window": 0.21,
+        "resid": 0.066
+      },
+      "eeg_isc": {
+        "person": 0.068,
+        "window": 0.143,
+        "resid": 0.789
+      },
+      "gaze_isc": {
+        "person": 0.071,
+        "window": 0.359,
+        "resid": 0.57
+      },
+      "gaze_valid": {
+        "person": 0.432,
+        "window": 0.03,
+        "resid": 0.538
+      },
+      "_pairs_median_over_units": {
+        "eegisc_gazeisc": 0.074,
+        "eegisc_gazevalid": 0.088,
+        "alpha_gazevalid": -0.187,
+        "alpha_gazeisc": 0.16
+      }
+    },
+    "PAS_E34_core": {
+      "alpha": {
+        "person": 0.644,
+        "window": 0.251,
+        "resid": 0.104
+      },
+      "eeg_isc": {
+        "person": 0.064,
+        "window": 0.166,
+        "resid": 0.77
+      },
+      "gaze_isc": {
+        "person": 0.097,
+        "window": 0.443,
+        "resid": 0.459
+      },
+      "gaze_valid": {
+        "person": 0.478,
+        "window": 0.036,
+        "resid": 0.487
+      },
+      "_pairs_median_over_units": {
+        "eegisc_gazeisc": 0.063,
+        "eegisc_gazevalid": 0.069,
+        "alpha_gazevalid": -0.064,
+        "alpha_gazeisc": 0.02
+      }
+    }
+  }
+}

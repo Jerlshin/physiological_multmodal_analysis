@@ -1,0 +1,17 @@
+rec_start_s,rec_end_s,source,offset_s,offset_min_s,offset_max_s,video_start_s,video_end_s,canonical_video_id,video,config
+0,184,VVAKFJ8VVp4,-0.2,-0.4,0.0,0.0,183.8,VVAKFJ8VVp4,Stars,combined
+0,142,oCEKMEeZXug,-0.3,-0.3,0.0,0.0,141.7,oCEKMEeZXug,Lightbulbs,combined
+0,218,zQGOcOUBi6s,-0.3,-0.6,0.0,0.0,217.8,zQGOcOUBi6s,Immune,spatial
+218,243,zQGOcOUBi6s,21.2,21.0,21.3,239.3,264.0,zQGOcOUBi6s,Immune,spatial
+243,283,zQGOcOUBi6s,58.1,57.9,58.3,301.1,341.3,zQGOcOUBi6s,Immune,spatial
+283,343,zQGOcOUBi6s,72.95,72.7,73.2,356.2,416.2,zQGOcOUBi6s,Immune,spatial
+343,388,zQGOcOUBi6s,76.9,76.9,77.1,420.0,464.9,zQGOcOUBi6s,Immune,spatial
+0,369,21eFwbb48sE,-0.3,-0.5,0.0,0.0,368.6,21eFwbb48sE,Internet,combined
+0,150,3IaYhG11ckA,-0.3,-0.4,0.0,0.0,149.7,3IaYhG11ckA,Birth rate,combined
+0,261,e0NT9i4Qnak,10.3,10.2,10.6,10.6,271.3,e0NT9i4Qnak,Mosquitoes,temporal
+0,362,mnYSMhR3jCI,2.6,2.2,3.0,2.7,365.0,mnYSMhR3jCI,Related,combined
+0,342,30o4omX5qfo,1.1,0.9,1.2,1.1,343.0,30o4omX5qfo,Work-energy,combined
+0,385,rkntp3_cZl4,1.0,0.6,1.4,1.0,386.0,rkntp3_cZl4,Capacitors,combined
+0,262,bYgV9nvgJ3E,7.3,6.5,7.4,7.3,269.4,bYgV9nvgJ3E,Planets,combined
+0,138,AAZ03aScPr8,4.7,4.5,4.9,4.7,142.9,lkRZKqDdwzU,Enzymes,combined
+138,268,lkRZKqDdwzU,-90.3,-90.8,-90.1,47.2,177.9,lkRZKqDdwzU,Enzymes,combined

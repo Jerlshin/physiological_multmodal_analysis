@@ -1,0 +1,45 @@
+{
+ "run_id": "20261007T213818Z",
+ "started_utc": "2026-10-07T21:38:18.941810+00:00",
+ "finished_utc": "2026-10-07T22:39:28.666072+00:00",
+ "argv": [
+  "/Users/jerlshin/FieldOfInterest/ResearchWork/NTU_research/src/john2025/__main__.py",
+  "run",
+  "--workers",
+  "5"
+ ],
+ "git": {
+  "commit": "ade510228ca1338c51edf24fd54e6b0452609ee7",
+  "dirty_files": [
+   ".DS_Store",
+   ".gitignore",
+   "docs/research/.DS_Store",
+   "docs/research/external_john2025/",
+   "requirements-john2025.lock",
+   "results/",
+   "src/john2025/",
+   "tests/test_john2025.py"
+  ]
+ },
+ "freeze_record_sha256": "ead43998bbb9bdc220a7e1794b963639163901d3e29392dc50e4e3d5942b8de4",
+ "overrides": {
+  "ncv_reps": null,
+  "n_perm": null
+ },
+ "workers": 5,
+ "environment": {
+  "python": "3.14.5",
+  "packages": {
+   "et_xmlfile": "2.0.0",
+   "eyelinkio": "0.3.0",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pandas": "3.0.6",
+   "pip": "26.1.1",
+   "pyarrow": "25.0.1",
+   "python-dateutil": "2.9.0.post0",
+   "scipy": "1.18.1",
+   "six": "1.17.0"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+2026-10-07T21:38:04Z
+$ PYTHONPATH=src .venv-ext/bin/python -m john2025 verify
+VERIFIED
+$ PYTHONPATH=src .venv/bin/python -m g01r verify-freeze
+VERIFIED
+$ sha256 evidence/feature_freeze.json
+ead43998bbb9bdc220a7e1794b963639163901d3e29392dc50e4e3d5942b8de4  docs/research/external_john2025/evidence/feature_freeze.json
+$ wc -l analysis_freeze/outcome_access_log.jsonl (BBBD; must stay 15)
+      15
+$ ls evidence/outcome_access_log.jsonl (John; must not exist yet)
+ls: docs/research/external_john2025/evidence/outcome_access_log.jsonl: No such file or directory

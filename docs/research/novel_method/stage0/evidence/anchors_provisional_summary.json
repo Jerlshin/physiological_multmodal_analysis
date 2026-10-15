@@ -1,0 +1,38 @@
+{
+  "status": "PROVISIONAL - machine/LLM-assisted; not human-annotated; not frozen; gate G-AN not evaluated",
+  "items": 131,
+  "types": {
+    "localized": 114,
+    "diffuse": 8,
+    "multi_span": 6,
+    "absent_narration": 3
+  },
+  "localized": 111,
+  "anchorable": 105,
+  "anchorable_development": 87,
+  "items_development": 107,
+  "not_anchorable_reasons": {
+    "not_localized": 20,
+    "timeline_fail_or_not_shown": 5,
+    "key_inconsistent": 1
+  },
+  "key_check": {
+    "supported": 109,
+    "partial": 15,
+    "not_in_narration": 3,
+    "questionable": 3,
+    "inconsistent": 1
+  },
+  "visual_check_needed": 14,
+  "machine_agreement_R1_R2_localized": {
+    "median_centre_diff_s": 4.5049999999999955,
+    "median_iou": 0.4666276346604215,
+    "frac_centre_within_10s": 0.6486486486486487,
+    "note": "R1 (lexical retriever) vs R2 (LLM-assisted): machine-machine; NOT gate G-AN"
+  },
+  "inputs": {
+    "item_bank": "74fc8c2f1aa084ab9cf7b767f2ed15e4dd064aa6adab559ff28cb6d679c31329",
+    "R2": "265814b1fafbf48a65cd4a625a876684d8ea56047296ad8d1a7a80a222fa408c",
+    "timeline_table": "1f26a3bf68af552b8ba1f6bc2fb7247ee1f844788f02028a793233defa1281cc"
+  }
+}

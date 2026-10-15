@@ -1,0 +1,19 @@
+2026-10-14T01:35:02+00:00 start grid=addendum manifest=f2b4b2699cd64df2de9a31be3ac05b39532c11ac412cca7c4efff5a5121198a0
+2026-10-14T01:35:02+00:00 1000 replicates in grid 'addendum', 800 to run, 10 workers, B override=None
+2026-10-14T01:39:24+00:00 50/800 done, 0.07 h elapsed, ETA 1.09 h
+2026-10-14T01:44:04+00:00 100/800 done, 0.15 h elapsed, ETA 1.05 h
+2026-10-14T01:49:00+00:00 150/800 done, 0.23 h elapsed, ETA 1.01 h
+2026-10-14T01:53:33+00:00 200/800 done, 0.31 h elapsed, ETA 0.93 h
+2026-10-14T01:58:10+00:00 250/800 done, 0.39 h elapsed, ETA 0.85 h
+2026-10-14T02:02:37+00:00 300/800 done, 0.46 h elapsed, ETA 0.77 h
+2026-10-14T02:07:12+00:00 350/800 done, 0.54 h elapsed, ETA 0.69 h
+2026-10-14T02:11:44+00:00 400/800 done, 0.61 h elapsed, ETA 0.61 h
+2026-10-14T02:16:22+00:00 450/800 done, 0.69 h elapsed, ETA 0.54 h
+2026-10-14T02:20:48+00:00 500/800 done, 0.76 h elapsed, ETA 0.46 h
+2026-10-14T02:23:00+00:00 550/800 done, 0.80 h elapsed, ETA 0.36 h
+2026-10-14T02:25:12+00:00 600/800 done, 0.84 h elapsed, ETA 0.28 h
+2026-10-14T02:27:27+00:00 650/800 done, 0.87 h elapsed, ETA 0.20 h
+2026-10-14T02:29:43+00:00 700/800 done, 0.91 h elapsed, ETA 0.13 h
+2026-10-14T02:31:55+00:00 750/800 done, 0.95 h elapsed, ETA 0.06 h
+2026-10-14T02:33:56+00:00 800/800 done, 0.98 h elapsed, ETA 0.00 h
+2026-10-14T02:33:56+00:00 finished {'replicates': 800, 'seconds': 3534.2149341106415}

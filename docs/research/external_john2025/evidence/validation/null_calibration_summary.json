@@ -1,0 +1,33 @@
+{
+ "description": "Outcome-free calibration of the detection test on this cohort's real features (BBBD V2 analogue).",
+ "datasets_per_scenario": 200,
+ "permutations": 199,
+ "criterion_max_false_detection": 0.07,
+ "scenarios": {
+  "pure": {
+   "false_detection": 0.045,
+   "mc_se": 0.014658615214269049,
+   "mean_skill": -0.0014658394447154889,
+   "sd_skill": 0.009317481294001898,
+   "p_quantiles": [
+    0.0645,
+    0.2488,
+    0.5275,
+    0.7762
+   ]
+  },
+  "nuisance": {
+   "false_detection": 0.05,
+   "mc_se": 0.015411035007422441,
+   "mean_skill": -0.030659095215114503,
+   "sd_skill": 0.024849691984582836,
+   "p_quantiles": [
+    0.0548,
+    0.2588,
+    0.5,
+    0.76
+   ]
+  }
+ },
+ "passes": true
+}

@@ -1,0 +1,591 @@
+{
+ "config_sha256": "f34f1b03b65723dc30c07f4eb0f848150cd2672877e310ab2290244627d63fff",
+ "R": 50,
+ "K": 10,
+ "comparisons": {
+  "PRIMARY_M5p_vs_M2p": {
+   "role": "PRIMARY (plan): gaze block beyond the pretest-adjusted baseline; one-sided alpha 0.05",
+   "base": "M2p",
+   "full": "M5p",
+   "set": "primary",
+   "report": {
+    "skill": 0.07891188882199374,
+    "base_mse": 0.030221744545932423,
+    "full_mse": 0.02783688960031711,
+    "delta_rmse_items": 0.09100150438598073,
+    "delta_mae_items": 0.06633604565604703,
+    "calibration_base": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "calibration_full": {
+     "intercept": -0.022747159165708734,
+     "slope": 1.0426878042695806
+    },
+    "skill_per_repetition": {
+     "min": 0.041796731929488184,
+     "median": 0.07676356916923333,
+     "max": 0.11823833446831233
+    },
+    "n_people": 112
+   },
+   "futility": {
+    "centre": 0.0023713017693521464,
+    "se": 0.0019639613729118014,
+    "z": 3.0,
+    "upper": 0.00826318588808755,
+    "upper_skill": 0.27341856045168983,
+    "J": 500,
+    "threshold": 0.1,
+    "rules_out_threshold": false
+   },
+   "test": {
+    "observed_loss_difference": 0.0024961354432975597,
+    "observed_skill_R10": 0.08231860778721363,
+    "p": 0.002,
+    "B": 999,
+    "reps": 10,
+    "null_mean": -0.0006664020226918168,
+    "null_q95": 0.0006184446926101416,
+    "tested_blocks": [
+     "RF_GAZE",
+     "SYN_GAZE"
+    ],
+    "nuisance_blocks": [
+     "C",
+     "P",
+     "Q"
+    ]
+   },
+   "interval": {
+    "level": 0.9,
+    "centre": 0.0024883689164360225,
+    "lo": -0.0015106687876834854,
+    "hi": 0.00648740662055553,
+    "centre_skill": 0.08233703758080818,
+    "lo_skill": -0.04998615435278729,
+    "hi_skill": 0.21466022951440364,
+    "err_ncv": 0.0022554624820894224,
+    "mse_hat": 5.9109390886927695e-06,
+    "se_naive": 0.001941093820696625,
+    "root_over_se": 1.2525114795428487,
+    "reps": 200,
+    "base_loss": 0.030221744545932423,
+    "point_skill": 0.07891188882199363
+   },
+   "decision": {
+    "category": "detected_useful",
+    "conclusion": "Incremental individual information detected, with a point estimate of practically useful size",
+    "p": 0.002,
+    "skill": 0.07891188882199374,
+    "upper3_skill": 0.27341856045168983
+   }
+  },
+  "SECONDARY_M5_vs_M2ext": {
+   "role": "SECONDARY (plan): gaze block beyond M2-ext (no pretest)",
+   "base": "M2_ext",
+   "full": "M5_ext",
+   "set": "primary",
+   "report": {
+    "skill": 0.0663819902945354,
+    "base_mse": 0.038378839861678234,
+    "full_mse": 0.03583117608646478,
+    "delta_rmse_items": 0.08598114289689485,
+    "delta_mae_items": 0.08704856781273246,
+    "calibration_base": {
+     "intercept": 0.1013840777181413,
+     "slope": 0.7986210686693955
+    },
+    "calibration_full": {
+     "intercept": -0.011275997587750148,
+     "slope": 1.0205331542603386
+    },
+    "skill_per_repetition": {
+     "min": 0.005267951622909495,
+     "median": 0.06529874224700072,
+     "max": 0.10344840912691444
+    },
+    "n_people": 112
+   },
+   "test": {
+    "observed_loss_difference": 0.002410865562309602,
+    "observed_skill_R10": 0.06302259566234156,
+    "p": 0.006,
+    "B": 999,
+    "reps": 10,
+    "null_mean": -0.0007658720975810034,
+    "null_q95": 0.0008234084100478465,
+    "tested_blocks": [
+     "RF_GAZE",
+     "SYN_GAZE"
+    ],
+    "nuisance_blocks": [
+     "C",
+     "Q"
+    ]
+   },
+   "interval": {
+    "level": 0.9,
+    "centre": 0.0026759857823789946,
+    "lo": -0.00034514536793454594,
+    "hi": 0.005697116932692535,
+    "centre_skill": 0.0697255516848231,
+    "lo_skill": -0.008993116237449847,
+    "hi_skill": 0.14844421960709603,
+    "err_ncv": 0.0023872612662565323,
+    "mse_hat": 2.544696345912662e-06,
+    "se_naive": 0.0018367173229345791,
+    "root_over_se": 1.0,
+    "reps": 200,
+    "base_loss": 0.038378839861678234,
+    "point_skill": 0.06638199029453548
+   }
+  },
+  "PUPIL_M5p_pupil_vs_M2p": {
+   "role": "secondary block (plan): + pupil ISC; estimate only",
+   "base": "M2p",
+   "full": "M5p_pupil",
+   "set": "primary",
+   "report": {
+    "skill": 0.06139845311324221,
+    "base_mse": 0.030221744545932423,
+    "full_mse": 0.028366176180428606,
+    "delta_rmse_items": 0.070478352993217,
+    "delta_mae_items": 0.03747407511917361,
+    "calibration_base": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "calibration_full": {
+     "intercept": -0.0207754529605933,
+     "slope": 1.0384257394165064
+    },
+    "skill_per_repetition": {
+     "min": 0.019278939633716186,
+     "median": 0.058257004792399814,
+     "max": 0.10278764985797229
+    },
+    "n_people": 112
+   }
+  },
+  "PUPIL_M5p_pupil_vs_M5p": {
+   "role": "secondary block (plan): pupil ISC increment; estimate only",
+   "base": "M5p",
+   "full": "M5p_pupil",
+   "set": "primary",
+   "report": {
+    "skill": -0.01901385491378571,
+    "base_mse": 0.02783688960031711,
+    "full_mse": 0.028366176180428606,
+    "delta_rmse_items": -0.020523151392763728,
+    "delta_mae_items": -0.02886197053687342,
+    "calibration_base": {
+     "intercept": -0.022747159165708734,
+     "slope": 1.0426878042695806
+    },
+    "calibration_full": {
+     "intercept": -0.0207754529605933,
+     "slope": 1.0384257394165064
+    },
+    "skill_per_repetition": {
+     "min": -0.0435304391170912,
+     "median": -0.019166785066316194,
+     "max": 0.01211251303689831
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M1_vs_M0": {
+   "role": "ladder: covariates; estimate only",
+   "base": "M0",
+   "full": "M1",
+   "set": "primary",
+   "report": {
+    "skill": 0.005538579607812455,
+    "base_mse": 0.04006265886734332,
+    "full_mse": 0.03984076864190591,
+    "delta_rmse_items": 0.007215795889526644,
+    "delta_mae_items": -0.015076957498180443,
+    "calibration_base": {
+     "intercept": 48.89425641698897,
+     "slope": -96.0553112744901
+    },
+    "calibration_full": {
+     "intercept": 0.389812040951555,
+     "slope": 0.22616761881193556
+    },
+    "skill_per_repetition": {
+     "min": -0.03531177317474299,
+     "median": 0.007785700480029745,
+     "max": 0.026723226160579094
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M1p_vs_M1": {
+   "role": "ladder: pretest beyond covariates; estimate only",
+   "base": "M1",
+   "full": "M1p",
+   "set": "primary",
+   "report": {
+    "skill": 0.19766240314111005,
+    "base_mse": 0.03984076864190591,
+    "full_mse": 0.03196574656915781,
+    "delta_rmse_items": 0.2705540933238115,
+    "delta_mae_items": 0.3136859175735134,
+    "calibration_base": {
+     "intercept": 0.389812040951555,
+     "slope": 0.22616761881193556
+    },
+    "calibration_full": {
+     "intercept": 0.0019769418096231904,
+     "slope": 0.9955291409897028
+    },
+    "skill_per_repetition": {
+     "min": 0.15748450274337478,
+     "median": 0.19856307863849998,
+     "max": 0.2329284000200602
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M2p_vs_M1p": {
+   "role": "ladder: quality beyond covariates + pretest; estimate only",
+   "base": "M1p",
+   "full": "M2p",
+   "set": "primary",
+   "report": {
+    "skill": 0.054558463680872915,
+    "base_mse": 0.03196574656915781,
+    "full_mse": 0.030221744545932423,
+    "delta_rmse_items": 0.06429342013536746,
+    "delta_mae_items": 0.021937436455085002,
+    "calibration_base": {
+     "intercept": 0.0019769418096231904,
+     "slope": 0.9955291409897028
+    },
+    "calibration_full": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "skill_per_repetition": {
+     "min": 0.0334607774109863,
+     "median": 0.05386919762133263,
+     "max": 0.09075998201356539
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M2p_vs_M2ext": {
+   "role": "ladder: pretest beyond M2-ext; estimate only",
+   "base": "M2_ext",
+   "full": "M2p",
+   "set": "primary",
+   "report": {
+    "skill": 0.21254147715629035,
+    "base_mse": 0.038378839861678234,
+    "full_mse": 0.030221744545932423,
+    "delta_rmse_items": 0.2867950433455825,
+    "delta_mae_items": 0.3143260813545885,
+    "calibration_base": {
+     "intercept": 0.1013840777181413,
+     "slope": 0.7986210686693955
+    },
+    "calibration_full": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "skill_per_repetition": {
+     "min": 0.1816783112620297,
+     "median": 0.21194720869296607,
+     "max": 0.2409440378857447
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M3p_vs_M2p": {
+   "role": "ladder: reference-free gaze only; estimate only",
+   "base": "M2p",
+   "full": "M3p",
+   "set": "primary",
+   "report": {
+    "skill": 0.05761231226486829,
+    "base_mse": 0.030221744545932423,
+    "full_mse": 0.028480599961963084,
+    "delta_rmse_items": 0.06606679542666324,
+    "delta_mae_items": 0.06811157599857226,
+    "calibration_base": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "calibration_full": {
+     "intercept": -0.019735780618457086,
+     "slope": 1.0371121844165994
+    },
+    "skill_per_repetition": {
+     "min": 0.015336943577850537,
+     "median": 0.057608604896743576,
+     "max": 0.08820179699635045
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M4p_vs_M2p": {
+   "role": "ladder: gaze ISC only; estimate only",
+   "base": "M2p",
+   "full": "M4p",
+   "set": "primary",
+   "report": {
+    "skill": 0.018227289082616616,
+    "base_mse": 0.030221744545932423,
+    "full_mse": 0.02967088407151272,
+    "delta_rmse_items": 0.020691304484091705,
+    "delta_mae_items": -0.012341785332155603,
+    "calibration_base": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "calibration_full": {
+     "intercept": -0.0052312828977456455,
+     "slope": 1.0091687033669177
+    },
+    "skill_per_repetition": {
+     "min": -0.017501057549401455,
+     "median": 0.017664369279114522,
+     "max": 0.039132718303414915
+    },
+    "n_people": 112
+   }
+  },
+  "LADDER_M5p_vs_M3p": {
+   "role": "ladder: ISC beyond reference-free gaze (H2a analogue); estimate only",
+   "base": "M3p",
+   "full": "M5p",
+   "set": "primary",
+   "report": {
+    "skill": 0.02260171353502649,
+    "base_mse": 0.028480599961963084,
+    "full_mse": 0.02783688960031711,
+    "delta_rmse_items": 0.024934708959317486,
+    "delta_mae_items": -0.0017755303425252278,
+    "calibration_base": {
+     "intercept": -0.019735780618457086,
+     "slope": 1.0371121844165994
+    },
+    "calibration_full": {
+     "intercept": -0.022747159165708734,
+     "slope": 1.0426878042695806
+    },
+    "skill_per_repetition": {
+     "min": -0.012531739522311014,
+     "median": 0.022982943905828945,
+     "max": 0.050074714805619314
+    },
+    "n_people": 112
+   }
+  },
+  "A2_M5p_QD_vs_M2p_QD": {
+   "role": "A2 (results-informed): gaze block beyond decomposed quality (short blinks, long loss, off-display); estimate only",
+   "base": "M2p_QD",
+   "full": "M5p_QD",
+   "set": "primary",
+   "report": {
+    "skill": 0.10904091530638427,
+    "base_mse": 0.03194049760986869,
+    "full_mse": 0.028457676515147228,
+    "delta_rmse_items": 0.13032518633063905,
+    "delta_mae_items": 0.09296875546237451,
+    "calibration_base": {
+     "intercept": 0.00824787615007553,
+     "slope": 0.9853324718168675
+    },
+    "calibration_full": {
+     "intercept": -0.014365172192445451,
+     "slope": 1.0282009973001294
+    },
+    "skill_per_repetition": {
+     "min": 0.053002618036218196,
+     "median": 0.10676604150421737,
+     "max": 0.16431326158634207
+    },
+    "n_people": 112
+   }
+  },
+  "A2_M2p_QD_vs_M2p": {
+   "role": "A2 (results-informed): decomposed vs single quality; estimate only",
+   "base": "M2p",
+   "full": "M2p_QD",
+   "set": "primary",
+   "report": {
+    "skill": -0.05687140467103169,
+    "base_mse": 0.030221744545932423,
+    "full_mse": 0.03194049760986869,
+    "delta_rmse_items": -0.0633752985502713,
+    "delta_mae_items": -0.06661352356427894,
+    "calibration_base": {
+     "intercept": 0.0014721686718725552,
+     "slope": 0.9970943061018747
+    },
+    "calibration_full": {
+     "intercept": 0.00824787615007553,
+     "slope": 0.9853324718168675
+    },
+    "skill_per_repetition": {
+     "min": -0.1664731729573392,
+     "median": -0.05279550460834437,
+     "max": 0.0330658103731718
+    },
+    "n_people": 112
+   }
+  },
+  "A1_eye30_M5p_vs_M2p": {
+   "role": "A1 (results-informed): primary contrast at QC <= 0.30; estimate only",
+   "base": "M2p",
+   "full": "M5p",
+   "set": "eye30",
+   "report": {
+    "skill": 0.08229557523727693,
+    "base_mse": 0.031461326424057426,
+    "full_mse": 0.02887219846826188,
+    "delta_rmse_items": 0.09691757998249048,
+    "delta_mae_items": 0.0732076833697331,
+    "calibration_base": {
+     "intercept": -0.001897910116802701,
+     "slope": 1.0031224268608188
+    },
+    "calibration_full": {
+     "intercept": -0.019766930637509696,
+     "slope": 1.0359151479822386
+    },
+    "skill_per_repetition": {
+     "min": -0.006784594556398682,
+     "median": 0.08370737956725144,
+     "max": 0.1340092235103102
+    },
+    "n_people": 105
+   }
+  },
+  "A1_eye70_M5p_vs_M2p": {
+   "role": "A1 (results-informed): primary contrast at QC <= 0.70; estimate only",
+   "base": "M2p",
+   "full": "M5p",
+   "set": "eye70",
+   "report": {
+    "skill": 0.09608232571017383,
+    "base_mse": 0.032686893486691,
+    "full_mse": 0.029546260740249,
+    "delta_rmse_items": 0.11576385777143977,
+    "delta_mae_items": 0.06947529827280757,
+    "calibration_base": {
+     "intercept": 0.003985070354608819,
+     "slope": 0.9917345883002175
+    },
+    "calibration_full": {
+     "intercept": -0.013059697855709733,
+     "slope": 1.0240055608734084
+    },
+    "skill_per_repetition": {
+     "min": 0.016494881355340607,
+     "median": 0.09808929562456004,
+     "max": 0.12596602352481756
+    },
+    "n_people": 116
+   }
+  }
+ },
+ "sets": {
+  "primary": {
+   "name": "JOHN2025_mine",
+   "n_people": 112,
+   "split_identity": "b9f93aea2add8d3cbaa49dfb90f190de0b0ddcb29ce5c2cbd559b4faff08e08f",
+   "set_identity": "01589bf7a56efd5b0ad616ad1d67faf5ed9d5393ad103850c3723ed07b1d4373",
+   "outcome_mean": 0.5037774725274725,
+   "outcome_sd": 0.19928170906776366,
+   "log10_lambda_median": {
+    "M0": -300.0,
+    "M1": 2.0043213737826426,
+    "M1p": 1.0043213737826426,
+    "M2_ext": 1.5043213737826426,
+    "M2p": 1.0043213737826426,
+    "M2p_QD": 1.5043213737826426,
+    "M3p": 1.5043213737826426,
+    "M4p": 1.0043213737826426,
+    "M5_ext": 2.0,
+    "M5p": 1.5043213737826426,
+    "M5p_QD": 1.5043213737826426,
+    "M5p_pupil": 1.5043213737826426
+   },
+   "lambda_at_grid_min_share": {
+    "M0": 0.0,
+    "M1": 0.0,
+    "M1p": 0.0,
+    "M2_ext": 0.0,
+    "M2p": 0.002,
+    "M2p_QD": 0.0,
+    "M3p": 0.004,
+    "M4p": 0.0,
+    "M5_ext": 0.0,
+    "M5p": 0.002,
+    "M5p_QD": 0.0,
+    "M5p_pupil": 0.0
+   }
+  },
+  "eye30": {
+   "name": "JOHN2025_mine_eye30",
+   "n_people": 105,
+   "split_identity": "37b6ce80b18552d0c4aeda64126574231f54b2747c1c4c98fe8a40ff2f7d970c",
+   "set_identity": "aea40d14478d5d0db541e77da6a035115b3395605bf5c916b02050c4766ff14d",
+   "outcome_mean": 0.5131868131868133,
+   "outcome_sd": 0.20012431925243873,
+   "log10_lambda_median": {
+    "M2p": 0.9777236052888477,
+    "M5p": 1.4731278535996988
+   },
+   "lambda_at_grid_min_share": {
+    "M2p": 0.0,
+    "M5p": 0.0
+   }
+  },
+  "eye70": {
+   "name": "JOHN2025_mine_eye70",
+   "n_people": 116,
+   "split_identity": "3f4dc5982333328feb79fb86e3269893161e37c4c441924df36334e4afc11bc6",
+   "set_identity": "698ce172ec9d36e649708d39edbda9965d4b679b610d8554cc7b4f94d1bbc63d",
+   "outcome_mean": 0.5009946949602122,
+   "outcome_sd": 0.20668411354351132,
+   "log10_lambda_median": {
+    "M2p": 1.021189299069938,
+    "M5p": 1.5170333392987803
+   },
+   "lambda_at_grid_min_share": {
+    "M2p": 0.002,
+    "M5p": 0.0
+   }
+  }
+ },
+ "elapsed_s": 3669.4895770549774,
+ "run_id": "20261007T213818Z",
+ "outcome_semantics": {
+  "items": 13,
+  "item_values": [
+   0.0,
+   0.5,
+   1.0
+  ],
+  "binary_items": false,
+  "sum_matches_knowPost_sum": true
+ },
+ "qc_exclusion": {
+  "rule": "invalid-sample fraction > 0.5",
+  "n_excluded": 5,
+  "excluded_posttest": {
+   "mean": 0.4,
+   "min": 0.07692307692307693,
+   "max": 1.0
+  },
+  "included_posttest": {
+   "mean": 0.5037774725274725,
+   "sd": 0.19928170906776366
+  }
+ }
+}

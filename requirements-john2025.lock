@@ -1,0 +1,12 @@
+# Environment of the John 2025 replication (.venv-ext), created 2026-10-07 from Python 3.14.5.
+# Scientific stack pinned identical to requirements-baseline.lock; adds the EDF reader and the xlsx reader.
+# eyelinkio 0.3.0 bundles the SR Research EDF Access API (macOS universal binary, arm64 + x86_64).
+et_xmlfile==2.0.0
+eyelinkio==0.3.0 --hash=sha256:cabc6059c99746dea2184d85844f7ea78ed3070d8cde4a12e4bde9fbfd795e33
+numpy==2.5.3
+openpyxl==3.1.5
+pandas==3.0.6
+pyarrow==25.0.1
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0

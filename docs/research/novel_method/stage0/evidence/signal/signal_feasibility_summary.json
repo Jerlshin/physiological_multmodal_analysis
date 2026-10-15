@@ -1,0 +1,513 @@
+{
+  "A_variance": [
+    {
+      "channel": "blink",
+      "window_s": 1,
+      "person": 0.3991243836132409,
+      "moment": 0.028047278142976074,
+      "residual": 0.5728283382437832,
+      "resid_lag1": 0.5845324317750993
+    },
+    {
+      "channel": "blink",
+      "window_s": 10,
+      "person": 0.5946943780884294,
+      "moment": 0.02288054208207684,
+      "residual": 0.382425079829494,
+      "resid_lag1": 0.42505803411167487
+    },
+    {
+      "channel": "disp5",
+      "window_s": 1,
+      "person": 0.11948813277218967,
+      "moment": 0.45480554451691124,
+      "residual": 0.4257063227108991,
+      "resid_lag1": 0.847214840179941
+    },
+    {
+      "channel": "disp5",
+      "window_s": 10,
+      "person": 0.190203105833483,
+      "moment": 0.45398607939568997,
+      "residual": 0.3558108147708271,
+      "resid_lag1": 0.19710906374520193
+    },
+    {
+      "channel": "dist",
+      "window_s": 1,
+      "person": 0.08354779607024371,
+      "moment": 0.14988892995892591,
+      "residual": 0.7665632739708304,
+      "resid_lag1": 0.2983777581626324
+    },
+    {
+      "channel": "dist",
+      "window_s": 10,
+      "person": 0.2668312363515487,
+      "moment": 0.13992380850596597,
+      "residual": 0.5932449551424854,
+      "resid_lag1": 0.1311472095085935
+    },
+    {
+      "channel": "head_motion",
+      "window_s": 1,
+      "person": 0.12155905473355488,
+      "moment": 0.028489478972402275,
+      "residual": 0.8499514662940428,
+      "resid_lag1": 0.506039826254613
+    },
+    {
+      "channel": "head_motion",
+      "window_s": 10,
+      "person": 0.32876367613222574,
+      "moment": 0.024564681756057003,
+      "residual": 0.6466716421117172,
+      "resid_lag1": 0.04784749968428161
+    },
+    {
+      "channel": "head_z",
+      "window_s": 1,
+      "person": 1.1427601644974464e-05,
+      "moment": 0.058629296204973244,
+      "residual": 0.941359276193382,
+      "resid_lag1": 0.9311916354702479
+    },
+    {
+      "channel": "head_z",
+      "window_s": 10,
+      "person": 0.0006656513021560783,
+      "moment": 0.0638432978215262,
+      "residual": 0.9354910508763177,
+      "resid_lag1": 0.7671946980293944
+    },
+    {
+      "channel": "logdens",
+      "window_s": 1,
+      "person": 0.10754943205879296,
+      "moment": 0.1393191820267387,
+      "residual": 0.7531313859144683,
+      "resid_lag1": 0.33864379810991935
+    },
+    {
+      "channel": "logdens",
+      "window_s": 10,
+      "person": 0.29639360226630174,
+      "moment": 0.13115172381626208,
+      "residual": 0.5724546739174363,
+      "resid_lag1": 0.19959635962747915
+    },
+    {
+      "channel": "onscreen",
+      "window_s": 1,
+      "person": 0.10545957937671896,
+      "moment": 0.0345952514621583,
+      "residual": 0.8599451691611226,
+      "resid_lag1": 0.600969271104251
+    },
+    {
+      "channel": "onscreen",
+      "window_s": 10,
+      "person": 0.21074179038215157,
+      "moment": 0.032054594317633085,
+      "residual": 0.7572036153002154,
+      "resid_lag1": 0.2685264347166936
+    },
+    {
+      "channel": "pupil",
+      "window_s": 1,
+      "person": 0.0038909247417095454,
+      "moment": 0.2586221029731034,
+      "residual": 0.737486972285187,
+      "resid_lag1": 0.8069207003320683
+    },
+    {
+      "channel": "pupil",
+      "window_s": 10,
+      "person": 0.024625077798882677,
+      "moment": 0.24963775921041612,
+      "residual": 0.7257371629907012,
+      "resid_lag1": 0.3461871552640764
+    },
+    {
+      "channel": "pupil_rel",
+      "window_s": 1,
+      "person": 0.005735309463602545,
+      "moment": 0.048643580504240405,
+      "residual": 0.945621110032157,
+      "resid_lag1": 0.8069200957897464
+    },
+    {
+      "channel": "pupil_rel",
+      "window_s": 10,
+      "person": 0.03452658639309206,
+      "moment": 0.052509278627479276,
+      "residual": 0.9129641349794286,
+      "resid_lag1": 0.3460708348109232
+    },
+    {
+      "channel": "rho5",
+      "window_s": 1,
+      "person": 0.07109881269305504,
+      "moment": 0.3750711128210463,
+      "residual": 0.5538300744858987,
+      "resid_lag1": 0.789491582962233
+    },
+    {
+      "channel": "rho5",
+      "window_s": 10,
+      "person": 0.14829051363948853,
+      "moment": 0.365969149840812,
+      "residual": 0.4857403365196994,
+      "resid_lag1": 0.10774369852030423
+    },
+    {
+      "channel": "sacc",
+      "window_s": 1,
+      "person": 0.1499831641322788,
+      "moment": 0.16307802202593788,
+      "residual": 0.6869388138417833,
+      "resid_lag1": 0.23371875039330997
+    },
+    {
+      "channel": "sacc",
+      "window_s": 10,
+      "person": 0.39306605419741714,
+      "moment": 0.1685271684915501,
+      "residual": 0.43840677731103267,
+      "resid_lag1": 0.24173713764608612
+    },
+    {
+      "channel": "speed",
+      "window_s": 1,
+      "person": 0.0739196455874008,
+      "moment": 0.14886255934368986,
+      "residual": 0.7772177950689093,
+      "resid_lag1": 0.09488811981342576
+    },
+    {
+      "channel": "speed",
+      "window_s": 10,
+      "person": 0.2958468852664943,
+      "moment": 0.18253273170011955,
+      "residual": 0.5216203830333861,
+      "resid_lag1": 0.09590638729770892
+    },
+    {
+      "channel": "valid",
+      "window_s": 1,
+      "person": 0.3559016841658855,
+      "moment": 0.03399405318057225,
+      "residual": 0.6101042626535421,
+      "resid_lag1": 0.3700937932204764
+    },
+    {
+      "channel": "valid",
+      "window_s": 10,
+      "person": 0.6247762315859663,
+      "moment": 0.023701503306445514,
+      "residual": 0.3515222651075881,
+      "resid_lag1": 0.3883434549194158
+    },
+    {
+      "channel": "valid_rel",
+      "window_s": 1,
+      "person": 0.3644712816539661,
+      "moment": 0.008639511782173384,
+      "residual": 0.6268892065638605,
+      "resid_lag1": 0.3700937930995487
+    },
+    {
+      "channel": "valid_rel",
+      "window_s": 10,
+      "person": 0.6366779784079021,
+      "moment": 0.00400253836542191,
+      "residual": 0.3593194832266759,
+      "resid_lag1": 0.38834345486899025
+    }
+  ],
+  "B_anchored": [
+    {
+      "channel": "valid",
+      "n": 4852,
+      "item_share": 0.05188192490741489,
+      "person_x_item_share": 0.815886145919018,
+      "r_odd_even": 0.6680989475860188,
+      "reliability_odd_even_SB": 0.8010303568056978,
+      "r_attend_distract": 0.0064614389038336936,
+      "n_retest": 3145
+    },
+    {
+      "channel": "onscreen",
+      "n": 4852,
+      "item_share": 0.021561886886738227,
+      "person_x_item_share": 0.8881924850440522,
+      "r_odd_even": 0.8830091819275369,
+      "reliability_odd_even_SB": 0.9378702880499468,
+      "r_attend_distract": 0.009731842711161951,
+      "n_retest": 3145
+    },
+    {
+      "channel": "blink",
+      "n": 4852,
+      "item_share": 0.038675558577632774,
+      "person_x_item_share": 0.8269659334426707,
+      "r_odd_even": 0.8381993251896354,
+      "reliability_odd_even_SB": 0.9119787105820678,
+      "r_attend_distract": 0.010749911715987817,
+      "n_retest": 3145
+    },
+    {
+      "channel": "sacc",
+      "n": 4852,
+      "item_share": 0.2450904592294137,
+      "person_x_item_share": 0.6714557763530793,
+      "r_odd_even": 0.5188180069690995,
+      "reliability_odd_even_SB": 0.6831865366205853,
+      "r_attend_distract": 0.03566004095740374,
+      "n_retest": 3145
+    },
+    {
+      "channel": "speed",
+      "n": 4721,
+      "item_share": 0.2211058761557162,
+      "person_x_item_share": 0.6830129796274084,
+      "r_odd_even": 0.23558093631106503,
+      "reliability_odd_even_SB": 0.38132821474959383,
+      "r_attend_distract": 0.10530036982870727,
+      "n_retest": 2842
+    },
+    {
+      "channel": "disp5",
+      "n": 4739,
+      "item_share": 0.5238423789840854,
+      "person_x_item_share": 0.3969585137991548,
+      "r_odd_even": 0.965213433128263,
+      "reliability_odd_even_SB": 0.982298835187401,
+      "r_attend_distract": 0.029376071871416644,
+      "n_retest": 2883
+    },
+    {
+      "channel": "pupil",
+      "n": 4688,
+      "item_share": 0.25080468593529054,
+      "person_x_item_share": 0.6292281189444708,
+      "r_odd_even": 0.942824601369904,
+      "reliability_odd_even_SB": 0.9705709930840998,
+      "r_attend_distract": 0.11119011391376145,
+      "n_retest": 2822
+    },
+    {
+      "channel": "dist",
+      "n": 4733,
+      "item_share": 0.061587716242800634,
+      "person_x_item_share": 0.69871375719866,
+      "r_odd_even": 0.5102476641827673,
+      "reliability_odd_even_SB": 0.6757138928718358,
+      "r_attend_distract": 0.08309507681836015,
+      "n_retest": 2861
+    },
+    {
+      "channel": "logdens",
+      "n": 4733,
+      "item_share": 0.1383489770089744,
+      "person_x_item_share": 0.7453205080773947,
+      "r_odd_even": 0.5393596133814464,
+      "reliability_odd_even_SB": 0.700758430574462,
+      "r_attend_distract": 0.05625464489026453,
+      "n_retest": 2861
+    },
+    {
+      "channel": "rho5",
+      "n": 4683,
+      "item_share": 0.48647979020003645,
+      "person_x_item_share": 0.45512846610108604,
+      "r_odd_even": 0.9441705996091133,
+      "reliability_odd_even_SB": 0.9712836926954294,
+      "r_attend_distract": 0.022091327677093497,
+      "n_retest": 2754
+    },
+    {
+      "channel": "pupil_rel",
+      "n": 4688,
+      "item_share": 0.0004028983433707528,
+      "person_x_item_share": 0.8409734694114057,
+      "r_odd_even": 0.9427924923234777,
+      "reliability_odd_even_SB": 0.970553979438069,
+      "r_attend_distract": 0.13069383803423243,
+      "n_retest": 2822
+    },
+    {
+      "channel": "valid_rel",
+      "n": 4852,
+      "item_share": 5.938597716896973e-17,
+      "person_x_item_share": 0.8603684301452031,
+      "r_odd_even": 0.668271531529316,
+      "reliability_odd_even_SB": 0.8011543911160636,
+      "r_attend_distract": 0.0196493896342819,
+      "n_retest": 3145
+    }
+  ],
+  "C_missingness": [
+    {
+      "condition": "attentive",
+      "experiment": 3.0,
+      "invalid_frac": 0.13940329218106995,
+      "blink_coded_frac_of_invalid": 0.4035608308605341,
+      "offscreen_frac_of_invalid": 0.016,
+      "episodes_per_min": 18.83116883116883,
+      "long_episodes_per_min": 0.2298850574712644,
+      "median_episode_s": 0.3,
+      "frac_invalid_time_in_long": 0.05415162454873647
+    },
+    {
+      "condition": "distracted",
+      "experiment": 2.0,
+      "invalid_frac": 0.2614329268292683,
+      "blink_coded_frac_of_invalid": 0.4572127139364303,
+      "offscreen_frac_of_invalid": 0.06963788300835655,
+      "episodes_per_min": 22.4025974025974,
+      "long_episodes_per_min": 1.6006097560975612,
+      "median_episode_s": 0.4,
+      "frac_invalid_time_in_long": 0.303951367781155
+    }
+  ],
+  "C_head": {
+    "n_exposures": 825,
+    "median_ratio_invalid_over_valid": 1.1513639688491821,
+    "frac_exposures_higher_when_invalid": 0.6933333333333334
+  },
+  "D_paired_dz": {
+    "valid": {
+      "mean_diff": -0.12402728945016861,
+      "dz": -0.6805940270423889,
+      "n_pairs": 422
+    },
+    "onscreen": {
+      "mean_diff": -0.04998289421200752,
+      "dz": -0.5019936561584473,
+      "n_pairs": 422
+    },
+    "blink": {
+      "mean_diff": 0.0853833556175232,
+      "dz": 0.518490195274353,
+      "n_pairs": 422
+    },
+    "sacc": {
+      "mean_diff": -0.6157563328742981,
+      "dz": -0.9907417297363281,
+      "n_pairs": 422
+    },
+    "speed": {
+      "mean_diff": -0.002698939759284258,
+      "dz": -0.5886338949203491,
+      "n_pairs": 422
+    },
+    "disp5": {
+      "mean_diff": -0.016213541850447655,
+      "dz": -0.6932752132415771,
+      "n_pairs": 422
+    },
+    "pupil": {
+      "mean_diff": 0.011460679583251476,
+      "dz": 0.10949120670557022,
+      "n_pairs": 422
+    },
+    "dist": {
+      "mean_diff": 0.6469537615776062,
+      "dz": 0.7119570374488831,
+      "n_pairs": 422
+    },
+    "logdens": {
+      "mean_diff": -1.4160311222076416,
+      "dz": -0.751736044883728,
+      "n_pairs": 422
+    },
+    "rho5": {
+      "mean_diff": -0.20998512208461761,
+      "dz": -1.2792853116989136,
+      "n_pairs": 422
+    },
+    "pupil_rel": {
+      "mean_diff": 0.013088660314679146,
+      "dz": 0.09729281812906265,
+      "n_pairs": 422
+    },
+    "valid_rel": {
+      "mean_diff": -0.12402728945016861,
+      "dz": -0.6805940866470337,
+      "n_pairs": 422
+    }
+  },
+  "D_auc": {
+    "reference_free": {
+      "auc": 0.8674154190311029,
+      "n": 883,
+      "n_learners": 87
+    },
+    "reference_relative": {
+      "auc": 0.8882515315389272,
+      "n": 883,
+      "n_learners": 87
+    },
+    "validity_only": {
+      "auc": 0.738458302121066,
+      "n": 883,
+      "n_learners": 87
+    },
+    "all": {
+      "auc": 0.901735231039189,
+      "n": 883,
+      "n_learners": 87
+    }
+  },
+  "E_identity": {
+    "whole_video_reference_free": {
+      "balanced_accuracy": 0.298120426032306,
+      "chance": 0.1111111111111111,
+      "n": 506,
+      "n_classes": 9
+    },
+    "whole_video_reference_relative": {
+      "balanced_accuracy": 0.5776648245390809,
+      "chance": 0.1111111111111111,
+      "n": 506,
+      "n_classes": 9
+    },
+    "moment_terms_reference_free": {
+      "balanced_accuracy": 0.17823298685988234,
+      "chance": 0.1111111111111111,
+      "n": 4652,
+      "n_classes": 9
+    },
+    "moment_terms_item_centred_reference_free": {
+      "balanced_accuracy": 0.11099214846538187,
+      "chance": 0.1111111111111111,
+      "n": 4652,
+      "n_classes": 9
+    },
+    "moment_terms_reference_relative": {
+      "balanced_accuracy": 0.1616460719489874,
+      "chance": 0.1111111111111111,
+      "n": 4652,
+      "n_classes": 9
+    },
+    "moment_terms_item_centred_reference_relative": {
+      "balanced_accuracy": 0.11099214846538187,
+      "chance": 0.1111111111111111,
+      "n": 4652,
+      "n_classes": 9
+    },
+    "protocol_from_item_centred_moment_terms": {
+      "balanced_accuracy": 0.2329273625796587,
+      "chance": 0.2,
+      "n": 3895,
+      "n_classes": 5
+    }
+  },
+  "H_pupil": {
+    "median_r2_pupil_rel_on_gaze_position": 0.07732001255865945,
+    "q25": 0.04323568172689768,
+    "q75": 0.12348066350438641,
+    "n": 702
+  }
+}

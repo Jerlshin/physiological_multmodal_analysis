@@ -1,0 +1,10 @@
+.............................................................................................REFUSED: No CAIRN freeze record (analysis_freeze_cairn/FREEZE_RECORD.json); Stage 3 (freeze + preregistration) has not happened
+REFUSED: No CAIRN freeze record (analysis_freeze_cairn/FREEZE_RECORD.json); Stage 3 (freeze + preregistration) has not happened
+.............................................................................................s....2026/10/15 05:55:57 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/10/15 05:55:57 INFO mlflow.store.db.utils: Updating database tables
+.........s..
+----------------------------------------------------------------------
+Ran 203 tests in 29.331s
+
+OK (skipped=2)
+exit 0
